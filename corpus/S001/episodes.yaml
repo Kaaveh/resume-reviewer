@@ -1,0 +1,324 @@
+# Episodes for S001 (spec 01 section 6). Proposed by Claude from the transcript; accepted by the owner on 2026-10-19.
+- id: S001.e01
+  type: intro
+  label: How CVs are screened at small, mid-size and large companies; disclaimer
+  from: S001.t0001.s001
+  to: S001.t0001.s064
+- id: S001.e02
+  type: cv-review
+  label: CV#01 DevOps, 6 yrs, relocating to Australia
+  cv_owner: Alireza
+  from: S001.t0001.s065
+  to: S001.t0001.s129
+  verdict: reject
+- id: S001.e03
+  type: audience-q
+  label: 'Viewer questions: SDK developers, outcome-first bullet points'
+  from: S001.t0001.s130
+  to: S001.t0001.s134
+- id: S001.e04
+  type: cv-review
+  label: CV#02 Mobile (Flutter, iOS, Android), 8 yrs
+  cv_owner: Arash
+  from: S001.t0001.s135
+  to: S001.t0011.s001
+  verdict: reject
+  notes: 'Verdict confirmed in t0010 to t0011: no AI, no testing, limited experience.'
+- id: S001.e05
+  type: audience-q
+  label: 'Viewer questions: explaining gaps, changing your name on a CV'
+  from: S001.t0011.s002
+  to: S001.t0017.s001
+- id: S001.e06
+  type: cv-review
+  label: CV#03 .NET backend, 5 yrs
+  cv_owner: Mozhgan
+  from: S001.t0017.s002
+  to: S001.t0021.s012
+  verdict: reject
+- id: S001.e07
+  type: qa
+  label: 'The summary section: is it read, and what should it say'
+  from: S001.t0022.s001
+  to: S001.t0027.s011
+- id: S001.e08
+  type: qa
+  label: Cover letters and salary ranges
+  from: S001.t0028.s001
+  to: S001.t0029.s016
+- id: S001.e09
+  type: qa
+  label: ATS and HR layers; checking skill gaps against job ads
+  from: S001.t0030.s001
+  to: S001.t0031.s015
+- id: S001.e10
+  type: qa
+  label: 'Coping with constant rejections: keep applying'
+  from: S001.t0032.s001
+  to: S001.t0033.s008
+- id: S001.e11
+  type: cv-review
+  label: CV#04 Data analyst and BI, 10 yrs
+  cv_owner: Kamal
+  from: S001.t0033.s009
+  to: S001.t0041.s001
+  verdict: reject
+  notes: Rejects because the stack (Azure, Power BI) does not match his company; borderline even with
+    a matching stack (t0041).
+- id: S001.e12
+  type: qa
+  label: Cover letters written with AI; an application filled in by AI
+  from: S001.t0042.s001
+  to: S001.t0043.s012
+- id: S001.e13
+  type: qa
+  label: Why the previous CVs fell short for their years of experience
+  from: S001.t0044.s001
+  to: S001.t0045.s002
+- id: S001.e14
+  type: cv-review
+  label: CV#05 DevOps, 10 yrs, photo (Germany)
+  from: S001.t0045.s003
+  to: S001.t0051.s008
+  verdict: borderline
+  notes: Name removed from the CV. Invite if the company used Azure; borderline to no without AWS or GCP.
+- id: S001.e15
+  type: qa
+  label: Work locations on a CV; candidates without EU experience
+  from: S001.t0052.s001
+  to: S001.t0057.s001
+- id: S001.e16
+  type: qa
+  label: 'Follow-up on CV#05: why not let them learn the cloud on the job'
+  from: S001.t0058.s001
+  to: S001.t0059.s001
+- id: S001.e17
+  type: cv-review
+  label: CV#06 Senior backend (C#, .NET), 8 yrs, banking
+  cv_owner: Alireza
+  from: S001.t0059.s002
+  to: S001.t0069.s013
+  verdict: none
+  notes: No explicit verdict; criticises missing infrastructure, Terraform and metrics. Second CV from
+    a different Alireza.
+- id: S001.e18
+  type: qa
+  label: Claiming impact in large teams; a hire from abroad must beat the team average
+  from: S001.t0070.s001
+  to: S001.t0073.s017
+- id: S001.e19
+  type: qa
+  label: 'Ownership: what he looks for on a CV'
+  from: S001.t0074.s001
+  to: S001.t0076.s001
+- id: S001.e20
+  type: cv-review
+  label: CV#07 Senior backend (PHP, Node.js), 6 yrs
+  cv_owner: Ali
+  from: S001.t0077.s001
+  to: S001.t0077.s040
+  verdict: reject
+- id: S001.e21
+  type: audience-q
+  label: 'Viewer reply: sanctions prevented sharing numbers'
+  from: S001.t0078.s001
+  to: S001.t0079.s002
+- id: S001.e22
+  type: cv-review
+  label: CV#08 AI engineer (Python), 6 yrs, freelance
+  cv_owner: Hamed
+  from: S001.t0079.s003
+  to: S001.t0085.s004
+  verdict: invite
+  notes: Still invites despite overlapping full-time and contract jobs (t0081 to t0083).
+- id: S001.e23
+  type: cv-review
+  label: CV#09 Software engineer (Java, Kotlin, Spring Boot)
+  from: S001.t0085.s005
+  to: S001.t0085.s010
+  verdict: reject
+  notes: Owner's name not spoken.
+- id: S001.e24
+  type: cv-review
+  label: CV#10 Android, 8 yrs (owner)
+  cv_owner: Kaaveh
+  from: S001.t0085.s011
+  to: S001.t0089.s008
+  verdict: invite
+  notes: The repository owner's own CV, identified where the reviewer reads out the name.
+- id: S001.e25
+  type: cv-review
+  label: CV#11 Backend (Python, Django), 4 yrs
+  cv_owner: Soroush
+  from: S001.t0090.s001
+  to: S001.t0091.s014
+  verdict: invite
+  notes: "Read as 'no infrastructure, but I invite' (t0091.s014); decided by Claude at the owner's request."
+- id: S001.e26
+  type: cv-review
+  label: CV#12 Senior backend (PHP, Laravel), 10 yrs
+  cv_owner: Saeed
+  from: S001.t0091.s015
+  to: S001.t0093.s009
+  verdict: reject
+  notes: No Terraform; 'English intermediate' alone would have rejected it (t0093).
+- id: S001.e27
+  type: qa
+  label: Listing TypeScript and JavaScript together
+  from: S001.t0094.s001
+  to: S001.t0095.s001
+- id: S001.e28
+  type: cv-review
+  label: CV#13 Frontend (React, Next.js), 3 yrs
+  cv_owner: Farnaz
+  from: S001.t0095.s002
+  to: S001.t0095.s019
+  verdict: invite
+- id: S001.e29
+  type: cv-review
+  label: CV#14 Java, 8 yrs
+  cv_owner: Sobhan
+  from: S001.t0095.s020
+  to: S001.t0095.s029
+  verdict: reject
+- id: S001.e30
+  type: audience-q
+  label: 'Viewer questions: the language section, junior wording, Iranian phone numbers'
+  from: S001.t0096.s001
+  to: S001.t0101.s007
+- id: S001.e31
+  type: cv-review
+  label: CV#15 Senior backend (JavaScript, PHP), 13 yrs, two versions
+  cv_owner: Reza
+  from: S001.t0101.s008
+  to: S001.t0101.s026
+  verdict: invite
+- id: S001.e32
+  type: cv-review
+  label: CV#16 Junior backend (C#), 2 yrs
+  cv_owner: Mehdi
+  from: S001.t0101.s027
+  to: S001.t0101.s038
+  verdict: invite
+- id: S001.e33
+  type: cv-review
+  label: CV#17 Frontend (React, Next.js), 7 yrs
+  cv_owner: Mohsen
+  from: S001.t0101.s039
+  to: S001.t0101.s054
+  verdict: borderline
+- id: S001.e34
+  type: cv-review
+  label: CV#18 Backend (Java, Python), 4 yrs
+  cv_owner: Pouria
+  from: S001.t0101.s055
+  to: S001.t0101.s062
+  verdict: invite
+- id: S001.e35
+  type: cv-review
+  label: CV#19 Data analyst, 7 yrs
+  from: S001.t0101.s063
+  to: S001.t0101.s072
+  verdict: borderline
+  notes: Owner's name not spoken. Borderline invite after rating Power BI as intermediate.
+- id: S001.e36
+  type: cv-review
+  label: CV#20 Senior backend and systems engineer, 7 yrs
+  cv_owner: Amin
+  from: S001.t0101.s073
+  to: S001.t0101.s083
+  verdict: invite
+- id: S001.e37
+  type: cv-review
+  label: CV#21 Backend (Python, Django), 3 yrs
+  cv_owner: Nazanin
+  from: S001.t0101.s084
+  to: S001.t0101.s092
+  verdict: reject
+- id: S001.e38
+  type: cv-review
+  label: CV#22 Backend (PHP, Go), 6 yrs
+  cv_owner: Amir
+  from: S001.t0101.s093
+  to: S001.t0101.s100
+  verdict: reject
+- id: S001.e39
+  type: audience-q
+  label: 'Viewer comment: tech breadth or achievements; how a CV is read'
+  from: S001.t0101.s101
+  to: S001.t0101.s112
+- id: S001.e40
+  type: cv-review
+  label: CV#23 Full-stack (PHP, Laravel, Vue.js), 5 yrs
+  cv_owner: Mehdi
+  from: S001.t0101.s113
+  to: S001.t0101.s121
+  verdict: reject
+  notes: A different Mehdi from CV#16.
+- id: S001.e41
+  type: promo
+  label: Workshop announcement
+  from: S001.t0102.s001
+  to: S001.t0106.s004
+- id: S001.e42
+  type: cv-review
+  label: CV#24 Machine learning, early career
+  cv_owner: Mina
+  from: S001.t0106.s005
+  to: S001.t0107.s007
+  verdict: reject
+- id: S001.e43
+  type: audience-q
+  label: 'Viewer questions: foreign experience; how recruiters and agencies work'
+  from: S001.t0108.s001
+  to: S001.t0109.s022
+- id: S001.e44
+  type: audience-q
+  label: Listing technologies outside the target role
+  from: S001.t0110.s001
+  to: S001.t0113.s002
+- id: S001.e45
+  type: qa
+  label: How many CVs a role gets; fit depends on the role and the reader
+  from: S001.t0114.s001
+  to: S001.t0117.s006
+- id: S001.e46
+  type: qa
+  label: Screening as applications arrive; how many are interviewed
+  from: S001.t0118.s001
+  to: S001.t0124.s003
+- id: S001.e47
+  type: audience-q
+  label: Applying early; jobs that stay open for months
+  from: S001.t0125.s001
+  to: S001.t0126.s006
+- id: S001.e48
+  type: audience-q
+  label: Networking (Cisco) roles
+  from: S001.t0127.s001
+  to: S001.t0128.s001
+- id: S001.e49
+  type: audience-q
+  label: Startups or corporates; sponsorship
+  from: S001.t0129.s001
+  to: S001.t0130.s011
+- id: S001.e50
+  type: audience-q
+  label: Matching a job post with AI
+  from: S001.t0131.s001
+  to: S001.t0132.s004
+- id: S001.e51
+  type: audience-q
+  label: Mentioning AI on an embedded engineer's CV
+  from: S001.t0133.s001
+  to: S001.t0136.s008
+- id: S001.e52
+  type: audience-q
+  label: Failed startups on a CV
+  from: S001.t0137.s001
+  to: S001.t0140.s001
+- id: S001.e53
+  type: outro
+  label: Closing
+  from: S001.t0141.s001
+  to: S001.t0143.s010

@@ -1,0 +1,88 @@
+{
+  "schema": "rrs.chunks.manifest/1",
+  "source_id": "S003",
+  "transcript_version": 1,
+  "transcript_sha256": "76aee737c50dcc8069d29221159e108cb59e89f434f222787c7fb0cbbea23e2f",
+  "budget": 24000,
+  "chunks": [
+    {
+      "id": "S003.c001",
+      "file": "c001.md",
+      "first": "S003.t0001.s001",
+      "last": "S003.t0022.s012",
+      "chars": 22353,
+      "sentences": 134,
+      "episodes": [
+        "S003.e01",
+        "S003.e02",
+        "S003.e03",
+        "S003.e04",
+        "S003.e05",
+        "S003.e06",
+        "S003.e07",
+        "S003.e08",
+        "S003.e09"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S003.c001.jsonl",
+      "merge_commit": "db80bf1"
+    },
+    {
+      "id": "S003.c002",
+      "file": "c002.md",
+      "first": "S003.t0023.s001",
+      "last": "S003.t0038.s015",
+      "chars": 22635,
+      "sentences": 135,
+      "episodes": [
+        "S003.e10",
+        "S003.e11",
+        "S003.e12",
+        "S003.e13",
+        "S003.e14",
+        "S003.e15",
+        "S003.e16"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S003.c002.jsonl",
+      "merge_commit": "6211af3"
+    },
+    {
+      "id": "S003.c003",
+      "file": "c003.md",
+      "first": "S003.t0039.s001",
+      "last": "S003.t0058.s011",
+      "chars": 23324,
+      "sentences": 140,
+      "episodes": [
+        "S003.e17",
+        "S003.e18",
+        "S003.e19",
+        "S003.e20",
+        "S003.e21",
+        "S003.e22",
+        "S003.e23",
+        "S003.e24",
+        "S003.e25"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S003.c003.jsonl",
+      "merge_commit": "64bcfe0"
+    },
+    {
+      "id": "S003.c004",
+      "file": "c004.md",
+      "first": "S003.t0059.s001",
+      "last": "S003.t0065.s001",
+      "chars": 3994,
+      "sentences": 24,
+      "episodes": [
+        "S003.e26",
+        "S003.e27"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S003.c004.jsonl",
+      "merge_commit": null
+    }
+  ]
+}

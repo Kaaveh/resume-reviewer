@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.pytest_cache/
+.ruff_cache/
+.claude/skills/
+
+# Personal: the owner's CV and its eval reports stay local (run the owner eval privately).
+evals/cases/owner-*
+evals/expected/owner-*
+evals/results/*/owner-*

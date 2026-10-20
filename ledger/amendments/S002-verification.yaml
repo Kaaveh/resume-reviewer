@@ -1,0 +1,44 @@
+# Edits to merged S002 claims from reports/verification/S002.md (independent verification,
+# 2026-10-19). Applied with `uv run rrs ledger amend`; each change is logged in
+# ledger/amendments.jsonl with its old value. The advice half of SB-47 becomes a new P claim
+# (ledger/staging/archive/S002.verification.jsonl).
+- claim: SB-47
+  reason: "Verification disagreement: advice and a reported rejection in one claim; split by type (guide, typing). SB-47 keeps the rejection; the advice becomes a P claim."
+  set:
+    claim_en: "If the recruiter asks about a line on the CV that the candidate has not actually done, it is almost an instant no, because trust is broken."
+    anchors:
+      - {sentence_id: S002.t0059.s007, t_start: null, quote: "if the recruiter then asks you about a specific line on your CV and you actually haven't done it it it's almost an instant no right because you've broken that trust"}
+- claim: SB-03
+  reason: "Verification note: claim_en mentions relationships, which the quote stopped short of; quote extended into s015."
+  set:
+    anchors:
+      - {sentence_id: S002.t0003.s014, t_start: null, quote: "imagine the interviewer is probably thinking can I put this engineer in front of stakeholders can this engineer communicate can this can engineer build good relationships"}
+- claim: SB-11
+  reason: "Verification note: keep the framing (named among the biggest red flags)."
+  set:
+    claim_en: "Asked about the biggest red flags on CVs, the recruiter names not explaining gaps and short stints on the CV."
+- claim: SB-17
+  reason: "Verification note: keep the hedge ('you don't need to')."
+  set:
+    claim_en: "There is no need to go into detail on every role, especially early roles that are not relevant to the job applied for."
+- claim: SB-37
+  reason: "Verification note: the LinkedIn and GitHub URLs are carried by SB-28 (CHN-5); REG-3 is about contact details."
+  set:
+    claim_en: "On the CV, give a contact number with the right dial code and the best email to reach the candidate."
+- claim: SB-39
+  reason: "Verification note: start the quote at the answer, which covers checking the number."
+  set:
+    anchors:
+      - {sentence_id: S002.t0045.s001, t_start: null, quote: "uh yeah actually I do if I'm only hiring in the UK and I see you know someone from India someone from Germany uh it might not it might be a red flag"}
+- claim: SB-40
+  reason: "Verification note: 'and on LinkedIn' is not in the anchor."
+  set:
+    claim_en: "Avoid confusion about location: write where you are based (for example based in the UK) on the CV."
+- claim: SB-41
+  reason: "Verification note: keep the hedge."
+  set:
+    claim_en: "The recruiter thinks most recruiters look at how close the candidate lives to their office."
+- claim: SB-47
+  reason: "Validator warning after the split: an F! claim_en must say it rejects."
+  set:
+    claim_en: "If the recruiter asks about a line on the CV that the candidate has not actually done, it is almost an instant rejection, because trust is broken."

@@ -1,0 +1,15 @@
+# Follow-ups to the owner's acceptance of NEW-24 (ACH-2) and NEW-25 (CHN-4) on 2026-10-19.
+# Applied with `uv run rrs ledger amend`; each change is logged in ledger/amendments.jsonl.
+- claim: JB-13
+  reason: "NEW-24 accepted as ACH-2: the domain and end-customer anchor (S004.t0022.s004) states ACH-2, not ACH-1 (ADR 0003), so it moves to a claim of its own."
+  set:
+    claim_en: "Instead of a list of technologies, say what you were building, the problem it solved, your personal contribution and the result."
+    anchors:
+      - {sentence_id: S004.t0014.s003, t_start: null, quote: "don't simply give me a list of technologies tell me what you're building what problem you're solving your personal contribution and the result"}
+      - {sentence_id: S004.t0026.s005, t_start: null, quote: "are you showing achievements and problem solved or like just merely listing responsibilities"}
+      - {sentence_id: S004.t0046.s006, t_start: null, quote: "show the projects that you'delivered don't just show that you know a technology um show the problems you've solved"}
+- claim: JB-28
+  reason: "NEW-25 accepted as CHN-4: a stated share of placements is a value on the measure, not support for CHN-1 (ADR 0003)."
+  set:
+    rules: [CHN-4]
+    value: {min: 70, max: 70, condition: "early career"}

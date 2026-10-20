@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "rrs.transcript/1",
+  "type": "object",
+  "required": ["schema", "source_id", "transcript_version", "id_scheme", "transcript_sha256",
+               "timing", "roles", "turns"],
+  "properties": {
+    "schema": {"const": "rrs.transcript/1"},
+    "source_id": {"type": "string", "pattern": "^S\\d{3}$"},
+    "transcript_version": {"type": "integer", "minimum": 1},
+    "id_scheme": {"const": 1},
+    "transcript_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "timing": {"enum": ["turn", "none"]},
+    "roles": {"type": "object", "additionalProperties": {"enum": ["guest", "host"]}},
+    "turns": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "n", "person", "role", "start", "split", "sentences"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^S\\d{3}\\.t\\d{4}$"},
+          "n": {"type": "integer", "minimum": 1},
+          "person": {"type": "string"},
+          "role": {"enum": ["guest", "host"]},
+          "start": {"type": ["number", "null"]},
+          "split": {"enum": ["punctuation", "window"]},
+          "sentences": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "episode", "lang", "start", "text", "norm", "norm_compact", "terms"],
+              "properties": {
+                "id": {"type": "string", "pattern": "^S\\d{3}\\.t\\d{4}\\.s\\d{3}$"},
+                "episode": {"type": ["string", "null"], "pattern": "^S\\d{3}\\.e\\d{2,3}$"},
+                "lang": {"enum": ["fa", "en", "mixed", "de"]},
+                "start": {"type": ["number", "null"]},
+                "text": {"type": "string", "minLength": 1},
+                "text_orig": {"type": "string"},
+                "norm": {"type": "string"},
+                "norm_compact": {"type": "string"},
+                "terms": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["c", "v"],
+                    "properties": {
+                      "c": {"type": "string"},
+                      "v": {"type": "string"},
+                      "amb": {"type": "array", "items": {"type": "string"}}
+                    },
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

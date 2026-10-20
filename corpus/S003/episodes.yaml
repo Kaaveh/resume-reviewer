@@ -1,0 +1,136 @@
+# Episodes for S003 (spec 01 section 6). Proposed by Claude from the transcript; accepted by the owner on 2026-10-19.
+- id: S003.e01
+  type: intro
+  label: Greeting and guest introduction
+  from: S003.t0001.s001
+  to: S003.t0004.s005
+- id: S003.e02
+  type: qa
+  label: 'Recruiter mindset: what is checked in the first seconds'
+  from: S003.t0005.s001
+  to: S003.t0006.s017
+- id: S003.e03
+  type: promo
+  label: How viewers can work with the guest's agency
+  from: S003.t0007.s001
+  to: S003.t0008.s010
+- id: S003.e04
+  type: qa
+  label: ATS use and how CVs are scanned
+  from: S003.t0009.s001
+  to: S003.t0010.s012
+- id: S003.e05
+  type: qa
+  label: Writing a CV with AI
+  from: S003.t0011.s001
+  to: S003.t0012.s017
+- id: S003.e06
+  type: qa
+  label: XYZ formula for bullet points
+  from: S003.t0013.s001
+  to: S003.t0014.s013
+- id: S003.e07
+  type: qa
+  label: A company context paragraph under each job
+  from: S003.t0015.s001
+  to: S003.t0016.s005
+- id: S003.e08
+  type: audience-q
+  label: Direct messages, pitch decks or video CVs instead of a CV
+  from: S003.t0017.s001
+  to: S003.t0020.s003
+- id: S003.e09
+  type: audience-q
+  label: Coding contest ratings on a CV
+  from: S003.t0021.s001
+  to: S003.t0022.s012
+- id: S003.e10
+  type: qa
+  label: The 2026 job market
+  from: S003.t0023.s001
+  to: S003.t0024.s015
+- id: S003.e11
+  type: qa
+  label: 'Advice for job seekers: upskilling and extras'
+  from: S003.t0025.s001
+  to: S003.t0026.s022
+- id: S003.e12
+  type: qa
+  label: LinkedIn consistency with the CV
+  from: S003.t0027.s001
+  to: S003.t0028.s019
+- id: S003.e13
+  type: qa
+  label: Top three CV red flags (photos, personal data)
+  from: S003.t0029.s001
+  to: S003.t0032.s011
+- id: S003.e14
+  type: qa
+  label: Chances for candidates without EU experience
+  from: S003.t0033.s001
+  to: S003.t0034.s019
+- id: S003.e15
+  type: qa
+  label: Digital nomad visa
+  from: S003.t0035.s001
+  to: S003.t0036.s010
+- id: S003.e16
+  type: audience-q
+  label: Shortening a long work history when changing focus
+  from: S003.t0037.s001
+  to: S003.t0038.s015
+- id: S003.e17
+  type: qa
+  label: CV length in pages
+  from: S003.t0039.s001
+  to: S003.t0040.s008
+- id: S003.e18
+  type: qa
+  label: 'Conflicting advice: one page per 10 years'
+  from: S003.t0041.s001
+  to: S003.t0044.s001
+- id: S003.e19
+  type: qa
+  label: 'Gaps: military service and parental leave'
+  from: S003.t0045.s001
+  to: S003.t0046.s015
+- id: S003.e20
+  type: qa
+  label: Asking employees for referrals on LinkedIn
+  from: S003.t0047.s001
+  to: S003.t0048.s008
+- id: S003.e21
+  type: qa
+  label: Reaching out to hiring managers and engineers
+  from: S003.t0049.s001
+  to: S003.t0050.s009
+- id: S003.e22
+  type: audience-q
+  label: Does the ATS filter by location (Iran)
+  from: S003.t0051.s001
+  to: S003.t0052.s024
+- id: S003.e23
+  type: qa
+  label: The hidden job market and networks
+  from: S003.t0053.s001
+  to: S003.t0054.s020
+- id: S003.e24
+  type: qa
+  label: What the guest's startup clients look for
+  from: S003.t0055.s001
+  to: S003.t0056.s009
+- id: S003.e25
+  type: qa
+  label: Final advice for job seekers
+  from: S003.t0057.s001
+  to: S003.t0058.s011
+- id: S003.e26
+  type: promo
+  label: How the guest's agency works
+  from: S003.t0059.s001
+  to: S003.t0062.s001
+- id: S003.e27
+  type: outro
+  label: Closing
+  from: S003.t0063.s001
+  to: S003.t0065.s001

@@ -1,0 +1,204 @@
+- id: NEW-1
+  category: SCR
+  text: Screeners look at where the candidate has worked (the employers) on the first look.
+  check: Are employer names easy to spot in each role heading?
+  rationale: SB lists where you have worked first among the things looked at instantly.
+  decision: accepted
+  assigned: SCR-6
+- id: NEW-2
+  category: SCR
+  text: Screeners look at the candidate's tech stack on the first look.
+  check: Is the stack of each recent role easy to find, and does it match the target role's core stack?
+  rationale: SB lists the tech stack among the things looked at instantly.
+  decision: accepted
+  assigned: SCR-7
+- id: NEW-3
+  category: STR
+  text: Include education (university and degree, with a notable grade such as merit or distinction),
+    even when the degree is not computer science.
+  check: Is there an education section with university, degree and any notable grade?
+  rationale: SB looks at education on the first look and says to definitely include it with the grade.
+  decision: accepted
+  assigned: STR-5
+- id: NEW-4
+  category: SEN
+  text: For startup roles, give each employer's stage and funding (seed, series A, VC backing, amount
+    raised) and the tenure through it.
+  check: For startup applications, does each startup employer show its stage or funding?
+  rationale: SB checks company stage and funding rounds and calls VC backing a strong signal for other
+    UK startups.
+  decision: accepted
+  assigned: SEN-1
+- id: NEW-5
+  category: SEN
+  text: Visible progression within a company, such as a promotion to senior, is a positive signal.
+  check: Are promotions shown as separate titles with dates under the same employer?
+  rationale: SB names a promotion to senior within two years as a good signal.
+  decision: accepted
+  assigned: SEN-2
+- id: NEW-6
+  category: GAP
+  text: Explain gaps and short stints on the CV; unexplained ones are a red flag.
+  check: Is there a gap of several months, or a role of under about a year, without a reason given?
+  rationale: SB names unexplained gaps and short stints as a red flag. GAP-1 (JB) says a gap is not a
+    problem in itself; SB does not say that, so this is a separate fact.
+  decision: accepted
+  assigned: GAP-2
+- id: NEW-7
+  category: SKL
+  text: Show where each listed technology was used (in which role or project).
+  check: For each key technology in the skills list, can the reader tell in which role it was used?
+  rationale: SB names a list of technologies without context of where they were used as a red flag. Different
+    from SKL-2 (do not repeat the list under every role).
+  decision: accepted
+  assigned: SKL-3
+- id: NEW-8
+  category: RED
+  text: Typos are a red flag.
+  check: Spell-check the whole CV.
+  rationale: SB says typos immediately put a red flag in mind.
+  decision: accepted
+  assigned: RED-1
+- id: NEW-9
+  category: ACH
+  text: Lead each achievement with the outcome in plain English, then the technical detail, so a non-technical
+    screener can follow it.
+  check: Does each bullet state the problem or result in plain words before the technology names?
+  rationale: SB, a self-described non-technical recruiter, asks for outcomes first in plain English.
+  decision: accepted
+  assigned: ACH-3
+- id: NEW-10
+  category: ACH
+  text: Side projects and hackathons show genuine interest in the work and help a CV.
+  check: Are relevant side projects or hackathons listed?
+  rationale: SB says showing passion through a side project or hackathon is always a good idea.
+  decision: accepted
+  assigned: ACH-4
+- id: NEW-11
+  category: SEN
+  text: For startup roles, state zero-to-one product building experience explicitly.
+  check: For startup applications, if the candidate built a product from scratch, does the CV say so in
+    those words?
+  rationale: SB says having literally zero to one on the CV helps a lot with startups.
+  decision: accepted
+  assigned: SEN-3
+- id: NEW-12
+  category: SEN
+  text: For startup roles, a big-company background can count against the candidate unless the CV shows
+    startup-like work (greenfield projects, shipping fast).
+  check: For a startup application from a large company, does the CV describe the team's pace and greenfield
+    work?
+  rationale: SB says a big-company background can hurt with startups, so context about how the team worked
+    is important.
+  decision: accepted
+  assigned: SEN-4
+- id: NEW-13
+  category: CHN
+  text: Include a LinkedIn URL on the CV.
+  check: Is there a LinkedIn URL in the header?
+  rationale: SB says to definitely include LinkedIn and lists the URL among the contact details.
+  decision: accepted
+  assigned: CHN-5
+- id: NEW-14
+  category: CHN
+  text: Link GitHub only when it shows real activity; an empty GitHub can hurt.
+  check: If a GitHub link is present, does the profile show recent contributions?
+  rationale: SB says include GitHub when active and leave it off when inactive.
+  decision: accepted
+  assigned: CHN-6
+- id: NEW-15
+  category: CHN
+  text: Recruiters use LinkedIn to find candidates and check their experience; without a profile, screening
+    is harder.
+  check: Context for CHN rules; flag a candidate with no LinkedIn profile.
+  rationale: SB's own practice, stated as a fact (ADR 0003).
+  decision: accepted
+  assigned: CHN-7
+- id: NEW-16
+  category: SKL
+  text: Show on the CV how AI tools are used in the development workflow.
+  check: Does the CV mention concrete use of AI coding tools in daily work?
+  rationale: SB calls AI-native skills on the CV very important now and treats no mention of AI as a gap.
+  decision: accepted
+  assigned: SKL-4
+- id: NEW-17
+  category: RED
+  text: Missing a core skill of the role's stack is a rejection.
+  check: Compare the job's core stack (language, main frameworks) with the CV; a missing core item is
+    critical.
+  rationale: SB rejects a backend candidate instantly when the client's backend language is missing.
+  decision: accepted
+  assigned: RED-2
+- id: NEW-18
+  category: STR
+  text: Tailor the CV to each job, so the skills and experience the job asks for are apparent.
+  check: Does the CV emphasize what this job's description asks for?
+  rationale: SB says to always tailor the CV and skill set to the role, twice.
+  decision: accepted
+  assigned: STR-6
+- id: NEW-19
+  category: SKL
+  text: Screeners weigh the core stack (language, frontend and backend frameworks) most; cloud providers
+    such as AWS and GCP are treated as interchangeable.
+  check: Context for SKL and RED rules; do not treat a different cloud provider as a missing core skill.
+  rationale: SB's account of what engineering leaders focus on.
+  decision: accepted
+  assigned: SKL-5
+- id: NEW-20
+  category: REG
+  text: Give contact details in the header, including email and a phone number with the correct country
+    code.
+  check: Are an email and a phone number with country code in the header?
+  rationale: SB lists LinkedIn URL, phone with the right dial code and best email, and says the phone
+    matters when applying direct.
+  decision: accepted
+  assigned: REG-3
+- id: NEW-21
+  category: REG
+  text: Screeners compare the candidate's location with the job's location, including the phone number's
+    country and the distance to the office.
+  check: Context for REG-1; does anything on the CV (phone code, address) suggest a location that conflicts
+    with the one stated?
+  rationale: SB checks the phone's country and says most recruiters look at how close the candidate lives
+    to the office.
+  decision: accepted
+  assigned: REG-4
+- id: NEW-22
+  category: REG
+  text: If the candidate would relocate, say so on the CV (for example "happy to relocate").
+  check: For a candidate abroad, does the CV state willingness to relocate?
+  rationale: SB suggests "happy to relocate" on the CV for candidates abroad when sponsorship is offered.
+    Compatible with REG-2 (do not state a sponsorship need).
+  decision: accepted
+  assigned: REG-5
+- id: NEW-23
+  category: RED
+  text: Everything on the CV must be accurate and defensible; a line the candidate cannot back up is an
+    instant rejection.
+  check: Is any claim on the CV unsupported or likely to fall apart under a question (watch AI-written
+    lines)?
+  rationale: SB says a CV line the candidate has not done is almost an instant no because it breaks trust.
+  decision: accepted
+  assigned: RED-3
+- id: NEW-24
+  category: REG
+  text: Working English good enough to follow technical requirements and product direction is expected.
+  check: If the CV has a language section, is English stated at a working level?
+  rationale: SB on UK startups.
+  decision: accepted
+  assigned: REG-6
+- id: NEW-25
+  category: SKL
+  text: Startups look for breadth across the stack rather than a narrow focus on one layer.
+  check: For startup applications, does the CV show work across frontend, backend and data, not one layer
+    only?
+  rationale: SB lists breadth across the stack among what startups look for.
+  decision: accepted
+  assigned: SKL-6
+- id: X-JOB
+  category: X
+  text: Job boards and channels.
+  check: n/a (out of scope)
+  rationale: Spec 02 section 6 names it; SB names the boards used.
+  decision: accepted
+  assigned: X-JOB

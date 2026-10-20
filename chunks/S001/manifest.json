@@ -1,0 +1,271 @@
+{
+  "schema": "rrs.chunks.manifest/1",
+  "source_id": "S001",
+  "transcript_version": 1,
+  "transcript_sha256": "6b345e057cb7e9f9fcc11896d2b5389bb1c7234d872b890e6ef8f151693d1825",
+  "budget": 12000,
+  "chunks": [
+    {
+      "id": "S001.c001",
+      "file": "c001.md",
+      "first": "S001.t0001.s001",
+      "last": "S001.t0001.s064",
+      "chars": 9497,
+      "sentences": 64,
+      "episodes": [
+        "S001.e01"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S001.c001.jsonl",
+      "merge_commit": "feaf873"
+    },
+    {
+      "id": "S001.c002",
+      "file": "c002.md",
+      "first": "S001.t0001.s065",
+      "last": "S001.t0001.s134",
+      "chars": 10939,
+      "sentences": 70,
+      "episodes": [
+        "S001.e02",
+        "S001.e03"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S001.c002.jsonl",
+      "merge_commit": "4149893"
+    },
+    {
+      "id": "S001.c003",
+      "file": "c003.md",
+      "first": "S001.t0001.s135",
+      "last": "S001.t0004.s012",
+      "chars": 9049,
+      "sentences": 61,
+      "episodes": [
+        "S001.e04"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S001.c003.jsonl",
+      "merge_commit": "bf2be92"
+    },
+    {
+      "id": "S001.c004",
+      "file": "c004.md",
+      "first": "S001.t0005.s001",
+      "last": "S001.t0011.s001",
+      "chars": 10990,
+      "sentences": 69,
+      "episodes": [
+        "S001.e04"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S001.c004.jsonl",
+      "merge_commit": "792a7be"
+    },
+    {
+      "id": "S001.c005",
+      "file": "c005.md",
+      "first": "S001.t0011.s002",
+      "last": "S001.t0027.s011",
+      "chars": 11910,
+      "sentences": 80,
+      "episodes": [
+        "S001.e05",
+        "S001.e06",
+        "S001.e07"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S001.c005.jsonl",
+      "merge_commit": "80d8cc1"
+    },
+    {
+      "id": "S001.c006",
+      "file": "c006.md",
+      "first": "S001.t0028.s001",
+      "last": "S001.t0041.s001",
+      "chars": 11078,
+      "sentences": 76,
+      "episodes": [
+        "S001.e08",
+        "S001.e09",
+        "S001.e10",
+        "S001.e11"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S001.c006.jsonl",
+      "merge_commit": "b9762b3"
+    },
+    {
+      "id": "S001.c007",
+      "file": "c007.md",
+      "first": "S001.t0042.s001",
+      "last": "S001.t0059.s001",
+      "chars": 10758,
+      "sentences": 72,
+      "episodes": [
+        "S001.e12",
+        "S001.e13",
+        "S001.e14",
+        "S001.e15",
+        "S001.e16"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S001.c007.jsonl",
+      "merge_commit": "8bc7e15"
+    },
+    {
+      "id": "S001.c008",
+      "file": "c008.md",
+      "first": "S001.t0059.s002",
+      "last": "S001.t0069.s013",
+      "chars": 9091,
+      "sentences": 58,
+      "episodes": [
+        "S001.e17"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S001.c008.jsonl",
+      "merge_commit": "b7b9cb0"
+    },
+    {
+      "id": "S001.c009",
+      "file": "c009.md",
+      "first": "S001.t0070.s001",
+      "last": "S001.t0076.s001",
+      "chars": 8018,
+      "sentences": 53,
+      "episodes": [
+        "S001.e18",
+        "S001.e19"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S001.c009.jsonl",
+      "merge_commit": "b932ccb"
+    },
+    {
+      "id": "S001.c010",
+      "file": "c010.md",
+      "first": "S001.t0077.s001",
+      "last": "S001.t0085.s010",
+      "chars": 11641,
+      "sentences": 76,
+      "episodes": [
+        "S001.e20",
+        "S001.e21",
+        "S001.e22",
+        "S001.e23"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S001.c010.jsonl",
+      "merge_commit": "63d3b0d"
+    },
+    {
+      "id": "S001.c011",
+      "file": "c011.md",
+      "first": "S001.t0085.s011",
+      "last": "S001.t0095.s019",
+      "chars": 11023,
+      "sentences": 73,
+      "episodes": [
+        "S001.e24",
+        "S001.e25",
+        "S001.e26",
+        "S001.e27",
+        "S001.e28"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S001.c011.jsonl",
+      "merge_commit": "f3c7f64"
+    },
+    {
+      "id": "S001.c012",
+      "file": "c012.md",
+      "first": "S001.t0095.s020",
+      "last": "S001.t0101.s054",
+      "chars": 10823,
+      "sentences": 71,
+      "episodes": [
+        "S001.e29",
+        "S001.e30",
+        "S001.e31",
+        "S001.e32",
+        "S001.e33"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S001.c012.jsonl",
+      "merge_commit": "77d8486"
+    },
+    {
+      "id": "S001.c013",
+      "file": "c013.md",
+      "first": "S001.t0101.s055",
+      "last": "S001.t0101.s121",
+      "chars": 10659,
+      "sentences": 67,
+      "episodes": [
+        "S001.e34",
+        "S001.e35",
+        "S001.e36",
+        "S001.e37",
+        "S001.e38",
+        "S001.e39",
+        "S001.e40"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S001.c013.jsonl",
+      "merge_commit": "556276e"
+    },
+    {
+      "id": "S001.c014",
+      "file": "c014.md",
+      "first": "S001.t0102.s001",
+      "last": "S001.t0109.s022",
+      "chars": 8967,
+      "sentences": 59,
+      "episodes": [
+        "S001.e41",
+        "S001.e42",
+        "S001.e43"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S001.c014.jsonl",
+      "merge_commit": "90e558a"
+    },
+    {
+      "id": "S001.c015",
+      "file": "c015.md",
+      "first": "S001.t0110.s001",
+      "last": "S001.t0128.s001",
+      "chars": 10405,
+      "sentences": 71,
+      "episodes": [
+        "S001.e44",
+        "S001.e45",
+        "S001.e46",
+        "S001.e47",
+        "S001.e48"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S001.c015.jsonl",
+      "merge_commit": "357db92"
+    },
+    {
+      "id": "S001.c016",
+      "file": "c016.md",
+      "first": "S001.t0129.s001",
+      "last": "S001.t0143.s010",
+      "chars": 7023,
+      "sentences": 47,
+      "episodes": [
+        "S001.e49",
+        "S001.e50",
+        "S001.e51",
+        "S001.e52",
+        "S001.e53"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S001.c016.jsonl",
+      "merge_commit": null
+    }
+  ]
+}

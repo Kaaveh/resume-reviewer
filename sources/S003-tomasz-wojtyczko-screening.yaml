@@ -1,0 +1,27 @@
+id: S003
+slug: tomasz-wojtyczko-screening
+transcript_file: "Tomasz Wojtyczko, Principal Recruitment Consultant at VirtueTech.md"
+transcript_version: 1
+url: null                 # not in the NotebookLM export; add when known
+title: "How Recruiters Really Screen Your Resume and How to Stand Out?"
+channel: null
+upload_date: null
+recorded_date: null
+duration_s: null          # the last turn starts at 55:14
+languages: [en]
+format: interview
+people:
+  - {person: TW, role: guest}
+  - {person: JA, role: host}
+speakers: {Guest: TW, Interviewer: JA}
+speakers_confirmed: true
+speaker_overrides: []
+corrections:
+  - {find: Tomas, replace: Tomasz, person: JA, turns: [1, 3], reason: "host greeting the guest"}
+  - find: too much
+    replace: Tomasz
+    person: JA
+    turns: [41, 43, 57, 59, 61]
+    ignore_case: true
+    reason: "host addressing the guest by name (turn 41 confirmed by the owner)"
+notes: Only v0.1 transcript with turn timestamps.

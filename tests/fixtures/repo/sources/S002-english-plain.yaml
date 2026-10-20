@@ -1,0 +1,10 @@
+id: S002
+slug: english-plain
+transcript_file: "English plain.md"
+title: "Plain interview"
+languages: [en]
+format: interview
+people:
+  - {person: SB, role: guest}
+  - {person: JA, role: host}
+speakers: {Guest: SB, Interviewer: JA}

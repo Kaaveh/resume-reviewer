@@ -1,0 +1,19 @@
+- id: B-NEW-1
+  category: ACH
+  text: Under each role, name the business domain (such as fintech or healthcare) and the end customers the work served.
+  check: Does each recent role entry say which industry or domain the work was in and who the end customers were?
+  rationale: ACH-1 covers the problem, contribution and result but not the domain and customer context; JB asks for "the topic so fintech or financial services or healthcare" and "our end customers" under each entry (S004.t0022.s004).
+  decision: proposed
+- id: B-NEW-2
+  category: STR
+  text: Have someone else, ideally someone in the industry, review the CV before sending it; authors are too close to their own CV to see what is not obvious to a reader.
+  check: Not a CV check; recommend a second reader when the CV assumes connections the reader would have to make.
+  rationale: No rule covers getting an outside review of the CV; JB advises it in S004.t0026.s006 and S004.t0026.s008.
+  decision: proposed
+- id: B-NEW-3
+  category: CHN
+  text: Share of a recruiter's placements that came from referrals, in percent.
+  check: 'Context for CHN-1: how much hiring runs through referrals rather than applications.'
+  measure: {unit: percent, question: What share of a recruiter's placements comes from referrals?}
+  rationale: JB states a number (about 70 percent of early career placements from referrals, S004.t0028.s007) and no measure rule exists for it.
+  decision: proposed

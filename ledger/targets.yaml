@@ -1,0 +1,9 @@
+# Target candidate profiles and how well each recruiter's world matches them (spec 02 section
+# 3, spec 03 section 5). Levels: high, medium-high, medium, low-medium, low.
+default: android-eu-relocation
+targets:
+  android-eu-relocation:
+    description: >-
+      Senior Android engineer, about 7 years, applying to EU/DACH employers from outside the EU,
+      needing relocation or sponsorship
+    match: {JA: high, TW: medium-high, JB: medium-high, SB: low-medium}

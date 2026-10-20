@@ -1,0 +1,5140 @@
+{
+  "schema": "rrs.tally/1",
+  "count_independent_hosts": false,
+  "totals": {
+    "sources": 4,
+    "recruiters": 4,
+    "claims": 311,
+    "rules": 134,
+    "out_of_scope_rules": 6,
+    "labels": {
+      "Consensus": 11,
+      "Supported": 20,
+      "Contested": 7,
+      "Single source": 96,
+      "No support": 0
+    }
+  },
+  "recruiters": [
+    "JA",
+    "JB",
+    "SB",
+    "TW"
+  ],
+  "order": [
+    "ACH-1",
+    "X-INT",
+    "X-PROC",
+    "X-VISA",
+    "RED-2",
+    "SCR-2",
+    "SCR-7",
+    "STR-1",
+    "STR-3",
+    "ACH-4",
+    "ACH-6",
+    "REG-14",
+    "CHN-15",
+    "CHN-18",
+    "X-JOB",
+    "X-VOL",
+    "SKL-4",
+    "REG-6",
+    "SCR-1",
+    "SCR-6",
+    "ATS-4",
+    "STR-4",
+    "STR-27",
+    "SKL-3",
+    "SKL-6",
+    "REG-3",
+    "GAP-2",
+    "GAP-3",
+    "GAP-6",
+    "GAP-7",
+    "CHN-3",
+    "CHN-6",
+    "CHN-9",
+    "CHN-16",
+    "CHN-17",
+    "CHN-21",
+    "X-FAKE",
+    "STR-2",
+    "SCR-4",
+    "REG-17",
+    "STR-28",
+    "SKL-2",
+    "SKL-5",
+    "REG-16",
+    "SCR-15",
+    "ATS-3",
+    "STR-16",
+    "ACH-12",
+    "SKL-10",
+    "RED-3",
+    "RED-6",
+    "REG-7",
+    "CHN-20",
+    "SCR-3",
+    "SCR-5",
+    "SCR-8",
+    "SCR-9",
+    "SCR-10",
+    "SCR-11",
+    "SCR-12",
+    "SCR-13",
+    "SCR-14",
+    "SCR-16",
+    "ATS-1",
+    "ATS-2",
+    "ATS-5",
+    "STR-6",
+    "STR-7",
+    "STR-8",
+    "STR-9",
+    "STR-10",
+    "STR-12",
+    "STR-13",
+    "STR-14",
+    "STR-15",
+    "STR-17",
+    "STR-18",
+    "STR-19",
+    "STR-20",
+    "STR-21",
+    "STR-22",
+    "STR-23",
+    "STR-24",
+    "STR-25",
+    "STR-26",
+    "STR-29",
+    "ACH-2",
+    "ACH-3",
+    "ACH-5",
+    "ACH-7",
+    "ACH-8",
+    "ACH-9",
+    "ACH-10",
+    "ACH-11",
+    "ACH-13",
+    "SKL-1",
+    "SKL-7",
+    "SKL-8",
+    "SKL-9",
+    "SKL-11",
+    "SKL-12",
+    "SKL-13",
+    "SKL-14",
+    "SKL-15",
+    "SKL-16",
+    "SKL-17",
+    "SKL-18",
+    "SKL-19",
+    "RED-1",
+    "RED-4",
+    "RED-5",
+    "REG-2",
+    "REG-5",
+    "REG-8",
+    "REG-9",
+    "REG-10",
+    "REG-11",
+    "REG-12",
+    "REG-13",
+    "REG-15",
+    "REG-18",
+    "SEN-1",
+    "SEN-2",
+    "SEN-3",
+    "SEN-4",
+    "SEN-5",
+    "SEN-6",
+    "SEN-7",
+    "GAP-4",
+    "GAP-5",
+    "CHN-4",
+    "CHN-5",
+    "CHN-8",
+    "CHN-10",
+    "CHN-11",
+    "CHN-12",
+    "CHN-13",
+    "CHN-14",
+    "CHN-19",
+    "CHN-22",
+    "STR-5",
+    "STR-11",
+    "REG-1",
+    "REG-4",
+    "GAP-1",
+    "CHN-1",
+    "CHN-2",
+    "CHN-7"
+  ],
+  "rules": {
+    "SCR-1": {
+      "category": "SCR",
+      "text": "The first pass only decides whether there is enough relevant experience to keep reading; it is not a read of the whole career.",
+      "check": "Is enough relevant experience visible at a first glance, from the top of page one?",
+      "status": "active",
+      "tier": "Supported",
+      "label": "Supported 2",
+      "evidence": "Supported 2 (2F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA",
+        "JB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 2,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "JA-119",
+          "JB-02"
+        ],
+        "for": [
+          "JA-119",
+          "JB-02"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SCR-2": {
+      "category": "SCR",
+      "text": "Screeners read the most recent role first and judge fit mainly from recent, relevant experience.",
+      "check": "Does the most recent role, at the top of the experience section, show the target role's core stack and kind of problem? Is the experience in reverse date order?",
+      "status": "active",
+      "tier": "Consensus",
+      "label": "Consensus 3",
+      "evidence": "Consensus 3 (3F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JB",
+        "SB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 3,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "High",
+      "claims": {
+        "counted": [
+          "JB-03",
+          "SB-06",
+          "TW-44"
+        ],
+        "for": [
+          "JB-03",
+          "SB-06",
+          "TW-44"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SCR-3": {
+      "category": "SCR",
+      "text": "The technical fit for the target role must be obvious on page one, without the reader searching for it.",
+      "check": "Are the target role's must-have skills visible on page one? Would a recruiter hiring for that stack have to search through pages to find it?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JB-04",
+          "JB-12",
+          "JB-14"
+        ],
+        "for": [
+          "JB-04",
+          "JB-12",
+          "JB-14"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "ATS-1": {
+      "category": "ATS",
+      "text": "Include the target role's keywords so recruiter searches and ATS filters find the CV.",
+      "check": "Does the CV contain the job description's must-have terms in the same wording?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JB-10"
+        ],
+        "for": [
+          "JB-10"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "ATS-2": {
+      "category": "ATS",
+      "text": "Write the CV for a human reader, not for the ATS; keyword lists without context make it unreadable.",
+      "check": "Are keywords embedded in statements about the work, or are there buzzword strings and stuffed keyword blocks?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JB-11"
+        ],
+        "for": [
+          "JB-11"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "ATS-3": {
+      "category": "ATS",
+      "text": "Screeners use the ATS to screen out applicants who fail a hard requirement of the role, such as security clearance eligibility.",
+      "check": "If the job has a hard requirement (clearance, eligibility, mandatory certification), does the CV state the candidate's status for it in plain words?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 1 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 1,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "JB-09"
+        ],
+        "for": [
+          "JB-09"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-1": {
+      "category": "STR",
+      "text": "Keep the CV focused; do not document every task from every job.",
+      "check": "Are older or less relevant roles cut down to the essentials? Does any role list routine duties at length?",
+      "status": "active",
+      "tier": "Consensus",
+      "label": "Consensus 3",
+      "evidence": "Consensus 3 (2F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JB",
+        "SB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 2,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "High",
+      "claims": {
+        "counted": [
+          "JB-15",
+          "SB-10",
+          "SB-17",
+          "TW-48"
+        ],
+        "for": [
+          "JB-15",
+          "SB-10",
+          "SB-17",
+          "TW-48"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-2": {
+      "category": "STR",
+      "text": "CV length in pages.",
+      "check": "Count pages; compare with the recruiters' common range, minding the experience each range was given for.",
+      "status": "active",
+      "tier": "Contested",
+      "label": "Contested range 4",
+      "evidence": "Contested range 4 (0F/4P, 0 report rejecting); JA 1 page (6 years of DevOps experience (CV#01): 1 page; 8 years of mobile experience (CV#02): 1 page; 10 years as a data analyst (CV#04): 1 page), JB 2 to 5 pages, SB 2 pages (junior with little experience: 1 page; very experienced engineer, CTO or VP: at least 2 pages), TW 2 to 4 pages (junior or mid-level, one to two years of experience: 1 page; more than 10 years of experience: 3 to 4 pages); common none",
+      "measure": {
+        "unit": "pages",
+        "question": "How long should the CV be?",
+        "by_recruiter": {
+          "JA": [
+            1.0,
+            1.0
+          ],
+          "JB": [
+            2.0,
+            5.0
+          ],
+          "SB": [
+            2.0,
+            2.0
+          ],
+          "TW": [
+            2.0,
+            4.0
+          ]
+        },
+        "common": null,
+        "conditional": {
+          "JA": [
+            [
+              1.0,
+              1.0,
+              "6 years of DevOps experience (CV#01)"
+            ],
+            [
+              1.0,
+              1.0,
+              "8 years of mobile experience (CV#02)"
+            ],
+            [
+              1.0,
+              1.0,
+              "10 years as a data analyst (CV#04)"
+            ]
+          ],
+          "SB": [
+            [
+              1.0,
+              1.0,
+              "junior with little experience"
+            ],
+            [
+              2.0,
+              null,
+              "very experienced engineer, CTO or VP"
+            ]
+          ],
+          "TW": [
+            [
+              1.0,
+              1.0,
+              "junior or mid-level, one to two years of experience"
+            ],
+            [
+              3.0,
+              4.0,
+              "more than 10 years of experience"
+            ]
+          ]
+        },
+        "median_min": 2.0,
+        "median_max": 3.0,
+        "text": "JA 1 page (6 years of DevOps experience (CV#01): 1 page; 8 years of mobile experience (CV#02): 1 page; 10 years as a data analyst (CV#04): 1 page), JB 2 to 5 pages, SB 2 pages (junior with little experience: 1 page; very experienced engineer, CTO or VP: at least 2 pages), TW 2 to 4 pages (junior or mid-level, one to two years of experience: 1 page; more than 10 years of experience: 3 to 4 pages); common none"
+      },
+      "plus": [
+        "JA",
+        "JB",
+        "SB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 4,
+      "n_rej": 0,
+      "severity": "Judgment",
+      "claims": {
+        "counted": [
+          "JA-15",
+          "JA-32",
+          "JA-58",
+          "JB-19",
+          "JB-20",
+          "SB-14",
+          "SB-15",
+          "SB-16",
+          "TW-49",
+          "TW-50",
+          "TW-51"
+        ],
+        "for": [
+          "JA-15",
+          "JA-32",
+          "JA-58",
+          "JB-19",
+          "JB-20",
+          "SB-14",
+          "SB-15",
+          "SB-16",
+          "TW-49",
+          "TW-50",
+          "TW-51"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-3": {
+      "category": "STR",
+      "text": "Use a plain layout the reader can navigate quickly; fancy graphics add nothing.",
+      "check": "Are there graphics, icons, skill bars, heavy colors or multi-column designs that slow down skimming?",
+      "status": "active",
+      "tier": "Consensus",
+      "label": "Consensus 3",
+      "evidence": "Consensus 3 (2F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA",
+        "JB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 2,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "High",
+      "claims": {
+        "counted": [
+          "JA-21",
+          "JB-16",
+          "TW-02",
+          "TW-37"
+        ],
+        "for": [
+          "JA-21",
+          "JB-16",
+          "TW-02",
+          "TW-37"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-4": {
+      "category": "STR",
+      "text": "Open the CV with a few tailored sentences saying who you are, what you specialize in and why you fit the role.",
+      "check": "Is there a short summary at the top? Is it specific to the target role, or generic?",
+      "status": "active",
+      "tier": "Supported",
+      "label": "Supported 2",
+      "evidence": "Supported 2 (0F/2P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA",
+        "JB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 2,
+      "n_rej": 0,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "JA-05",
+          "JA-44",
+          "JB-30"
+        ],
+        "for": [
+          "JA-05",
+          "JB-30"
+        ],
+        "against": [],
+        "notes": [
+          "JA-44"
+        ]
+      }
+    },
+    "ACH-1": {
+      "category": "ACH",
+      "text": "Under each role, describe the problem, the candidate's personal contribution and the result, not a list of technologies or responsibilities.",
+      "check": "Does each recent role say what was built, what the candidate personally did and what changed? Flag bullets that are only technology names or duties.",
+      "status": "active",
+      "tier": "Consensus",
+      "label": "Consensus 4",
+      "evidence": "Consensus 4 (4F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA",
+        "JB",
+        "SB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 4,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "High",
+      "claims": {
+        "counted": [
+          "JA-26",
+          "JA-75",
+          "JA-77",
+          "JB-13",
+          "JB-17",
+          "SB-01",
+          "SB-19",
+          "TW-07",
+          "TW-13",
+          "TW-16",
+          "TW-21"
+        ],
+        "for": [
+          "JA-26",
+          "JA-75",
+          "JA-77",
+          "JB-13",
+          "JB-17",
+          "SB-01",
+          "SB-19",
+          "TW-07",
+          "TW-13",
+          "TW-21"
+        ],
+        "against": [],
+        "notes": [
+          "TW-16"
+        ]
+      }
+    },
+    "SKL-1": {
+      "category": "SKL",
+      "text": "A technology list on page one shows the required skill set at a glance.",
+      "check": "Is there a skills or technologies section on page one?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JB-21"
+        ],
+        "for": [
+          "JB-21"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SKL-2": {
+      "category": "SKL",
+      "text": "Do not repeat a full technology list under every role; name technologies in the context of the work.",
+      "check": "Do role entries end with long tech lists that repeat the skills section?",
+      "status": "active",
+      "tier": "Contested",
+      "label": "Contested 1-1",
+      "evidence": "Contested 1-1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JB"
+      ],
+      "minus": [
+        "JA"
+      ],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Judgment",
+      "claims": {
+        "counted": [
+          "JA-73",
+          "JB-22"
+        ],
+        "for": [
+          "JB-22"
+        ],
+        "against": [
+          "JA-73"
+        ],
+        "notes": []
+      }
+    },
+    "GAP-1": {
+      "category": "GAP",
+      "text": "A gap is not a problem in itself; show what was done during it to stay current (learning, projects).",
+      "check": "For any gap of several months, does the CV show learning, projects or other activity in it?",
+      "status": "retired",
+      "tier": "No support",
+      "label": "No support",
+      "evidence": "No support (0F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "n/a",
+      "claims": {
+        "counted": [],
+        "for": [],
+        "against": [],
+        "notes": []
+      }
+    },
+    "REG-1": {
+      "category": "REG",
+      "text": "Make the candidate's location and right-to-work status obvious.",
+      "check": "Does the CV header state the current location and the right to work for the target country (or the visa held)?",
+      "status": "retired",
+      "tier": "No support",
+      "label": "No support",
+      "evidence": "No support (0F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "n/a",
+      "claims": {
+        "counted": [],
+        "for": [],
+        "against": [],
+        "notes": []
+      }
+    },
+    "REG-2": {
+      "category": "REG",
+      "text": "Do not state a need for visa sponsorship on the CV.",
+      "check": "Does the CV say the candidate needs sponsorship?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JB-35",
+          "JB-38"
+        ],
+        "for": [
+          "JB-35",
+          "JB-38"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "CHN-1": {
+      "category": "CHN",
+      "text": "Use referrals, networking and short tailored messages alongside applications; they get the CV read more carefully.",
+      "check": "Not a CV check; recommend it when the candidate relies only on cold applications.",
+      "status": "retired",
+      "tier": "No support",
+      "label": "No support",
+      "evidence": "No support (0F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "n/a",
+      "claims": {
+        "counted": [],
+        "for": [],
+        "against": [],
+        "notes": []
+      }
+    },
+    "CHN-2": {
+      "category": "CHN",
+      "text": "Keep the LinkedIn profile complete and active, consistent with the CV.",
+      "check": "Does the profile have a photo, full job history, a bio and some activity, matching the CV?",
+      "status": "retired",
+      "tier": "No support",
+      "label": "No support",
+      "evidence": "No support (0F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "n/a",
+      "claims": {
+        "counted": [],
+        "for": [],
+        "against": [],
+        "notes": []
+      }
+    },
+    "CHN-3": {
+      "category": "CHN",
+      "text": "Skip a generic cover letter unless the employer asks for one; anything written should be short and specific to the company.",
+      "check": "Is there a generic cover letter about passion and hard work? If a letter is required, is it short and specific?",
+      "status": "active",
+      "tier": "Supported",
+      "label": "Supported 2",
+      "evidence": "Supported 2 (1F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA",
+        "JB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "JA-59",
+          "JB-29",
+          "JB-31",
+          "JB-32",
+          "JB-46"
+        ],
+        "for": [
+          "JA-59",
+          "JB-29",
+          "JB-32",
+          "JB-46"
+        ],
+        "against": [],
+        "notes": [
+          "JB-31"
+        ]
+      }
+    },
+    "SCR-4": {
+      "category": "SCR",
+      "text": "Time a screener spends on the first pass of a CV, in seconds.",
+      "check": "Context for the first-pass rules: what must be visible within that time (SCR-1, SCR-3).",
+      "status": "active",
+      "tier": "Contested",
+      "label": "Contested range 2",
+      "evidence": "Contested range 2 (2F/0P, 0 report rejecting); JA 10 seconds (checking a CV for the required tech stack: 5 to 10 seconds), JB 30 seconds (first pass: 30 seconds); common none",
+      "measure": {
+        "unit": "seconds",
+        "question": "How long does the first pass of a CV take?",
+        "by_recruiter": {
+          "JA": [
+            10.0,
+            10.0
+          ],
+          "JB": [
+            30.0,
+            30.0
+          ]
+        },
+        "common": null,
+        "conditional": {
+          "JA": [
+            [
+              5.0,
+              10.0,
+              "checking a CV for the required tech stack"
+            ]
+          ],
+          "JB": [
+            [
+              30.0,
+              30.0,
+              "first pass"
+            ]
+          ]
+        },
+        "median_min": 20.0,
+        "median_max": 20.0,
+        "text": "JA 10 seconds (checking a CV for the required tech stack: 5 to 10 seconds), JB 30 seconds (first pass: 30 seconds); common none"
+      },
+      "plus": [
+        "JA",
+        "JB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 2,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Judgment",
+      "claims": {
+        "counted": [
+          "JA-10",
+          "JA-50",
+          "JA-81",
+          "JB-01"
+        ],
+        "for": [
+          "JA-10",
+          "JA-50",
+          "JA-81",
+          "JB-01"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "ATS-4": {
+      "category": "ATS",
+      "text": "Screening decisions are made by people reading the CV; the ATS is not relied on to judge candidates.",
+      "check": "Context for ATS advice: write for the human reader and do not trade readability for keyword density.",
+      "status": "active",
+      "tier": "Supported",
+      "label": "Supported 2",
+      "evidence": "Supported 2 (2F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA",
+        "JB"
+      ],
+      "minus": [],
+      "self_contradicting": [
+        "TW"
+      ],
+      "n_f": 2,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "JA-02",
+          "JB-08",
+          "TW-14",
+          "TW-15"
+        ],
+        "for": [
+          "JA-02",
+          "JB-08",
+          "TW-14"
+        ],
+        "against": [
+          "TW-15"
+        ],
+        "notes": []
+      }
+    },
+    "SCR-5": {
+      "category": "SCR",
+      "text": "A recruiter has to justify internally why each candidate introduced to the hiring manager is worth meeting.",
+      "check": "Could a recruiter take two or three concrete reasons to shortlist from the CV?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JB-07"
+        ],
+        "for": [
+          "JB-07"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "X-INT": {
+      "category": "X",
+      "text": "Interview-stage advice (phone screens and later interviews).",
+      "check": "n/a (out of scope)",
+      "status": "active",
+      "tier": "Consensus",
+      "label": "Consensus 4",
+      "evidence": "Consensus 4 (3F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA",
+        "JB",
+        "SB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 3,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "n/a",
+      "claims": {
+        "counted": [
+          "JA-120",
+          "JA-35",
+          "JA-85",
+          "JB-06",
+          "JB-43",
+          "SB-03",
+          "SB-23",
+          "SB-24",
+          "SB-25",
+          "SB-26",
+          "SB-50",
+          "TW-12"
+        ],
+        "for": [
+          "JA-120",
+          "JA-35",
+          "JA-85",
+          "JB-06",
+          "JB-43",
+          "SB-03",
+          "SB-23",
+          "SB-24",
+          "SB-25",
+          "SB-26",
+          "SB-50",
+          "TW-12"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "X-VISA": {
+      "category": "X",
+      "text": "Visa routes and sponsorship processes.",
+      "check": "n/a (out of scope)",
+      "status": "active",
+      "tier": "Consensus",
+      "label": "Consensus 4",
+      "evidence": "Consensus 4 (4F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA",
+        "JB",
+        "SB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 4,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "n/a",
+      "claims": {
+        "counted": [
+          "JA-138",
+          "JA-140",
+          "JB-34",
+          "JB-36",
+          "JB-37",
+          "SB-48",
+          "TW-39",
+          "TW-41",
+          "TW-42"
+        ],
+        "for": [
+          "JA-138",
+          "JA-140",
+          "JB-34",
+          "JB-36",
+          "JB-37",
+          "SB-48",
+          "TW-39",
+          "TW-41",
+          "TW-42"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "X-VOL": {
+      "category": "X",
+      "text": "Application volume and targeting of employers.",
+      "check": "n/a (out of scope)",
+      "status": "active",
+      "tier": "Consensus",
+      "label": "Consensus 3",
+      "evidence": "Consensus 3 (0F/3P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA",
+        "JB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 3,
+      "n_rej": 0,
+      "severity": "n/a",
+      "claims": {
+        "counted": [
+          "JA-139",
+          "JA-47",
+          "JB-23",
+          "JB-40",
+          "TW-40"
+        ],
+        "for": [
+          "JA-139",
+          "JA-47",
+          "JB-23",
+          "JB-40",
+          "TW-40"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "X-PROC": {
+      "category": "X",
+      "text": "How hiring processes run.",
+      "check": "n/a (out of scope)",
+      "status": "active",
+      "tier": "Consensus",
+      "label": "Consensus 4",
+      "evidence": "Consensus 4 (4F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA",
+        "JB",
+        "SB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 4,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "n/a",
+      "claims": {
+        "counted": [
+          "JA-01",
+          "JA-126",
+          "JA-127",
+          "JA-129",
+          "JA-132",
+          "JA-134",
+          "JA-135",
+          "JA-52",
+          "JB-05",
+          "JB-33",
+          "JB-39",
+          "JB-42",
+          "SB-22",
+          "TW-08",
+          "TW-66"
+        ],
+        "for": [
+          "JA-01",
+          "JA-126",
+          "JA-127",
+          "JA-129",
+          "JA-132",
+          "JA-134",
+          "JA-135",
+          "JA-52",
+          "JB-05",
+          "JB-33",
+          "JB-39",
+          "JB-42",
+          "SB-22",
+          "TW-08",
+          "TW-66"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "ACH-2": {
+      "category": "ACH",
+      "text": "Under each role, name the business domain (such as fintech or healthcare) and the end customers the work served.",
+      "check": "Does each recent role say which domain the work was in and who the end customers were?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JB-49"
+        ],
+        "for": [
+          "JB-49"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "CHN-4": {
+      "category": "CHN",
+      "text": "Share of a recruiter's placements that came from referrals, in percent.",
+      "check": "Context for CHN-1, how much hiring runs through referrals rather than applications.",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting); JB 70 percent (early career: 70 percent)",
+      "measure": {
+        "unit": "percent",
+        "question": "What share of a recruiter's placements comes from referrals?",
+        "by_recruiter": {
+          "JB": [
+            70.0,
+            70.0
+          ]
+        },
+        "common": [
+          70.0,
+          70.0
+        ],
+        "conditional": {
+          "JB": [
+            [
+              70.0,
+              70.0,
+              "early career"
+            ]
+          ]
+        },
+        "median_min": 70.0,
+        "median_max": 70.0,
+        "text": "JB 70 percent (early career: 70 percent)"
+      },
+      "plus": [
+        "JB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JB-28"
+        ],
+        "for": [
+          "JB-28"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SCR-6": {
+      "category": "SCR",
+      "text": "Screeners look at where the candidate has worked (the employers) on the first look.",
+      "check": "Are employer names easy to spot in each role heading?",
+      "status": "active",
+      "tier": "Supported",
+      "label": "Supported 2",
+      "evidence": "Supported 2 (2F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "SB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 2,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "SB-04",
+          "TW-03"
+        ],
+        "for": [
+          "SB-04",
+          "TW-03"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SCR-7": {
+      "category": "SCR",
+      "text": "Screeners look at the candidate's tech stack on the first look.",
+      "check": "Is the stack of each recent role easy to find, and does it match the target role's core stack?",
+      "status": "active",
+      "tier": "Consensus",
+      "label": "Consensus 3",
+      "evidence": "Consensus 3 (3F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA",
+        "SB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 3,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "High",
+      "claims": {
+        "counted": [
+          "JA-04",
+          "JA-11",
+          "SB-07",
+          "TW-05"
+        ],
+        "for": [
+          "JA-04",
+          "JA-11",
+          "SB-07",
+          "TW-05"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-5": {
+      "category": "STR",
+      "text": "Include education (university and degree, with a notable grade such as merit or distinction), even when the degree is not computer science.",
+      "check": "Is there an education section with university, degree and any notable grade?",
+      "status": "retired",
+      "tier": "No support",
+      "label": "No support",
+      "evidence": "No support (0F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "n/a",
+      "claims": {
+        "counted": [],
+        "for": [],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SEN-1": {
+      "category": "SEN",
+      "text": "For startup roles, give each employer's stage and funding (seed, series A, VC backing, amount raised) and the tenure through it.",
+      "check": "For startup applications, does each startup employer show its stage or funding?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "SB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "SB-08"
+        ],
+        "for": [
+          "SB-08"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SEN-2": {
+      "category": "SEN",
+      "text": "Visible progression within a company, such as a promotion to senior, is a positive signal.",
+      "check": "Are promotions shown as separate titles with dates under the same employer?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "SB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "SB-09"
+        ],
+        "for": [
+          "SB-09"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "GAP-2": {
+      "category": "GAP",
+      "text": "Explain gaps and short stints on the CV; unexplained ones are a red flag.",
+      "check": "Is there a gap of several months, or a role of under about a year, without a reason given?",
+      "status": "active",
+      "tier": "Supported",
+      "label": "Supported 2",
+      "evidence": "Supported 2 (2F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "SB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 2,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "SB-11",
+          "TW-53",
+          "TW-54"
+        ],
+        "for": [
+          "SB-11",
+          "TW-53",
+          "TW-54"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SKL-3": {
+      "category": "SKL",
+      "text": "Show where each listed technology was used (in which role or project).",
+      "check": "For each key technology in the skills list, can the reader tell in which role it was used?",
+      "status": "active",
+      "tier": "Supported",
+      "label": "Supported 2",
+      "evidence": "Supported 2 (1F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA",
+        "SB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "JA-72",
+          "SB-12"
+        ],
+        "for": [
+          "JA-72",
+          "SB-12"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "RED-1": {
+      "category": "RED",
+      "text": "Typos are a red flag.",
+      "check": "Spell-check the whole CV.",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "SB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "SB-13"
+        ],
+        "for": [
+          "SB-13"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "ACH-3": {
+      "category": "ACH",
+      "text": "Lead each achievement with the outcome in plain English, then the technical detail, so a non-technical screener can follow it.",
+      "check": "Does each bullet state the problem or result in plain words before the technology names?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "SB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "SB-18"
+        ],
+        "for": [
+          "SB-18"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "ACH-4": {
+      "category": "ACH",
+      "text": "Side projects and hackathons show genuine interest in the work and help a CV.",
+      "check": "Are relevant side projects or hackathons listed?",
+      "status": "active",
+      "tier": "Consensus",
+      "label": "Consensus 3",
+      "evidence": "Consensus 3 (2F/1P, 1 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA",
+        "SB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 2,
+      "n_p": 1,
+      "n_rej": 1,
+      "severity": "High",
+      "claims": {
+        "counted": [
+          "JA-125",
+          "SB-21",
+          "TW-24"
+        ],
+        "for": [
+          "JA-125",
+          "SB-21",
+          "TW-24"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SEN-3": {
+      "category": "SEN",
+      "text": "For startup roles, state zero-to-one product building experience explicitly.",
+      "check": "For startup applications, if the candidate built a product from scratch, does the CV say so in those words?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "SB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "SB-20"
+        ],
+        "for": [
+          "SB-20"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SEN-4": {
+      "category": "SEN",
+      "text": "For startup roles, a big-company background can count against the candidate unless the CV shows startup-like work (greenfield projects, shipping fast).",
+      "check": "For a startup application from a large company, does the CV describe the team's pace and greenfield work?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "SB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "SB-45"
+        ],
+        "for": [
+          "SB-45"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "CHN-5": {
+      "category": "CHN",
+      "text": "Include a LinkedIn URL on the CV.",
+      "check": "Is there a LinkedIn URL in the header?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "SB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "SB-28"
+        ],
+        "for": [
+          "SB-28"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "CHN-6": {
+      "category": "CHN",
+      "text": "Link GitHub only when it shows real activity; an empty GitHub can hurt.",
+      "check": "If a GitHub link is present, does the profile show recent contributions?",
+      "status": "active",
+      "tier": "Supported",
+      "label": "Supported 2",
+      "evidence": "Supported 2 (1F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA",
+        "SB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "JA-18",
+          "JA-20",
+          "JA-92",
+          "SB-29"
+        ],
+        "for": [
+          "JA-18",
+          "JA-20",
+          "JA-92",
+          "SB-29"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "CHN-7": {
+      "category": "CHN",
+      "text": "Recruiters use LinkedIn to find candidates and check their experience; without a profile, screening is harder.",
+      "check": "Context for CHN rules; flag a candidate with no LinkedIn profile.",
+      "status": "retired",
+      "tier": "No support",
+      "label": "No support",
+      "evidence": "No support (0F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "n/a",
+      "claims": {
+        "counted": [],
+        "for": [],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SKL-4": {
+      "category": "SKL",
+      "text": "Show on the CV how AI tools are used in the development workflow.",
+      "check": "Does the CV mention concrete use of AI coding tools in daily work?",
+      "status": "active",
+      "tier": "Supported",
+      "label": "Supported 2",
+      "evidence": "Supported 2 (2F/0P, 1 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA",
+        "SB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 2,
+      "n_p": 0,
+      "n_rej": 1,
+      "severity": "High",
+      "claims": {
+        "counted": [
+          "JA-114",
+          "JA-116",
+          "JA-142",
+          "JA-28",
+          "SB-32",
+          "SB-33"
+        ],
+        "for": [
+          "JA-114",
+          "JA-116",
+          "JA-142",
+          "JA-28",
+          "SB-32",
+          "SB-33"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "RED-2": {
+      "category": "RED",
+      "text": "Missing a core skill of the role's stack is a rejection.",
+      "check": "Compare the job's core stack (language, main frameworks) with the CV; a missing core item is critical.",
+      "status": "active",
+      "tier": "Consensus",
+      "label": "Consensus 3",
+      "evidence": "Consensus 3 (3F/0P, 3 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA",
+        "SB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 3,
+      "n_p": 0,
+      "n_rej": 3,
+      "severity": "Critical",
+      "claims": {
+        "counted": [
+          "JA-09",
+          "JA-38",
+          "JA-55",
+          "JA-87",
+          "JA-97",
+          "SB-34",
+          "TW-06"
+        ],
+        "for": [
+          "JA-09",
+          "JA-38",
+          "JA-55",
+          "JA-87",
+          "SB-34",
+          "TW-06"
+        ],
+        "against": [],
+        "notes": [
+          "JA-97"
+        ]
+      }
+    },
+    "STR-6": {
+      "category": "STR",
+      "text": "Tailor the CV to each job, so the skills and experience the job asks for are apparent.",
+      "check": "Does the CV emphasize what this job's description asks for?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "SB"
+      ],
+      "minus": [],
+      "self_contradicting": [
+        "JA"
+      ],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-117",
+          "JA-141",
+          "JA-46",
+          "SB-35"
+        ],
+        "for": [
+          "JA-141",
+          "SB-35"
+        ],
+        "against": [
+          "JA-46"
+        ],
+        "notes": [
+          "JA-117"
+        ]
+      }
+    },
+    "SKL-5": {
+      "category": "SKL",
+      "text": "Screeners weigh the core stack (language, frontend and backend frameworks) most; cloud providers such as AWS and GCP are treated as interchangeable.",
+      "check": "Context for SKL and RED rules; do not treat a different cloud provider as a missing core skill.",
+      "status": "active",
+      "tier": "Contested",
+      "label": "Contested 1-1",
+      "evidence": "Contested 1-1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "SB"
+      ],
+      "minus": [
+        "JA"
+      ],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Judgment",
+      "claims": {
+        "counted": [
+          "JA-56",
+          "SB-36"
+        ],
+        "for": [
+          "SB-36"
+        ],
+        "against": [
+          "JA-56"
+        ],
+        "notes": []
+      }
+    },
+    "REG-3": {
+      "category": "REG",
+      "text": "Give contact details in the header, including email and a phone number with the correct country code.",
+      "check": "Are an email and a phone number with country code in the header?",
+      "status": "active",
+      "tier": "Supported",
+      "label": "Supported 2",
+      "evidence": "Supported 2 (0F/2P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA",
+        "SB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 2,
+      "n_rej": 0,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "JA-70",
+          "SB-37",
+          "SB-38"
+        ],
+        "for": [
+          "JA-70",
+          "SB-37",
+          "SB-38"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "REG-4": {
+      "category": "REG",
+      "text": "Screeners compare the candidate's location with the job's location, including the phone number's country and the distance to the office.",
+      "check": "Context for REG-1; does anything on the CV (phone code, address) suggest a location that conflicts with the one stated?",
+      "status": "retired",
+      "tier": "No support",
+      "label": "No support",
+      "evidence": "No support (0F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "n/a",
+      "claims": {
+        "counted": [],
+        "for": [],
+        "against": [],
+        "notes": []
+      }
+    },
+    "REG-5": {
+      "category": "REG",
+      "text": "If the candidate would relocate, say so on the CV (for example \"happy to relocate\").",
+      "check": "For a candidate abroad, does the CV state willingness to relocate?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "SB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "SB-43"
+        ],
+        "for": [
+          "SB-43"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "RED-3": {
+      "category": "RED",
+      "text": "Everything on the CV must be accurate and defensible; a line the candidate cannot back up is an instant rejection.",
+      "check": "Is any claim on the CV unsupported or likely to fall apart under a question (watch AI-written lines)?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 1 report rejecting)",
+      "measure": null,
+      "plus": [
+        "SB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 1,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "SB-47",
+          "SB-52"
+        ],
+        "for": [
+          "SB-47",
+          "SB-52"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "REG-6": {
+      "category": "REG",
+      "text": "Working English good enough to follow technical requirements and product direction is expected.",
+      "check": "If the CV has a language section, is English stated at a working level?",
+      "status": "active",
+      "tier": "Supported",
+      "label": "Supported 2",
+      "evidence": "Supported 2 (1F/1P, 1 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA",
+        "SB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 1,
+      "n_rej": 1,
+      "severity": "High",
+      "claims": {
+        "counted": [
+          "JA-101",
+          "SB-51"
+        ],
+        "for": [
+          "JA-101",
+          "SB-51"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SKL-6": {
+      "category": "SKL",
+      "text": "Startups look for breadth across the stack rather than a narrow focus on one layer.",
+      "check": "For startup applications, does the CV show work across frontend, backend and data, not one layer only?",
+      "status": "active",
+      "tier": "Supported",
+      "label": "Supported 2",
+      "evidence": "Supported 2 (0F/2P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "SB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 2,
+      "n_rej": 0,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "SB-02",
+          "TW-20"
+        ],
+        "for": [
+          "SB-02",
+          "TW-20"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "X-JOB": {
+      "category": "X",
+      "text": "Job boards and channels.",
+      "check": "n/a (out of scope)",
+      "status": "active",
+      "tier": "Consensus",
+      "label": "Consensus 3",
+      "evidence": "Consensus 3 (2F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA",
+        "SB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 2,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "n/a",
+      "claims": {
+        "counted": [
+          "JA-128",
+          "SB-44",
+          "TW-65"
+        ],
+        "for": [
+          "JA-128",
+          "SB-44",
+          "TW-65"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SCR-8": {
+      "category": "SCR",
+      "text": "Screeners notice the CV's formatting first, before reading its content.",
+      "check": "Context for STR-3; at a glance, does the CV look clean and easy to read?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "TW-01"
+        ],
+        "for": [
+          "TW-01"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SCR-9": {
+      "category": "SCR",
+      "text": "Screeners look at the candidate's job titles early in the first pass; a title may differ from the target role's wording.",
+      "check": "Do the job titles make the kind of role obvious?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "TW-04"
+        ],
+        "for": [
+          "TW-04"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SCR-10": {
+      "category": "SCR",
+      "text": "Screeners look for experience in the employer's industry (such as finance for a financial firm) when the hiring manager asks for it.",
+      "check": "If the job ad or manager asks for industry experience, is it visible in the role headings or company context?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "TW-09"
+        ],
+        "for": [
+          "TW-09"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "RED-4": {
+      "category": "RED",
+      "text": "Hiring managers spot AI-written CVs quickly and do not want to see too much AI in a CV.",
+      "check": "Does the text read as generic AI output (standard phrasing, \"responsible for building ...\")?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-60",
+          "TW-10",
+          "TW-11"
+        ],
+        "for": [
+          "TW-10"
+        ],
+        "against": [],
+        "notes": [
+          "JA-60",
+          "TW-11"
+        ]
+      }
+    },
+    "STR-7": {
+      "category": "STR",
+      "text": "Between each job title and its bullet points, add a short paragraph on the company and the work (what the company does, its sector, the team, the main problems and how they were solved).",
+      "check": "Does each recent role open with a few lines of company context before the bullets?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-67",
+          "TW-17",
+          "TW-18"
+        ],
+        "for": [
+          "TW-17",
+          "TW-18"
+        ],
+        "against": [],
+        "notes": [
+          "JA-67"
+        ]
+      }
+    },
+    "STR-8": {
+      "category": "STR",
+      "text": "Length of the company context paragraph under each role, in lines.",
+      "check": "Count the lines of each company paragraph (STR-7); compare with the recruiters' common range.",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting); TW 2 to 4 lines",
+      "measure": {
+        "unit": "lines",
+        "question": "How long should the company context paragraph under each role be?",
+        "by_recruiter": {
+          "TW": [
+            2.0,
+            4.0
+          ]
+        },
+        "common": [
+          2.0,
+          4.0
+        ],
+        "conditional": {},
+        "median_min": 2.0,
+        "median_max": 4.0,
+        "text": "TW 2 to 4 lines"
+      },
+      "plus": [
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "TW-19"
+        ],
+        "for": [
+          "TW-19"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "CHN-8": {
+      "category": "CHN",
+      "text": "Keep GitHub up to date, because hiring managers sometimes look it up even when the CV does not link it.",
+      "check": "If the candidate has a public GitHub, is it current?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "TW-25",
+          "TW-26"
+        ],
+        "for": [
+          "TW-25",
+          "TW-26"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "ACH-5": {
+      "category": "ACH",
+      "text": "List coding contest ratings or algorithm practice (such as LeetCode or HackerRank) when the candidate has them, briefly and highlighted, for example in a side column.",
+      "check": "If the candidate has such a rating, is it on the CV without taking much space?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "TW-27"
+        ],
+        "for": [
+          "TW-27"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SKL-7": {
+      "category": "SKL",
+      "text": "Hiring managers want candidates with some exposure to agentic development or AI tools, and do not want to hire anyone who is against AI.",
+      "check": "Does the CV show any hands-on use of AI tools or agentic development?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "TW-28",
+          "TW-29"
+        ],
+        "for": [
+          "TW-28",
+          "TW-29"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "CHN-9": {
+      "category": "CHN",
+      "text": "Hiring managers usually open a GitHub link on the CV and browse the projects quickly.",
+      "check": "Context for CHN-6 and CHN-8; if GitHub is linked, what will a quick browse show?",
+      "status": "active",
+      "tier": "Supported",
+      "label": "Supported 2",
+      "evidence": "Supported 2 (2F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 2,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "JA-19",
+          "TW-32"
+        ],
+        "for": [
+          "JA-19",
+          "TW-32"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "CHN-10": {
+      "category": "CHN",
+      "text": "Use a standard job title (such as software engineer or senior data engineer) on LinkedIn and keep it consistent, because recruiters search by standard titles.",
+      "check": "Is the LinkedIn headline title a standard one, with any creative title only after it?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "TW-35",
+          "TW-36"
+        ],
+        "for": [
+          "TW-35",
+          "TW-36"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "REG-7": {
+      "category": "REG",
+      "text": "Do not put a photo or pictures of any kind on the CV.",
+      "check": "Is there a photo, logo or other picture on the CV?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 1 report rejecting)",
+      "measure": null,
+      "plus": [
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 1,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "TW-38"
+        ],
+        "for": [
+          "TW-38"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-9": {
+      "category": "STR",
+      "text": "Keep every past employer and its dates on the CV; do not remove older jobs to look less experienced.",
+      "check": "Are any employers or dates missing from the work history?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "TW-43"
+        ],
+        "for": [
+          "TW-43"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-10": {
+      "category": "STR",
+      "text": "Years of work history to describe in detail on the CV.",
+      "check": "How far back do detailed role descriptions go? Compare with the recruiters' common range; older roles can be listed without detail (STR-1).",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting); TW 10 years (contractor with many short jobs: 6 years)",
+      "measure": {
+        "unit": "years",
+        "question": "How many years back should the CV describe roles in detail?",
+        "by_recruiter": {
+          "TW": [
+            10.0,
+            10.0
+          ]
+        },
+        "common": [
+          10.0,
+          10.0
+        ],
+        "conditional": {
+          "TW": [
+            [
+              6.0,
+              6.0,
+              "contractor with many short jobs"
+            ]
+          ]
+        },
+        "median_min": 10.0,
+        "median_max": 10.0,
+        "text": "TW 10 years (contractor with many short jobs: 6 years)"
+      },
+      "plus": [
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "TW-45",
+          "TW-46",
+          "TW-47"
+        ],
+        "for": [
+          "TW-45",
+          "TW-46",
+          "TW-47"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "CHN-11": {
+      "category": "CHN",
+      "text": "An open-to-work banner on LinkedIn does not count against the candidate with hiring managers.",
+      "check": "Context only; do not advise removing the banner on this account.",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "TW-52"
+        ],
+        "for": [
+          "TW-52"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "GAP-3": {
+      "category": "GAP",
+      "text": "Length of an employment gap, in months, from which the CV should explain it.",
+      "check": "Find gaps between roles; compare their length with the recruiters' common range and check that longer ones are explained (GAP-2).",
+      "status": "active",
+      "tier": "Supported",
+      "label": "Supported 2",
+      "evidence": "Supported 2 (0F/2P, 0 report rejecting); JA at most 36 months, TW 6 months; common 6 months",
+      "measure": {
+        "unit": "months",
+        "question": "From what length should a gap be explained on the CV?",
+        "by_recruiter": {
+          "JA": [
+            null,
+            36.0
+          ],
+          "TW": [
+            6.0,
+            6.0
+          ]
+        },
+        "common": [
+          6.0,
+          6.0
+        ],
+        "conditional": {},
+        "median_min": 6.0,
+        "median_max": 21.0,
+        "text": "JA at most 36 months, TW 6 months; common 6 months"
+      },
+      "plus": [
+        "JA",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 2,
+      "n_rej": 0,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "JA-34",
+          "TW-55"
+        ],
+        "for": [
+          "JA-34",
+          "TW-55"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "ATS-5": {
+      "category": "ATS",
+      "text": "Employer ATS systems usually give each application an automatic AI score based on the keywords in the job description.",
+      "check": "Context for ATS-1; does the CV use the job description's keywords?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "TW-61"
+        ],
+        "for": [
+          "TW-61"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "X-FAKE": {
+      "category": "X",
+      "text": "Fake or already-filled job ads.",
+      "check": "n/a (out of scope)",
+      "status": "active",
+      "tier": "Supported",
+      "label": "Supported 2",
+      "evidence": "Supported 2 (2F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 2,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "n/a",
+      "claims": {
+        "counted": [
+          "JA-136",
+          "JA-137",
+          "TW-63",
+          "TW-64"
+        ],
+        "for": [
+          "JA-136",
+          "JA-137",
+          "TW-63",
+          "TW-64"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SCR-11": {
+      "category": "SCR",
+      "text": "At larger companies the first screener is often an HR recruiter who knows the names of technologies but cannot judge the technical detail of a CV.",
+      "check": "Context for ACH-3 and SCR-7; would a non-technical reader see the match from titles and named technologies alone?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-03"
+        ],
+        "for": [
+          "JA-03"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "REG-8": {
+      "category": "REG",
+      "text": "Do not list English test scores such as IELTS or TOEFL on the CV; many recruiters do not know what they mean.",
+      "check": "Is there an IELTS or TOEFL score on the CV?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-06",
+          "JA-07"
+        ],
+        "for": [
+          "JA-06",
+          "JA-07"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SKL-8": {
+      "category": "SKL",
+      "text": "Group the skills list into categories.",
+      "check": "Is the skills section grouped (languages, cloud, tools), not one flat list?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-08",
+          "JA-124"
+        ],
+        "for": [
+          "JA-08",
+          "JA-124"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-11": {
+      "category": "STR",
+      "text": "Do not list courses in a section of their own; mention relevant ones in the summary or the bullet points.",
+      "check": "Is there a separate list of courses?",
+      "status": "retired",
+      "tier": "No support",
+      "label": "No support",
+      "evidence": "No support (0F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "n/a",
+      "claims": {
+        "counted": [],
+        "for": [],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-12": {
+      "category": "STR",
+      "text": "Leave references off the CV; they add nothing.",
+      "check": "Is there a references section?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-14"
+        ],
+        "for": [
+          "JA-14"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SKL-9": {
+      "category": "SKL",
+      "text": "Do not list soft skills in a section of their own; show them in the summary and the bullet points.",
+      "check": "Is there a soft skills list (teamwork, leadership)?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-16"
+        ],
+        "for": [
+          "JA-16"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "ACH-6": {
+      "category": "ACH",
+      "text": "Make achievements measurable where possible.",
+      "check": "Do the bullet points carry numbers (percentages, counts, time, money)?",
+      "status": "active",
+      "tier": "Consensus",
+      "label": "Consensus 3",
+      "evidence": "Consensus 3 (2F/1P, 1 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA",
+        "SB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 2,
+      "n_p": 1,
+      "n_rej": 1,
+      "severity": "High",
+      "claims": {
+        "counted": [
+          "JA-17",
+          "JA-57",
+          "JA-63",
+          "JA-76",
+          "JA-79",
+          "JA-88",
+          "SB-19",
+          "TW-07",
+          "TW-13"
+        ],
+        "for": [
+          "JA-17",
+          "JA-57",
+          "JA-63",
+          "JA-76",
+          "JA-79",
+          "SB-19",
+          "TW-07",
+          "TW-13"
+        ],
+        "against": [],
+        "notes": [
+          "JA-88"
+        ]
+      }
+    },
+    "STR-13": {
+      "category": "STR",
+      "text": "Left-align the text of an English CV; justified text is not needed.",
+      "check": "Is the body text justified?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-22"
+        ],
+        "for": [
+          "JA-22"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "REG-9": {
+      "category": "REG",
+      "text": "On an English CV, listing English as a language adds nothing; leave it out.",
+      "check": "Does an English CV list English in a languages section?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-23"
+        ],
+        "for": [
+          "JA-23"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-14": {
+      "category": "STR",
+      "text": "In each role heading, put the job title first and more prominent than the company name.",
+      "check": "Does each role heading lead with the job title?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-24"
+        ],
+        "for": [
+          "JA-24"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "ACH-7": {
+      "category": "ACH",
+      "text": "Give the scale of the work in the bullet points (how big the product, the company and the team were).",
+      "check": "Can a reader tell from the bullets how large the product, company and team were?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-25",
+          "JA-64"
+        ],
+        "for": [
+          "JA-25",
+          "JA-64"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "ACH-8": {
+      "category": "ACH",
+      "text": "Metrics that are all round numbers (25, 30, 40, 50 percent) look rounded, and screeners notice it.",
+      "check": "Are all the percentages round numbers?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-27"
+        ],
+        "for": [
+          "JA-27"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SKL-10": {
+      "category": "SKL",
+      "text": "Show hands-on experience with testing tools (at least one or two) on the CV.",
+      "check": "Does the CV name the testing tools used and how?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 1 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 1,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "JA-144",
+          "JA-30",
+          "JA-39"
+        ],
+        "for": [
+          "JA-144",
+          "JA-30",
+          "JA-39"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "ACH-9": {
+      "category": "ACH",
+      "text": "Show that the candidate keeps learning new skills and technologies.",
+      "check": "Does the CV show recent learning (new tools, courses applied in work, side projects)?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-103",
+          "JA-29"
+        ],
+        "for": [
+          "JA-103",
+          "JA-29"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-15": {
+      "category": "STR",
+      "text": "Give each listed project its dates and context (in a job, freelance or personal).",
+      "check": "Does every project say when and in what context it was done?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-31"
+        ],
+        "for": [
+          "JA-31"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "REG-10": {
+      "category": "REG",
+      "text": "A basic level of the local language (such as German A1) on the CV shows learning but is not a working skill.",
+      "check": "Context only; do not present a basic level as a usable language skill.",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-33"
+        ],
+        "for": [
+          "JA-33"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "REG-11": {
+      "category": "REG",
+      "text": "The CV can use the name the candidate goes by (a nickname); the legal name is needed only where an application form asks for it.",
+      "check": "Context only; a nickname on the CV and LinkedIn is fine if used consistently.",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-37"
+        ],
+        "for": [
+          "JA-37"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "REG-12": {
+      "category": "REG",
+      "text": "A candidate's name can affect how many interviews they get.",
+      "check": "Context for REG-11.",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-36"
+        ],
+        "for": [
+          "JA-36"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-16": {
+      "category": "STR",
+      "text": "Present the candidate as a software engineer rather than as a developer of one language or framework (such as a .NET developer).",
+      "check": "Does the title or summary tie the candidate to one language?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 1 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 1,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "JA-118",
+          "JA-41"
+        ],
+        "for": [
+          "JA-118",
+          "JA-41"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SCR-12": {
+      "category": "SCR",
+      "text": "Screeners give the summary only a quick look.",
+      "check": "Context for STR-4; can the summary be read in a glance?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-42"
+        ],
+        "for": [
+          "JA-42"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-17": {
+      "category": "STR",
+      "text": "Do not use first-person pronouns (I, my) in the CV.",
+      "check": "Do the summary or bullets use I, me or my?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-43"
+        ],
+        "for": [
+          "JA-43"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SCR-13": {
+      "category": "SCR",
+      "text": "Screeners do not read a CV in full, even for candidates they invite to interview.",
+      "check": "Context; what matters must be visible without a full read.",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-45"
+        ],
+        "for": [
+          "JA-45"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "CHN-12": {
+      "category": "CHN",
+      "text": "Screeners do not read the cover letter in full; they may look at it when undecided about the CV.",
+      "check": "Context for CHN-3; the CV must carry the decision on its own.",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-48"
+        ],
+        "for": [
+          "JA-48"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SCR-14": {
+      "category": "SCR",
+      "text": "Screeners judge the CV against the salary the candidate asked for; a higher salary raises the bar.",
+      "check": "If the application states a salary, does the CV justify it?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-49"
+        ],
+        "for": [
+          "JA-49"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SCR-15": {
+      "category": "SCR",
+      "text": "A screener who is undecided about a CV rejects it, because an interview costs half an hour.",
+      "check": "Context; a borderline CV is a rejected CV, so remove every doubt.",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 1 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 1,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "JA-51"
+        ],
+        "for": [
+          "JA-51"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SKL-11": {
+      "category": "SKL",
+      "text": "Share of the skills listed in a job ad that the CV must show, in percent.",
+      "check": "Count the job ad's listed skills the CV shows; compare with the recruiters' common range.",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting); JA 80 percent",
+      "measure": {
+        "unit": "percent",
+        "question": "What share of the skills a job ad lists must the CV show?",
+        "by_recruiter": {
+          "JA": [
+            80.0,
+            80.0
+          ]
+        },
+        "common": [
+          80.0,
+          80.0
+        ],
+        "conditional": {},
+        "median_min": 80.0,
+        "median_max": 80.0,
+        "text": "JA 80 percent"
+      },
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-53"
+        ],
+        "for": [
+          "JA-53"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SEN-5": {
+      "category": "SEN",
+      "text": "The more years of experience a CV claims, the more the screener expects it to show.",
+      "check": "Do the achievements match what the stated years of experience lead a reader to expect?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-61"
+        ],
+        "for": [
+          "JA-61"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "ACH-10": {
+      "category": "ACH",
+      "text": "Put the biggest achievement at the top, where the reader sees it first.",
+      "check": "Does the strongest result come first in the summary or the first role?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-62"
+        ],
+        "for": [
+          "JA-62"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-18": {
+      "category": "STR",
+      "text": "Put certificates at the end of the CV.",
+      "check": "Does a certificates section come before the work history?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-65"
+        ],
+        "for": [
+          "JA-65"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SKL-12": {
+      "category": "SKL",
+      "text": "Listing a required technology in the skills section can be enough for a screener to invite the candidate.",
+      "check": "Context for SKL-11; is every required technology the candidate has used named in the skills section?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-66"
+        ],
+        "for": [
+          "JA-66"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-19": {
+      "category": "STR",
+      "text": "Give each employer's location in the work history.",
+      "check": "Does each role say where the employer is?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-68"
+        ],
+        "for": [
+          "JA-68"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-20": {
+      "category": "STR",
+      "text": "Head the CV with the name and the job title; leave out invented taglines.",
+      "check": "Is there a slogan or tagline in the header besides the name and title?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-69"
+        ],
+        "for": [
+          "JA-69"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-21": {
+      "category": "STR",
+      "text": "Length of the summary at the top of the CV, in lines.",
+      "check": "Count the summary's lines; compare with the recruiters' common range.",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting); JA 3 to 4 lines",
+      "measure": {
+        "unit": "lines",
+        "question": "How long should the summary at the top of the CV be?",
+        "by_recruiter": {
+          "JA": [
+            3.0,
+            4.0
+          ]
+        },
+        "common": [
+          3.0,
+          4.0
+        ],
+        "conditional": {},
+        "median_min": 3.0,
+        "median_max": 4.0,
+        "text": "JA 3 to 4 lines"
+      },
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-115",
+          "JA-71"
+        ],
+        "for": [
+          "JA-115",
+          "JA-71"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-22": {
+      "category": "STR",
+      "text": "Length of a bullet point, in lines.",
+      "check": "Count the lines of each bullet; compare with the recruiters' common range.",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting); JA at most 1 lines",
+      "measure": {
+        "unit": "lines",
+        "question": "How long should a bullet point be?",
+        "by_recruiter": {
+          "JA": [
+            null,
+            1.0
+          ]
+        },
+        "common": [
+          null,
+          1.0
+        ],
+        "conditional": {},
+        "median_min": null,
+        "median_max": 1.0,
+        "text": "JA at most 1 lines"
+      },
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-74"
+        ],
+        "for": [
+          "JA-74"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "ACH-11": {
+      "category": "ACH",
+      "text": "In a large company, claim only the candidate's own part of an impact that a whole team or organization produced.",
+      "check": "Do bullets claim sole credit for company-wide results?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-78"
+        ],
+        "for": [
+          "JA-78"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SEN-6": {
+      "category": "SEN",
+      "text": "A candidate hired from abroad must be stronger than the hiring team's average, because relocation takes months and is an investment.",
+      "check": "Context for the target profile; does the CV show the candidate would raise the team's level?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-80"
+        ],
+        "for": [
+          "JA-80"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "ACH-12": {
+      "category": "ACH",
+      "text": "Show ownership on the CV; the candidate took responsibility for work and delivered it to the end, not just completed tasks.",
+      "check": "Do the bullets show work the candidate drove and finished, and followed up after release?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 1 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 1,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "JA-79",
+          "JA-82",
+          "JA-83"
+        ],
+        "for": [
+          "JA-79",
+          "JA-82",
+          "JA-83"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "CHN-13": {
+      "category": "CHN",
+      "text": "Link only profiles that add value; a Stack Overflow profile is rarely opened any more, and an inactive one adds nothing.",
+      "check": "Are there profile links (Stack Overflow, others) that are inactive or unlikely to be opened?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-84"
+        ],
+        "for": [
+          "JA-84"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SKL-13": {
+      "category": "SKL",
+      "text": "A CV that lists JavaScript should also show TypeScript.",
+      "check": "Does a JavaScript CV name TypeScript?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-102",
+          "JA-86"
+        ],
+        "for": [
+          "JA-102",
+          "JA-86"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-23": {
+      "category": "STR",
+      "text": "Bold only what should catch the reader's eye, such as a strong result, not routine items like the university name.",
+      "check": "What is in bold, and is it what the reader should notice?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-105",
+          "JA-89"
+        ],
+        "for": [
+          "JA-105",
+          "JA-89"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "GAP-4": {
+      "category": "GAP",
+      "text": "Do not show a full-time job overlapping other work (another full-time job or freelance work).",
+      "check": "Do the dates of a full-time role overlap other roles?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-90",
+          "JA-91"
+        ],
+        "for": [
+          "JA-90",
+          "JA-91"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "RED-5": {
+      "category": "RED",
+      "text": "Em-dashes read as a sign that AI wrote the CV.",
+      "check": "Are there em-dashes or double dashes in the CV?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-93"
+        ],
+        "for": [
+          "JA-93"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "ACH-13": {
+      "category": "ACH",
+      "text": "Start bullet points with action verbs, and vary the first word.",
+      "check": "Do the bullets start with action verbs, and not all with the same one?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-94"
+        ],
+        "for": [
+          "JA-94"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SEN-7": {
+      "category": "SEN",
+      "text": "Show teamwork; presenting work as done alone is not an advantage, because hiring managers want someone who will adapt to the team.",
+      "check": "Do the bullets show work with a team, or only solo work?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-111",
+          "JA-95",
+          "JA-96"
+        ],
+        "for": [
+          "JA-111",
+          "JA-95",
+          "JA-96"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "REG-13": {
+      "category": "REG",
+      "text": "Write the whole CV in English; leave no text in another language.",
+      "check": "Is any part of an English CV in another language?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-98"
+        ],
+        "for": [
+          "JA-98"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SKL-14": {
+      "category": "SKL",
+      "text": "Do not repeat the same technology many times across the CV; naming it once is enough.",
+      "check": "Is one technology named in the summary, the skills list and every role?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-99"
+        ],
+        "for": [
+          "JA-99"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SKL-15": {
+      "category": "SKL",
+      "text": "Do not list skills labelled as basic.",
+      "check": "Does the skills list mark any item as basic or beginner?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-100"
+        ],
+        "for": [
+          "JA-100"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-24": {
+      "category": "STR",
+      "text": "Give the start and end month of each role, not just the year.",
+      "check": "Do role dates include months?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-106"
+        ],
+        "for": [
+          "JA-106"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SKL-16": {
+      "category": "SKL",
+      "text": "Include a skills section.",
+      "check": "Is there a skills section?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-108",
+          "JA-109"
+        ],
+        "for": [
+          "JA-108"
+        ],
+        "against": [],
+        "notes": [
+          "JA-109"
+        ]
+      }
+    },
+    "STR-25": {
+      "category": "STR",
+      "text": "Under the name, write the title of the job being applied for, matching it.",
+      "check": "Does the title under the name match the target job's title?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-110"
+        ],
+        "for": [
+          "JA-110"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SKL-17": {
+      "category": "SKL",
+      "text": "Do not label skill proficiency levels (expert, advanced, intermediate, novice).",
+      "check": "Does the skills section rate the candidate's level per skill?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-112",
+          "JA-113"
+        ],
+        "for": [
+          "JA-112",
+          "JA-113"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "CHN-14": {
+      "category": "CHN",
+      "text": "Number of GitHub contributions in a year from which a profile stands out.",
+      "check": "Count last year's contributions; compare with the recruiters' common range before calling GitHub a strength.",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting); JA at least 1000 contributions",
+      "measure": {
+        "unit": "contributions",
+        "question": "From how many GitHub contributions a year does a profile stand out?",
+        "by_recruiter": {
+          "JA": [
+            1000.0,
+            null
+          ]
+        },
+        "common": [
+          1000.0,
+          null
+        ],
+        "conditional": {},
+        "median_min": 1000.0,
+        "median_max": null,
+        "text": "JA at least 1000 contributions"
+      },
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-121"
+        ],
+        "for": [
+          "JA-121"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SKL-18": {
+      "category": "SKL",
+      "text": "Leave out practices every engineer uses, such as Agile; they add nothing.",
+      "check": "Does the CV list generic practices (Agile, Scrum, Git) as if they were distinguishing?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-122"
+        ],
+        "for": [
+          "JA-122"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-26": {
+      "category": "STR",
+      "text": "Education usually goes at the top of the CV only for fresh graduates without work experience.",
+      "check": "Is education above experience on a CV with work experience?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-123"
+        ],
+        "for": [
+          "JA-123"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SKL-19": {
+      "category": "SKL",
+      "text": "List technologies outside the target role when they relate to the job (such as frontend frameworks on a backend CV); they count as a plus even when the job does not ask for them.",
+      "check": "Does the CV leave out related technologies the candidate knows because the target role does not name them, or list technologies with no link to the job?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-130",
+          "JA-131"
+        ],
+        "for": [
+          "JA-130",
+          "JA-131"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "SCR-16": {
+      "category": "SCR",
+      "text": "Screening outcomes depend on who reads the CV; different screeners can judge the same CV differently.",
+      "check": "Present a verdict as one screener's likely view, not a certainty; do not over-fit the CV to a single reader's preference.",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-133"
+        ],
+        "for": [
+          "JA-133"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "GAP-5": {
+      "category": "GAP",
+      "text": "Experience at a startup that failed is not a problem; list it like any other job.",
+      "check": "Does the candidate hide or apologize for work at a startup that no longer exists?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-143"
+        ],
+        "for": [
+          "JA-143"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-27": {
+      "category": "STR",
+      "text": "Include education with the university's name and the degree, even when the degree is not computer science.",
+      "check": "Is there an education section naming the university and the degree?",
+      "status": "active",
+      "tier": "Supported",
+      "label": "Supported 2",
+      "evidence": "Supported 2 (1F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA",
+        "SB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "JA-107",
+          "SB-05",
+          "SB-46"
+        ],
+        "for": [
+          "JA-107",
+          "SB-05",
+          "SB-46"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-28": {
+      "category": "STR",
+      "text": "Give a notable grade (such as merit or distinction) in the education section.",
+      "check": "Does the education entry show a notable grade where the candidate has one?",
+      "status": "active",
+      "tier": "Contested",
+      "label": "Contested 1-1",
+      "evidence": "Contested 1-1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "SB"
+      ],
+      "minus": [
+        "JA"
+      ],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Judgment",
+      "claims": {
+        "counted": [
+          "JA-13",
+          "SB-46"
+        ],
+        "for": [
+          "SB-46"
+        ],
+        "against": [
+          "JA-13"
+        ],
+        "notes": []
+      }
+    },
+    "REG-14": {
+      "category": "REG",
+      "text": "State where the candidate is actually based (the city), truthfully, on the CV and LinkedIn.",
+      "check": "Does the CV header name the current city, and does it match LinkedIn?",
+      "status": "active",
+      "tier": "Consensus",
+      "label": "Consensus 3",
+      "evidence": "Consensus 3 (1F/2P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JB",
+        "SB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 2,
+      "n_rej": 0,
+      "severity": "High",
+      "claims": {
+        "counted": [
+          "JB-24",
+          "SB-40",
+          "SB-42",
+          "TW-62"
+        ],
+        "for": [
+          "JB-24",
+          "SB-40",
+          "SB-42",
+          "TW-62"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "REG-15": {
+      "category": "REG",
+      "text": "Make the candidate's right-to-work status obvious.",
+      "check": "Does the CV state the right to work for the target country (or the visa held)?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JB-24"
+        ],
+        "for": [
+          "JB-24"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "REG-16": {
+      "category": "REG",
+      "text": "Screeners compare the candidate's location with the job's location.",
+      "check": "Does the stated location fit the job's location? If not, expect location to weigh in screening.",
+      "status": "active",
+      "tier": "Contested",
+      "label": "Contested 1-1",
+      "evidence": "Contested 1-1 (1F/0P, 1 report rejecting)",
+      "measure": null,
+      "plus": [
+        "TW"
+      ],
+      "minus": [
+        "JA"
+      ],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 1,
+      "severity": "Judgment",
+      "claims": {
+        "counted": [
+          "JA-40",
+          "TW-59",
+          "TW-60"
+        ],
+        "for": [
+          "TW-59",
+          "TW-60"
+        ],
+        "against": [
+          "JA-40"
+        ],
+        "notes": []
+      }
+    },
+    "REG-17": {
+      "category": "REG",
+      "text": "Screeners notice a phone number from another country.",
+      "check": "Does the phone number's country code conflict with the stated location?",
+      "status": "active",
+      "tier": "Contested",
+      "label": "Contested 2-1",
+      "evidence": "Contested 2-1 (2F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "SB",
+        "TW"
+      ],
+      "minus": [
+        "JA"
+      ],
+      "self_contradicting": [],
+      "n_f": 2,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Judgment",
+      "claims": {
+        "counted": [
+          "JA-104",
+          "SB-39",
+          "TW-60"
+        ],
+        "for": [
+          "SB-39",
+          "TW-60"
+        ],
+        "against": [
+          "JA-104"
+        ],
+        "notes": []
+      }
+    },
+    "REG-18": {
+      "category": "REG",
+      "text": "Screeners look at how far the candidate lives from the office.",
+      "check": "For on-site or hybrid roles, how far is the stated location from the office?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "SB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "SB-41"
+        ],
+        "for": [
+          "SB-41"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "CHN-15": {
+      "category": "CHN",
+      "text": "Ask for referrals; a referral gets the CV looked at more carefully.",
+      "check": "Not a CV check; recommend it when the candidate relies only on cold applications.",
+      "status": "active",
+      "tier": "Consensus",
+      "label": "Consensus 3",
+      "evidence": "Consensus 3 (3F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JB",
+        "SB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 3,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "High",
+      "claims": {
+        "counted": [
+          "JB-25",
+          "JB-27",
+          "SB-49",
+          "TW-57",
+          "TW-58"
+        ],
+        "for": [
+          "JB-25",
+          "JB-27",
+          "SB-49",
+          "TW-57",
+          "TW-58"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "CHN-16": {
+      "category": "CHN",
+      "text": "Network and build relationships alongside applications rather than relying only on applying.",
+      "check": "Not a CV check; recommend it when the candidate relies only on cold applications.",
+      "status": "active",
+      "tier": "Supported",
+      "label": "Supported 2",
+      "evidence": "Supported 2 (0F/2P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 2,
+      "n_rej": 0,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "JB-25",
+          "JB-41",
+          "TW-58"
+        ],
+        "for": [
+          "JB-25",
+          "JB-41",
+          "TW-58"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "CHN-17": {
+      "category": "CHN",
+      "text": "Send the hiring manager a short message saying why the candidate fits the role.",
+      "check": "Not a CV check; recommend it alongside an application.",
+      "status": "active",
+      "tier": "Supported",
+      "label": "Supported 2",
+      "evidence": "Supported 2 (2F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 2,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "JB-26",
+          "TW-22",
+          "TW-23"
+        ],
+        "for": [
+          "JB-26",
+          "TW-22",
+          "TW-23"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "CHN-18": {
+      "category": "CHN",
+      "text": "Keep the LinkedIn profile complete and current (photo, full job history, what was done at each job, a bio).",
+      "check": "Does the profile have a photo, full and up-to-date job history and a bio?",
+      "status": "active",
+      "tier": "Consensus",
+      "label": "Consensus 3",
+      "evidence": "Consensus 3 (2F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JB",
+        "SB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 2,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "High",
+      "claims": {
+        "counted": [
+          "JB-44",
+          "JB-47",
+          "SB-31",
+          "TW-31",
+          "TW-34"
+        ],
+        "for": [
+          "JB-44",
+          "JB-47",
+          "SB-31",
+          "TW-31",
+          "TW-34"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "CHN-19": {
+      "category": "CHN",
+      "text": "Be active and visible on LinkedIn rather than invisible.",
+      "check": "Does the profile show some activity (posts, comments)?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JB-44",
+          "JB-45",
+          "JB-47",
+          "JB-48"
+        ],
+        "for": [
+          "JB-44",
+          "JB-47",
+          "JB-48"
+        ],
+        "against": [],
+        "notes": [
+          "JB-45"
+        ]
+      }
+    },
+    "CHN-20": {
+      "category": "CHN",
+      "text": "Keep LinkedIn consistent with the CV (dates, roles).",
+      "check": "Do the dates and roles on LinkedIn match the CV?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 1 report rejecting)",
+      "measure": null,
+      "plus": [
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 1,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "TW-30"
+        ],
+        "for": [
+          "TW-30"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "CHN-21": {
+      "category": "CHN",
+      "text": "Recruiters and hiring managers use LinkedIn to find candidates and check their experience.",
+      "check": "Context for CHN rules; flag a candidate with no LinkedIn profile.",
+      "status": "active",
+      "tier": "Supported",
+      "label": "Supported 2",
+      "evidence": "Supported 2 (2F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "SB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 2,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "SB-30",
+          "TW-33"
+        ],
+        "for": [
+          "SB-30",
+          "TW-33"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "CHN-22": {
+      "category": "CHN",
+      "text": "Without a LinkedIn profile, screening the candidate is harder.",
+      "check": "Flag a candidate with no LinkedIn profile.",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "SB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "SB-30"
+        ],
+        "for": [
+          "SB-30"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "GAP-6": {
+      "category": "GAP",
+      "text": "A gap is not a problem in itself.",
+      "check": "Do not treat a gap alone as a weakness; see GAP-7 and GAP-3.",
+      "status": "active",
+      "tier": "Supported",
+      "label": "Supported 2",
+      "evidence": "Supported 2 (2F/0P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JB",
+        "TW"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 2,
+      "n_p": 0,
+      "n_rej": 0,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "JB-18",
+          "TW-56"
+        ],
+        "for": [
+          "JB-18",
+          "TW-56"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "GAP-7": {
+      "category": "GAP",
+      "text": "Show what was done during a gap to stay current (learning, projects).",
+      "check": "For any gap of several months, does the CV show learning, projects or other activity in it?",
+      "status": "active",
+      "tier": "Supported",
+      "label": "Supported 2",
+      "evidence": "Supported 2 (1F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JB",
+        "SB"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "JB-18",
+          "SB-27"
+        ],
+        "for": [
+          "JB-18",
+          "SB-27"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "STR-29": {
+      "category": "STR",
+      "text": "Do not add a separate core strengths section; put those points in the summary or the bullet points.",
+      "check": "Is there a core strengths (or key strengths) section that repeats what the summary and bullets should say?",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (0F/1P, 0 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 0,
+      "n_p": 1,
+      "n_rej": 0,
+      "severity": "Low",
+      "claims": {
+        "counted": [
+          "JA-12"
+        ],
+        "for": [
+          "JA-12"
+        ],
+        "against": [],
+        "notes": []
+      }
+    },
+    "RED-6": {
+      "category": "RED",
+      "text": "A CV missing most of the skills the job lists is not moved to the next stage.",
+      "check": "Count the job ad's listed skills the CV shows; compare with SKL-11's common range.",
+      "status": "active",
+      "tier": "Single source",
+      "label": "Single source 1",
+      "evidence": "Single source 1 (1F/0P, 1 report rejecting)",
+      "measure": null,
+      "plus": [
+        "JA"
+      ],
+      "minus": [],
+      "self_contradicting": [],
+      "n_f": 1,
+      "n_p": 0,
+      "n_rej": 1,
+      "severity": "Medium",
+      "claims": {
+        "counted": [
+          "JA-54"
+        ],
+        "for": [
+          "JA-54"
+        ],
+        "against": [],
+        "notes": []
+      }
+    }
+  },
+  "version": "session-2",
+  "date": "2026-10-20"
+}

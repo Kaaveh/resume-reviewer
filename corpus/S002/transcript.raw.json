@@ -1,0 +1,505 @@
+{
+  "schema": "rrs.transcript.raw/1",
+  "source_id": "S002",
+  "transcript_file": "Sam Baldwin, JavaScript recruiter.md",
+  "transcript_sha256": "afc84e2d3ea60d50ce0d39b689e6def3bda4bb818af30849ffb3a5178fc16759",
+  "title": "Transcript: How to get hired by a UK startup? (by Sam Baldwin)",
+  "timing": "none",
+  "speakers": {
+    "Guest": "SB",
+    "Interviewer": "JA"
+  },
+  "overrides_applied": [],
+  "turns": [
+    {
+      "n": 1,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "...but yeah sometimes people can think and this is wrong i think this is not a right perspective to have personally people can think they can use AI to do the work of a junior engineer but you know if you're not training up junior engineers and mid-levels where are the seniors of tomorrow going to come from."
+    },
+    {
+      "n": 2,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "i see yeah makes sense and what are startup looking for in engineering at the moment because you know u big companies may think differently and searching for some other uh what do you think about the startups what they are looking for exactly."
+    },
+    {
+      "n": 3,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "yeah so that's a really good question John um I think the most important things it boils down to a few different important parts so I would say ownership is um a very very important part like what did you personally own in the project project what did you personally do for the product and you know having that sense of like knowing not just sort of okay I'm writing this piece of code but like understanding why you're writing this piece of code right so ownership a product a good product sense you need to be comfortable with ambiguity as well cuz um in startups sometimes your CTO or your engineering manager can just tell you something vague as like okay build me out a wealth proposition sort of statement or a feature and you need to turn that ambiguity into like a plan and eventually sort of a shippable product um I think you also need to have some sort of breadth across the stack you can't just be too focused on databases you can't just be too focused on React or too focused on you know backend you you need to be sort of comfortable across the stack as a whole and also be good with you need to ship fast as well right in startups people ship fast but then you need a good judgment uh in terms of like what are the trade-offs cuz I think engineers a lot of the times they they they look to make the feature or the product perfect but in a startup environment sometimes you just need it to be good enough to push out um so having that judgment of knowing when to ship versus okay maybe we do need to make the quality a bit higher in in this particular feature and being able to back that up um and also it's the way you talk the way you come across um you know I always tell people like when you're going through interviews imagine the interviewer is probably thinking can I put this engineer in front of stakeholders can this engineer communicate can this can engineer build good relationships these are all like really important soft skills that uh startups look for."
+    },
+    {
+      "n": 4,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "yeah totally makes sense and when you normally first opening a CV what you are exactly looking for."
+    },
+    {
+      "n": 5,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "so another good question so I think a few things that I look for instantly is where you've worked for um your impact you know what what changed because of you right um your education your recent roles your tech stack um what stage your company's at whether it's a preede a seed series ABC BC what what sort of funding rounds have they gone through how long have you stayed through those funding rounds uh and then you know stuff like what has your progression been like um so if you were there for two years and you were promoted to a senior that's usually a good signal for me."
+    },
+    {
+      "n": 6,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "i see really nice answer I would say and what do you think as the biggest red flag that normally you can see on the CVs."
+    },
+    {
+      "n": 7,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "so I think uh very like at least for my market very like old school wordy CVs where it's like four or five pages long um I guess when you don't explain the gaps and short stints in in your CV um also if you list a bunch of technologies but there's no context as to like where you've used these technologies sort of what specific languages or specific frameworks have you used at each company um and yeah like any anything like typos or or or anything like that you know kind of immediately uh puts a red flag into my mind."
+    },
+    {
+      "n": 8,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "yeah totally makes sense and you mentioned something interesting so speaking about five pages so what do you think about how long should be a CV is it one page two three five seven 10 even how many pages we should have for CV normally what do you what's your."
+    },
+    {
+      "n": 9,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "So I think I think if you are a junior uh and you don't have a lot of experience one page should be enough if you are like senior level I would say two pages max two pages is the general sweet spot I I say everybody should aim for um you don't need to go into detail of all your roles especially if your first few roles aren't relevant to the job that you're applying for um but if you are a very very experienced engineer like a CTO or a VP then you know maybe having it slightly longer isn't a problem um but I would say try and aim for two as a general rule of thumb."
+    },
+    {
+      "n": 10,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "makes sense and about the technical details that we have in the CV how much technical do you think we should go in the CV how much we should go about the details of that because maybe first person opening the CV is not technical person so."
+    },
+    {
+      "n": 11,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "yeah that is that's a really good question as well i think you can go into tech your your technicalities but I think you should always lead with the outcomes in plain English and then follow with the technical details right so both both sides of the coin can understand what you're saying so an example of that would be like um saw problem X created solution Y which led to you know I don't know like a reducing load times by 40% um to server side rendering with next or react um and this achieved business outcome ABC D and so on so a a a non-technical person like myself can read it and realize the good work you've done and then the technical person can sort of dive into the specific technologies and and and understand it as well."
+    },
+    {
+      "n": 12,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "i see totally makes sense and the general question that I can ask here generally especially about the UK so how to get hired by UK startup this is literally our title here."
+    },
+    {
+      "n": 13,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "i think it it to be honest I what I've just been saying has always has been in the sort of frame of a UK startup i I typically only work with UK startups but um yeah like I said a product mindset uh high ownership you know um knowing the impact and labeling that very clearly on your CV um if you've worked with any startups as well sort of building a product from 0ero to one sometimes having literally zero to one in your CV helps a lot as well um any of the companies VC backing how much they've raised also strong signals for for other UK startups to hire you."
+    },
+    {
+      "n": 14,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "yeah makes sense and tell me about the the CV itself so when you opening the CV you can see you some of them some of time you may reject them and say \"No it's not good enough.\" And sometime you may just say okay this is good one let's have a chat with this guy or this person so how you deciding about that what's going to be help us to be able to change in the CV to to help you to decide better about us and move us forward."
+    },
+    {
+      "n": 15,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "yeah um that's a good question like I think very simply it all boils down to what problems have you solved for the company right i think engineers ultimately you got you're problem solvers um so you know what impact have you had in the business since they've hired you what did you personally own versus the wider team um and you know anything that's like a genuine interest as well that's like a side project or like a hackathon that you've been to showing passion for your work is is always a good idea as well."
+    },
+    {
+      "n": 16,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "i see that that's really good to to speak about some external like hackathon that you mentioned here that's great and let's change the topic about the interview process so we sending a CV they accept that and we go for first round of the interview so what does the typical interview process looks like u tell tell us about that more you know company by company can be different so we would like to understand."
+    },
+    {
+      "n": 17,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "100% i think like you said company and company this this can vary massively but a typical like general interview process we're seeing in the market is usually four to five stages so it will start with a recruiter screen um from someone in their internal talent team um and then it will this will be more of a general chat what what has been your past experiences you know what you're looking for what's your past salary uh bit bit more logistical um and then you will probably speak with the hiring manager uh like a technical discussion similar to the first stage but a bit more you know diving into the specific technologies you've used the problems you've solved and then comes sort of the technical uh tests so like it can be a paired programming and that would usually then be followed by a sort of whiteboard systems design or product design session um and then the last stage would usually be like a chat with you know the CEO or the founder just to make sure you're the right culture for for the for the hire um and this can usually last you know anywhere between two to six weeks depending on how fast the company wants to move and how much um how many candidates they have in the process."
+    },
+    {
+      "n": 18,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "i see yeah totally makes sense so people should expect two to six weeks for the whole process and when they starting with they may apply for multiple companies and they need to consider this timing right yeah so because I know you're helping people in the interview process would you like to intro to tell us more detail about each of these steps and give us some kind of idea about what we can expect there and some details about some of them i know company by company can be different but I would like to know a bit more about that."
+    },
+    {
+      "n": 19,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "yeah so definitely in the chat um I feel like I'm sounding like a broken record here but I just can'stress how important it this it is to not just speak about your tech speak about the problem you identified the problem you solved the commercial impact those in the first two steps I think are are important in the technical stages don't start coding before you clarify the problem always ask questions around what problem you're actually trying to solve here clarify clarify clarify before you write any line of code and look even if you get stuck I always tell people think out loud um you know talk through your thought processes with with the hiring manager uh make sure they know exactly what you'thinking how you're approaching a problem uh because sometimes they're not looking for you to solve the technical they're actually looking for a a like a deep dive into the way you think when you problem solve um so you know and then you know saying we a lot as well is uh I would suggest like not saying we especially if you specifically own the part of the problem um say I it's a little thing but it's just one of these psychological things that can make a difference um ask questions about the product ask questions about the business be genuinely curious um you know do your research maybe even try the product beforehand if if you can uh and then don't don't don't overthink don't overengineer make sure you can finish the test within the the time limit don't be too ambitious right because that can bite you in the foot."
+    },
+    {
+      "n": 20,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "yeah I like the idea that you said don't mention V because normally now in this in company we always try to say V but in the interview they're going to hire you not your team so you should say I did this thing or that thing yeah yeah that's interesting and and let's go back about the first step of the interview because you know we we apply for lots of jobs and then somebody invited us for the first round of the interview so in that first round especially for preparing for that one what's your suggestion for that because this is the first time we speaking with somebody probably a recruiter in that company or some maybe hiring manager depends on the company so what's your suggestion for that what's a preparation that we should do for that."
+    },
+    {
+      "n": 21,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "um so if you're speaking to the hiring manager have a list I guess of all of I would say the most most most of the time people want to figure out how are you leveraging AI nowadays so have a have an answer prepared for that people want to know sort of how what are the hardest technical challenges that you've solved to date um cuz that gives them a a sort of an insight into you know how good you are technically at this point um I'd have a list of your best accomplishments prepared and I will also do a lot of research into the company but don't if you want to do an extra like cherry on top as well don't just do research into the company do research into the person that's interviewing you see where he's worked see who he's worked with see the problems that he solved th this is always like a nice thing for people to hear you know people love hearing about themselves um so you know if you can sort of build any commonality between sort of where he used to work you know how those projects are similar to what you've done in the past that's a very very good sign."
+    },
+    {
+      "n": 22,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "yeah I really like that part to to just go check their profile because normally most of they're sharing LinkedIn or something so you can go check their profile what they work on what's their interest is and then you can find some kind of common things and speak about them yeah that's great actually suggestion here and the next question that I can have is what's the most common mistakes that engineering is having in interview process."
+    },
+    {
+      "n": 23,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "um like I said you know like not clarify the problem not not like coding before clarifying is is bad you know not thinking out loud um not trying the product not not sort of doing any research um yeah th those are things I generally avoid."
+    },
+    {
+      "n": 24,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "i see makes sense yeah yeah and u about job searching that when we do so um it it can finish with the rejection in the process and um it's going to obviously affecting the confidence of the people so 100% how do you stop that from affecting your confidence how you can recover actually from that situation when you're getting probably lots of rejection maybe every single day literally yesterday I read a message somebody said I got 21 uh rejection yesterday this is my record is anybody break this record for example so yeah what's your suggestion here in this situation because it's always hard to find a new job I think."
+    },
+    {
+      "n": 25,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "yeah that's a really good question I think you know how you handle rejection firstly it's a mindset thing right uh you know a lot of the times it's not about you it it's not that you're not right or you can't do the job sometimes it's often about timing they might have another candidate that they've they that's slightly better from a cultural perspective or just did a slightly better than you on the day cuz you can't be 100% yourself and do the best every single day we're human after all right um so don't let it get you down right um it it it's usually down to timing or a specific fit not your overall ability so I would always remember that um and then track you know sort of where you've been rejected right so look if you're not getting any CVs to go through the screening rounds you might need to fix your CV if you're failing the technical stages you might need to put you know prepare more on sort of you know your paired programming or or your backend sort of scalability or or stuff like that um you know if you're failing failing like final rounds you need to work on articulating your story articulating you know sort of where you've been and showing why you're a good match for the culture that they're looking for um so keep doing things on the side as well uh you know if you're going through interviews and you don't have a job right now keep yourself busy those are these are all things that you can use as ammunition to bring into the next interview that you have um and just keep going every interview you're going to identify where you've gone wrong and it's only going to make you you know do better in the next stage."
+    },
+    {
+      "n": 26,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "yeah yeah keep going that's that's the most important part here in the process yeah and let's speak about the LinkedIn and GitHub so how important are they uh is that matter to have them in the CV should we include should exclude what do you think."
+    },
+    {
+      "n": 27,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "yeah I think definitely include your LinkedIn and your GitHub uh especially you know if your GitHub has a lot of commits and you're very active on it definitely definitely include it uh LinkedIn I would say is essential like everyone should have a LinkedIn nowadays uh I'm speaking from a recruiter's perspective but it is you know where I find people it is where I look at your experience uh and you know without a LinkedIn it can be harder um to sort of you know go through that sort of screening process um so I would keep your LinkedIn current i would put like some information as well in your under your LinkedIn of like what you've specifically done for each company um so yeah so I I think LinkedIn is definitely essential."
+    },
+    {
+      "n": 28,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "i see makes sense and about the GitHub so if there's no contribution in there is that needed or no."
+    },
+    {
+      "n": 29,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "if you literally have no contributions it might end up hurting you it's your call i would say it can end up hurting you um because if you have no contributions and if the engineering manager is looking at that um and they let's say they have two candidates one has a lot of GitHub contributions one doesn't um you know they might go with the one that does have the contributions just cuz it shows that they're more sort of into what they do dayto-day um it's not always the case right but um yeah if you if you if you're very unactive I would say just include your LinkedIn it should be fine."
+    },
+    {
+      "n": 30,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "yeah cool and and LinkedIn I assume should be updated right not outdated LinkedIn include a lot of the things that you work and all of the achievements that you have obviously."
+    },
+    {
+      "n": 31,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "100% yeah yeah."
+    },
+    {
+      "n": 32,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "cool we have some comments i can see it's coming so you can ask questions and we're going to ask the all of the questions at the end so please comment in YouTube and we're going to ask them um from Sam so uh let's change the topic to JavaScript structure and and what we doing about that because you are a specialist in the JavaScript recruitment so what are companies looking for a JavaScript engineer right now."
+    },
+    {
+      "n": 33,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "i think uh now companies increasingly especially for my my my sort of clients they're looking for Typescript uh experience um they're looking for you know mostly react and next and then you know sort of node and nest on the on the back end um in terms of like um you know the specific profile I think most companies are looking for full stack backend leaning engineer which just means you probably spend you know 70% of your time you know working the back end and then the other the other 30% sort of working front end with front end technologies i think that's the biggest um desire in the market right now from clients um and then obviously this is not just for JavaScript this is just for engineering in general i think having like very relevant AI native skills uh in your CV now you don't need to be an AI engineer you don't need to have experience with rag or you know multi-agent orchestration layers all you need to do is show people that you can leverage AI like code uh codeex cursor claude um to increase your output in in your developmental workflows um and that's that's very important right now."
+    },
+    {
+      "n": 34,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "yeah that's a transition that we can see in the market everybody's searching for somebody who have already passed adoption layer and and they are using AI in daily usage so what on the other side of that what skill are most of the JavaScript engineing are are missing at the moment you see opening the CV ah this I'm going to reject this person just because this is skill missing for example."
+    },
+    {
+      "n": 35,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "that's a good question I think you know complete um if they don't use AI at all if there's no mention of AI and it also depends on like sort of what type of person I'm looking to hire right if I'm looking for a backend engineer and they don't mention mention nojs at all or they mention like PHP or something and I know my client uses TypeScript on the back end that that'll probably make me reject them instantly um you know stuff like you know SQL data modeling um you know people being able to write raw SQL is also quite is also an additional bonus to people looking for sort of good backend engineers as well um it it look it really depends on sort of the role um so I would always say tailor your CV and your skill sets to to the role that you're sort of applying for."
+    },
+    {
+      "n": 36,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "yeah that that's really interesting and important to to make sure that you don't have a huge gap especially when you're reading the job description you can see some of them are essential for that company some of them nice to have so there is a differentiation already you can see in the job description so read that make sure your CV is matching with that the more match the more chance you have to go for next stage and tell me about the infrastructure actually AWS GCP are they matter actually."
+    },
+    {
+      "n": 37,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "I would say no i would say it does matter it does matter like obviously experience with AWS GCP matters but from my understanding when speaking to engineers and speaking to uh engineering leaders like yourself John you know if someone can do GCP or someone can do AWS they are quite interchangeable um I think what people tend to focus on is the core stack so the language the front-end framework and the backend framework uh this is the most important thing in my sort of um in my world."
+    },
+    {
+      "n": 38,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "i see that's interesting answer that you're saying here and we can see the change in the market ai is literally changing everything the way that engineering working so what should engineering focus on over the next few years what what do you think about the future."
+    },
+    {
+      "n": 39,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "i think you know you need to keep your fundamentals sharp you need to learn sort of how to architect um in the in the right way uh as AI is going to be sort of deploying a lot of the code for you you need to make sure the feedback loops you're giving it are tight you know learn skills like sort of paralyzation um and sort of use AI to help you write code but don't use AI to help you generate ideas um I think that's that's very important you know people want sort of good problem solvers that can generate ideas that are creative rather than just someone who's really good at remembering syntax so lean to those skills lean towards learn those skills you know."
+    },
+    {
+      "n": 40,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "yeah totally makes sense yeah and we have some comments are you happy to check one of those for example I can see it's uh Resza asking is LinkedIn URL and email enough for contact detail on resume for UK is UK Germany etc resume different um."
+    },
+    {
+      "n": 41,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "yeah I I tend to say you know put your LinkedIn URL your GitHub URL if you're okay your contact number and the best email to reach you if your contact number is based in Germany just make sure you have the right you know uh right dial code for Germany."
+    },
+    {
+      "n": 42,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "okay so you think mobile number is also needed in the CV generally."
+    },
+    {
+      "n": 43,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "I think so especially if you're applying direct if uh the internal recruiter wants to give you a call um you you know it is important that they know your number."
+    },
+    {
+      "n": 44,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "are you considering which country is from that number are you checking that or does it matter."
+    },
+    {
+      "n": 45,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "uh yeah actually I do if I'm only hiring in the UK and I see you know someone from India someone from Germany uh it might not it might be a red flag but that's why that's why it's important to sort of have your LinkedIn uh attached right because you could have a German phone and but you actually could have recently just moved to the UK and on your LinkedIn if you write you know sort of London England or you know wherever you are people might still give you a call uh if that could be through WhatsApp could could be through teams um so so yeah just try and avoid any u sort of um confusion um I guess the best thing that you can do is just write based in Germany or based in the UK on your CV."
+    },
+    {
+      "n": 46,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "i see yeah makes sense um one question I have actually here so if somebody living somewhere close to for example London and the company is located in London should they mention the city for example let's say reading or should they mention London for example um."
+    },
+    {
+      "n": 47,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "that's a good question i think most recruiters uh will look at how like close your where you live is is to their office um so I I would just say just be specific and just be just be truthful um you know if you live in Reading and the job's in London it shouldn't be a problem if especially if you'got a good profile and the recruiter wants to talk to you they they will know it's it's close enough where you know you might be happy to travel especially if you've applied so um yeah I would just say just keep it specific you know maybe just name your city reading London Birmingham you know Manchester whatever it is."
+    },
+    {
+      "n": 48,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "i see makes sense we have few more comments uh if you ask we're going to Yeah cool so the next question that we have is is that true although companies can be sponsored must prefer not to hire from Iran what should we do."
+    },
+    {
+      "n": 49,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "i don't know if companies like to hire from Iran or not to be honest i think look if you've got the skills if you've got the commercial impact if you if you'got the right profile that a company is looking for they will hire you um you if you are in Iran as well maybe and they are offering sponsorship you you might put happy to relocate you know in your CV um so you know the recruiter knows you you can definitely move to London um yeah I I would say it's not really about the country it's it's about the person and the skill set and how they come across when when they speak to you."
+    },
+    {
+      "n": 50,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "yeah cool that's a nice answer and next question that we have on what job board are JavaScript role of UK mostly posted on I think the question is which site we should find job something like that."
+    },
+    {
+      "n": 51,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "yeah so I typically use three i I I guess there's more out there but I use LinkedIn I use welcome to the jungle and then I use cord as well."
+    },
+    {
+      "n": 52,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "h interesting i didn't use those two i'm going to check them and the next question u does the name of big companies or universities make a difference in in CV."
+    },
+    {
+      "n": 53,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "it depends on who's looking to hire right if you work for Amazon then Google would probably want to hire you if you work for Amazon or bigger organization and you're looking to um apply for a startup it could actually end up hurting you that's why I think it's so important to put context in your CV because you could have worked for you could have worked for a big company that acted but your specific team was shipping and deploying and acting like a startup uh and then it would be actually a much better fit to some of my other clients but you know we tend to say if you work for bigger conglomerates um it tends to show you you start building a sort of candidate profile in your head and you know people that work in bigger companies are you know there's more layers there more bureaucracy it's less fast moving um so it might not always be the best fit for a startup but that's in a case by case scenario if you've worked on Greenfield project if you shipped fast then you know I I would still definitely give you a call."
+    },
+    {
+      "n": 54,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "makes sense and what about university."
+    },
+    {
+      "n": 55,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "yeah universities definitely definitely include um good good universities and you know sort of you know even if your education is not computer science I would I would definitely include it as well as sort of you know what score you got um that always helps as well especially if you got like a merit or distinction I'd definitely put that in there."
+    },
+    {
+      "n": 56,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "i see the next question i'm not sure we can answer this properly but will you hire a full remote position from Iran i can answer this actually because of the sanction and the breast maybe it's not the best location that companies can hire from there also the payments going to be a problem so uh there are multiple reason that company probably going to prevent but if you want to add something here Sam."
+    },
+    {
+      "n": 57,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "to be honest I am not sure when it comes to this sort of thing um uh so I'd say listen to John."
+    },
+    {
+      "n": 58,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "thank you the next question that we have is experience NJS backend dev targeting global roles should I focus on deep nodejs uh internal or expanded to clothe system design."
+    },
+    {
+      "n": 59,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "it just it it really depends on like I said all of this depends on like the um job ad that you're applying to if the job ad says we we're looking for you know deep nodes JS internals then you know make that apparent you know if you if the sort of role is looking for you know more sort of cloud and systems design make that more apparent i would I would tailor it's so easy to tailor your CV nowadays with Claude i would I would definitely tailor your CV um to to the job spec spec you are sort of applying to but um I I guess as a rule of thumb just make sure there's no misinformation on there because some sometimes you know um AI can hallucinate uh if you don't give it clear instructions it can put things that you've not done in there uh so double check and make sure all the information is accurate and truthful because you know if the recruiter then asks you about a specific line on your CV and you actually haven't done it it it's almost an instant no right because you've broken that trust."
+    },
+    {
+      "n": 60,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "yeah yeah yeah that's that's really important and I have one more question here um Massud asking I'm based on Netherland and want to work for UK companies is visa sponsorship realistic right now or are remote arrangements is a better option."
+    },
+    {
+      "n": 61,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "i would say you you are probably seeing more EU remote roles out there right now there are we work with companies that do offer sponsorship um so and they also offer relocation fees uh for exceptional candidates so they are you know the there is a case where you can get a sponsorship from a company and get relocated but I would say you know nine times out of 10 the remote the EU remote roles are are sort of um you know um more popular in the market right now."
+    },
+    {
+      "n": 62,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "yeah and I have one more question actually um which I can ask how much difference a referral uh can be so if I apply directly just go to the website and apply or just from the LinkedIn or I find somebody in that company and apply internally as a referral what's the difference between these two how much is going to improve my chance."
+    },
+    {
+      "n": 63,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "do you mean a referral from an engineer that's working in a company you want to apply for."
+    },
+    {
+      "n": 64,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "yeah."
+    },
+    {
+      "n": 65,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "that's that's going to make a big difference um you know it is at the end of the day it's it's it's sort of all based around people and relationships and look if I'm giving my if I say someone's a good engineer and you know your company already rates you as an engineer they hired you for a reason they think you're good so if you then give someone else a referral and say you know this is a great engineer I think you should speak to them i think it really puts you on the top of the pile um so I think that's very important but equally management referrals are very important as well if a client is let's say they have two candidates at interview stage and they can't decide they like them both equally but one candidate already has their managerial referrals and numbers and emails attached and the other candidate you would have to let the internal HR teams or or whoever is managing the process to go out and find those referrals that might just tip it in your favor so I would say if you can get to manager's referral as well."
+    },
+    {
+      "n": 66,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "yeah totally makes sense it's going to take a just literally change the chance of."
+    },
+    {
+      "n": 67,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "absolutely they're going to probably the high chance they're going to speak with you and if there are have two options probably that's going to make a huge change also in that pace."
+    },
+    {
+      "n": 68,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "i have one last question here to ask from you u we have Mohaba looks like asking is there any chance a person who is not fluent in English get hired what level is a must."
+    },
+    {
+      "n": 69,
+      "label": "Guest",
+      "person": "SB",
+      "start": null,
+      "text": "that's a good question yeah that is a good question your your English sounds pretty good though judging by that question I think you'd be fine um it's it's it's it's a difficult one to be honest i think if you are applying for a UK startup at least have good enough English where you can understand sort of the technical requirements and also you know what sort of direction what the product direction is going to be um it does depend role to role but especially a VCbacked startup and scale up because you're so close with sort of the customers you you're you're so like I can'explain it but like you're so close to the different stakeholders you know communication is a very important thing i know it might not be the answer people are hoping for but you know definitely I think within a startup environment having a good standard of English where you can understand everything is quite important I'd say."
+    },
+    {
+      "n": 70,
+      "label": "Interviewer",
+      "person": "JA",
+      "start": null,
+      "text": "yeah he said thanks because you said his English is good but generally I can suggest everybody this is investment that you can do on yourself to improve your English so anyway that's going to help you in future not just this job that you're searching in future also so invest on yourself always is going to you can see the value after a couple of years easily so u thank you for your time Sam that was great um u we already asking a lot of the questions and everything u thank you for your time that was great and I think it's going to help people a lot u have a nice day everybody and see you later on the next live thanks everybody bye-bye."
+    }
+  ]
+}

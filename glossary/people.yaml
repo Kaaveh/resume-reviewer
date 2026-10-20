@@ -1,0 +1,14 @@
+# Person registry (spec 01 section 4). One code per person across all sources; roles are per
+# source, in sources/*.yaml. Aliases are known mis-transcriptions and feed `corrections`.
+people:
+  JA: {name: John Adib, kind: recruiter, aliases: [جان ادیب, جان]}
+  SB: {name: Sam Baldwin, kind: recruiter, aliases: []}
+  TW: {name: Tomasz Wojtyczko, kind: recruiter, aliases: ["too much", Tomas]}
+  JB: {name: Joe Bignell, kind: recruiter, aliases: []}
+  H01: {name: Sahar, kind: host, aliases: [سحر]}
+orgs:
+  Vention: [Venshin, vention]
+  VirtueTech: []
+places:
+  Uzbekistan: [Isbekistan]
+  Kyrgyzstan: [Kyrgystan]

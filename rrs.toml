@@ -1,0 +1,27 @@
+# Settings for the rrs pipeline. Segmentation settings change sentence IDs (ADR 0002):
+# changing them means re-running Phase 1 and re-anchoring every claim.
+
+[segment]
+max_words = 40               # length guard: split at the comma nearest the middle above this
+hard_max_words = 60          # split at the middle word above this when there is no comma
+min_fragment_words = 3       # fragments shorter than this merge into the previous sentence
+window_words = 25            # window size for unpunctuated turns
+unpunctuated_avg_words = 40  # a turn whose punctuation gives longer sentences on average is unpunctuated
+
+[lang]
+fa_min = 0.5   # share of Arabic-script letters at or above which a sentence is "fa"
+en_max = 0.1   # share at or below which it is "en"; anything between is "mixed"
+
+[chunks]
+budget_fa = 12000        # max characters per chunk when Persian dominates the source
+budget_en = 24000        # max characters per chunk when English dominates
+context_host_sentences = 2
+
+[reanchor]
+accept = 90              # rapidfuzz partial_ratio at or above: accepted
+review = 75              # at or above (and below accept): review; below: manual
+time_window_s = 120      # sources with timing: search within this many seconds of the legacy time
+max_window_sentences = 3
+
+[ledger]
+count_independent_hosts = false

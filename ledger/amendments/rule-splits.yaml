@@ -1,0 +1,191 @@
+# Compound rules split into their clauses (owner decision 2026-10-20). Applied with
+# `uv run rrs ledger amend`.
+- claim: SB-05
+  reason: 'Owner decision 2026-10-20: STR-5 split into its clauses.'
+  set:
+    rules:
+    - STR-27
+- claim: SB-46
+  reason: 'Owner decision 2026-10-20: STR-5 split into its clauses.'
+  set:
+    rules:
+    - STR-27
+    - STR-28
+- claim: JA-13
+  reason: 'Owner decision 2026-10-20: STR-5 split into its clauses.'
+  set:
+    rules:
+    - STR-28
+- claim: JA-107
+  reason: 'Owner decision 2026-10-20: STR-5 split into its clauses.'
+  set:
+    rules:
+    - STR-27
+- claim: JB-24
+  reason: 'Owner decision 2026-10-20: REG-1 split into its clauses.'
+  set:
+    rules:
+    - REG-14
+    - REG-15
+- claim: SB-40
+  reason: 'Owner decision 2026-10-20: REG-1 split into its clauses.'
+  set:
+    rules:
+    - REG-14
+- claim: SB-42
+  reason: 'Owner decision 2026-10-20: REG-1 split into its clauses.'
+  set:
+    rules:
+    - REG-14
+- claim: TW-62
+  reason: 'Owner decision 2026-10-20: REG-1 split into its clauses.'
+  set:
+    rules:
+    - REG-14
+- claim: SB-39
+  reason: 'Owner decision 2026-10-20: REG-4 split into its clauses.'
+  set:
+    rules:
+    - REG-17
+- claim: SB-41
+  reason: 'Owner decision 2026-10-20: REG-4 split into its clauses.'
+  set:
+    rules:
+    - REG-18
+- claim: TW-59
+  reason: 'Owner decision 2026-10-20: REG-4 split into its clauses.'
+  set:
+    rules:
+    - REG-16
+- claim: TW-60
+  reason: 'Owner decision 2026-10-20: REG-4 split into its clauses.'
+  set:
+    rules:
+    - REG-16
+    - REG-17
+- claim: JA-40
+  reason: 'Owner decision 2026-10-20: REG-4 split into its clauses.'
+  set:
+    rules:
+    - REG-16
+- claim: JA-104
+  reason: 'Owner decision 2026-10-20: REG-4 split into its clauses.'
+  set:
+    rules:
+    - REG-17
+- claim: JB-25
+  reason: 'Owner decision 2026-10-20: CHN-1 split into its clauses.'
+  set:
+    rules:
+    - CHN-15
+    - CHN-16
+- claim: JB-26
+  reason: 'Owner decision 2026-10-20: CHN-1 split into its clauses.'
+  set:
+    rules:
+    - CHN-17
+- claim: JB-27
+  reason: 'Owner decision 2026-10-20: CHN-1 split into its clauses.'
+  set:
+    rules:
+    - CHN-15
+- claim: JB-41
+  reason: 'Owner decision 2026-10-20: CHN-1 split into its clauses.'
+  set:
+    rules:
+    - CHN-16
+- claim: SB-49
+  reason: 'Owner decision 2026-10-20: CHN-1 split into its clauses.'
+  set:
+    rules:
+    - CHN-15
+- claim: TW-22
+  reason: 'Owner decision 2026-10-20: CHN-1 split into its clauses.'
+  set:
+    rules:
+    - CHN-17
+- claim: TW-23
+  reason: 'Owner decision 2026-10-20: CHN-1 split into its clauses.'
+  set:
+    rules:
+    - CHN-17
+- claim: TW-57
+  reason: 'Owner decision 2026-10-20: CHN-1 split into its clauses.'
+  set:
+    rules:
+    - CHN-15
+- claim: TW-58
+  reason: 'Owner decision 2026-10-20: CHN-1 split into its clauses.'
+  set:
+    rules:
+    - CHN-15
+    - CHN-16
+- claim: JB-44
+  reason: 'Owner decision 2026-10-20: CHN-2 split into its clauses.'
+  set:
+    rules:
+    - CHN-18
+    - CHN-19
+- claim: JB-45
+  reason: 'Owner decision 2026-10-20: CHN-2 split into its clauses.'
+  set:
+    rules:
+    - CHN-19
+- claim: JB-47
+  reason: 'Owner decision 2026-10-20: CHN-2 split into its clauses.'
+  set:
+    rules:
+    - CHN-18
+    - CHN-19
+- claim: JB-48
+  reason: 'Owner decision 2026-10-20: CHN-2 split into its clauses.'
+  set:
+    rules:
+    - CHN-19
+- claim: SB-31
+  reason: 'Owner decision 2026-10-20: CHN-2 split into its clauses.'
+  set:
+    rules:
+    - CHN-18
+- claim: TW-30
+  reason: 'Owner decision 2026-10-20: CHN-2 split into its clauses.'
+  set:
+    rules:
+    - CHN-20
+- claim: TW-31
+  reason: 'Owner decision 2026-10-20: CHN-2 split into its clauses.'
+  set:
+    rules:
+    - CHN-18
+- claim: TW-34
+  reason: 'Owner decision 2026-10-20: CHN-2 split into its clauses.'
+  set:
+    rules:
+    - CHN-18
+- claim: SB-30
+  reason: 'Owner decision 2026-10-20: CHN-7 split into its clauses.'
+  set:
+    rules:
+    - CHN-21
+    - CHN-22
+- claim: TW-33
+  reason: 'Owner decision 2026-10-20: CHN-7 split into its clauses.'
+  set:
+    rules:
+    - CHN-21
+- claim: JB-18
+  reason: 'Owner decision 2026-10-20: GAP-1 split into its clauses.'
+  set:
+    rules:
+    - GAP-6
+    - GAP-7
+- claim: SB-27
+  reason: 'Owner decision 2026-10-20: GAP-1 split into its clauses.'
+  set:
+    rules:
+    - GAP-7
+- claim: TW-56
+  reason: 'Owner decision 2026-10-20: GAP-1 split into its clauses.'
+  set:
+    rules:
+    - GAP-6

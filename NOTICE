@@ -1,0 +1,10 @@
+The MIT License in LICENSE covers the code, the skill (skill/SKILL.md), the specs and
+decisions (docs/), the rule index and recruiter profiles written for this project, and the
+synthetic eval cases.
+
+It does not cover what the interviewed speakers said. The transcripts (transcripts/), the
+material generated from them (corpus/, chunks/) and the quotes inside the claims ledger
+(ledger/claims.jsonl, ledger/staging/, ledger/claims-ledger.md) reproduce the words of the
+people in the four interviews listed in README.md. Those words belong to them. They are
+included for research and so that every claim can be checked against its source; no license
+to reuse them is granted here. Speakers who want their material removed can open an issue.

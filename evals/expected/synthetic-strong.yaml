@@ -1,0 +1,6 @@
+# Target: the default target (senior Android, EU/DACH, relocating). False-positive check.
+verdict: invite
+must_flag: []
+max_severity: Medium                        # no Critical or High findings
+must_not_flag: [RED-2, ACH-1, ACH-6, SKL-4, SKL-10]
+must_include: [ten_second_verdict, evidence_labels]

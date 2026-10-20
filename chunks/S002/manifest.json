@@ -1,0 +1,64 @@
+{
+  "schema": "rrs.chunks.manifest/1",
+  "source_id": "S002",
+  "transcript_version": 1,
+  "transcript_sha256": "afc84e2d3ea60d50ce0d39b689e6def3bda4bb818af30849ffb3a5178fc16759",
+  "budget": 24000,
+  "chunks": [
+    {
+      "id": "S002.c001",
+      "file": "c001.md",
+      "first": "S002.t0001.s001",
+      "last": "S002.t0031.s001",
+      "chars": 22579,
+      "sentences": 146,
+      "episodes": [
+        "S002.e01",
+        "S002.e02",
+        "S002.e03",
+        "S002.e04",
+        "S002.e05",
+        "S002.e06",
+        "S002.e07",
+        "S002.e08",
+        "S002.e09",
+        "S002.e10",
+        "S002.e11",
+        "S002.e12",
+        "S002.e13",
+        "S002.e14"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S002.c001.jsonl",
+      "merge_commit": "f5636a9"
+    },
+    {
+      "id": "S002.c002",
+      "file": "c002.md",
+      "first": "S002.t0032.s001",
+      "last": "S002.t0070.s005",
+      "chars": 20182,
+      "sentences": 128,
+      "episodes": [
+        "S002.e15",
+        "S002.e16",
+        "S002.e17",
+        "S002.e18",
+        "S002.e19",
+        "S002.e20",
+        "S002.e21",
+        "S002.e22",
+        "S002.e23",
+        "S002.e24",
+        "S002.e25",
+        "S002.e26",
+        "S002.e27",
+        "S002.e28",
+        "S002.e29"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S002.c002.jsonl",
+      "merge_commit": null
+    }
+  ]
+}

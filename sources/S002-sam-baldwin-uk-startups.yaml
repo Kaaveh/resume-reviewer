@@ -1,0 +1,22 @@
+id: S002
+slug: sam-baldwin-uk-startups
+transcript_file: "Sam Baldwin, JavaScript recruiter.md"
+transcript_version: 1
+url: null                 # not in the NotebookLM export; add when known
+title: "How to get hired by a UK startup?"
+channel: null
+upload_date: null
+recorded_date: null
+duration_s: null
+languages: [en]
+format: interview
+people:
+  - {person: SB, role: guest}
+  - {person: JA, role: host}
+speakers: {Guest: SB, Interviewer: JA}
+speakers_confirmed: true
+speaker_overrides: []
+corrections: []
+notes: >-
+  The transcript starts mid-sentence (the export has no title block or Source line), so the
+  opening of the interview is missing.

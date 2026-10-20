@@ -1,0 +1,1010 @@
+# Rule index (spec 02 section 4). Starts empty (02 section 11): rules are proposed during
+# extraction in ledger/staging/<source>.new-rules.yaml, accepted by the owner, and appended here
+# by `rrs ledger rules --accept <source>`. IDs are permanent: retire, never renumber or delete.
+- id: SCR-1
+  category: SCR
+  text: The first pass only decides whether there is enough relevant experience to keep reading; it is
+    not a read of the whole career.
+  check: Is enough relevant experience visible at a first glance, from the top of page one?
+  status: active
+  added_in: v1.0
+- id: SCR-2
+  category: SCR
+  text: Screeners read the most recent role first and judge fit mainly from recent, relevant experience.
+  check: Does the most recent role, at the top of the experience section, show the target role's core
+    stack and kind of problem? Is the experience in reverse date order?
+  status: active
+  added_in: v1.0
+- id: SCR-3
+  category: SCR
+  text: The technical fit for the target role must be obvious on page one, without the reader searching
+    for it.
+  check: Are the target role's must-have skills visible on page one? Would a recruiter hiring for that
+    stack have to search through pages to find it?
+  status: active
+  added_in: v1.0
+- id: ATS-1
+  category: ATS
+  text: Include the target role's keywords so recruiter searches and ATS filters find the CV.
+  check: Does the CV contain the job description's must-have terms in the same wording?
+  status: active
+  added_in: v1.0
+- id: ATS-2
+  category: ATS
+  text: Write the CV for a human reader, not for the ATS; keyword lists without context make it unreadable.
+  check: Are keywords embedded in statements about the work, or are there buzzword strings and stuffed
+    keyword blocks?
+  status: active
+  added_in: v1.0
+- id: ATS-3
+  category: ATS
+  text: Screeners use the ATS to screen out applicants who fail a hard requirement of the role, such as
+    security clearance eligibility.
+  check: If the job has a hard requirement (clearance, eligibility, mandatory certification), does the
+    CV state the candidate's status for it in plain words?
+  status: active
+  added_in: v1.0
+- id: STR-1
+  category: STR
+  text: Keep the CV focused; do not document every task from every job.
+  check: Are older or less relevant roles cut down to the essentials? Does any role list routine duties
+    at length?
+  status: active
+  added_in: v1.0
+- id: STR-2
+  category: STR
+  text: CV length in pages.
+  check: Count pages; compare with the recruiters' common range, minding the experience each range was
+    given for.
+  status: active
+  added_in: v1.0
+  measure:
+    unit: pages
+    question: How long should the CV be?
+- id: STR-3
+  category: STR
+  text: Use a plain layout the reader can navigate quickly; fancy graphics add nothing.
+  check: Are there graphics, icons, skill bars, heavy colors or multi-column designs that slow down skimming?
+  status: active
+  added_in: v1.0
+- id: STR-4
+  category: STR
+  text: Open the CV with a few tailored sentences saying who you are, what you specialize in and why you
+    fit the role.
+  check: Is there a short summary at the top? Is it specific to the target role, or generic?
+  status: active
+  added_in: v1.0
+  notes: Reworded 2026-10-20 without a number; summary length is the measure STR-21.
+- id: ACH-1
+  category: ACH
+  text: Under each role, describe the problem, the candidate's personal contribution and the result, not
+    a list of technologies or responsibilities.
+  check: Does each recent role say what was built, what the candidate personally did and what changed?
+    Flag bullets that are only technology names or duties.
+  status: active
+  added_in: v1.0
+- id: SKL-1
+  category: SKL
+  text: A technology list on page one shows the required skill set at a glance.
+  check: Is there a skills or technologies section on page one?
+  status: active
+  added_in: v1.0
+- id: SKL-2
+  category: SKL
+  text: Do not repeat a full technology list under every role; name technologies in the context of the
+    work.
+  check: Do role entries end with long tech lists that repeat the skills section?
+  status: active
+  added_in: v1.0
+- id: GAP-1
+  category: GAP
+  text: A gap is not a problem in itself; show what was done during it to stay current (learning, projects).
+  check: For any gap of several months, does the CV show learning, projects or other activity in it?
+  status: retired
+  added_in: v1.0
+  superseded_by: GAP-6
+  notes: Split on 2026-10-20 into GAP-6, GAP-7 so each clause is counted separately.
+- id: REG-1
+  category: REG
+  text: Make the candidate's location and right-to-work status obvious.
+  check: Does the CV header state the current location and the right to work for the target country (or
+    the visa held)?
+  status: retired
+  added_in: v1.0
+  superseded_by: REG-14
+  notes: Split on 2026-10-20 into REG-14, REG-15 so each clause is counted separately.
+- id: REG-2
+  category: REG
+  text: Do not state a need for visa sponsorship on the CV.
+  check: Does the CV say the candidate needs sponsorship?
+  status: active
+  added_in: v1.0
+- id: CHN-1
+  category: CHN
+  text: Use referrals, networking and short tailored messages alongside applications; they get the CV
+    read more carefully.
+  check: Not a CV check; recommend it when the candidate relies only on cold applications.
+  status: retired
+  added_in: v1.0
+  superseded_by: CHN-15
+  notes: Split on 2026-10-20 into CHN-15, CHN-16, CHN-17 so each clause is counted separately.
+- id: CHN-2
+  category: CHN
+  text: Keep the LinkedIn profile complete and active, consistent with the CV.
+  check: Does the profile have a photo, full job history, a bio and some activity, matching the CV?
+  status: retired
+  added_in: v1.0
+  superseded_by: CHN-18
+  notes: Split on 2026-10-20 into CHN-18, CHN-19, CHN-20 so each clause is counted separately.
+- id: CHN-3
+  category: CHN
+  text: Skip a generic cover letter unless the employer asks for one; anything written should be short
+    and specific to the company.
+  check: Is there a generic cover letter about passion and hard work? If a letter is required, is it short
+    and specific?
+  status: active
+  added_in: v1.0
+- id: SCR-4
+  category: SCR
+  text: Time a screener spends on the first pass of a CV, in seconds.
+  check: 'Context for the first-pass rules: what must be visible within that time (SCR-1, SCR-3).'
+  status: active
+  added_in: v1.0
+  measure:
+    unit: seconds
+    question: How long does the first pass of a CV take?
+- id: ATS-4
+  category: ATS
+  text: Screening decisions are made by people reading the CV; the ATS is not relied on to judge candidates.
+  check: 'Context for ATS advice: write for the human reader and do not trade readability for keyword
+    density.'
+  status: active
+  added_in: v1.0
+- id: SCR-5
+  category: SCR
+  text: A recruiter has to justify internally why each candidate introduced to the hiring manager is worth
+    meeting.
+  check: Could a recruiter take two or three concrete reasons to shortlist from the CV?
+  status: active
+  added_in: v1.0
+  notes: 'Text narrowed on 2026-10-19 after the S004 verification: the CV conclusion was not stated by
+    the recruiter (ADR 0003); the check carries how a reviewer uses it.'
+- id: X-INT
+  category: X
+  text: Interview-stage advice (phone screens and later interviews).
+  check: n/a (out of scope)
+  status: active
+  added_in: v1.0
+- id: X-VISA
+  category: X
+  text: Visa routes and sponsorship processes.
+  check: n/a (out of scope)
+  status: active
+  added_in: v1.0
+- id: X-VOL
+  category: X
+  text: Application volume and targeting of employers.
+  check: n/a (out of scope)
+  status: active
+  added_in: v1.0
+- id: X-PROC
+  category: X
+  text: How hiring processes run.
+  check: n/a (out of scope)
+  status: active
+  added_in: v1.0
+- id: ACH-2
+  category: ACH
+  text: Under each role, name the business domain (such as fintech or healthcare) and the end customers
+    the work served.
+  check: Does each recent role say which domain the work was in and who the end customers were?
+  status: active
+  added_in: v1.0
+- id: CHN-4
+  category: CHN
+  text: Share of a recruiter's placements that came from referrals, in percent.
+  check: Context for CHN-1, how much hiring runs through referrals rather than applications.
+  status: active
+  added_in: v1.0
+  measure:
+    unit: percent
+    question: What share of a recruiter's placements comes from referrals?
+- id: SCR-6
+  category: SCR
+  text: Screeners look at where the candidate has worked (the employers) on the first look.
+  check: Are employer names easy to spot in each role heading?
+  status: active
+  added_in: v1.0
+- id: SCR-7
+  category: SCR
+  text: Screeners look at the candidate's tech stack on the first look.
+  check: Is the stack of each recent role easy to find, and does it match the target role's core stack?
+  status: active
+  added_in: v1.0
+- id: STR-5
+  category: STR
+  text: Include education (university and degree, with a notable grade such as merit or distinction),
+    even when the degree is not computer science.
+  check: Is there an education section with university, degree and any notable grade?
+  status: retired
+  added_in: v1.0
+  superseded_by: STR-27
+  notes: Split on 2026-10-20 into STR-27, STR-28 so each clause is counted separately.
+- id: SEN-1
+  category: SEN
+  text: For startup roles, give each employer's stage and funding (seed, series A, VC backing, amount
+    raised) and the tenure through it.
+  check: For startup applications, does each startup employer show its stage or funding?
+  status: active
+  added_in: v1.0
+- id: SEN-2
+  category: SEN
+  text: Visible progression within a company, such as a promotion to senior, is a positive signal.
+  check: Are promotions shown as separate titles with dates under the same employer?
+  status: active
+  added_in: v1.0
+- id: GAP-2
+  category: GAP
+  text: Explain gaps and short stints on the CV; unexplained ones are a red flag.
+  check: Is there a gap of several months, or a role of under about a year, without a reason given?
+  status: active
+  added_in: v1.0
+- id: SKL-3
+  category: SKL
+  text: Show where each listed technology was used (in which role or project).
+  check: For each key technology in the skills list, can the reader tell in which role it was used?
+  status: active
+  added_in: v1.0
+- id: RED-1
+  category: RED
+  text: Typos are a red flag.
+  check: Spell-check the whole CV.
+  status: active
+  added_in: v1.0
+- id: ACH-3
+  category: ACH
+  text: Lead each achievement with the outcome in plain English, then the technical detail, so a non-technical
+    screener can follow it.
+  check: Does each bullet state the problem or result in plain words before the technology names?
+  status: active
+  added_in: v1.0
+- id: ACH-4
+  category: ACH
+  text: Side projects and hackathons show genuine interest in the work and help a CV.
+  check: Are relevant side projects or hackathons listed?
+  status: active
+  added_in: v1.0
+- id: SEN-3
+  category: SEN
+  text: For startup roles, state zero-to-one product building experience explicitly.
+  check: For startup applications, if the candidate built a product from scratch, does the CV say so in
+    those words?
+  status: active
+  added_in: v1.0
+- id: SEN-4
+  category: SEN
+  text: For startup roles, a big-company background can count against the candidate unless the CV shows
+    startup-like work (greenfield projects, shipping fast).
+  check: For a startup application from a large company, does the CV describe the team's pace and greenfield
+    work?
+  status: active
+  added_in: v1.0
+- id: CHN-5
+  category: CHN
+  text: Include a LinkedIn URL on the CV.
+  check: Is there a LinkedIn URL in the header?
+  status: active
+  added_in: v1.0
+- id: CHN-6
+  category: CHN
+  text: Link GitHub only when it shows real activity; an empty GitHub can hurt.
+  check: If a GitHub link is present, does the profile show recent contributions?
+  status: active
+  added_in: v1.0
+- id: CHN-7
+  category: CHN
+  text: Recruiters use LinkedIn to find candidates and check their experience; without a profile, screening
+    is harder.
+  check: Context for CHN rules; flag a candidate with no LinkedIn profile.
+  status: retired
+  added_in: v1.0
+  superseded_by: CHN-21
+  notes: Split on 2026-10-20 into CHN-21, CHN-22 so each clause is counted separately.
+- id: SKL-4
+  category: SKL
+  text: Show on the CV how AI tools are used in the development workflow.
+  check: Does the CV mention concrete use of AI coding tools in daily work?
+  status: active
+  added_in: v1.0
+- id: RED-2
+  category: RED
+  text: Missing a core skill of the role's stack is a rejection.
+  check: Compare the job's core stack (language, main frameworks) with the CV; a missing core item is
+    critical.
+  status: active
+  added_in: v1.0
+- id: STR-6
+  category: STR
+  text: Tailor the CV to each job, so the skills and experience the job asks for are apparent.
+  check: Does the CV emphasize what this job's description asks for?
+  status: active
+  added_in: v1.0
+- id: SKL-5
+  category: SKL
+  text: Screeners weigh the core stack (language, frontend and backend frameworks) most; cloud providers
+    such as AWS and GCP are treated as interchangeable.
+  check: Context for SKL and RED rules; do not treat a different cloud provider as a missing core skill.
+  status: active
+  added_in: v1.0
+- id: REG-3
+  category: REG
+  text: Give contact details in the header, including email and a phone number with the correct country
+    code.
+  check: Are an email and a phone number with country code in the header?
+  status: active
+  added_in: v1.0
+- id: REG-4
+  category: REG
+  text: Screeners compare the candidate's location with the job's location, including the phone number's
+    country and the distance to the office.
+  check: Context for REG-1; does anything on the CV (phone code, address) suggest a location that conflicts
+    with the one stated?
+  status: retired
+  added_in: v1.0
+  superseded_by: REG-16
+  notes: Split on 2026-10-20 into REG-16, REG-17, REG-18 so each clause is counted separately.
+- id: REG-5
+  category: REG
+  text: If the candidate would relocate, say so on the CV (for example "happy to relocate").
+  check: For a candidate abroad, does the CV state willingness to relocate?
+  status: active
+  added_in: v1.0
+- id: RED-3
+  category: RED
+  text: Everything on the CV must be accurate and defensible; a line the candidate cannot back up is an
+    instant rejection.
+  check: Is any claim on the CV unsupported or likely to fall apart under a question (watch AI-written
+    lines)?
+  status: active
+  added_in: v1.0
+- id: REG-6
+  category: REG
+  text: Working English good enough to follow technical requirements and product direction is expected.
+  check: If the CV has a language section, is English stated at a working level?
+  status: active
+  added_in: v1.0
+- id: SKL-6
+  category: SKL
+  text: Startups look for breadth across the stack rather than a narrow focus on one layer.
+  check: For startup applications, does the CV show work across frontend, backend and data, not one layer
+    only?
+  status: active
+  added_in: v1.0
+- id: X-JOB
+  category: X
+  text: Job boards and channels.
+  check: n/a (out of scope)
+  status: active
+  added_in: v1.0
+- id: SCR-8
+  category: SCR
+  text: Screeners notice the CV's formatting first, before reading its content.
+  check: Context for STR-3; at a glance, does the CV look clean and easy to read?
+  status: active
+  added_in: v1.0
+- id: SCR-9
+  category: SCR
+  text: Screeners look at the candidate's job titles early in the first pass; a title may differ from
+    the target role's wording.
+  check: Do the job titles make the kind of role obvious?
+  status: active
+  added_in: v1.0
+- id: SCR-10
+  category: SCR
+  text: Screeners look for experience in the employer's industry (such as finance for a financial firm)
+    when the hiring manager asks for it.
+  check: If the job ad or manager asks for industry experience, is it visible in the role headings or
+    company context?
+  status: active
+  added_in: v1.0
+- id: RED-4
+  category: RED
+  text: Hiring managers spot AI-written CVs quickly and do not want to see too much AI in a CV.
+  check: Does the text read as generic AI output (standard phrasing, "responsible for building ...")?
+  status: active
+  added_in: v1.0
+- id: STR-7
+  category: STR
+  text: Between each job title and its bullet points, add a short paragraph on the company and the work
+    (what the company does, its sector, the team, the main problems and how they were solved).
+  check: Does each recent role open with a few lines of company context before the bullets?
+  status: active
+  added_in: v1.0
+- id: STR-8
+  category: STR
+  text: Length of the company context paragraph under each role, in lines.
+  check: Count the lines of each company paragraph (STR-7); compare with the recruiters' common range.
+  status: active
+  added_in: v1.0
+  measure:
+    unit: lines
+    question: How long should the company context paragraph under each role be?
+- id: CHN-8
+  category: CHN
+  text: Keep GitHub up to date, because hiring managers sometimes look it up even when the CV does not
+    link it.
+  check: If the candidate has a public GitHub, is it current?
+  status: active
+  added_in: v1.0
+- id: ACH-5
+  category: ACH
+  text: List coding contest ratings or algorithm practice (such as LeetCode or HackerRank) when the candidate
+    has them, briefly and highlighted, for example in a side column.
+  check: If the candidate has such a rating, is it on the CV without taking much space?
+  status: active
+  added_in: v1.0
+- id: SKL-7
+  category: SKL
+  text: Hiring managers want candidates with some exposure to agentic development or AI tools, and do
+    not want to hire anyone who is against AI.
+  check: Does the CV show any hands-on use of AI tools or agentic development?
+  status: active
+  added_in: v1.0
+- id: CHN-9
+  category: CHN
+  text: Hiring managers usually open a GitHub link on the CV and browse the projects quickly.
+  check: Context for CHN-6 and CHN-8; if GitHub is linked, what will a quick browse show?
+  status: active
+  added_in: v1.0
+- id: CHN-10
+  category: CHN
+  text: Use a standard job title (such as software engineer or senior data engineer) on LinkedIn and keep
+    it consistent, because recruiters search by standard titles.
+  check: Is the LinkedIn headline title a standard one, with any creative title only after it?
+  status: active
+  added_in: v1.0
+- id: REG-7
+  category: REG
+  text: Do not put a photo or pictures of any kind on the CV.
+  check: Is there a photo, logo or other picture on the CV?
+  status: active
+  added_in: v1.0
+- id: STR-9
+  category: STR
+  text: Keep every past employer and its dates on the CV; do not remove older jobs to look less experienced.
+  check: Are any employers or dates missing from the work history?
+  status: active
+  added_in: v1.0
+- id: STR-10
+  category: STR
+  text: Years of work history to describe in detail on the CV.
+  check: How far back do detailed role descriptions go? Compare with the recruiters' common range; older
+    roles can be listed without detail (STR-1).
+  status: active
+  added_in: v1.0
+  measure:
+    unit: years
+    question: How many years back should the CV describe roles in detail?
+- id: CHN-11
+  category: CHN
+  text: An open-to-work banner on LinkedIn does not count against the candidate with hiring managers.
+  check: Context only; do not advise removing the banner on this account.
+  status: active
+  added_in: v1.0
+- id: GAP-3
+  category: GAP
+  text: Length of an employment gap, in months, from which the CV should explain it.
+  check: Find gaps between roles; compare their length with the recruiters' common range and check that
+    longer ones are explained (GAP-2).
+  status: active
+  added_in: v1.0
+  measure:
+    unit: months
+    question: From what length should a gap be explained on the CV?
+- id: ATS-5
+  category: ATS
+  text: Employer ATS systems usually give each application an automatic AI score based on the keywords
+    in the job description.
+  check: Context for ATS-1; does the CV use the job description's keywords?
+  status: active
+  added_in: v1.0
+- id: X-FAKE
+  category: X
+  text: Fake or already-filled job ads.
+  check: n/a (out of scope)
+  status: active
+  added_in: v1.0
+- id: SCR-11
+  category: SCR
+  text: At larger companies the first screener is often an HR recruiter who knows the names of technologies
+    but cannot judge the technical detail of a CV.
+  check: Context for ACH-3 and SCR-7; would a non-technical reader see the match from titles and named
+    technologies alone?
+  status: active
+  added_in: v1.0
+- id: REG-8
+  category: REG
+  text: Do not list English test scores such as IELTS or TOEFL on the CV; many recruiters do not know
+    what they mean.
+  check: Is there an IELTS or TOEFL score on the CV?
+  status: active
+  added_in: v1.0
+- id: SKL-8
+  category: SKL
+  text: Group the skills list into categories.
+  check: Is the skills section grouped (languages, cloud, tools), not one flat list?
+  status: active
+  added_in: v1.0
+- id: STR-11
+  category: STR
+  text: Do not list courses in a section of their own; mention relevant ones in the summary or the bullet
+    points.
+  check: Is there a separate list of courses?
+  status: retired
+  added_in: v1.0
+  superseded_by: STR-29
+  notes: 'Retired 2026-10-20: worded from a mistranslation ("core strengths" read as courses); see reports/verification/S001.md.'
+- id: STR-12
+  category: STR
+  text: Leave references off the CV; they add nothing.
+  check: Is there a references section?
+  status: active
+  added_in: v1.0
+- id: SKL-9
+  category: SKL
+  text: Do not list soft skills in a section of their own; show them in the summary and the bullet points.
+  check: Is there a soft skills list (teamwork, leadership)?
+  status: active
+  added_in: v1.0
+- id: ACH-6
+  category: ACH
+  text: Make achievements measurable where possible.
+  check: Do the bullet points carry numbers (percentages, counts, time, money)?
+  status: active
+  added_in: v1.0
+- id: STR-13
+  category: STR
+  text: Left-align the text of an English CV; justified text is not needed.
+  check: Is the body text justified?
+  status: active
+  added_in: v1.0
+- id: REG-9
+  category: REG
+  text: On an English CV, listing English as a language adds nothing; leave it out.
+  check: Does an English CV list English in a languages section?
+  status: active
+  added_in: v1.0
+- id: STR-14
+  category: STR
+  text: In each role heading, put the job title first and more prominent than the company name.
+  check: Does each role heading lead with the job title?
+  status: active
+  added_in: v1.0
+- id: ACH-7
+  category: ACH
+  text: Give the scale of the work in the bullet points (how big the product, the company and the team
+    were).
+  check: Can a reader tell from the bullets how large the product, company and team were?
+  status: active
+  added_in: v1.0
+- id: ACH-8
+  category: ACH
+  text: Metrics that are all round numbers (25, 30, 40, 50 percent) look rounded, and screeners notice
+    it.
+  check: Are all the percentages round numbers?
+  status: active
+  added_in: v1.0
+- id: SKL-10
+  category: SKL
+  text: Show hands-on experience with testing tools (at least one or two) on the CV.
+  check: Does the CV name the testing tools used and how?
+  status: active
+  added_in: v1.0
+- id: ACH-9
+  category: ACH
+  text: Show that the candidate keeps learning new skills and technologies.
+  check: Does the CV show recent learning (new tools, courses applied in work, side projects)?
+  status: active
+  added_in: v1.0
+- id: STR-15
+  category: STR
+  text: Give each listed project its dates and context (in a job, freelance or personal).
+  check: Does every project say when and in what context it was done?
+  status: active
+  added_in: v1.0
+- id: REG-10
+  category: REG
+  text: A basic level of the local language (such as German A1) on the CV shows learning but is not a
+    working skill.
+  check: Context only; do not present a basic level as a usable language skill.
+  status: active
+  added_in: v1.0
+- id: REG-11
+  category: REG
+  text: The CV can use the name the candidate goes by (a nickname); the legal name is needed only where
+    an application form asks for it.
+  check: Context only; a nickname on the CV and LinkedIn is fine if used consistently.
+  status: active
+  added_in: v1.0
+- id: REG-12
+  category: REG
+  text: A candidate's name can affect how many interviews they get.
+  check: Context for REG-11.
+  status: active
+  added_in: v1.0
+- id: STR-16
+  category: STR
+  text: Present the candidate as a software engineer rather than as a developer of one language or framework
+    (such as a .NET developer).
+  check: Does the title or summary tie the candidate to one language?
+  status: active
+  added_in: v1.0
+- id: SCR-12
+  category: SCR
+  text: Screeners give the summary only a quick look.
+  check: Context for STR-4; can the summary be read in a glance?
+  status: active
+  added_in: v1.0
+- id: STR-17
+  category: STR
+  text: Do not use first-person pronouns (I, my) in the CV.
+  check: Do the summary or bullets use I, me or my?
+  status: active
+  added_in: v1.0
+- id: SCR-13
+  category: SCR
+  text: Screeners do not read a CV in full, even for candidates they invite to interview.
+  check: Context; what matters must be visible without a full read.
+  status: active
+  added_in: v1.0
+- id: CHN-12
+  category: CHN
+  text: Screeners do not read the cover letter in full; they may look at it when undecided about the CV.
+  check: Context for CHN-3; the CV must carry the decision on its own.
+  status: active
+  added_in: v1.0
+- id: SCR-14
+  category: SCR
+  text: Screeners judge the CV against the salary the candidate asked for; a higher salary raises the
+    bar.
+  check: If the application states a salary, does the CV justify it?
+  status: active
+  added_in: v1.0
+- id: SCR-15
+  category: SCR
+  text: A screener who is undecided about a CV rejects it, because an interview costs half an hour.
+  check: Context; a borderline CV is a rejected CV, so remove every doubt.
+  status: active
+  added_in: v1.0
+- id: SKL-11
+  category: SKL
+  text: Share of the skills listed in a job ad that the CV must show, in percent.
+  check: Count the job ad's listed skills the CV shows; compare with the recruiters' common range.
+  status: active
+  added_in: v1.0
+  measure:
+    unit: percent
+    question: What share of the skills a job ad lists must the CV show?
+- id: SEN-5
+  category: SEN
+  text: The more years of experience a CV claims, the more the screener expects it to show.
+  check: Do the achievements match what the stated years of experience lead a reader to expect?
+  status: active
+  added_in: v1.0
+- id: ACH-10
+  category: ACH
+  text: Put the biggest achievement at the top, where the reader sees it first.
+  check: Does the strongest result come first in the summary or the first role?
+  status: active
+  added_in: v1.0
+- id: STR-18
+  category: STR
+  text: Put certificates at the end of the CV.
+  check: Does a certificates section come before the work history?
+  status: active
+  added_in: v1.0
+- id: SKL-12
+  category: SKL
+  text: Listing a required technology in the skills section can be enough for a screener to invite the
+    candidate.
+  check: Context for SKL-11; is every required technology the candidate has used named in the skills section?
+  status: active
+  added_in: v1.0
+- id: STR-19
+  category: STR
+  text: Give each employer's location in the work history.
+  check: Does each role say where the employer is?
+  status: active
+  added_in: v1.0
+- id: STR-20
+  category: STR
+  text: Head the CV with the name and the job title; leave out invented taglines.
+  check: Is there a slogan or tagline in the header besides the name and title?
+  status: active
+  added_in: v1.0
+- id: STR-21
+  category: STR
+  text: Length of the summary at the top of the CV, in lines.
+  check: Count the summary's lines; compare with the recruiters' common range.
+  status: active
+  added_in: v1.0
+  measure:
+    unit: lines
+    question: How long should the summary at the top of the CV be?
+- id: STR-22
+  category: STR
+  text: Length of a bullet point, in lines.
+  check: Count the lines of each bullet; compare with the recruiters' common range.
+  status: active
+  added_in: v1.0
+  measure:
+    unit: lines
+    question: How long should a bullet point be?
+- id: ACH-11
+  category: ACH
+  text: In a large company, claim only the candidate's own part of an impact that a whole team or organization
+    produced.
+  check: Do bullets claim sole credit for company-wide results?
+  status: active
+  added_in: v1.0
+- id: SEN-6
+  category: SEN
+  text: A candidate hired from abroad must be stronger than the hiring team's average, because relocation
+    takes months and is an investment.
+  check: Context for the target profile; does the CV show the candidate would raise the team's level?
+  status: active
+  added_in: v1.0
+- id: ACH-12
+  category: ACH
+  text: Show ownership on the CV; the candidate took responsibility for work and delivered it to the end,
+    not just completed tasks.
+  check: Do the bullets show work the candidate drove and finished, and followed up after release?
+  status: active
+  added_in: v1.0
+- id: CHN-13
+  category: CHN
+  text: Link only profiles that add value; a Stack Overflow profile is rarely opened any more, and an
+    inactive one adds nothing.
+  check: Are there profile links (Stack Overflow, others) that are inactive or unlikely to be opened?
+  status: active
+  added_in: v1.0
+- id: SKL-13
+  category: SKL
+  text: A CV that lists JavaScript should also show TypeScript.
+  check: Does a JavaScript CV name TypeScript?
+  status: active
+  added_in: v1.0
+- id: STR-23
+  category: STR
+  text: Bold only what should catch the reader's eye, such as a strong result, not routine items like
+    the university name.
+  check: What is in bold, and is it what the reader should notice?
+  status: active
+  added_in: v1.0
+- id: GAP-4
+  category: GAP
+  text: Do not show a full-time job overlapping other work (another full-time job or freelance work).
+  check: Do the dates of a full-time role overlap other roles?
+  status: active
+  added_in: v1.0
+- id: RED-5
+  category: RED
+  text: Em-dashes read as a sign that AI wrote the CV.
+  check: Are there em-dashes or double dashes in the CV?
+  status: active
+  added_in: v1.0
+- id: ACH-13
+  category: ACH
+  text: Start bullet points with action verbs, and vary the first word.
+  check: Do the bullets start with action verbs, and not all with the same one?
+  status: active
+  added_in: v1.0
+- id: SEN-7
+  category: SEN
+  text: Show teamwork; presenting work as done alone is not an advantage, because hiring managers want
+    someone who will adapt to the team.
+  check: Do the bullets show work with a team, or only solo work?
+  status: active
+  added_in: v1.0
+- id: REG-13
+  category: REG
+  text: Write the whole CV in English; leave no text in another language.
+  check: Is any part of an English CV in another language?
+  status: active
+  added_in: v1.0
+- id: SKL-14
+  category: SKL
+  text: Do not repeat the same technology many times across the CV; naming it once is enough.
+  check: Is one technology named in the summary, the skills list and every role?
+  status: active
+  added_in: v1.0
+- id: SKL-15
+  category: SKL
+  text: Do not list skills labelled as basic.
+  check: Does the skills list mark any item as basic or beginner?
+  status: active
+  added_in: v1.0
+- id: STR-24
+  category: STR
+  text: Give the start and end month of each role, not just the year.
+  check: Do role dates include months?
+  status: active
+  added_in: v1.0
+- id: SKL-16
+  category: SKL
+  text: Include a skills section.
+  check: Is there a skills section?
+  status: active
+  added_in: v1.0
+- id: STR-25
+  category: STR
+  text: Under the name, write the title of the job being applied for, matching it.
+  check: Does the title under the name match the target job's title?
+  status: active
+  added_in: v1.0
+- id: SKL-17
+  category: SKL
+  text: Do not label skill proficiency levels (expert, advanced, intermediate, novice).
+  check: Does the skills section rate the candidate's level per skill?
+  status: active
+  added_in: v1.0
+- id: CHN-14
+  category: CHN
+  text: Number of GitHub contributions in a year from which a profile stands out.
+  check: Count last year's contributions; compare with the recruiters' common range before calling GitHub
+    a strength.
+  status: active
+  added_in: v1.0
+  measure:
+    unit: contributions
+    question: From how many GitHub contributions a year does a profile stand out?
+- id: SKL-18
+  category: SKL
+  text: Leave out practices every engineer uses, such as Agile; they add nothing.
+  check: Does the CV list generic practices (Agile, Scrum, Git) as if they were distinguishing?
+  status: active
+  added_in: v1.0
+- id: STR-26
+  category: STR
+  text: Education usually goes at the top of the CV only for fresh graduates without work experience.
+  check: Is education above experience on a CV with work experience?
+  status: active
+  added_in: v1.0
+- id: SKL-19
+  category: SKL
+  text: List technologies outside the target role when they relate to the job (such as frontend frameworks
+    on a backend CV); they count as a plus even when the job does not ask for them.
+  check: Does the CV leave out related technologies the candidate knows because the target role does not
+    name them, or list technologies with no link to the job?
+  status: active
+  added_in: v1.0
+- id: SCR-16
+  category: SCR
+  text: Screening outcomes depend on who reads the CV; different screeners can judge the same CV differently.
+  check: Present a verdict as one screener's likely view, not a certainty; do not over-fit the CV to a
+    single reader's preference.
+  status: active
+  added_in: v1.0
+- id: GAP-5
+  category: GAP
+  text: Experience at a startup that failed is not a problem; list it like any other job.
+  check: Does the candidate hide or apologize for work at a startup that no longer exists?
+  status: active
+  added_in: v1.0
+- id: STR-27
+  category: STR
+  text: Include education with the university's name and the degree, even when the degree is not computer
+    science.
+  check: Is there an education section naming the university and the degree?
+  status: active
+  added_in: split-2026-10-20
+- id: STR-28
+  category: STR
+  text: Give a notable grade (such as merit or distinction) in the education section.
+  check: Does the education entry show a notable grade where the candidate has one?
+  status: active
+  added_in: split-2026-10-20
+- id: REG-14
+  category: REG
+  text: State where the candidate is actually based (the city), truthfully, on the CV and LinkedIn.
+  check: Does the CV header name the current city, and does it match LinkedIn?
+  status: active
+  added_in: split-2026-10-20
+- id: REG-15
+  category: REG
+  text: Make the candidate's right-to-work status obvious.
+  check: Does the CV state the right to work for the target country (or the visa held)?
+  status: active
+  added_in: split-2026-10-20
+- id: REG-16
+  category: REG
+  text: Screeners compare the candidate's location with the job's location.
+  check: Does the stated location fit the job's location? If not, expect location to weigh in screening.
+  status: active
+  added_in: split-2026-10-20
+- id: REG-17
+  category: REG
+  text: Screeners notice a phone number from another country.
+  check: Does the phone number's country code conflict with the stated location?
+  status: active
+  added_in: split-2026-10-20
+- id: REG-18
+  category: REG
+  text: Screeners look at how far the candidate lives from the office.
+  check: For on-site or hybrid roles, how far is the stated location from the office?
+  status: active
+  added_in: split-2026-10-20
+- id: CHN-15
+  category: CHN
+  text: Ask for referrals; a referral gets the CV looked at more carefully.
+  check: Not a CV check; recommend it when the candidate relies only on cold applications.
+  status: active
+  added_in: split-2026-10-20
+- id: CHN-16
+  category: CHN
+  text: Network and build relationships alongside applications rather than relying only on applying.
+  check: Not a CV check; recommend it when the candidate relies only on cold applications.
+  status: active
+  added_in: split-2026-10-20
+- id: CHN-17
+  category: CHN
+  text: Send the hiring manager a short message saying why the candidate fits the role.
+  check: Not a CV check; recommend it alongside an application.
+  status: active
+  added_in: split-2026-10-20
+- id: CHN-18
+  category: CHN
+  text: Keep the LinkedIn profile complete and current (photo, full job history, what was done at each
+    job, a bio).
+  check: Does the profile have a photo, full and up-to-date job history and a bio?
+  status: active
+  added_in: split-2026-10-20
+- id: CHN-19
+  category: CHN
+  text: Be active and visible on LinkedIn rather than invisible.
+  check: Does the profile show some activity (posts, comments)?
+  status: active
+  added_in: split-2026-10-20
+- id: CHN-20
+  category: CHN
+  text: Keep LinkedIn consistent with the CV (dates, roles).
+  check: Do the dates and roles on LinkedIn match the CV?
+  status: active
+  added_in: split-2026-10-20
+- id: CHN-21
+  category: CHN
+  text: Recruiters and hiring managers use LinkedIn to find candidates and check their experience.
+  check: Context for CHN rules; flag a candidate with no LinkedIn profile.
+  status: active
+  added_in: split-2026-10-20
+- id: CHN-22
+  category: CHN
+  text: Without a LinkedIn profile, screening the candidate is harder.
+  check: Flag a candidate with no LinkedIn profile.
+  status: active
+  added_in: split-2026-10-20
+- id: GAP-6
+  category: GAP
+  text: A gap is not a problem in itself.
+  check: Do not treat a gap alone as a weakness; see GAP-7 and GAP-3.
+  status: active
+  added_in: split-2026-10-20
+- id: GAP-7
+  category: GAP
+  text: Show what was done during a gap to stay current (learning, projects).
+  check: For any gap of several months, does the CV show learning, projects or other activity in it?
+  status: active
+  added_in: split-2026-10-20
+- id: STR-29
+  category: STR
+  text: Do not add a separate core strengths section; put those points in the summary or the bullet points.
+  check: Is there a core strengths (or key strengths) section that repeats what the summary and bullets
+    should say?
+  status: active
+  added_in: S001-verification
+- id: RED-6
+  category: RED
+  text: A CV missing most of the skills the job lists is not moved to the next stage.
+  check: Count the job ad's listed skills the CV shows; compare with SKL-11's common range.
+  status: active
+  added_in: S001-verification

@@ -1,0 +1,191 @@
+# Edits to merged claims from reports/verification/S003.md (independent verification, 2026-10-19;
+# 18 of 18 agree, 14 with notes). Also fixes the four anchors that the new validator warning
+# (quote does not start in the anchored sentence) found in S002, S003 and S004. Applied with
+# `uv run rrs ledger amend`; each change is logged in ledger/amendments.jsonl with its old value.
+- claim: TW-06
+  reason: 'Verification note: scope to the recruiter''s own screening.'
+  set:
+    claim_en: In the recruiter's own screening, for a frontend job, a CV showing backend technology everywhere
+      and no frontend is rejected quite quickly.
+- claim: TW-11
+  reason: 'Verification note: keep the hedge.'
+  set:
+    claim_en: The recruiter does not think using AI to write the CV is a problem, as long as the candidate
+      then goes back and changes things around.
+- claim: TW-15
+  reason: 'Verification note: the second anchor was cut short; the claim is that the employer''s ATS and
+    its AI decide, sometimes wrongly.'
+  set:
+    claim_en: Applications sent on LinkedIn or a job board go into the employer's ATS, are scored by AI
+      and sometimes get lost there; the recruiter has seen many candidates who then messaged the manager
+      directly told that it was the AI that said no.
+    anchors:
+    - sentence_id: S003.t0018.s002
+      t_start: 665.0
+      quote: A lot of the applications we send is on LinkedIn send it or on a job board and it goes into
+        an ATS system um an application tracking system which managers CCVs on and then it goes through
+        AI what score and everything else right and then it gets lost sometimes in there
+    - sentence_id: S003.t0018.s008
+      t_start: 665.0
+      quote: many people who then got messages saying I shouldn't have said no Sorry this was the AI that
+        said no I actually want to interview you
+- claim: TW-16
+  reason: 'Verification note: ''problem, action and impact'' was outside the quote.'
+  set:
+    anchors:
+    - sentence_id: S003.t0014.s002
+      t_start: 485.0
+      quote: this was a problem we're trying to solve This is the action I took to solve that This is
+        the impact and what we did with it further on I mean that is a lot and I don't think you need
+        to always write up for every bullet point because some bullet points are obviously a lot quicker
+- claim: TW-26
+  reason: 'Verification note: ''even when the CV does not link it'' was outside the quote.'
+  set:
+    anchors:
+    - sentence_id: S003.t0022.s004
+      t_start: 868.0
+      quote: definitely update it even if you don't put on your CV managers sometimes do go and look for
+        you and try and find your GitHub
+- claim: TW-30
+  reason: 'Verification note: ''it happens quite a lot'' was outside the quote.'
+  set:
+    anchors:
+    - sentence_id: S003.t0026.s014
+      t_start: 1114.0
+      quote: managers sometimes say well your CV says you've worked here and here but on your LinkedIn
+        the dates are different It sometimes is some managers take as a straight no because they're like
+        well I think it's very very particular and it's very very weird to just pick out something like
+        that but it does happen quite a lot actually
+- claim: TW-38
+  reason: 'Verification note: the UK and discrimination-law reason was in no anchor, the scope also covers
+    some European countries, and the straight no is the managers'' reaction.'
+  set:
+    claim_en: 'With managers, logos or pictures of any kind on a CV, including a profile photo, are always
+      a straight no: in the UK, and in some European countries, discrimination laws lead companies to
+      stop from interviewing such candidates, rejecting them to protect themselves.'
+    anchors:
+    - sentence_id: S003.t0030.s005
+      t_start: 1490.0
+      quote: Unfortunately manager might more than likely is going to say "Ah that's I don't really want
+        to see logos." So logos of anything pictures of any kind is a is a is always going to be a straight
+        no
+    - sentence_id: S003.t0032.s001
+      t_start: 1543.0
+      quote: No no no no no Men just don't want it That is actually nothing to do with the fact of them
+        judging how you look
+    - sentence_id: S003.t0032.s002
+      t_start: 1543.0
+      quote: so in in the UK specifically but I know in Europe there there are countries that take this
+        seriously there's a lot of laws around what you can and can't know about someone before you interview
+        them because of discrimination laws
+    - sentence_id: S003.t0032.s005
+      t_start: 1543.0
+      quote: they they stop from interviewing because if anything happens in the future people could say
+        that it was discriminatory So companies are protecting themselves by just not wanting that
+- claim: TW-42
+  reason: 'Verification note: the quote started in s016 although the anchor named s015; requoted from
+    s015, hedge kept.'
+  set:
+    claim_en: 'The UK Global Talent visa is very tricky to get, but if possible it is probably the easiest
+      route: UK companies hire such candidates straight away.'
+    anchors:
+    - sentence_id: S003.t0034.s015
+      t_start: 1646.0
+      quote: I know we've touched upon global talent visa before It's very very tricky to get Uh but it's
+        probably if it's possible it is the easiest route UK companies will hire straight away
+- claim: TW-46
+  reason: 'Verification note: a measure claim carries only the quantity; highlighting the first jobs is
+    TW-44''s point.'
+  set:
+    claim_en: Describe roles in detail for the last 10 years (in 2026, back to around 2015).
+- claim: TW-48
+  reason: 'Verification note: make the scope explicit.'
+  set:
+    claim_en: Jobs from before the last 10 years can be listed as other companies worked with in the past,
+      without a whole explanation of what was done there.
+- claim: TW-58
+  reason: 'Verification note: several phrases of claim_en were outside the quotes.'
+  set:
+    claim_en: Ask people at the company for a referral, which is more powerful from someone who knows
+      the candidate and should be relevant to the role, and use the network, for example by looking at
+      the recommendations on a hiring manager's profile.
+    anchors:
+    - sentence_id: S003.t0048.s005
+      t_start: 2428.0
+      quote: I think genuinely yes any recommendations help You can definitely ask I think people are
+        very nice and friendly about it They will do it Um it's more powerful if that person obviously
+        I know it's more powerful if that person knows you
+    - sentence_id: S003.t0048.s007
+      t_start: 2428.0
+      quote: definitely do it so it's relevant to what you're doing as well So don't message a data engineer
+        about someone completely different
+    - sentence_id: S003.t0058.s004
+      t_start: 3058.0
+      quote: definitely utilize your network I think we'spoken about recommendations but I would definitely
+        look at people's recommendations and and this is actually something that works really well in
+        my job You see a profile of a hiring manager
+- claim: TW-59
+  reason: 'Verification note: the poster''s location filter was outside the quote.'
+  set:
+    anchors:
+    - sentence_id: S003.t0052.s001
+      t_start: 2586.0
+      quote: if you're applying on LinkedIn using easy apply or anything like that absolutely LinkedIn
+        does filter it out because I know I've know from from generally speaking how job ads are put posted
+        LinkedIn has an option and it can you can filter out say do you want people from outside of the
+        country or not
+    - sentence_id: S003.t0052.s011
+      t_start: 2586.0
+      quote: Most companies though I think they do rule out things sometimes even outside of the city
+        they are in
+- claim: TW-60
+  reason: 'Verification note: keep the hedge and the scope; ''to the hiring team'' was outside the quote.'
+  set:
+    claim_en: The recruiter thinks the client ATS systems the recruiter has used flag the candidate's
+      location and a phone number from another country, so the hiring team sees that the candidate is
+      outside the country.
+    anchors:
+    - sentence_id: S003.t0052.s008
+      t_start: 2586.0
+      quote: it does for example flag things location I think it flagged and phone numbers being different
+        to the one of the country we're in like you know the extension it flags that's um and I think
+        yes they it does get flagged to them as someone's outside of the country
+- claim: TW-61
+  reason: 'Verification note: ''usually'', not ''every''; ''seen it live'' was outside the quote.'
+  set:
+    claim_en: In the ATS systems the recruiter has seen live, an application usually first gets an automatic
+      AI score based on the keywords in the job description.
+    anchors:
+    - sentence_id: S003.t0052.s006
+      t_start: 2586.0
+      quote: for ATS systems usually how it is it comes through and it gets an AI score or whatever That's
+        the number one thing that it does right automatically based on the keywords in the job description
+        that I know 100% cuz I've seen it live
+- claim: TW-52
+  reason: 'Validator warning (anchor-start): the quote starts in s002.'
+  set:
+    anchors:
+    - sentence_id: S003.t0042.s002
+      t_start: 2180.0
+      quote: said to not put a green open to work banner uh on your LinkedIn because it makes you look
+        desperate And I was like that's absolute nonsense I don't think managers care
+- claim: SB-23
+  reason: 'Validator warning (anchor-start): the quote starts in s002.'
+  set:
+    anchors:
+    - sentence_id: S002.t0019.s002
+      t_start: null
+      quote: it is to not just speak about your tech speak about the problem you identified the problem
+        you solved the commercial impact
+- claim: JB-30
+  reason: 'Validator warning (anchor-start): the second quote starts in s004.'
+  set:
+    anchors:
+    - sentence_id: S004.t0030.s002
+      t_start: null
+      quote: i would rather see three or four strong sentences at the top of a CV explaining who you are
+        what you specialize in and why you're a fit for that type of opportunity
+    - sentence_id: S004.t0030.s004
+      t_start: null
+      quote: you're going to have to tailor that to 50 applications but it's much better to do across
+        three or four sentences than an entire cover letter

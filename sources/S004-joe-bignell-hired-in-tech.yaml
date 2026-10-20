@@ -1,0 +1,24 @@
+id: S004
+slug: joe-bignell-hired-in-tech
+transcript_file: "Joe Bignell, Talent Acquisition Specialist.md"
+transcript_version: 1
+url: null                 # not in the NotebookLM export; add when known
+title: "Can you still get hired in tech?"
+channel: null
+upload_date: null
+recorded_date: null
+duration_s: null
+languages: [en]
+format: interview
+people:
+  - {person: JB, role: guest}
+  - {person: JA, role: host}
+speakers: {Guest: JB, Interviewer: JA}
+speakers_confirmed: true
+speaker_overrides: []
+corrections:
+  - {find: Venshin, replace: Vention, person: JB, reason: "guest's employer, mis-transcribed"}
+  - {find: vention, replace: Vention, person: JB, reason: "guest's employer, lowercased"}
+  - {find: Isbekistan, replace: Uzbekistan, person: JB, reason: "place name, mis-transcribed"}
+  - {find: Kyrgystan, replace: Kyrgyzstan, person: JB, reason: "place name, mis-transcribed"}
+notes: Almost no punctuation in the transcript; segmented with 25-word windows.

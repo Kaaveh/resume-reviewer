@@ -1,0 +1,165 @@
+- id: NEW-1
+  category: SCR
+  text: Screeners notice the CV's formatting first, before reading its content.
+  check: Context for STR-3; at a glance, does the CV look clean and easy to read?
+  rationale: TW says the first thing that always stands out when a CV opens is the formatting (S003.t0006.s001).
+    STR-3 says what layout to use, not what is noticed first.
+  decision: accepted
+  assigned: SCR-8
+- id: NEW-2
+  category: SCR
+  text: Screeners look at the candidate's job titles early in the first pass; a title may differ from
+    the target role's wording.
+  check: Do the job titles make the kind of role obvious?
+  rationale: TW names job titles as the second thing looked at and says different titles for the same
+    work are fine (S003.t0006.s005). No title rule exists.
+  decision: accepted
+  assigned: SCR-9
+- id: NEW-3
+  category: SCR
+  text: Screeners look for experience in the employer's industry (such as finance for a financial firm)
+    when the hiring manager asks for it.
+  check: If the job ad or manager asks for industry experience, is it visible in the role headings or
+    company context?
+  rationale: TW looks for fintech or finance experience for a financial firm, depending on the manager
+    (S003.t0006.s015). ACH-2 asks the candidate to name the domain; this is what the screener looks for.
+  decision: accepted
+  assigned: SCR-10
+- id: NEW-4
+  category: RED
+  text: Hiring managers spot AI-written CVs quickly and do not want to see too much AI in a CV.
+  check: Does the text read as generic AI output (standard phrasing, "responsible for building ...")?
+  rationale: TW says managers pick on AI CVs very quickly and do not want to see too much AI in CVs (S003.t0008.s004,
+    S003.t0012.s016). SKL-4 is about showing AI use in the workflow, the opposite topic.
+  decision: accepted
+  assigned: RED-4
+- id: NEW-5
+  category: STR
+  text: Between each job title and its bullet points, add a short paragraph on the company and the work
+    (what the company does, its sector, the team, the main problems and how they were solved).
+  check: Does each recent role open with a few lines of company context before the bullets?
+  rationale: TW tells candidates to add this paragraph and says managers love it (S003.t0014.s007 to s013).
+    ACH-2 (domain and end customers) and ACH-1 (problem, contribution, result) do not state the paragraph.
+  decision: accepted
+  assigned: STR-7
+- id: NEW-6
+  category: STR
+  text: Length of the company context paragraph under each role, in lines.
+  check: Count the lines of each company paragraph (NEW-5); compare with the recruiters' common range.
+  rationale: TW gives three or four lines and later two or three (S003.t0014.s008, S003.t0016.s001). A
+    quantity, so a measure (ADR 0003).
+  decision: accepted
+  assigned: STR-8
+  measure:
+    unit: lines
+    question: How long should the company context paragraph under each role be?
+- id: NEW-7
+  category: CHN
+  text: Keep GitHub up to date, because hiring managers sometimes look it up even when the CV does not
+    link it.
+  check: If the candidate has a public GitHub, is it current?
+  rationale: TW (S003.t0022.s004 to s005). CHN-6 is about linking GitHub only when active; this is about
+    an unlinked GitHub being found anyway.
+  decision: accepted
+  assigned: CHN-8
+- id: NEW-8
+  category: ACH
+  text: List coding contest ratings or algorithm practice (such as LeetCode or HackerRank) when the candidate
+    has them, briefly and highlighted, for example in a side column.
+  check: If the candidate has such a rating, is it on the CV without taking much space?
+  rationale: Asked about Codeforces ratings, TW says to put them in, highlighted in bold in a side column,
+    not as a big part (S003.t0022.s010 to s012). ACH-4 names side projects and hackathons, not ratings.
+  decision: accepted
+  assigned: ACH-5
+- id: NEW-9
+  category: SKL
+  text: Hiring managers want candidates with some exposure to agentic development or AI tools, and do
+    not want to hire anyone who is against AI.
+  check: Does the CV show any hands-on use of AI tools or agentic development?
+  rationale: TW reports managers saying they do not want to hire anyone against AI and need exposure to
+    agentic development (S003.t0026.s001 to s005). SKL-4 (SB) asks to show AI use on the CV; this is the
+    hiring preference TW states.
+  decision: accepted
+  assigned: SKL-7
+- id: NEW-10
+  category: CHN
+  text: Hiring managers usually open a GitHub link on the CV and browse the projects quickly.
+  check: Context for CHN-6 and CHN-8; if GitHub is linked, what will a quick browse show?
+  rationale: TW says managers click a GitHub link quickly and look at the projects and activity (S003.t0028.s005,
+    s018). CHN-6 and CHN-8 say when to link or update GitHub, not that it is opened.
+  decision: accepted
+  assigned: CHN-9
+- id: NEW-11
+  category: CHN
+  text: Use a standard job title (such as software engineer or senior data engineer) on LinkedIn and keep
+    it consistent, because recruiters search by standard titles.
+  check: Is the LinkedIn headline title a standard one, with any creative title only after it?
+  rationale: TW asks for standardized titles because recruiters search LinkedIn by them (S003.t0028.s012
+    to s017). ATS-1 is about the role's keywords in the CV.
+  decision: accepted
+  assigned: CHN-10
+- id: NEW-12
+  category: REG
+  text: Do not put a photo or pictures of any kind on the CV.
+  check: Is there a photo, logo or other picture on the CV?
+  rationale: TW calls pictures of any kind a straight no and gives the UK discrimination-law reason (S003.t0030.s006,
+    S003.t0032.s001 to s006). No photo rule exists.
+  decision: accepted
+  assigned: REG-7
+- id: NEW-13
+  category: STR
+  text: Keep every past employer and its dates on the CV; do not remove older jobs to look less experienced.
+  check: Are any employers or dates missing from the work history?
+  rationale: TW (S003.t0038.s001, s006, s015). STR-1 is about not documenting every task; this is about
+    keeping the employers and dates.
+  decision: accepted
+  assigned: STR-9
+- id: NEW-14
+  category: STR
+  text: Years of work history to describe in detail on the CV.
+  check: How far back do detailed role descriptions go? Compare with the recruiters' common range; older
+    roles can be listed without detail (STR-1).
+  rationale: TW gives the last 10 years (about six for a contractor with many jobs) (S003.t0038.s003 to
+    s014). A quantity, so a measure (ADR 0003).
+  decision: accepted
+  assigned: STR-10
+  measure:
+    unit: years
+    question: How many years back should the CV describe roles in detail?
+- id: NEW-15
+  category: CHN
+  text: An open-to-work banner on LinkedIn does not count against the candidate with hiring managers.
+  check: Context only; do not advise removing the banner on this account.
+  rationale: TW calls the advice not to show the banner (attributed to a Google recruiter) nonsense and
+    thinks managers do not care (S003.t0042.s001 to s003). Worded for TW's side, the only claim in hand.
+  decision: accepted
+  assigned: CHN-11
+- id: NEW-16
+  category: GAP
+  text: Length of an employment gap, in months, from which the CV should explain it.
+  check: Find gaps between roles; compare their length with the recruiters' common range and check that
+    longer ones are explained (GAP-2).
+  rationale: TW would not worry about three or four months but would definitely explain six months or
+    more (S003.t0046.s008 to s009). A quantity, so a measure (ADR 0003).
+  decision: accepted
+  assigned: GAP-3
+  measure:
+    unit: months
+    question: From what length should a gap be explained on the CV?
+- id: NEW-17
+  category: ATS
+  text: Employer ATS systems give each application an automatic AI score based on the keywords in the
+    job description.
+  check: Context for ATS-1; does the CV use the job description's keywords?
+  rationale: TW has seen it live (S003.t0052.s005 to s007). ATS-1 is advice to include keywords; TW states
+    the mechanism, so under ADR 0003 it is a rule of its own.
+  decision: accepted
+  assigned: ATS-5
+- id: X-FAKE
+  category: X
+  text: Fake or already-filled job ads.
+  check: n/a (out of scope)
+  rationale: Spec 02 section 6 names it; TW describes ads that stay open for months and ads posted for
+    a candidate already chosen (S003.t0054).
+  decision: accepted
+  assigned: X-FAKE

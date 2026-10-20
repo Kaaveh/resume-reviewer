@@ -1,0 +1,33 @@
+# Edits to merged S004 claims from reports/verification/S004.md (independent verification,
+# 2026-10-19). Applied with `uv run rrs ledger amend`; each change is logged in
+# ledger/amendments.jsonl with its old value.
+- claim: JB-06
+  reason: "Verification note: claim_en lists the probing questions, which follow the old quote; quote extended to cover them. Also takes the phone-screen half of JB-07."
+  set:
+    claim_en: "In the phone screening the recruiter does not want the CV repeated but checks whether the candidate can back up what it says: the problem, their personal part and what changed; that is why the screen asks about the problems solved, not just the technologies."
+    anchors:
+      - {sentence_id: S004.t0006.s002, t_start: null, quote: "I wasn't really looking for somebody to repeat their CV on that phone screening i wanted to know whether they could back up whatever was written in their CV you know what was the problem what did you personally do what changed because of your work"}
+      - {sentence_id: S004.t0006.s006, t_start: null, quote: "on that first phone screening that's why it's important to understand not just the tech you've worked on but what problems you solved"}
+- claim: JB-07
+  reason: "Verification disagreement: the second anchor is about the phone screen (moved to JB-06), and the CV conclusion was not stated by the recruiter (ADR 0003)."
+  set:
+    claim_en: "The recruiter has to justify internally why each candidate introduced to the hiring manager is worth meeting."
+    anchors:
+      - {sentence_id: S004.t0006.s005, t_start: null, quote: "the recruiter must be able to explain internally why you're worth meeting so we you know we have people to report to we have to justify why a person is right"}
+- claim: JB-09
+  reason: "Verification disagreement: scope lost (the recruiter limits it to own experience) and the hard-requirement filter is the exception to not relying on the ATS, not its main use."
+  set:
+    claim_en: "In the recruiter's own experience, the one exception to not relying on the ATS was using it to screen out applicants who failed a hard requirement, such as security clearance eligibility."
+- claim: JB-27
+  reason: "Verification note: keep the hedge."
+  set:
+    claim_en: "A referral transfers some trust: it guarantees nothing, but a hiring manager can look at the profile a bit more carefully."
+- claim: JB-32
+  reason: "Verification note: 'probably wouldn't get read' is said of cover letters in general."
+  set:
+    claim_en: "A generic page about being passionate and hardworking adds very little; the recruiter would rather see research into the job, the company and its values than a cover letter that probably would not get read."
+- claim: JB-38
+  reason: "Verification disagreement: 'gives people a reason to click past' is a hedged incentive, not a reported rejection, so F not F!."
+  set:
+    type: F
+    claim_en: "Stating a sponsorship need on the CV gives screeners a reason to click past it, while in conversation both sides can often make it work."

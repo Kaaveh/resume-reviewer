@@ -1,0 +1,55 @@
+# Recruiter profiles (spec 02 section 3). Written by hand; advice is weighted at review time by
+# how well each recruiter's world matches the target (targets.yaml). `year` is when the source
+# was recorded; none of the four exports carries a date, so v0.1 inferred it from context.
+JA:
+  name: John Adib
+  type: hiring-manager
+  title: Engineering Manager
+  region: UK (London)
+  industry: Tech product company (GCP, AI-forward)
+  roles_hired: Software engineers (backend, frontend, mobile, DevOps, data); junior to senior
+  year: 2026
+  year_basis: inferred
+  sources: [S001]
+  caveats: >-
+    Says these calls are personal; another reader may decide differently. Host of S002 to S004,
+    where the host's remarks are not claims.
+SB:
+  name: Sam Baldwin
+  type: agency
+  title: Recruiter, JavaScript and TypeScript specialist
+  region: UK
+  industry: VC-backed startups (pre-seed to series C)
+  roles_hired: JavaScript and TypeScript engineers (frontend, full stack, Node)
+  year: 2026
+  year_basis: inferred
+  sources: [S002]
+  caveats: >-
+    Self-described as non-technical. The export starts mid-interview, so the introduction is
+    missing.
+TW:
+  name: Tomasz Wojtyczko
+  type: agency
+  title: Principal Recruitment Consultant, VirtueTech
+  region: UK and Europe
+  industry: Tech, data and product; stealth startups to finance conglomerates
+  roles_hired: Engineers, data and product roles
+  year: 2026
+  year_basis: inferred
+  sources: [S003]
+  caveats: >-
+    As an external recruiter, helps candidates fix their CVs before sending them, so says a CV
+    is not judged fully on its first form.
+JB:
+  name: Joe Bignell
+  type: former-recruiter
+  title: Former recruiter (14 years, 300+ placements), now at Vention (AI transformation)
+  region: EMEA and US
+  industry: Telecoms, IT and infrastructure, then software engineering; cross-border hires
+  roles_hired: Software engineers, often relocating or working across borders
+  year: 2026
+  year_basis: inferred
+  sources: [S004]
+  caveats: >-
+    No longer recruits; speaks from past agency practice and from Vention's employer side.
+    Says the ATS was rarely relied on, which may differ from in-house teams.

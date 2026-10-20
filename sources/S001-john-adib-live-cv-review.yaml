@@ -1,0 +1,27 @@
+id: S001
+slug: john-adib-live-cv-review
+transcript_file: "John Adib, engineering Manager.md"
+transcript_version: 1
+url: null                 # not in the NotebookLM export; add when known
+title: "کدوم رزومه انتخاب می‌شه؟ | بررسی واقعی رزومه‌ها با جان ادیب"
+channel: null
+upload_date: null         # stream date
+recorded_date: null
+duration_s: null          # about 2 hours
+languages: [fa, en]
+format: live-cv-review
+people:
+  - {person: JA, role: guest}
+  - {person: H01, role: host}
+speakers: {Guest: JA, Interviewer: H01}
+speakers_confirmed: true  # proposed by Claude from content; accepted by the owner 2026-10-19
+speaker_overrides:  # proposed by Claude from content; accepted by the owner 2026-10-19
+  - {turn: 2, person: JA, reason: "John welcoming Sahar ('we have Sahar who has joined'); labelled Interviewer"}
+  - {turn: 42, person: JA, reason: "John answering the cover letter question asked at the end of turn 41; labelled Interviewer"}
+  - {turn: 142, person: H01, reason: "Sahar handing over ('if you have a point, John, say it'); labelled Guest"}
+corrections: []
+notes: >-
+  Live review of about 30 CVs sent by viewers, streamed from London. Viewer questions are read
+  aloud by the host; they are not claims. Includes the owner's own CV. NotebookLM labels are
+  unreliable here: besides the overrides, turns 4, 41 and 143 mix both speakers in one block
+  (see docs/progress.md); no claim should be anchored in them without checking the video.

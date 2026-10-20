@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "rrs.transcript.raw/1",
+  "type": "object",
+  "required": ["schema", "source_id", "transcript_file", "transcript_sha256", "timing", "speakers",
+               "overrides_applied", "turns"],
+  "properties": {
+    "schema": {"const": "rrs.transcript.raw/1"},
+    "source_id": {"type": "string", "pattern": "^S\\d{3}$"},
+    "transcript_file": {"type": "string"},
+    "transcript_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "title": {"type": ["string", "null"]},
+    "timing": {"enum": ["turn", "none"]},
+    "speakers": {"type": "object", "additionalProperties": {"type": "string"}},
+    "overrides_applied": {"type": "array"},
+    "turns": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["n", "label", "person", "start", "text"],
+        "properties": {
+          "n": {"type": "integer", "minimum": 1},
+          "label": {"type": "string"},
+          "person": {"type": "string"},
+          "start": {"type": ["number", "null"]},
+          "text": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

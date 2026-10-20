@@ -1,0 +1,111 @@
+# Episodes for S004 (spec 01 section 6). Proposed by Claude from the transcript; accepted by the owner on 2026-10-19.
+- id: S004.e01
+  type: intro
+  label: Guest introduction
+  from: S004.t0001.s001
+  to: S004.t0002.s008
+- id: S004.e02
+  type: qa
+  label: Time a recruiter spends on a CV
+  from: S004.t0003.s001
+  to: S004.t0004.s005
+- id: S004.e03
+  type: qa
+  label: What happens after an application is submitted
+  from: S004.t0005.s001
+  to: S004.t0006.s007
+- id: S004.e04
+  type: qa
+  label: How much filtering the ATS does
+  from: S004.t0007.s001
+  to: S004.t0010.s001
+- id: S004.e05
+  type: qa
+  label: Will AI increase ATS filtering
+  from: S004.t0011.s001
+  to: S004.t0012.s008
+- id: S004.e06
+  type: qa
+  label: What makes a recruiter stop and pay attention
+  from: S004.t0013.s001
+  to: S004.t0014.s007
+- id: S004.e07
+  type: qa
+  label: Biggest CV mistakes and red flags
+  from: S004.t0015.s001
+  to: S004.t0016.s012
+- id: S004.e08
+  type: qa
+  label: CV length, by years of experience
+  from: S004.t0017.s001
+  to: S004.t0020.s007
+- id: S004.e09
+  type: qa
+  label: Skills shown as achievements, not lists
+  from: S004.t0021.s001
+  to: S004.t0022.s007
+- id: S004.e10
+  type: qa
+  label: Other red flags
+  from: S004.t0023.s001
+  to: S004.t0024.s001
+- id: S004.e11
+  type: qa
+  label: Applying a lot without getting interviews
+  from: S004.t0025.s001
+  to: S004.t0026.s010
+- id: S004.e12
+  type: qa
+  label: LinkedIn, networking and referrals
+  from: S004.t0027.s001
+  to: S004.t0028.s010
+- id: S004.e13
+  type: qa
+  label: Do cover letters still matter
+  from: S004.t0029.s001
+  to: S004.t0030.s011
+- id: S004.e14
+  type: qa
+  label: 'International hiring: what changes for overseas candidates'
+  from: S004.t0031.s001
+  to: S004.t0032.s007
+- id: S004.e15
+  type: qa
+  label: How sponsorship and relocation affect chances
+  from: S004.t0033.s001
+  to: S004.t0034.s012
+- id: S004.e16
+  type: qa
+  label: When to mention needing sponsorship
+  from: S004.t0035.s001
+  to: S004.t0036.s009
+- id: S004.e17
+  type: qa
+  label: Nationality concerns for Persian candidates
+  from: S004.t0037.s001
+  to: S004.t0038.s012
+- id: S004.e18
+  type: qa
+  label: Does the candidate's current location matter
+  from: S004.t0039.s001
+  to: S004.t0040.s009
+- id: S004.e19
+  type: qa
+  label: Will AI kill the craft of software engineering
+  from: S004.t0041.s001
+  to: S004.t0042.s011
+- id: S004.e20
+  type: qa
+  label: Fewer engineering jobs or different ones
+  from: S004.t0043.s001
+  to: S004.t0044.s007
+- id: S004.e21
+  type: qa
+  label: How international candidates can improve their chances
+  from: S004.t0045.s001
+  to: S004.t0046.s007
+- id: S004.e22
+  type: outro
+  label: Closing
+  from: S004.t0047.s001
+  to: S004.t0049.s001

@@ -1,0 +1,13 @@
+id: S003
+slug: english-timed
+transcript_file: "English timed.md"
+url: https://www.youtube.com/watch?v=example
+title: "How recruiters screen"
+languages: [en]
+format: interview
+people:
+  - {person: TW, role: guest}
+  - {person: JA, role: host}
+speakers: {Guest: TW, Interviewer: JA}
+corrections:
+  - {find: Tomas, replace: Tomasz, person: JA, reason: "host greeting the guest"}

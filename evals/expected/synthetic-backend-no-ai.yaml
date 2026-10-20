@@ -1,0 +1,9 @@
+# Target: senior backend engineer (Java), UK product companies, relocating.
+verdict: borderline
+must_flag:
+  - {rule: ACH-1, min_severity: High}       # duty bullets, no problem or result
+  - {rule: ACH-6, min_severity: High}       # no numbers anywhere
+  - {rule: SKL-4, min_severity: Medium}     # no AI tools in the workflow
+  - {rule: SKL-10, min_severity: Low}       # no testing tools
+must_not_flag: [REG-7, RED-2]               # no photo; the core stack (Java, Spring) is there
+must_include: [ten_second_verdict, evidence_labels]

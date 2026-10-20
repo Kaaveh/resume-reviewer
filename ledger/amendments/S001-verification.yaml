@@ -1,0 +1,369 @@
+# Edits to merged claims from reports/verification/S001.md (independent verification, 2026-10-20;
+# 45 of 47 agree, 2 disagree), the JA-129 drafting fix and the ACH-6 cross-mapping.
+# Applied with `uv run rrs ledger amend`.
+- claim: JA-05
+  reason: 'Verification S001: generalize across the CVs the anchors come from; gloss every anchor.'
+  set:
+    claim_en: The summary should tell the hiring manager why to hire the candidate; a summary that only
+      lists technologies or general statements does not.
+    quote_en: 'From the summary I want to understand why I should [hire the candidate]. / Everything else
+      in it is completely general; it said nothing [about] what / [the candidate] achieved in these 6
+      years. / Listed everything; it gives me no data at all; it only said I worked with these. / This
+      summary we have here should [give] the reason to hire. / The rest is completely general; look, completely
+      general stuff: I developed APIs; well, every backend developer has developed APIs.'
+- claim: JA-09
+  reason: 'Verification S001: fifth anchor started mid-thought; gloss every anchor.'
+  set:
+    anchors:
+    - sentence_id: S001.t0001.s092
+      t_start: null
+      quote: این رزومه اینفراستراکچرش کجاست این چرا هیچ چیزی نداره نه ایبلی اس داره نه جی سی پی داره نه
+        آژور داره
+    - sentence_id: S001.t0001.s094
+      t_start: null
+      quote: دواب که ایبلیوس یا جی سی پی بلد نباشه این رزومه ریجکته به نظر من
+    - sentence_id: S001.t0001.s109
+      t_start: null
+      quote: این بهونه برای اونا رضایت‌بخش نیست
+    - sentence_id: S001.t0001.s112
+      t_start: null
+      quote: من انتظار دارم وقتی یه دواپس استخدام می‌کنم بیاد واسه من کار کنه از فردا
+    - sentence_id: S001.t0059.s001
+      t_start: null
+      quote: ۱۰ سال وقت داشت بره یاد بگیره ۱۰ سال نرفته یاد بگیره من بیام استخدام کنم پول بهش بدم بیاد
+        اینجا ۶ ماه پیش من یاد بگیره من این کارو نمی‌کنم
+    quote_en: 'Where is this CV''s infrastructure, why does it have nothing, no AWS, no GCP, no Azure?
+      / A DevOps engineer who does not know AWS or GCP: this CV is a reject, in my view. / This excuse
+      [no access from Iran] does not satisfy them. / When I hire a DevOps engineer I expect them to work
+      for me from tomorrow. / They had 10 years to go and learn it and did not; I am not going to hire
+      them, pay them, and have them learn it with me for 6 months; I do not do that.'
+- claim: JA-10
+  reason: 'Verification S001: ''when reading alone'' was outside the quote.'
+  set:
+    anchors:
+    - sentence_id: S001.t0001.s096
+      t_start: null
+      quote: این کاری که الان کردم توی مثلاً ۵ ثانیه ۱۰ ثانیه انجام میشه من چون دارم صحبت می‌کنم شاید
+        مثلاً ۱ دقیقه وقت گرفت قطعاً این سریع‌تر انجام میشه وقتی که داری خودت می‌خونی و سریع بررسی می‌کنی
+- claim: JA-12
+  reason: 'Verification S001: ''کور استرنج'' is core strengths, not courses; STR-11 retired for STR-29.'
+  set:
+    anchors:
+    - sentence_id: S001.t0001.s101
+      t_start: null
+      quote: کور استرنجم ما نیاز نداریم دیگه اینو باید تو اون بالا می‌گفتی یا تو تو این بولت پوینت باید
+        می‌گفتی اینجا یا تو سامری باید میومد
+    rules:
+    - STR-29
+    claim_en: A separate core strengths section is not needed; say those points in the summary or the
+      bullet points instead.
+    quote_en: We do not need the core strengths either; you should have said that up there or in these
+      bullet points, or it should have come in the summary.
+- claim: JA-13
+  reason: 'Verification S001: gloss every anchor.'
+  set:
+    quote_en: We do not need your GPA; nobody cares about it. / No GPA needed; remove these; nobody cares
+      about this GPA.
+- claim: JA-28
+  reason: 'Verification S001: second anchor was agreement with the host''s paraphrase.'
+  set:
+    anchors:
+    - sentence_id: S001.t0007.s001
+      t_start: null
+      quote: اگه که میخوای در شرکت خودمون صحبت کنیم که من داریم داریم استخدام می‌کنیم اگه من ایآی نبینم
+        که اینجا ندیدم همونجا رده یعنی من اصلاً وقت نمی‌ذارم برای این
+    quote_en: 'If we talk about our own company, where we are hiring: if I do not see AI, which I did
+      not see here, it is rejected right there; I do not spend time on it at all.'
+- claim: JA-30
+  reason: 'Verification S001: split: the expectation is P; the observed gap moves to a new F claim (S001.followup).'
+  set:
+    type: P
+    anchors:
+    - sentence_id: S001.t0007.s022
+      t_start: null
+      quote: مثلاً بگیم تو اروپا می‌خواد تو رو استخدام کنه اگه من قراره تو رو استخدام کنم من انتظار دارم
+        یه چیزی با یه تستینگ یه د تا ابزار تستینگ کار کرده باشی ان تو تستینگ من دارم چیزی اینجا نمی‌بینم
+    - sentence_id: S001.t0101.s045
+      t_start: null
+      quote: به عنوان یه فرانت انجیر من انتظار دارم پلی رایت یا سایپرس به عنوان تستینگ کار کنی کار نکردی
+        جست انتظار دارم کار کنی
+    claim_en: The hiring manager expects candidates to have worked with one or two testing tools (for
+      a job in Europe; for a frontend engineer, Playwright or Cypress).
+    quote_en: 'Say someone in Europe wants to hire you: if I am going to hire you, I expect you to have
+      worked with one or two testing tools; I see nothing about testing here. / As a frontend engineer
+      I expect you to have worked with Playwright or Cypress for testing; you have not; Jest, I expect
+      you to work with it.'
+- claim: JA-32
+  reason: 'Verification S001: keep the hedge.'
+  set:
+    claim_en: For the eight-year mobile CV (CV#02), the hiring manager thinks one page is enough.
+- claim: JA-35
+  reason: 'Verification S001: ''very likely'' was outside the quote.'
+  set:
+    anchors:
+    - sentence_id: S001.t0013.s004
+      t_start: null
+      quote: آماده باشید که توی مصاحبه‌ای اگه دعوت شدید
+    - sentence_id: S001.t0013.s005
+      t_start: null
+      quote: قطعاً طرف سؤال می‌کنه پس آماده باشید که سؤال کرد جواب بدید که این گپه چی بوده؟ احتمال زیاد
+        می‌پرسن ازتون که اون گپه چی بوده
+- claim: JA-38
+  reason: 'Verification S001: generalize across CVs; drop the t0095.s029 anchor (speaker uncertain); gloss
+    every anchor.'
+  set:
+    anchors:
+    - sentence_id: S001.t0019.s003
+      t_start: null
+      quote: رد می‌کنم این رزومه رو دلیلش اینه دوباره اینفراستراکچر ما اینجا نداریم
+    - sentence_id: S001.t0019.s004
+      t_start: null
+      quote: باز دوباره ادبلی اس نمی‌بینم جی سی پی نمی‌بینم
+    - sentence_id: S001.t0021.s009
+      t_start: null
+      quote: من انتظار دارم به عنوان یه بک اند دولپر که من استخدام می‌کنم حالانت به طور خاص بلد باشه چهجوری
+        کدش رو دیپلوی کنه
+    - sentence_id: S001.t0063.s012
+      t_start: null
+      quote: من ازت می‌خوام که اگه یه فانکشن نوشتی یه بک اندی ران کردی بک اندتو خودت می‌تونی دیپلوی کنی
+    - sentence_id: S001.t0063.s014
+      t_start: null
+      quote: ۸ سال سابقه کار داره بتونه کدشو بلد بشه دیپلوی کنه ترافورم بلد باشه همین
+    - sentence_id: S001.t0085.s006
+      t_start: null
+      quote: تستینگ نیست باز دوباره اینفراستراکچر نیست
+    - sentence_id: S001.t0085.s010
+      t_start: null
+      quote: نه من اینفراسترکچر نمی‌بینم دعوتش نمی‌کنم
+    - sentence_id: S001.t0091.s027
+      t_start: null
+      quote: من ریجکتش می‌کنم به خاطر اینکه ترافرم نداره ایشم بیسیکه به عنوان یه بک ان انجینر با ۱۰ سال
+        سابق قطعاً انتظارش و دارم که داشته باشه
+    - sentence_id: S001.t0101.s120
+      t_start: null
+      quote: دیپلویمنتم نداره اینجا
+    - sentence_id: S001.t0101.s121
+      t_start: null
+      quote: تستینگام دارم چیزی به اون صورت نمی‌بینم دعوتش نمی‌کنم
+    claim_en: 'The hiring manager rejects backend CVs that show no infrastructure (no AWS, GCP or Terraform),
+      such as the five-year .NET CV (CV#03): a backend developer is expected to know how to deploy their
+      own code.'
+    quote_en: I reject this CV; the reason is that again we have no infrastructure here. / Again I see
+      no AWS, I see no GCP. / I expect a backend developer I hire, .NET in particular, to know how to
+      deploy their code. / I want from you that if you wrote a function, ran a backend, you can deploy
+      your backend yourself. / Eight years of experience; they should know how to deploy their code, know
+      Terraform, that is all. / No testing, again no infrastructure. / No, I see no infrastructure; I
+      do not invite them. / I reject them because they do not have Terraform; it is basic; as a backend
+      engineer with 10 years of experience I definitely expect them to have it. / There is no deployment
+      here either. / I do not really see testing either; I do not invite them.
+- claim: JA-46
+  reason: 'Verification S001: ''takes too long'' was before the third quote.'
+  set:
+    anchors:
+    - sentence_id: S001.t0027.s004
+      t_start: null
+      quote: یه مشکلی داره این کاستمایز کردن برای اون جاب خاص
+    - sentence_id: S001.t0027.s006
+      t_start: null
+      quote: مثلاً یه ۱۰ دقیقه یه رب طول می‌کشه
+    - sentence_id: S001.t0027.s007
+      t_start: null
+      quote: بچه‌ها وقت نمی‌کنن این کارو انجام بدن من توصیه می‌کنم روزی ۵۰ تا اپلای کنی به جای اینکه روزی
+        ۱۰ تا اپلای کنی ولی بخوای همشون اینجوری مثلاً کاستمایز کنی
+    - sentence_id: S001.t0027.s009
+      t_start: null
+      quote: میگم که جنرال کنی اما بچه‌هایی هستن که ممکنه بخوان بگن که خب من می‌خوام برم این سه تا شرکت
+        خاص
+- claim: JA-48
+  reason: 'Verification S001: third anchor quoted the host; keep the hedge.'
+  set:
+    anchors:
+    - sentence_id: S001.t0029.s001
+      t_start: null
+      quote: با دوباره با وقت کامل نمی‌ذارم بخوام همشو بخونم
+    - sentence_id: S001.t0029.s002
+      t_start: null
+      quote: اگه اگه به اصطلاح رو فنس باشم لبه مرزی باشم مثلاً چیز باشه یه نگاهی هم مثلاً شاید به چیزش
+        بنظام
+    - sentence_id: S001.t0042.s001
+      t_start: null
+      quote: یه نگاهش می‌ندازم الان واقعاً آره اوکی
+    claim_en: The hiring manager does not read a cover letter in full; when undecided about the CV, the
+      hiring manager may take a look at it.
+    quote_en: I do not spend the full time to read all of it. / If I am on the fence, borderline, I may
+      take a look at it. / Now I would really take a look at it, yes.
+- claim: JA-49
+  reason: 'Verification S001: the salary entered was before the quote.'
+  set:
+    anchors:
+    - sentence_id: S001.t0029.s005
+      t_start: null
+      quote: توی عدد اونجا وارد کردی یا حالا شاید اصلاً نوشتی رنج فلان تا فلان بعد من وقتی دارم اینو بررسی
+        می‌کنم اون رنجه همیشه اینجایی که مغزم هستا من این رزومه رو برای اون رنج می‌سنجم یعنی اگه حقوقش
+        بالاهئه انتظارات من بالاهئه حقوقش یه ذره متوسطه انتظارات منم متوسطتره
+- claim: JA-51
+  reason: 'Verification S001: keep the hedges.'
+  set:
+    anchors:
+    - sentence_id: S001.t0029.s010
+      t_start: null
+      quote: می‌دونی چرا این ریجکته برای اینکه من باید نیم ساعت وقت بذارم برای این طرف
+    - sentence_id: S001.t0029.s013
+      t_start: null
+      quote: تجربت بهت میگه که اونجایی که لب مرز بودی به خودت اعتماد کن بگو نه
+    - sentence_id: S001.t0029.s014
+      t_start: null
+      quote: بعضی موقع‌ها هرچند شاید آدمای خوبی پیدا کنی ولی خب تجربه شخصی من اونجا بوده که اونجایی که
+        لرض بودن شاید رفتیم مصاحبه هم خیلی نتونسته نظرمون جواب کنه
+    claim_en: 'When undecided about a CV the hiring manager rejects it: an interview costs half an hour,
+      and in the hiring manager''s experience borderline candidates mostly did not win them over in interviews,
+      though good people are sometimes found.'
+    quote_en: 'Do you know why this is a reject? Because I would have to spend half an hour on this person.
+      / Your experience tells you: where you were borderline, trust yourself and say no. / Sometimes you
+      may find good people, but my personal experience has been that where they were borderline, even
+      if we maybe went to an interview, they could not really win us over.'
+- claim: JA-54
+  reason: 'Verification S001: missing most listed skills is not ''missing a core skill''; new rule RED-6.'
+  set:
+    rules:
+    - RED-6
+- claim: JA-55
+  reason: 'Verification S001: generalize across the CVs; gloss every anchor; t0047.s003 reading uncertain.'
+  set:
+    claim_en: The hiring manager would not hire a candidate whose cloud or data stack (such as Azure)
+      does not match the company's own, as with the data analyst CV (CV#04) and the DevOps CV without
+      GCP; this alone can be the reason to reject.
+    quote_en: I would not hire this person, because their tech stack does not fit what I have in my company;
+      I do not use Azure, and this can be the reason for me not to want to hire this person. / If my company
+      worked with Azure, I would invite them; if I had GCP, they are now borderline. / Then GCP is not
+      in their CV; this becomes a very simple reason for someone to say no. / If the company worked with
+      Azure I would invite this person directly, yes; but if I had AWS, they would really be borderline,
+      because they do not have AWS; really not even borderline, I say no.
+    notes: 't0047.s003: ''راجع به'' read as ASR for ''آژر'' (Azure); uncertain reading.'
+- claim: JA-56
+  reason: 'Verification S001: gloss every anchor.'
+  set:
+    quote_en: I would not hire this person, because their tech stack does not fit what I have in my company;
+      I do not use Azure. / I say no, because the whole DevOps job is to handle my infrastructure.
+- claim: JA-70
+  reason: 'Verification S001: the direct-call part was outside the quote.'
+  set:
+    anchors:
+    - sentence_id: S001.t0063.s001
+      t_start: null
+      quote: موبایلم بذارید راستی موبایلم معمولاً ما توصیه می‌کنیم موبایلم بذارید ریکروترا زنگ می‌زنن
+        بعضی از موقع مستقیماً برای من به مراتب پیش اومده که مستقیماً زنگ زدم
+- claim: JA-78
+  reason: 'Verification S001: gloss every anchor.'
+  set:
+    quote_en: Really, in a large-scale company you have no role [alone] because your impact; you can never
+      come and claim, sir, I did such and such. / You work in a small team among a thousand engineers;
+      you cannot claim I did this. / I cannot claim alone that I saved several million in revenue.
+- claim: JA-79
+  reason: 'Verification S001: the rejected trait is ACH-12''s (ownership, not just writing code).'
+  set:
+    rules:
+    - ACH-6
+    - ACH-12
+- claim: JA-85
+  reason: 'Verification S001: ''full'' was outside the quote.'
+  set:
+    anchors:
+    - sentence_id: S001.t0077.s025
+      t_start: null
+      quote: ما الان تو شرکت خودم تو مصاحبهم من دسترسی سی به ایآی میدم الان من فردا یه مصاحبه دارم مثلاً
+        دو طرف من دسترسی سی به ایآی فول میدم
+    - sentence_id: S001.t0077.s028
+      t_start: null
+      quote: چون کسی دیگه بدون ایآی کد نمی‌زنه
+- claim: JA-87
+  reason: 'Verification S001: name every reason given.'
+  set:
+    claim_en: 'The hiring manager rejects the senior backend CV (CV#07): its last role was DevOps, yet
+      it shows no Terraform, and the CV raises too many questions.'
+- claim: JA-95
+  reason: 'Verification S001: keep the hedge.'
+  set:
+    claim_en: 'In the hiring manager''s view, do not present work as done alone: it is not an advantage,
+      because the hiring manager wants someone who works in a team, and adapting to the team is one of
+      the most important things looked for.'
+- claim: JA-104
+  reason: 'Verification S001: the location comes out on the recruiter''s call, not necessarily the first.'
+  set:
+    claim_en: Asked whether an Iranian phone number is a reason to reject, the hiring manager says people
+      do not know country dialling codes or take time to look them up; the location comes out anyway once
+      the recruiter calls.
+- claim: JA-116
+  reason: 'Verification S001: ''without AI work in the job'' was before the third quote.'
+  set:
+    anchors:
+    - sentence_id: S001.t0101.s089
+      t_start: null
+      quote: ۲ سال اخیر ایآی خیلی چیزه خیلی خیلی تو شرکت‌ها مهم شده سعی کنید یه چیزی کار کردی اینجا بذارید
+    - sentence_id: S001.t0101.s090
+      t_start: null
+      quote: نه اینکه بگی با کلو کار کردم یا کرسر کار کردما یا چت چیپیتی کار کردم نه باهاش چیکار کردی
+        خروجی باهاش
+    - sentence_id: S001.t0101.s091
+      t_start: null
+      quote: اگه کار نکردی تو کارتم حداقل یه جور دیگه‌ای تو پروژه آخر وقت آخر هفته چیزی کار کن تو سامیت
+        یه جا بزن
+- claim: JA-125
+  reason: 'Verification S001: name every reason given; ''early-career'' was not in a quote.'
+  set:
+    claim_en: 'The hiring manager does not invite the machine learning CV (CV#24): nothing on it shows
+      machine learning, the hiring manager expected at least about four projects explained, and none of
+      the jobs was attractive enough.'
+- claim: JA-128
+  reason: 'Verification S001: ''agency'' was outside the quotes.'
+  set:
+    anchors:
+    - sentence_id: S001.t0109.s013
+      t_start: null
+      quote: اینا میرن برای تو کار پیدا می‌کنن
+    - sentence_id: S001.t0109.s014
+      t_start: null
+      quote: پس خیلی خوبه که این مدل ریکروترا رو باهاشون کانکشن بزنید
+    - sentence_id: S001.t0109.s016
+      t_start: null
+      quote: با اینجور آدما تو لینکدین کانکت بشید و به طور خاص ریکوتر ایجنسی هم هستند که مثل آژانسهای
+        کاریابی
+    - sentence_id: S001.t0109.s021
+      t_start: null
+      quote: حتماً ظرفیت ریکروترها رو در نظر بگیرین باهاشونین کانکشین
+- claim: JA-129
+  reason: 'Verification S001: ''high-quality'' was outside the quote (drafting note).'
+  set:
+    anchors:
+    - sentence_id: S001.t0109.s018
+      t_start: null
+      quote: که ما با یه آژانس ریکروتری قرارداد داشتیم اینا قرار بود هفته‌ای مثلاً د تا سی وی برامون می‌فرستادن
+    - sentence_id: S001.t0109.s019
+      t_start: null
+      quote: با کوالیتی بالا که احتمال اینکه اینا برن جاب بگیرن خیلی بالا بود این باعث میشد چی باعث میشد
+        که ما وقتمونو زیاد نذاریم واسه بررسی ده‌ها و صدها رزومه
+    quote_en: We had a contract with a recruitment agency; they were to send us, say, ten CVs a week.
+      / With high quality, so the chance that they would get the job was very high; this meant we did
+      not spend much time reviewing tens and hundreds of CVs.
+- claim: TW-07
+  reason: 'Cross-mapping (ADR 0003): the claim states measurable achievements, ACH-6.'
+  set:
+    rules:
+    - ACH-1
+    - ACH-6
+- claim: TW-13
+  reason: 'Cross-mapping (ADR 0003): the claim states measurable achievements, ACH-6.'
+  set:
+    rules:
+    - ACH-1
+    - ACH-6
+- claim: SB-19
+  reason: 'Cross-mapping (ADR 0003): the claim states measurable achievements, ACH-6.'
+  set:
+    rules:
+    - ACH-1
+    - ACH-6
+- claim: JA-125
+  reason: 'Verification S001: an F! claim says it rejects.'
+  set:
+    claim_en: 'The hiring manager rejects the machine learning CV (CV#24), not inviting it: nothing on it shows machine learning, the hiring manager expected at least about four projects explained, and none of the jobs was attractive enough.'

@@ -1,0 +1,251 @@
+- id: NEW-1
+  category: SCR
+  text: The first pass only decides whether there is enough relevant experience to keep reading; it is
+    not a read of the whole career.
+  check: Is enough relevant experience visible at a first glance, from the top of page one?
+  rationale: JB says the first pass establishes whether there is enough relevant experience to justify
+    reading on. The time it takes is the measure NEW-21.
+  decision: accepted
+  assigned: SCR-1
+- id: NEW-2
+  category: SCR
+  text: Screeners read the most recent role first and judge fit mainly from recent, relevant experience.
+  check: Does the most recent role, at the top of the experience section, show the target role's core
+    stack and kind of problem? Is the experience in reverse date order?
+  rationale: JB reads the latest experience first and scans for recent and relevant experience.
+  decision: accepted
+  assigned: SCR-2
+- id: NEW-3
+  category: SCR
+  text: The technical fit for the target role must be obvious on page one, without the reader searching
+    for it.
+  check: Are the target role's must-have skills visible on page one? Would a recruiter hiring for that
+    stack have to search through pages to find it?
+  rationale: JB repeats this four times and gives a case where a capable candidate lost out because the
+    needed stack was not visible.
+  decision: accepted
+  assigned: SCR-3
+- id: NEW-4
+  category: ATS
+  text: Include the target role's keywords so recruiter searches and ATS filters find the CV.
+  check: Does the CV contain the job description's must-have terms in the same wording?
+  rationale: JB says not to ignore keywords because recruiters still need to find the CV.
+  decision: accepted
+  assigned: ATS-1
+- id: NEW-5
+  category: ATS
+  text: Write the CV for a human reader, not for the ATS; keyword lists without context make it unreadable.
+  check: Are keywords embedded in statements about the work, or are there buzzword strings and stuffed
+    keyword blocks?
+  rationale: JB warns against writing for a robot and says the ATS was never the main decision maker.
+  decision: accepted
+  assigned: ATS-2
+- id: NEW-6
+  category: ATS
+  text: Screeners use the ATS to screen out applicants who fail a hard requirement of the role, such as
+    security clearance eligibility.
+  check: If the job has a hard requirement (clearance, eligibility, mandatory certification), does the
+    CV state the candidate's status for it in plain words?
+  rationale: JB's main use of the ATS. Worded as the fact JB states (ADR 0003); the check is how a reviewer
+    applies it.
+  decision: accepted
+  assigned: ATS-3
+- id: NEW-7
+  category: STR
+  text: Keep the CV focused; do not document every task from every job.
+  check: Are older or less relevant roles cut down to the essentials? Does any role list routine duties
+    at length?
+  rationale: JB names length, documenting every task of every job, as the first of the three biggest mistakes.
+  decision: accepted
+  assigned: STR-1
+- id: NEW-8
+  category: STR
+  text: CV length in pages.
+  check: Count pages; compare with the recruiters' common range, minding the experience each range was
+    given for.
+  rationale: 'Page count is a quantity every source answers, so it is a measure (ADR 0003): each recruiter''s
+    stated range is a data point. JB states two to five pages, five at most, and that one page is too
+    short.'
+  decision: accepted
+  assigned: STR-2
+  measure:
+    unit: pages
+    question: How long should the CV be?
+- id: NEW-9
+  category: STR
+  text: Do not cut an experienced engineer's CV to one page; one page rarely captures enough.
+  check: Is the CV of a candidate with several years of experience squeezed onto one page, losing achievements
+    or context?
+  rationale: 'Folded into the length measure NEW-8: "one page probably would not capture enough" is a
+    value with a minimum of two pages.'
+  decision: rejected
+  use: NEW-8
+  assigned: STR-2
+- id: NEW-10
+  category: STR
+  text: Use a plain layout the reader can navigate quickly; fancy graphics add nothing.
+  check: Are there graphics, icons, skill bars, heavy colors or multi-column designs that slow down skimming?
+  rationale: JB names poor presentation as the second of the three biggest mistakes.
+  decision: accepted
+  assigned: STR-3
+- id: NEW-11
+  category: STR
+  text: Open the CV with three or four tailored sentences saying who you are, what you specialize in and
+    why you fit the role.
+  check: Is there a short summary at the top? Is it specific to the target role, or generic?
+  rationale: JB prefers this summary to a cover letter.
+  decision: accepted
+  assigned: STR-4
+- id: NEW-12
+  category: ACH
+  text: Under each role, describe the problem, the candidate's personal contribution and the result, not
+    a list of technologies or responsibilities.
+  check: Does each recent role say what was built, what the candidate personally did and what changed?
+    Flag bullets that are only technology names or duties.
+  rationale: JB's most repeated point, and the third of the three biggest mistakes.
+  decision: accepted
+  assigned: ACH-1
+- id: NEW-13
+  category: SKL
+  text: A technology list on page one shows the required skill set at a glance.
+  check: Is there a skills or technologies section on page one?
+  rationale: JB recommends a page-one technology section to show the required skill set.
+  decision: accepted
+  assigned: SKL-1
+- id: NEW-14
+  category: SKL
+  text: Do not repeat a full technology list under every role; name technologies in the context of the
+    work.
+  check: Do role entries end with long tech lists that repeat the skills section?
+  rationale: JB says to let the recruiter assume the page-one stack was used and to sprinkle tech into
+    the project descriptions.
+  decision: accepted
+  assigned: SKL-2
+- id: NEW-15
+  category: GAP
+  text: A gap is not a problem in itself; show what was done during it to stay current (learning, projects).
+  check: For any gap of several months, does the CV show learning, projects or other activity in it?
+  rationale: JB says everybody has gaps; the concern is a long gap with no learning or projects.
+  decision: accepted
+  assigned: GAP-1
+- id: NEW-16
+  category: REG
+  text: Make the candidate's location and right-to-work status obvious.
+  check: Does the CV header state the current location and the right to work for the target country (or
+    the visa held)?
+  rationale: JB lists it among the first-page checks and repeats it as advice for international candidates.
+  decision: accepted
+  assigned: REG-1
+- id: NEW-17
+  category: REG
+  text: Do not state a need for visa sponsorship on the CV.
+  check: Does the CV say the candidate needs sponsorship?
+  rationale: JB says sponsorship on the CV introduces bias and gives screeners a reason to pass. When
+    to raise it instead is X-VISA. Compatible with NEW-16, which is about status the candidate already
+    has.
+  decision: accepted
+  assigned: REG-2
+- id: NEW-18
+  category: CHN
+  text: Use referrals, networking and short tailored messages alongside applications; they get the CV
+    read more carefully.
+  check: Not a CV check; recommend it when the candidate relies only on cold applications.
+  rationale: JB says referrals transfer trust and can matter more than the CV.
+  decision: accepted
+  assigned: CHN-1
+- id: NEW-19
+  category: CHN
+  text: Keep the LinkedIn profile complete and active, consistent with the CV.
+  check: Does the profile have a photo, full job history, a bio and some activity, matching the CV?
+  rationale: JB says nothing is worse than an empty profile.
+  decision: accepted
+  assigned: CHN-2
+- id: NEW-20
+  category: CHN
+  text: Skip a generic cover letter unless the employer asks for one; anything written should be short
+    and specific to the company.
+  check: Is there a generic cover letter about passion and hard work? If a letter is required, is it short
+    and specific?
+  rationale: JB would not bother with one, says generic letters add little and probably are not read.
+  decision: accepted
+  assigned: CHN-3
+- id: NEW-21
+  category: SCR
+  text: Time a screener spends on the first pass of a CV, in seconds.
+  check: 'Context for the first-pass rules: what must be visible within that time (NEW-1, NEW-3).'
+  rationale: JB gives about 30 seconds. A quantity, so a measure (ADR 0003).
+  decision: accepted
+  assigned: SCR-4
+  measure:
+    unit: seconds
+    question: How long does the first pass of a CV take?
+- id: NEW-22
+  category: ATS
+  text: Screening decisions are made by people reading the CV; the ATS is not relied on to judge candidates.
+  check: 'Context for ATS advice: write for the human reader and do not trade readability for keyword
+    density.'
+  rationale: JB never relied heavily on an ATS for hiring decisions. Previously mapped to NEW-5, which
+    JB states separately; a fact of its own under ADR 0003, so other recruiters can confirm or contradict
+    it.
+  decision: accepted
+  assigned: ATS-4
+- id: NEW-23
+  category: SCR
+  text: 'A recruiter has to justify each shortlisted candidate to the hiring manager, so the CV must supply
+    the case: the problems solved and why the candidate fits.'
+  check: Could a recruiter take two or three concrete reasons to shortlist from the CV?
+  rationale: JB must explain internally why a candidate is worth meeting. Previously mapped to NEW-12;
+    a fact of its own under ADR 0003.
+  decision: accepted
+  assigned: SCR-5
+- id: X-INT
+  category: X
+  text: Interview-stage advice (phone screens and later interviews).
+  check: n/a (out of scope)
+  rationale: Spec 02 section 6 names it; S004 has phone-screen practice and questions to ask.
+  decision: accepted
+  assigned: X-INT
+- id: X-VISA
+  category: X
+  text: Visa routes and sponsorship processes.
+  check: n/a (out of scope)
+  rationale: Spec 02 section 6 names it; S004 discusses sponsorship barriers and timing.
+  decision: accepted
+  assigned: X-VISA
+- id: X-VOL
+  category: X
+  text: Application volume and targeting of employers.
+  check: n/a (out of scope)
+  rationale: Spec 02 section 6 names it; S004 says applying to more jobs is not the answer.
+  decision: accepted
+  assigned: X-VOL
+- id: X-PROC
+  category: X
+  text: How hiring processes run.
+  check: n/a (out of scope)
+  rationale: Spec 02 section 6 names it; S004 describes the recruiter workflow and international screening.
+  decision: accepted
+  assigned: X-PROC
+- id: NEW-24
+  category: ACH
+  text: Under each role, name the business domain (such as fintech or healthcare) and the end customers
+    the work served.
+  check: Does each recent role say which domain the work was in and who the end customers were?
+  rationale: JB asks for "the topic so fintech or financial services or healthcare" and "our end customers"
+    under each entry (S004.t0022.s004). ACH-1 (problem, contribution, result) does not state it, so under
+    ADR 0003 it is a separate fact. If accepted, the S004.t0022.s004 anchor moves from JB-13 to a claim
+    on this rule.
+  decision: accepted
+  assigned: ACH-2
+- id: NEW-25
+  category: CHN
+  text: Share of a recruiter's placements that came from referrals, in percent.
+  check: Context for CHN-1, how much hiring runs through referrals rather than applications.
+  rationale: JB states a number (about 70 percent of early-career placements, S004.t0028.s007); the guide
+    records stated numbers on measure rules. If accepted, JB-28 moves from CHN-1 to this rule with value
+    70.
+  decision: accepted
+  assigned: CHN-4
+  measure:
+    unit: percent
+    question: What share of a recruiter's placements comes from referrals?

@@ -1,0 +1,57 @@
+{
+  "schema": "rrs.chunks.manifest/1",
+  "source_id": "S004",
+  "transcript_version": 1,
+  "transcript_sha256": "fb230c5fccc02c3f3e105e69d79e1aace1d1805f086d7f6d3a33db0de6ebbebd",
+  "budget": 24000,
+  "chunks": [
+    {
+      "id": "S004.c001",
+      "file": "c001.md",
+      "first": "S004.t0001.s001",
+      "last": "S004.t0030.s011",
+      "chars": 23230,
+      "sentences": 146,
+      "episodes": [
+        "S004.e01",
+        "S004.e02",
+        "S004.e03",
+        "S004.e04",
+        "S004.e05",
+        "S004.e06",
+        "S004.e07",
+        "S004.e08",
+        "S004.e09",
+        "S004.e10",
+        "S004.e11",
+        "S004.e12",
+        "S004.e13"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S004.c001.jsonl",
+      "merge_commit": "d246138"
+    },
+    {
+      "id": "S004.c002",
+      "file": "c002.md",
+      "first": "S004.t0031.s001",
+      "last": "S004.t0049.s001",
+      "chars": 17216,
+      "sentences": 104,
+      "episodes": [
+        "S004.e14",
+        "S004.e15",
+        "S004.e16",
+        "S004.e17",
+        "S004.e18",
+        "S004.e19",
+        "S004.e20",
+        "S004.e21",
+        "S004.e22"
+      ],
+      "status": "merged",
+      "staging": "ledger/staging/S004.c002.jsonl",
+      "merge_commit": null
+    }
+  ]
+}

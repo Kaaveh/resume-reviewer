@@ -1,0 +1,469 @@
+- id: NEW-1
+  category: SCR
+  text: At larger companies the first screener is often an HR recruiter who knows the names of technologies
+    but cannot judge the technical detail of a CV.
+  check: Context for ACH-3 and SCR-7; would a non-technical reader see the match from titles and named
+    technologies alone?
+  rationale: JA describes the HR or recruiter first pass (S001.t0001.s029 to s034). ACH-3 is advice to
+    write for such a reader; this states the reader exists.
+  decision: accepted
+  assigned: SCR-11
+- id: NEW-2
+  category: REG
+  text: Do not list English test scores such as IELTS or TOEFL on the CV; many recruiters do not know
+    what they mean.
+  check: Is there an IELTS or TOEFL score on the CV?
+  rationale: JA says many recruiters do not know these tests and recommends removing the score (S001.t0001.s082
+    to s085, s100). REG-6 is about the level of English, not listing test scores.
+  decision: accepted
+  assigned: REG-8
+- id: NEW-3
+  category: SKL
+  text: Group the skills list into categories.
+  check: Is the skills section grouped (languages, cloud, tools), not one flat list?
+  rationale: JA calls a categorized skills list a good thing (S001.t0001.s088). No skills-format rule
+    exists.
+  decision: accepted
+  assigned: SKL-8
+- id: NEW-4
+  category: STR
+  text: Do not list courses in a section of their own; mention relevant ones in the summary or the bullet
+    points.
+  check: Is there a separate list of courses?
+  rationale: JA (S001.t0001.s101 to s103). No courses rule exists.
+  decision: accepted
+  assigned: STR-11
+- id: NEW-5
+  category: STR
+  text: Leave references off the CV; they add nothing.
+  check: Is there a references section?
+  rationale: JA says the references section conveys nothing (S001.t0001.s105).
+  decision: accepted
+  assigned: STR-12
+- id: NEW-6
+  category: SKL
+  text: Do not list soft skills in a section of their own; show them in the summary and the bullet points.
+  check: Is there a soft skills list (teamwork, leadership)?
+  rationale: JA (S001.t0001.s126 to s128). No soft-skills rule exists.
+  decision: accepted
+  assigned: SKL-9
+- id: NEW-7
+  category: ACH
+  text: Make achievements measurable where possible.
+  check: Do the bullet points carry numbers (percentages, counts, time, money)?
+  rationale: JA asks for achievements that are preferably measurable (S001.t0001.s133). ACH-1 asks for
+    the result, not that it be measured. TW (statistics, TW-07) and SB (a 40% load-time cut, SB-19) also
+    state it; their claims can be mapped to it after acceptance.
+  decision: accepted
+  assigned: ACH-6
+- id: NEW-8
+  category: STR
+  text: Left-align the text of an English CV; justified text is not needed.
+  check: Is the body text justified?
+  rationale: JA (S001.t0003.s003 to s005). STR-3 (plain layout) does not state alignment.
+  decision: accepted
+  assigned: STR-13
+- id: NEW-9
+  category: REG
+  text: On an English CV, listing English as a language adds nothing; leave it out.
+  check: Does an English CV list English in a languages section?
+  rationale: JA (S001.t0003.s008 to s010). REG-8 is about test scores.
+  decision: accepted
+  assigned: REG-9
+- id: NEW-10
+  category: STR
+  text: In each role heading, put the job title first and more prominent than the company name.
+  check: Does each role heading lead with the job title?
+  rationale: JA says the job title matters more than the company, so swap them (S001.t0003.s012 to s014).
+    SCR-9 is about screeners looking at titles, not the heading order.
+  decision: accepted
+  assigned: STR-14
+- id: NEW-11
+  category: ACH
+  text: Give the scale of the work in the bullet points (how big the product, the company and the team
+    were).
+  check: Can a reader tell from the bullets how large the product, company and team were?
+  rationale: JA asks what scale the app, company and team were (S001.t0003.s015 to s025). ACH-6 asks for
+    numbers on results; STR-7 for a company paragraph.
+  decision: accepted
+  assigned: ACH-7
+- id: NEW-12
+  category: ACH
+  text: Metrics that are all round numbers (25, 30, 40, 50 percent) look rounded, and screeners notice
+    it.
+  check: Are all the percentages round numbers?
+  rationale: JA notices that every number on a CV is round (S001.t0005.s012 to s014). ACH-6 asks for numbers;
+    this is how they read.
+  decision: accepted
+  assigned: ACH-8
+- id: NEW-13
+  category: SKL
+  text: Show hands-on experience with testing tools (at least one or two) on the CV.
+  check: Does the CV name the testing tools used and how?
+  rationale: JA expects one or two testing tools and calls the lack of them a big gap across frontend,
+    backend and DevOps CVs (S001.t0007.s020 to s027). RED-2 is about the role's core stack.
+  decision: accepted
+  assigned: SKL-10
+- id: NEW-14
+  category: ACH
+  text: Show that the candidate keeps learning new skills and technologies.
+  check: Does the CV show recent learning (new tools, courses applied in work, side projects)?
+  rationale: JA wants to see an interest in learning and raising one's skills, since AI has raised expectations
+    (S001.t0007.s018 to s019). ACH-4 is about side projects showing interest in the work.
+  decision: accepted
+  assigned: ACH-9
+- id: NEW-15
+  category: STR
+  text: Give each listed project its dates and context (in a job, freelance or personal).
+  check: Does every project say when and in what context it was done?
+  rationale: JA cannot tell when or for whom undated projects were done (S001.t0007.s029 to s030).
+  decision: accepted
+  assigned: STR-15
+- id: NEW-16
+  category: REG
+  text: A basic level of the local language (such as German A1) on the CV shows learning but is not a
+    working skill.
+  check: Context only; do not present a basic level as a usable language skill.
+  rationale: JA (S001.t0009.s006 to s008). REG-9 is about listing English on an English CV.
+  decision: accepted
+  assigned: REG-10
+- id: NEW-17
+  category: REG
+  text: The CV can use the name the candidate goes by (a nickname); the legal name is needed only where
+    an application form asks for it.
+  check: Context only; a nickname on the CV and LinkedIn is fine if used consistently.
+  rationale: JA answers a viewer who wants to change their name (S001.t0013.s012 to s019, S001.t0015.s001).
+    No name rule exists.
+  decision: accepted
+  assigned: REG-11
+- id: NEW-18
+  category: REG
+  text: A candidate's name can affect how many interviews they get.
+  check: Context for REG-11 (NEW-17).
+  rationale: JA says yes, a name can affect the job search, citing a two-CV experiment seen on social
+    media (S001.t0013.s009 to s011). The fact behind NEW-17, so a rule of its own (ADR 0003).
+  decision: accepted
+  assigned: REG-12
+- id: NEW-19
+  category: STR
+  text: Present the candidate as a software engineer rather than as a developer of one language or framework
+    (such as a .NET developer).
+  check: Does the title or summary tie the candidate to one language?
+  rationale: JA prefers software engineer and dislikes a language in the title, since a language can be
+    learned in a weekend (S001.t0019.s006 to s008, S001.t0021.s001 to s004). SCR-9 is about screeners
+    looking at titles.
+  decision: accepted
+  assigned: STR-16
+- id: NEW-20
+  category: SCR
+  text: Screeners give the summary only a quick look.
+  check: Context for STR-4; can the summary be read in a glance?
+  rationale: JA (S001.t0023.s001). STR-4 says what the summary should say.
+  decision: accepted
+  assigned: SCR-12
+- id: NEW-21
+  category: STR
+  text: Do not use first-person pronouns (I, my) in the CV.
+  check: Do the summary or bullets use I, me or my?
+  rationale: JA (S001.t0023.s002 to s004).
+  decision: accepted
+  assigned: STR-17
+- id: NEW-22
+  category: SCR
+  text: Screeners do not read a CV in full, even for candidates they invite to interview.
+  check: Context; what matters must be visible without a full read.
+  rationale: JA never reads a CV in full (S001.t0025.s002 to s003). SCR-1 says the first pass is not a
+    read of the whole career; this is about every read.
+  decision: accepted
+  assigned: SCR-13
+- id: NEW-23
+  category: CHN
+  text: Screeners read the cover letter only when they are undecided about the CV.
+  check: Context for CHN-3; the CV must carry the decision on its own.
+  rationale: JA glances at a cover letter only when on the fence (S001.t0029.s001 to s003, S001.t0041.s001).
+    CHN-3 is advice on whether to write one.
+  decision: accepted
+  assigned: CHN-12
+- id: NEW-24
+  category: SCR
+  text: Screeners judge the CV against the salary the candidate asked for; a higher salary raises the
+    bar.
+  check: If the application states a salary, does the CV justify it?
+  rationale: JA (S001.t0029.s004 to s007). No salary rule exists.
+  decision: accepted
+  assigned: SCR-14
+- id: NEW-25
+  category: SCR
+  text: A screener who is undecided about a CV rejects it, because an interview costs at least half an
+    hour.
+  check: Context; a borderline CV is a rejected CV, so remove every doubt.
+  rationale: JA (S001.t0029.s010 to s015). SCR-1 is about what the first pass decides, not how ties go.
+  decision: accepted
+  assigned: SCR-15
+- id: NEW-26
+  category: SKL
+  text: Share of the skills listed in a job ad that the CV must show, in percent.
+  check: Count the job ad's listed skills the CV shows; compare with the recruiters' common range.
+  rationale: JA says about 8 of 10 listed skills (S001.t0031.s005). A quantity, so a measure (ADR 0003).
+  decision: accepted
+  assigned: SKL-11
+  measure:
+    unit: percent
+    question: What share of the skills a job ad lists must the CV show?
+- id: NEW-27
+  category: SEN
+  text: The more years of experience a CV claims, the more the screener expects it to show.
+  check: Do the achievements match what the stated years of experience lead a reader to expect?
+  rationale: JA expected more of five years and much more of ten (S001.t0045.s001 to s002). No seniority-expectation
+    rule exists.
+  decision: accepted
+  assigned: SEN-5
+- id: NEW-28
+  category: ACH
+  text: Put the biggest achievement at the top, where the reader sees it first.
+  check: Does the strongest result come first in the summary or the first role?
+  rationale: JA calls putting the big achievement at the top a good point (S001.t0045.s005 to s006). ACH-3
+    is about outcome-first wording inside one bullet.
+  decision: accepted
+  assigned: ACH-10
+- id: NEW-29
+  category: STR
+  text: Put certificates at the end of the CV.
+  check: Does a certificates section come before the work history?
+  rationale: JA (S001.t0045.s011 to s013).
+  decision: accepted
+  assigned: STR-18
+- id: NEW-30
+  category: SKL
+  text: Listing a required technology in the skills section can be enough for a screener to invite the
+    candidate.
+  check: Context for SKL-11; is every required technology the candidate has used named in the skills section?
+  rationale: JA says the technology being listed is enough to give the candidate half an hour (S001.t0049.s001).
+    SKL-1 says a technology list shows the skill set at a glance; this is what it is worth.
+  decision: accepted
+  assigned: SKL-12
+- id: NEW-31
+  category: STR
+  text: Give each employer's location in the work history.
+  check: Does each role say where the employer is?
+  rationale: JA recommends always giving it, while a missing location is not a red flag for JA (S001.t0053.s002,
+    S001.t0057.s001).
+  decision: accepted
+  assigned: STR-19
+- id: NEW-32
+  category: STR
+  text: Head the CV with the name and the job title; leave out invented taglines.
+  check: Is there a slogan or tagline in the header besides the name and title?
+  rationale: JA calls a header line such as "production critical transaction system" made up and asks
+    to remove it (S001.t0059.s004, S001.t0061.s001). STR-14 is about role headings.
+  decision: accepted
+  assigned: STR-20
+- id: NEW-33
+  category: STR
+  text: Length of the summary at the top of the CV, in lines.
+  check: Count the summary's lines; compare with the recruiters' common range.
+  rationale: JA calls a six-line summary very long (S001.t0063.s002). A quantity, so a measure (ADR 0003);
+    STR-4 names three or four sentences in its text, which this measure can record too.
+  decision: accepted
+  assigned: STR-21
+  measure:
+    unit: lines
+    question: How long should the summary at the top of the CV be?
+- id: NEW-34
+  category: STR
+  text: Length of a bullet point, in lines.
+  check: Count the lines of each bullet; compare with the recruiters' common range.
+  rationale: JA says one line at most (S001.t0065.s010). A quantity, so a measure (ADR 0003).
+  decision: accepted
+  assigned: STR-22
+  measure:
+    unit: lines
+    question: How long should a bullet point be?
+- id: NEW-35
+  category: ACH
+  text: In a large company, claim only the candidate's own part of an impact that a whole team or organization
+    produced.
+  check: Do bullets claim sole credit for company-wide results?
+  rationale: JA (S001.t0069.s011 to s013, S001.t0071.s001 to s003). ACH-1 asks for the personal contribution;
+    this is about not overclaiming shared impact.
+  decision: accepted
+  assigned: ACH-11
+- id: NEW-36
+  category: SEN
+  text: A candidate hired from abroad must be stronger than the hiring team's average, because relocation
+    takes months and is an investment.
+  check: Context for the target profile; does the CV show the candidate would raise the team's level?
+  rationale: JA (S001.t0073.s001 to s011). SEN-5 (expectations rise with years) is about experience, not
+    relocation.
+  decision: accepted
+  assigned: SEN-6
+- id: NEW-37
+  category: ACH
+  text: Show ownership on the CV; the candidate took responsibility for work and delivered it to the end,
+    not just completed tasks.
+  check: Do the bullets show work the candidate drove and finished, and followed up after release?
+  rationale: JA says ownership is what always mattered most on a CV (S001.t0075.s001 to s012). ACH-1 asks
+    for the personal contribution, not ownership.
+  decision: accepted
+  assigned: ACH-12
+- id: NEW-38
+  category: CHN
+  text: Link only profiles that add value; a Stack Overflow profile is rarely opened any more, and an
+    inactive one adds nothing.
+  check: Are there profile links (Stack Overflow, others) that are inactive or unlikely to be opened?
+  rationale: JA (S001.t0077.s004 to s007). CHN-6 is about GitHub only.
+  decision: accepted
+  assigned: CHN-13
+- id: NEW-39
+  category: SKL
+  text: A CV that lists JavaScript should also show TypeScript.
+  check: Does a JavaScript CV name TypeScript?
+  rationale: JA asks who writes JavaScript without TypeScript any more (S001.t0077.s036 to s037).
+  decision: accepted
+  assigned: SKL-13
+- id: NEW-40
+  category: STR
+  text: Bold only what should catch the reader's eye, such as a strong result, not routine items like
+    the university name.
+  check: What is in bold, and is it what the reader should notice?
+  rationale: JA (S001.t0079.s007 to s008). STR-3 is about plain layout generally.
+  decision: accepted
+  assigned: STR-23
+- id: NEW-41
+  category: GAP
+  text: Do not show a full-time job overlapping other work (another full-time job or freelance work).
+  check: Do the dates of a full-time role overlap other roles?
+  rationale: JA calls overlapping full-time work bad and strongly advises against showing it (S001.t0079.s014
+    to s017, S001.t0081.s001 to s004).
+  decision: accepted
+  assigned: GAP-4
+- id: NEW-42
+  category: RED
+  text: Em-dashes read as a sign that AI wrote the CV.
+  check: Are there em-dashes or double dashes in the CV?
+  rationale: JA (S001.t0089.s006 to s007). RED-4 is about AI-written CVs in general; this is the specific
+    tell.
+  decision: accepted
+  assigned: RED-5
+- id: NEW-43
+  category: ACH
+  text: Start bullet points with action verbs, and vary the first word.
+  check: Do the bullets start with action verbs, and not all with the same one?
+  rationale: JA (S001.t0091.s003).
+  decision: accepted
+  assigned: ACH-13
+- id: NEW-44
+  category: SEN
+  text: Show teamwork; presenting work as done alone is not an advantage, because hiring managers want
+    someone who will adapt to the team.
+  check: Do the bullets show work with a team, or only solo work?
+  rationale: JA (S001.t0091.s004 to s011). ACH-12 (ownership) is about driving work to the end, not working
+    alone.
+  decision: accepted
+  assigned: SEN-7
+- id: NEW-45
+  category: REG
+  text: Write the whole CV in English; leave no text in another language.
+  check: Is any part of an English CV in another language?
+  rationale: JA (S001.t0091.s016, s028).
+  decision: accepted
+  assigned: REG-13
+- id: NEW-46
+  category: SKL
+  text: Do not repeat the same technology many times across the CV; naming it once is enough.
+  check: Is one technology named in the summary, the skills list and every role?
+  rationale: JA counts PHP four times on one CV (S001.t0091.s016 to s019). SKL-2 is about full technology
+    lists under every role.
+  decision: accepted
+  assigned: SKL-14
+- id: NEW-47
+  category: SKL
+  text: Do not list skills labelled as basic.
+  check: Does the skills list mark any item as basic or beginner?
+  rationale: JA did not like the basic labels on a senior CV (S001.t0091.s025 to s026). REG-10 is about
+    a basic level of a spoken language.
+  decision: accepted
+  assigned: SKL-15
+- id: NEW-48
+  category: STR
+  text: Give the start and end month of each role, not just the year.
+  check: Do role dates include months?
+  rationale: JA (S001.t0101.s010 to s011).
+  decision: accepted
+  assigned: STR-24
+- id: NEW-49
+  category: SKL
+  text: Include a skills section.
+  check: Is there a skills section?
+  rationale: JA asks two candidates to add one (S001.t0101.s023, s042, s050 to s051). SKL-1 is about a
+    technology list on page one showing fit, not about having the section.
+  decision: accepted
+  assigned: SKL-16
+- id: NEW-50
+  category: STR
+  text: Under the name, write the title of the job being applied for, matching it.
+  check: Does the title under the name match the target job's title?
+  rationale: JA (S001.t0101.s051 to s053). STR-14 is about role headings; STR-16 about software engineer
+    over a language title.
+  decision: accepted
+  assigned: STR-25
+- id: NEW-51
+  category: SKL
+  text: Do not label skill proficiency levels (expert, advanced, intermediate, novice).
+  check: Does the skills section rate the candidate's level per skill?
+  rationale: JA advises against proficiency labels; a main tool rated intermediate turned an invite into
+    borderline (S001.t0101.s069 to s071). SKL-15 is about basic labels only.
+  decision: accepted
+  assigned: SKL-17
+- id: NEW-52
+  category: CHN
+  text: Number of GitHub contributions in a year from which a profile stands out.
+  check: Count last year's contributions; compare with the recruiters' common range before calling GitHub
+    a strength.
+  rationale: JA calls under 1,000 contributions ordinary (S001.t0101.s113 to s114). A quantity, so a measure
+    (ADR 0003).
+  decision: accepted
+  assigned: CHN-14
+  measure:
+    unit: contributions
+    question: From how many GitHub contributions a year does a profile stand out?
+- id: NEW-53
+  category: SKL
+  text: Leave out practices every engineer uses, such as Agile; they add nothing.
+  check: Does the CV list generic practices (Agile, Scrum, Git) as if they were distinguishing?
+  rationale: JA (S001.t0101.s118).
+  decision: accepted
+  assigned: SKL-18
+- id: NEW-54
+  category: STR
+  text: Education usually goes at the top of the CV only for fresh graduates without work experience.
+  check: Is education above experience on a CV with work experience?
+  rationale: JA questions education at the top of the machine learning CV (S001.t0107.s002). STR-5 is
+    about including education, not its position.
+  decision: accepted
+  assigned: STR-26
+- id: NEW-55
+  category: SKL
+  text: List technologies outside the target role when they relate to the job (such as frontend frameworks
+    on a backend CV); they count as a plus even when the job does not ask for them.
+  check: Does the CV leave out related technologies the candidate knows because the target role does not
+    name them, or list technologies with no link to the job?
+  rationale: JA (S001.t0111.s008 to s009, qualified at S001.t0113.s001 to s002). SKL-6 is about startups
+    looking for breadth.
+  decision: accepted
+  assigned: SKL-19
+- id: NEW-56
+  category: SCR
+  text: Screening outcomes depend on who reads the CV; different screeners can judge the same CV differently.
+  check: Present a verdict as one screener's likely view, not a certainty; do not over-fit the CV to a
+    single reader's preference.
+  rationale: JA (S001.t0117.s003 to s006). No rule covers variance between screeners.
+  decision: accepted
+  assigned: SCR-16
+- id: NEW-57
+  category: GAP
+  text: Experience at a startup that failed is not a problem; list it like any other job.
+  check: Does the candidate hide or apologize for work at a startup that no longer exists?
+  rationale: JA (S001.t0138.s001, S001.t0140.s001). No rule covers failed employers.
+  decision: accepted
+  assigned: GAP-5

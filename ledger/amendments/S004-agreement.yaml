@@ -1,0 +1,19 @@
+# Edits to merged S004 claims from the agreement study (reports/agreement-S004.md), applying
+# the typing rules added to the extraction guide. Applied with `uv run rrs ledger amend`.
+- claim: JB-38
+  reason: "Agreement study: a reason attached to advice stays P unless reported as something screeners do; 'gives people a reason to click past' is a hedged reason (guide, Type)."
+  set:
+    type: P
+- claim: JB-32
+  reason: "Agreement study: 'a cover letter that probably wouldn't get read' is reading behavior (F); split into its own claim, merged from ledger/staging/S004.agreement.jsonl."
+  set:
+    claim_en: "A generic page about being passionate and hardworking adds very little; the recruiter would rather see research into the job, the company and its values."
+    anchors:
+      - {sentence_id: S004.t0030.s007, t_start: null, quote: "a generic page describing how passionate and hardworking you are it adds very little"}
+      - {sentence_id: S004.t0030.s008, t_start: null, quote: "I want to see something that's like personal like you've done your research you've looked at the job you've looked at the company"}
+- claim: JB-44
+  reason: "Agreement study: 'nothing worse than coming across...' is the recruiter's reaction (F); split into its own claim, merged from ledger/staging/S004.agreement.jsonl."
+  set:
+    claim_en: "Improve the LinkedIn profile and show activity rather than being invisible."
+    anchors:
+      - {sentence_id: S004.t0046.s001, t_start: null, quote: "improve your LinkedIn profile show that you're active rather than invisible"}

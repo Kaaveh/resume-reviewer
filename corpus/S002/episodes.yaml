@@ -1,0 +1,146 @@
+# Episodes for S002 (spec 01 section 6). Proposed by Claude from the transcript; accepted by the owner on 2026-10-19.
+- id: S002.e01
+  type: other
+  label: 'Opening (the recording starts mid-answer): AI and junior engineers'
+  from: S002.t0001.s001
+  to: S002.t0001.s003
+- id: S002.e02
+  type: qa
+  label: What startups look for in engineers
+  from: S002.t0002.s001
+  to: S002.t0003.s015
+- id: S002.e03
+  type: qa
+  label: What a recruiter looks at first on a CV
+  from: S002.t0004.s001
+  to: S002.t0005.s005
+- id: S002.e04
+  type: qa
+  label: Biggest CV red flags
+  from: S002.t0006.s001
+  to: S002.t0007.s005
+- id: S002.e05
+  type: qa
+  label: CV length
+  from: S002.t0008.s001
+  to: S002.t0009.s005
+- id: S002.e06
+  type: qa
+  label: How much technical detail to put in a CV
+  from: S002.t0010.s001
+  to: S002.t0011.s006
+- id: S002.e07
+  type: qa
+  label: How to get hired by a UK startup
+  from: S002.t0012.s001
+  to: S002.t0013.s005
+- id: S002.e08
+  type: qa
+  label: What makes a CV move forward
+  from: S002.t0014.s001
+  to: S002.t0015.s004
+- id: S002.e09
+  type: qa
+  label: The interview process after the CV is accepted
+  from: S002.t0016.s001
+  to: S002.t0017.s009
+- id: S002.e10
+  type: qa
+  label: Interview stages and timing
+  from: S002.t0018.s001
+  to: S002.t0019.s012
+- id: S002.e11
+  type: qa
+  label: Preparing for the first call
+  from: S002.t0020.s001
+  to: S002.t0021.s009
+- id: S002.e12
+  type: qa
+  label: Common interview mistakes
+  from: S002.t0022.s001
+  to: S002.t0023.s002
+- id: S002.e13
+  type: qa
+  label: Coping with rejections
+  from: S002.t0024.s001
+  to: S002.t0025.s013
+- id: S002.e14
+  type: qa
+  label: LinkedIn and GitHub on the CV
+  from: S002.t0026.s001
+  to: S002.t0031.s001
+- id: S002.e15
+  type: qa
+  label: What companies look for in JavaScript engineers
+  from: S002.t0032.s001
+  to: S002.t0033.s009
+- id: S002.e16
+  type: qa
+  label: Skills JavaScript engineers are missing
+  from: S002.t0034.s001
+  to: S002.t0035.s007
+- id: S002.e17
+  type: qa
+  label: Matching the job description; cloud (AWS, GCP) for JavaScript roles
+  from: S002.t0036.s001
+  to: S002.t0037.s004
+- id: S002.e18
+  type: qa
+  label: What engineers should focus on in the next few years
+  from: S002.t0038.s001
+  to: S002.t0039.s006
+- id: S002.e19
+  type: audience-q
+  label: 'Contact details on a UK CV: LinkedIn, email, phone'
+  from: S002.t0040.s001
+  to: S002.t0045.s006
+- id: S002.e20
+  type: qa
+  label: Mentioning your city when you live near the employer
+  from: S002.t0046.s001
+  to: S002.t0047.s005
+- id: S002.e21
+  type: audience-q
+  label: Sponsorship and candidates from Iran
+  from: S002.t0048.s001
+  to: S002.t0049.s005
+- id: S002.e22
+  type: audience-q
+  label: Job boards for JavaScript roles in the UK
+  from: S002.t0050.s001
+  to: S002.t0051.s001
+- id: S002.e23
+  type: audience-q
+  label: Big company and university names on a CV
+  from: S002.t0052.s001
+  to: S002.t0055.s003
+- id: S002.e24
+  type: audience-q
+  label: Fully remote hiring from Iran
+  from: S002.t0056.s001
+  to: S002.t0057.s001
+- id: S002.e25
+  type: audience-q
+  label: Deep Node.js or system design for global roles
+  from: S002.t0058.s001
+  to: S002.t0059.s008
+- id: S002.e26
+  type: audience-q
+  label: Visa sponsorship for a Netherlands-based candidate
+  from: S002.t0060.s001
+  to: S002.t0061.s004
+- id: S002.e27
+  type: qa
+  label: How much a referral helps
+  from: S002.t0062.s001
+  to: S002.t0067.s001
+- id: S002.e28
+  type: audience-q
+  label: English level needed to get hired
+  from: S002.t0068.s001
+  to: S002.t0069.s007
+- id: S002.e29
+  type: outro
+  label: Closing
+  from: S002.t0070.s001
+  to: S002.t0070.s005

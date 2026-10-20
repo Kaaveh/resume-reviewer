@@ -1,0 +1,4017 @@
+{
+  "schema": "rrs.transcript/1",
+  "source_id": "S002",
+  "transcript_version": 1,
+  "id_scheme": 1,
+  "transcript_sha256": "afc84e2d3ea60d50ce0d39b689e6def3bda4bb818af30849ffb3a5178fc16759",
+  "timing": "none",
+  "roles": {
+    "SB": "guest",
+    "JA": "host"
+  },
+  "turns": [
+    {
+      "id": "S002.t0001",
+      "n": 1,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0001.s001",
+          "episode": "S002.e01",
+          "lang": "en",
+          "start": null,
+          "text": "...but yeah sometimes people can think and this is wrong i think this is not a right perspective to have personally people can think they",
+          "norm": "but yeah sometimes people can think and this is wrong i think this is not a right perspective to have personally people can think they",
+          "norm_compact": "butyeahsometimespeoplecanthinkandthisiswrongithinkthisisnotarightperspectivetohavepersonallypeoplecanthinkthey",
+          "terms": []
+        },
+        {
+          "id": "S002.t0001.s002",
+          "episode": "S002.e01",
+          "lang": "en",
+          "start": null,
+          "text": "can use AI to do the work of a junior engineer but you know if you're not training up junior engineers and mid-levels where are",
+          "norm": "can use ai to do the work of a junior engineer but you know if you re not training up junior engineers and mid levels where are",
+          "norm_compact": "canuseaitodotheworkofajuniorengineerbutyouknowifyourenottrainingupjuniorengineersandmidlevelswhereare",
+          "terms": [
+            {
+              "c": "AI",
+              "v": "AI"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0001.s003",
+          "episode": "S002.e01",
+          "lang": "en",
+          "start": null,
+          "text": "the seniors of tomorrow going to come from.",
+          "norm": "the seniors of tomorrow going to come from",
+          "norm_compact": "theseniorsoftomorrowgoingtocomefrom",
+          "terms": [
+            {
+              "c": "senior",
+              "v": "senior"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0002",
+      "n": 2,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0002.s001",
+          "episode": "S002.e02",
+          "lang": "en",
+          "start": null,
+          "text": "i see yeah makes sense and what are startup looking for in engineering at the moment because you know u big companies may think differently",
+          "norm": "i see yeah makes sense and what are startup looking for in engineering at the moment because you know u big companies may think differently",
+          "norm_compact": "iseeyeahmakessenseandwhatarestartuplookingforinengineeringatthemomentbecauseyouknowubigcompaniesmaythinkdifferently",
+          "terms": []
+        },
+        {
+          "id": "S002.t0002.s002",
+          "episode": "S002.e02",
+          "lang": "en",
+          "start": null,
+          "text": "and searching for some other uh what do you think about the startups what they are looking for exactly.",
+          "norm": "and searching for some other uh what do you think about the startups what they are looking for exactly",
+          "norm_compact": "andsearchingforsomeotheruhwhatdoyouthinkaboutthestartupswhattheyarelookingforexactly",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0003",
+      "n": 3,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0003.s001",
+          "episode": "S002.e02",
+          "lang": "en",
+          "start": null,
+          "text": "yeah so that's a really good question John um I think the most important things it boils down to a few different important parts so",
+          "norm": "yeah so that s a really good question john um i think the most important things it boils down to a few different important parts so",
+          "norm_compact": "yeahsothatsareallygoodquestionjohnumithinkthemostimportantthingsitboilsdowntoafewdifferentimportantpartsso",
+          "terms": []
+        },
+        {
+          "id": "S002.t0003.s002",
+          "episode": "S002.e02",
+          "lang": "en",
+          "start": null,
+          "text": "I would say ownership is um a very very important part like what did you personally own in the project project what did you personally",
+          "norm": "i would say ownership is um a very very important part like what did you personally own in the project project what did you personally",
+          "norm_compact": "iwouldsayownershipisumaveryveryimportantpartlikewhatdidyoupersonallyownintheprojectprojectwhatdidyoupersonally",
+          "terms": [
+            {
+              "c": "ownership",
+              "v": "ownership"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0003.s003",
+          "episode": "S002.e02",
+          "lang": "en",
+          "start": null,
+          "text": "do for the product and you know having that sense of like knowing not just sort of okay I'm writing this piece of code but",
+          "norm": "do for the product and you know having that sense of like knowing not just sort of okay i m writing this piece of code but",
+          "norm_compact": "dofortheproductandyouknowhavingthatsenseoflikeknowingnotjustsortofokayimwritingthispieceofcodebut",
+          "terms": []
+        },
+        {
+          "id": "S002.t0003.s004",
+          "episode": "S002.e02",
+          "lang": "en",
+          "start": null,
+          "text": "like understanding why you're writing this piece of code right so ownership a product a good product sense you need to be comfortable with ambiguity",
+          "norm": "like understanding why you re writing this piece of code right so ownership a product a good product sense you need to be comfortable with ambiguity",
+          "norm_compact": "likeunderstandingwhyyourewritingthispieceofcoderightsoownershipaproductagoodproductsenseyouneedtobecomfortablewithambiguity",
+          "terms": [
+            {
+              "c": "ownership",
+              "v": "ownership"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0003.s005",
+          "episode": "S002.e02",
+          "lang": "en",
+          "start": null,
+          "text": "as well cuz um in startups sometimes your CTO or your engineering manager can just tell you something vague as like okay build me out",
+          "norm": "as well cuz um in startups sometimes your cto or your engineering manager can just tell you something vague as like okay build me out",
+          "norm_compact": "aswellcuzuminstartupssometimesyourctooryourengineeringmanagercanjusttellyousomethingvagueaslikeokaybuildmeout",
+          "terms": []
+        },
+        {
+          "id": "S002.t0003.s006",
+          "episode": "S002.e02",
+          "lang": "en",
+          "start": null,
+          "text": "a wealth proposition sort of statement or a feature and you need to turn that ambiguity into like a plan and eventually sort of a",
+          "norm": "a wealth proposition sort of statement or a feature and you need to turn that ambiguity into like a plan and eventually sort of a",
+          "norm_compact": "awealthpropositionsortofstatementorafeatureandyouneedtoturnthatambiguityintolikeaplanandeventuallysortofa",
+          "terms": []
+        },
+        {
+          "id": "S002.t0003.s007",
+          "episode": "S002.e02",
+          "lang": "en",
+          "start": null,
+          "text": "shippable product um I think you also need to have some sort of breadth across the stack you can't just be too focused on databases",
+          "norm": "shippable product um i think you also need to have some sort of breadth across the stack you can t just be too focused on databases",
+          "norm_compact": "shippableproductumithinkyoualsoneedtohavesomesortofbreadthacrossthestackyoucantjustbetoofocusedondatabases",
+          "terms": []
+        },
+        {
+          "id": "S002.t0003.s008",
+          "episode": "S002.e02",
+          "lang": "en",
+          "start": null,
+          "text": "you can't just be too focused on React or too focused on you know backend you you need to be sort of comfortable across the",
+          "norm": "you can t just be too focused on react or too focused on you know backend you you need to be sort of comfortable across the",
+          "norm_compact": "youcantjustbetoofocusedonreactortoofocusedonyouknowbackendyouyouneedtobesortofcomfortableacrossthe",
+          "terms": [
+            {
+              "c": "React",
+              "v": "React",
+              "amb": [
+                "react (verb)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S002.t0003.s009",
+          "episode": "S002.e02",
+          "lang": "en",
+          "start": null,
+          "text": "stack as a whole and also be good with you need to ship fast as well right in startups people ship fast but then you",
+          "norm": "stack as a whole and also be good with you need to ship fast as well right in startups people ship fast but then you",
+          "norm_compact": "stackasawholeandalsobegoodwithyouneedtoshipfastaswellrightinstartupspeopleshipfastbutthenyou",
+          "terms": []
+        },
+        {
+          "id": "S002.t0003.s010",
+          "episode": "S002.e02",
+          "lang": "en",
+          "start": null,
+          "text": "need a good judgment uh in terms of like what are the trade-offs cuz I think engineers a lot of the times they they they",
+          "norm": "need a good judgment uh in terms of like what are the trade offs cuz i think engineers a lot of the times they they they",
+          "norm_compact": "needagoodjudgmentuhintermsoflikewhatarethetradeoffscuzithinkengineersalotofthetimestheytheythey",
+          "terms": []
+        },
+        {
+          "id": "S002.t0003.s011",
+          "episode": "S002.e02",
+          "lang": "en",
+          "start": null,
+          "text": "look to make the feature or the product perfect but in a startup environment sometimes you just need it to be good enough to push",
+          "norm": "look to make the feature or the product perfect but in a startup environment sometimes you just need it to be good enough to push",
+          "norm_compact": "looktomakethefeatureortheproductperfectbutinastartupenvironmentsometimesyoujustneedittobegoodenoughtopush",
+          "terms": []
+        },
+        {
+          "id": "S002.t0003.s012",
+          "episode": "S002.e02",
+          "lang": "en",
+          "start": null,
+          "text": "out um so having that judgment of knowing when to ship versus okay maybe we do need to make the quality a bit higher in",
+          "norm": "out um so having that judgment of knowing when to ship versus okay maybe we do need to make the quality a bit higher in",
+          "norm_compact": "outumsohavingthatjudgmentofknowingwhentoshipversusokaymaybewedoneedtomakethequalityabithigherin",
+          "terms": []
+        },
+        {
+          "id": "S002.t0003.s013",
+          "episode": "S002.e02",
+          "lang": "en",
+          "start": null,
+          "text": "in this particular feature and being able to back that up um and also it's the way you talk the way you come across um",
+          "norm": "in this particular feature and being able to back that up um and also it s the way you talk the way you come across um",
+          "norm_compact": "inthisparticularfeatureandbeingabletobackthatupumandalsoitsthewayyoutalkthewayyoucomeacrossum",
+          "terms": []
+        },
+        {
+          "id": "S002.t0003.s014",
+          "episode": "S002.e02",
+          "lang": "en",
+          "start": null,
+          "text": "you know I always tell people like when you're going through interviews imagine the interviewer is probably thinking can I put this engineer in front",
+          "norm": "you know i always tell people like when you re going through interviews imagine the interviewer is probably thinking can i put this engineer in front",
+          "norm_compact": "youknowialwaystellpeoplelikewhenyouregoingthroughinterviewsimaginetheinterviewerisprobablythinkingcaniputthisengineerinfront",
+          "terms": []
+        },
+        {
+          "id": "S002.t0003.s015",
+          "episode": "S002.e02",
+          "lang": "en",
+          "start": null,
+          "text": "of stakeholders can this engineer communicate can this can engineer build good relationships these are all like really important soft skills that uh startups look for.",
+          "norm": "of stakeholders can this engineer communicate can this can engineer build good relationships these are all like really important soft skills that uh startups look for",
+          "norm_compact": "ofstakeholderscanthisengineercommunicatecanthiscanengineerbuildgoodrelationshipsthesearealllikereallyimportantsoftskillsthatuhstartupslookfor",
+          "terms": [
+            {
+              "c": "skills",
+              "v": "skills"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0004",
+      "n": 4,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "punctuation",
+      "sentences": [
+        {
+          "id": "S002.t0004.s001",
+          "episode": "S002.e03",
+          "lang": "en",
+          "start": null,
+          "text": "yeah totally makes sense and when you normally first opening a CV what you are exactly looking for.",
+          "norm": "yeah totally makes sense and when you normally first opening a cv what you are exactly looking for",
+          "norm_compact": "yeahtotallymakessenseandwhenyounormallyfirstopeningacvwhatyouareexactlylookingfor",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0005",
+      "n": 5,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0005.s001",
+          "episode": "S002.e03",
+          "lang": "en",
+          "start": null,
+          "text": "so another good question so I think a few things that I look for instantly is where you've worked for um your impact you know",
+          "norm": "so another good question so i think a few things that i look for instantly is where you ve worked for um your impact you know",
+          "norm_compact": "soanothergoodquestionsoithinkafewthingsthatilookforinstantlyiswhereyouveworkedforumyourimpactyouknow",
+          "terms": []
+        },
+        {
+          "id": "S002.t0005.s002",
+          "episode": "S002.e03",
+          "lang": "en",
+          "start": null,
+          "text": "what what changed because of you right um your education your recent roles your tech stack um what stage your company's at whether it's a",
+          "norm": "what what changed because of you right um your education your recent roles your tech stack um what stage your company s at whether it s a",
+          "norm_compact": "whatwhatchangedbecauseofyourightumyoureducationyourrecentrolesyourtechstackumwhatstageyourcompanysatwhetheritsa",
+          "terms": [
+            {
+              "c": "tech stack",
+              "v": "tech stack"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0005.s003",
+          "episode": "S002.e03",
+          "lang": "en",
+          "start": null,
+          "text": "preede a seed series ABC BC what what sort of funding rounds have they gone through how long have you stayed through those funding rounds",
+          "norm": "preede a seed series abc bc what what sort of funding rounds have they gone through how long have you stayed through those funding rounds",
+          "norm_compact": "preedeaseedseriesabcbcwhatwhatsortoffundingroundshavetheygonethroughhowlonghaveyoustayedthroughthosefundingrounds",
+          "terms": []
+        },
+        {
+          "id": "S002.t0005.s004",
+          "episode": "S002.e03",
+          "lang": "en",
+          "start": null,
+          "text": "uh and then you know stuff like what has your progression been like um so if you were there for two years and you were",
+          "norm": "uh and then you know stuff like what has your progression been like um so if you were there for two years and you were",
+          "norm_compact": "uhandthenyouknowstufflikewhathasyourprogressionbeenlikeumsoifyouweretherefortwoyearsandyouwere",
+          "terms": []
+        },
+        {
+          "id": "S002.t0005.s005",
+          "episode": "S002.e03",
+          "lang": "en",
+          "start": null,
+          "text": "promoted to a senior that's usually a good signal for me.",
+          "norm": "promoted to a senior that s usually a good signal for me",
+          "norm_compact": "promotedtoaseniorthatsusuallyagoodsignalforme",
+          "terms": [
+            {
+              "c": "senior",
+              "v": "senior"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0006",
+      "n": 6,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "punctuation",
+      "sentences": [
+        {
+          "id": "S002.t0006.s001",
+          "episode": "S002.e04",
+          "lang": "en",
+          "start": null,
+          "text": "i see really nice answer I would say and what do you think as the biggest red flag that normally you can see on the CVs.",
+          "norm": "i see really nice answer i would say and what do you think as the biggest red flag that normally you can see on the cvs",
+          "norm_compact": "iseereallyniceansweriwouldsayandwhatdoyouthinkasthebiggestredflagthatnormallyyoucanseeonthecvs",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0007",
+      "n": 7,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0007.s001",
+          "episode": "S002.e04",
+          "lang": "en",
+          "start": null,
+          "text": "so I think uh very like at least for my market very like old school wordy CVs where it's like four or five pages long",
+          "norm": "so i think uh very like at least for my market very like old school wordy cvs where it s like four or five pages long",
+          "norm_compact": "soithinkuhverylikeatleastformymarketverylikeoldschoolwordycvswhereitslikefourorfivepageslong",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0007.s002",
+          "episode": "S002.e04",
+          "lang": "en",
+          "start": null,
+          "text": "um I guess when you don't explain the gaps and short stints in in your CV um also if you list a bunch of technologies",
+          "norm": "um i guess when you don t explain the gaps and short stints in in your cv um also if you list a bunch of technologies",
+          "norm_compact": "umiguesswhenyoudontexplainthegapsandshortstintsininyourcvumalsoifyoulistabunchoftechnologies",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0007.s003",
+          "episode": "S002.e04",
+          "lang": "en",
+          "start": null,
+          "text": "but there's no context as to like where you've used these technologies sort of what specific languages or specific frameworks have you used at each",
+          "norm": "but there s no context as to like where you ve used these technologies sort of what specific languages or specific frameworks have you used at each",
+          "norm_compact": "buttheresnocontextastolikewhereyouveusedthesetechnologiessortofwhatspecificlanguagesorspecificframeworkshaveyouusedateach",
+          "terms": []
+        },
+        {
+          "id": "S002.t0007.s004",
+          "episode": "S002.e04",
+          "lang": "en",
+          "start": null,
+          "text": "company um and yeah like any anything like typos or or or anything like that you know kind of immediately uh puts a red flag",
+          "norm": "company um and yeah like any anything like typos or or or anything like that you know kind of immediately uh puts a red flag",
+          "norm_compact": "companyumandyeahlikeanyanythingliketyposorororanythinglikethatyouknowkindofimmediatelyuhputsaredflag",
+          "terms": []
+        },
+        {
+          "id": "S002.t0007.s005",
+          "episode": "S002.e04",
+          "lang": "en",
+          "start": null,
+          "text": "into my mind.",
+          "norm": "into my mind",
+          "norm_compact": "intomymind",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0008",
+      "n": 8,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0008.s001",
+          "episode": "S002.e05",
+          "lang": "en",
+          "start": null,
+          "text": "yeah totally makes sense and you mentioned something interesting so speaking about five pages so what do you think about how long should be a",
+          "norm": "yeah totally makes sense and you mentioned something interesting so speaking about five pages so what do you think about how long should be a",
+          "norm_compact": "yeahtotallymakessenseandyoumentionedsomethinginterestingsospeakingaboutfivepagessowhatdoyouthinkabouthowlongshouldbea",
+          "terms": []
+        },
+        {
+          "id": "S002.t0008.s002",
+          "episode": "S002.e05",
+          "lang": "en",
+          "start": null,
+          "text": "CV is it one page two three five seven 10 even how many pages we should have for CV normally what do you what's your.",
+          "norm": "cv is it one page two three five seven 10 even how many pages we should have for cv normally what do you what s your",
+          "norm_compact": "cvisitonepagetwothreefiveseven10evenhowmanypagesweshouldhaveforcvnormallywhatdoyouwhatsyour",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0009",
+      "n": 9,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0009.s001",
+          "episode": "S002.e05",
+          "lang": "en",
+          "start": null,
+          "text": "So I think I think if you are a junior uh and you don't have a lot of experience one page should be enough if",
+          "norm": "so i think i think if you are a junior uh and you don t have a lot of experience one page should be enough if",
+          "norm_compact": "soithinkithinkifyouareajunioruhandyoudonthavealotofexperienceonepageshouldbeenoughif",
+          "terms": []
+        },
+        {
+          "id": "S002.t0009.s002",
+          "episode": "S002.e05",
+          "lang": "en",
+          "start": null,
+          "text": "you are like senior level I would say two pages max two pages is the general sweet spot I I say everybody should aim for",
+          "norm": "you are like senior level i would say two pages max two pages is the general sweet spot i i say everybody should aim for",
+          "norm_compact": "youarelikeseniorleveliwouldsaytwopagesmaxtwopagesisthegeneralsweetspotiisayeverybodyshouldaimfor",
+          "terms": [
+            {
+              "c": "senior",
+              "v": "senior"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0009.s003",
+          "episode": "S002.e05",
+          "lang": "en",
+          "start": null,
+          "text": "um you don't need to go into detail of all your roles especially if your first few roles aren't relevant to the job that you're",
+          "norm": "um you don t need to go into detail of all your roles especially if your first few roles aren t relevant to the job that you re",
+          "norm_compact": "umyoudontneedtogointodetailofallyourrolesespeciallyifyourfirstfewrolesarentrelevanttothejobthatyoure",
+          "terms": []
+        },
+        {
+          "id": "S002.t0009.s004",
+          "episode": "S002.e05",
+          "lang": "en",
+          "start": null,
+          "text": "applying for um but if you are a very very experienced engineer like a CTO or a VP then you know maybe having it slightly",
+          "norm": "applying for um but if you are a very very experienced engineer like a cto or a vp then you know maybe having it slightly",
+          "norm_compact": "applyingforumbutifyouareaveryveryexperiencedengineerlikeactooravpthenyouknowmaybehavingitslightly",
+          "terms": []
+        },
+        {
+          "id": "S002.t0009.s005",
+          "episode": "S002.e05",
+          "lang": "en",
+          "start": null,
+          "text": "longer isn't a problem um but I would say try and aim for two as a general rule of thumb.",
+          "norm": "longer isn t a problem um but i would say try and aim for two as a general rule of thumb",
+          "norm_compact": "longerisntaproblemumbutiwouldsaytryandaimfortwoasageneralruleofthumb",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0010",
+      "n": 10,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0010.s001",
+          "episode": "S002.e06",
+          "lang": "en",
+          "start": null,
+          "text": "makes sense and about the technical details that we have in the CV how much technical do you think we should go in the CV",
+          "norm": "makes sense and about the technical details that we have in the cv how much technical do you think we should go in the cv",
+          "norm_compact": "makessenseandaboutthetechnicaldetailsthatwehaveinthecvhowmuchtechnicaldoyouthinkweshouldgointhecv",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0010.s002",
+          "episode": "S002.e06",
+          "lang": "en",
+          "start": null,
+          "text": "how much we should go about the details of that because maybe first person opening the CV is not technical person so.",
+          "norm": "how much we should go about the details of that because maybe first person opening the cv is not technical person so",
+          "norm_compact": "howmuchweshouldgoaboutthedetailsofthatbecausemaybefirstpersonopeningthecvisnottechnicalpersonso",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0011",
+      "n": 11,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0011.s001",
+          "episode": "S002.e06",
+          "lang": "en",
+          "start": null,
+          "text": "yeah that is that's a really good question as well i think you can go into tech your your technicalities but I think you should",
+          "norm": "yeah that is that s a really good question as well i think you can go into tech your your technicalities but i think you should",
+          "norm_compact": "yeahthatisthatsareallygoodquestionaswellithinkyoucangointotechyouryourtechnicalitiesbutithinkyoushould",
+          "terms": []
+        },
+        {
+          "id": "S002.t0011.s002",
+          "episode": "S002.e06",
+          "lang": "en",
+          "start": null,
+          "text": "always lead with the outcomes in plain English and then follow with the technical details right so both both sides of the coin can understand",
+          "norm": "always lead with the outcomes in plain english and then follow with the technical details right so both both sides of the coin can understand",
+          "norm_compact": "alwaysleadwiththeoutcomesinplainenglishandthenfollowwiththetechnicaldetailsrightsobothbothsidesofthecoincanunderstand",
+          "terms": []
+        },
+        {
+          "id": "S002.t0011.s003",
+          "episode": "S002.e06",
+          "lang": "en",
+          "start": null,
+          "text": "what you're saying so an example of that would be like um saw problem X created solution Y which led to you know I don't",
+          "norm": "what you re saying so an example of that would be like um saw problem x created solution y which led to you know i don t",
+          "norm_compact": "whatyouresayingsoanexampleofthatwouldbelikeumsawproblemxcreatedsolutionywhichledtoyouknowidont",
+          "terms": []
+        },
+        {
+          "id": "S002.t0011.s004",
+          "episode": "S002.e06",
+          "lang": "en",
+          "start": null,
+          "text": "know like a reducing load times by 40% um to server side rendering with next or react um and this achieved business outcome ABC D",
+          "norm": "know like a reducing load times by 40 um to server side rendering with next or react um and this achieved business outcome abc d",
+          "norm_compact": "knowlikeareducingloadtimesby40umtoserversiderenderingwithnextorreactumandthisachievedbusinessoutcomeabcd",
+          "terms": [
+            {
+              "c": "React",
+              "v": "React",
+              "amb": [
+                "react (verb)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S002.t0011.s005",
+          "episode": "S002.e06",
+          "lang": "en",
+          "start": null,
+          "text": "and so on so a a a non-technical person like myself can read it and realize the good work you've done and then the technical",
+          "norm": "and so on so a a a non technical person like myself can read it and realize the good work you ve done and then the technical",
+          "norm_compact": "andsoonsoaaanontechnicalpersonlikemyselfcanreaditandrealizethegoodworkyouvedoneandthenthetechnical",
+          "terms": []
+        },
+        {
+          "id": "S002.t0011.s006",
+          "episode": "S002.e06",
+          "lang": "en",
+          "start": null,
+          "text": "person can sort of dive into the specific technologies and and and understand it as well.",
+          "norm": "person can sort of dive into the specific technologies and and and understand it as well",
+          "norm_compact": "personcansortofdiveintothespecifictechnologiesandandandunderstanditaswell",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0012",
+      "n": 12,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "punctuation",
+      "sentences": [
+        {
+          "id": "S002.t0012.s001",
+          "episode": "S002.e07",
+          "lang": "en",
+          "start": null,
+          "text": "i see totally makes sense and the general question that I can ask here generally especially about the UK so how to get hired by UK startup this is literally our title here.",
+          "norm": "i see totally makes sense and the general question that i can ask here generally especially about the uk so how to get hired by uk startup this is literally our title here",
+          "norm_compact": "iseetotallymakessenseandthegeneralquestionthaticanaskheregenerallyespeciallyabouttheuksohowtogethiredbyukstartupthisisliterallyourtitlehere",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0013",
+      "n": 13,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0013.s001",
+          "episode": "S002.e07",
+          "lang": "en",
+          "start": null,
+          "text": "i think it it to be honest I what I've just been saying has always has been in the sort of frame of a UK",
+          "norm": "i think it it to be honest i what i ve just been saying has always has been in the sort of frame of a uk",
+          "norm_compact": "ithinkitittobehonestiwhativejustbeensayinghasalwayshasbeeninthesortofframeofauk",
+          "terms": []
+        },
+        {
+          "id": "S002.t0013.s002",
+          "episode": "S002.e07",
+          "lang": "en",
+          "start": null,
+          "text": "startup i I typically only work with UK startups but um yeah like I said a product mindset uh high ownership you know um knowing",
+          "norm": "startup i i typically only work with uk startups but um yeah like i said a product mindset uh high ownership you know um knowing",
+          "norm_compact": "startupiitypicallyonlyworkwithukstartupsbutumyeahlikeisaidaproductmindsetuhhighownershipyouknowumknowing",
+          "terms": [
+            {
+              "c": "ownership",
+              "v": "ownership"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0013.s003",
+          "episode": "S002.e07",
+          "lang": "en",
+          "start": null,
+          "text": "the impact and labeling that very clearly on your CV um if you've worked with any startups as well sort of building a product from",
+          "norm": "the impact and labeling that very clearly on your cv um if you ve worked with any startups as well sort of building a product from",
+          "norm_compact": "theimpactandlabelingthatveryclearlyonyourcvumifyouveworkedwithanystartupsaswellsortofbuildingaproductfrom",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0013.s004",
+          "episode": "S002.e07",
+          "lang": "en",
+          "start": null,
+          "text": "0ero to one sometimes having literally zero to one in your CV helps a lot as well um any of the companies VC backing how",
+          "norm": "0ero to one sometimes having literally zero to one in your cv helps a lot as well um any of the companies vc backing how",
+          "norm_compact": "0erotoonesometimeshavingliterallyzerotooneinyourcvhelpsalotaswellumanyofthecompaniesvcbackinghow",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0013.s005",
+          "episode": "S002.e07",
+          "lang": "en",
+          "start": null,
+          "text": "much they've raised also strong signals for for other UK startups to hire you.",
+          "norm": "much they ve raised also strong signals for for other uk startups to hire you",
+          "norm_compact": "muchtheyveraisedalsostrongsignalsforforotherukstartupstohireyou",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0014",
+      "n": 14,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0014.s001",
+          "episode": "S002.e08",
+          "lang": "en",
+          "start": null,
+          "text": "yeah makes sense and tell me about the the CV itself so when you opening the CV you can see you some of them some",
+          "norm": "yeah makes sense and tell me about the the cv itself so when you opening the cv you can see you some of them some",
+          "norm_compact": "yeahmakessenseandtellmeaboutthethecvitselfsowhenyouopeningthecvyoucanseeyousomeofthemsome",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0014.s002",
+          "episode": "S002.e08",
+          "lang": "en",
+          "start": null,
+          "text": "of time you may reject them and say \"No it's not good enough.\"",
+          "norm": "of time you may reject them and say no it s not good enough",
+          "norm_compact": "oftimeyoumayrejectthemandsaynoitsnotgoodenough",
+          "terms": [
+            {
+              "c": "reject",
+              "v": "reject"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0014.s003",
+          "episode": "S002.e08",
+          "lang": "en",
+          "start": null,
+          "text": "And sometime you may just say okay this is good one let's have a chat with this guy or this person so how you deciding",
+          "norm": "and sometime you may just say okay this is good one let s have a chat with this guy or this person so how you deciding",
+          "norm_compact": "andsometimeyoumayjustsayokaythisisgoodoneletshaveachatwiththisguyorthispersonsohowyoudeciding",
+          "terms": []
+        },
+        {
+          "id": "S002.t0014.s004",
+          "episode": "S002.e08",
+          "lang": "en",
+          "start": null,
+          "text": "about that what's going to be help us to be able to change in the CV to to help you to decide better about us",
+          "norm": "about that what s going to be help us to be able to change in the cv to to help you to decide better about us",
+          "norm_compact": "aboutthatwhatsgoingtobehelpustobeabletochangeinthecvtotohelpyoutodecidebetteraboutus",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0014.s005",
+          "episode": "S002.e08",
+          "lang": "en",
+          "start": null,
+          "text": "and move us forward.",
+          "norm": "and move us forward",
+          "norm_compact": "andmoveusforward",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0015",
+      "n": 15,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0015.s001",
+          "episode": "S002.e08",
+          "lang": "en",
+          "start": null,
+          "text": "yeah um that's a good question like I think very simply it all boils down to what problems have you solved for the company right",
+          "norm": "yeah um that s a good question like i think very simply it all boils down to what problems have you solved for the company right",
+          "norm_compact": "yeahumthatsagoodquestionlikeithinkverysimplyitallboilsdowntowhatproblemshaveyousolvedforthecompanyright",
+          "terms": []
+        },
+        {
+          "id": "S002.t0015.s002",
+          "episode": "S002.e08",
+          "lang": "en",
+          "start": null,
+          "text": "i think engineers ultimately you got you're problem solvers um so you know what impact have you had in the business since they've hired you",
+          "norm": "i think engineers ultimately you got you re problem solvers um so you know what impact have you had in the business since they ve hired you",
+          "norm_compact": "ithinkengineersultimatelyyougotyoureproblemsolversumsoyouknowwhatimpacthaveyouhadinthebusinesssincetheyvehiredyou",
+          "terms": []
+        },
+        {
+          "id": "S002.t0015.s003",
+          "episode": "S002.e08",
+          "lang": "en",
+          "start": null,
+          "text": "what did you personally own versus the wider team um and you know anything that's like a genuine interest as well that's like a side",
+          "norm": "what did you personally own versus the wider team um and you know anything that s like a genuine interest as well that s like a side",
+          "norm_compact": "whatdidyoupersonallyownversusthewiderteamumandyouknowanythingthatslikeagenuineinterestaswellthatslikeaside",
+          "terms": []
+        },
+        {
+          "id": "S002.t0015.s004",
+          "episode": "S002.e08",
+          "lang": "en",
+          "start": null,
+          "text": "project or like a hackathon that you've been to showing passion for your work is is always a good idea as well.",
+          "norm": "project or like a hackathon that you ve been to showing passion for your work is is always a good idea as well",
+          "norm_compact": "projectorlikeahackathonthatyouvebeentoshowingpassionforyourworkisisalwaysagoodideaaswell",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0016",
+      "n": 16,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0016.s001",
+          "episode": "S002.e09",
+          "lang": "en",
+          "start": null,
+          "text": "i see that that's really good to to speak about some external like hackathon that you mentioned here that's great and let's change the topic",
+          "norm": "i see that that s really good to to speak about some external like hackathon that you mentioned here that s great and let s change the topic",
+          "norm_compact": "iseethatthatsreallygoodtotospeakaboutsomeexternallikehackathonthatyoumentionedherethatsgreatandletschangethetopic",
+          "terms": []
+        },
+        {
+          "id": "S002.t0016.s002",
+          "episode": "S002.e09",
+          "lang": "en",
+          "start": null,
+          "text": "about the interview process so we sending a CV they accept that and we go for first round of the interview so what does the",
+          "norm": "about the interview process so we sending a cv they accept that and we go for first round of the interview so what does the",
+          "norm_compact": "abouttheinterviewprocesssowesendingacvtheyacceptthatandwegoforfirstroundoftheinterviewsowhatdoesthe",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0016.s003",
+          "episode": "S002.e09",
+          "lang": "en",
+          "start": null,
+          "text": "typical interview process looks like u tell tell us about that more you know company by company can be different so we would like to understand.",
+          "norm": "typical interview process looks like u tell tell us about that more you know company by company can be different so we would like to understand",
+          "norm_compact": "typicalinterviewprocesslookslikeutelltellusaboutthatmoreyouknowcompanybycompanycanbedifferentsowewouldliketounderstand",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0017",
+      "n": 17,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0017.s001",
+          "episode": "S002.e09",
+          "lang": "en",
+          "start": null,
+          "text": "100% i think like you said company and company this this can vary massively but a typical like general interview process we're seeing in the",
+          "norm": "100 i think like you said company and company this this can vary massively but a typical like general interview process we re seeing in the",
+          "norm_compact": "100ithinklikeyousaidcompanyandcompanythisthiscanvarymassivelybutatypicallikegeneralinterviewprocesswereseeinginthe",
+          "terms": []
+        },
+        {
+          "id": "S002.t0017.s002",
+          "episode": "S002.e09",
+          "lang": "en",
+          "start": null,
+          "text": "market is usually four to five stages so it will start with a recruiter screen um from someone in their internal talent team um and",
+          "norm": "market is usually four to five stages so it will start with a recruiter screen um from someone in their internal talent team um and",
+          "norm_compact": "marketisusuallyfourtofivestagessoitwillstartwitharecruiterscreenumfromsomeoneintheirinternaltalentteamumand",
+          "terms": [
+            {
+              "c": "recruiter",
+              "v": "recruiter"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0017.s003",
+          "episode": "S002.e09",
+          "lang": "en",
+          "start": null,
+          "text": "then it will this will be more of a general chat what what has been your past experiences you know what you're looking for what's",
+          "norm": "then it will this will be more of a general chat what what has been your past experiences you know what you re looking for what s",
+          "norm_compact": "thenitwillthiswillbemoreofageneralchatwhatwhathasbeenyourpastexperiencesyouknowwhatyourelookingforwhats",
+          "terms": []
+        },
+        {
+          "id": "S002.t0017.s004",
+          "episode": "S002.e09",
+          "lang": "en",
+          "start": null,
+          "text": "your past salary uh bit bit more logistical um and then you will probably speak with the hiring manager uh like a technical discussion similar",
+          "norm": "your past salary uh bit bit more logistical um and then you will probably speak with the hiring manager uh like a technical discussion similar",
+          "norm_compact": "yourpastsalaryuhbitbitmorelogisticalumandthenyouwillprobablyspeakwiththehiringmanageruhlikeatechnicaldiscussionsimilar",
+          "terms": [
+            {
+              "c": "hiring manager",
+              "v": "hiring manager"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0017.s005",
+          "episode": "S002.e09",
+          "lang": "en",
+          "start": null,
+          "text": "to the first stage but a bit more you know diving into the specific technologies you've used the problems you've solved and then comes sort",
+          "norm": "to the first stage but a bit more you know diving into the specific technologies you ve used the problems you ve solved and then comes sort",
+          "norm_compact": "tothefirststagebutabitmoreyouknowdivingintothespecifictechnologiesyouveusedtheproblemsyouvesolvedandthencomessort",
+          "terms": []
+        },
+        {
+          "id": "S002.t0017.s006",
+          "episode": "S002.e09",
+          "lang": "en",
+          "start": null,
+          "text": "of the technical uh tests so like it can be a paired programming and that would usually then be followed by a sort of whiteboard",
+          "norm": "of the technical uh tests so like it can be a paired programming and that would usually then be followed by a sort of whiteboard",
+          "norm_compact": "ofthetechnicaluhtestssolikeitcanbeapairedprogrammingandthatwouldusuallythenbefollowedbyasortofwhiteboard",
+          "terms": []
+        },
+        {
+          "id": "S002.t0017.s007",
+          "episode": "S002.e09",
+          "lang": "en",
+          "start": null,
+          "text": "systems design or product design session um and then the last stage would usually be like a chat with you know the CEO or the",
+          "norm": "systems design or product design session um and then the last stage would usually be like a chat with you know the ceo or the",
+          "norm_compact": "systemsdesignorproductdesignsessionumandthenthelaststagewouldusuallybelikeachatwithyouknowtheceoorthe",
+          "terms": []
+        },
+        {
+          "id": "S002.t0017.s008",
+          "episode": "S002.e09",
+          "lang": "en",
+          "start": null,
+          "text": "founder just to make sure you're the right culture for for the for the hire um and this can usually last you know anywhere between",
+          "norm": "founder just to make sure you re the right culture for for the for the hire um and this can usually last you know anywhere between",
+          "norm_compact": "founderjusttomakesureyouretherightcultureforfortheforthehireumandthiscanusuallylastyouknowanywherebetween",
+          "terms": []
+        },
+        {
+          "id": "S002.t0017.s009",
+          "episode": "S002.e09",
+          "lang": "en",
+          "start": null,
+          "text": "two to six weeks depending on how fast the company wants to move and how much um how many candidates they have in the process.",
+          "norm": "two to six weeks depending on how fast the company wants to move and how much um how many candidates they have in the process",
+          "norm_compact": "twotosixweeksdependingonhowfastthecompanywantstomoveandhowmuchumhowmanycandidatestheyhaveintheprocess",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0018",
+      "n": 18,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0018.s001",
+          "episode": "S002.e10",
+          "lang": "en",
+          "start": null,
+          "text": "i see yeah totally makes sense so people should expect two to six weeks for the whole process and when they starting with they may",
+          "norm": "i see yeah totally makes sense so people should expect two to six weeks for the whole process and when they starting with they may",
+          "norm_compact": "iseeyeahtotallymakessensesopeopleshouldexpecttwotosixweeksforthewholeprocessandwhentheystartingwiththeymay",
+          "terms": []
+        },
+        {
+          "id": "S002.t0018.s002",
+          "episode": "S002.e10",
+          "lang": "en",
+          "start": null,
+          "text": "apply for multiple companies and they need to consider this timing right yeah so because I know you're helping people in the interview process would",
+          "norm": "apply for multiple companies and they need to consider this timing right yeah so because i know you re helping people in the interview process would",
+          "norm_compact": "applyformultiplecompaniesandtheyneedtoconsiderthistimingrightyeahsobecauseiknowyourehelpingpeopleintheinterviewprocesswould",
+          "terms": []
+        },
+        {
+          "id": "S002.t0018.s003",
+          "episode": "S002.e10",
+          "lang": "en",
+          "start": null,
+          "text": "you like to intro to tell us more detail about each of these steps and give us some kind of idea about what we can",
+          "norm": "you like to intro to tell us more detail about each of these steps and give us some kind of idea about what we can",
+          "norm_compact": "youliketointrototellusmoredetailabouteachofthesestepsandgiveussomekindofideaaboutwhatwecan",
+          "terms": []
+        },
+        {
+          "id": "S002.t0018.s004",
+          "episode": "S002.e10",
+          "lang": "en",
+          "start": null,
+          "text": "expect there and some details about some of them i know company by company can be different but I would like to know a bit",
+          "norm": "expect there and some details about some of them i know company by company can be different but i would like to know a bit",
+          "norm_compact": "expectthereandsomedetailsaboutsomeofthemiknowcompanybycompanycanbedifferentbutiwouldliketoknowabit",
+          "terms": []
+        },
+        {
+          "id": "S002.t0018.s005",
+          "episode": "S002.e10",
+          "lang": "en",
+          "start": null,
+          "text": "more about that.",
+          "norm": "more about that",
+          "norm_compact": "moreaboutthat",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0019",
+      "n": 19,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0019.s001",
+          "episode": "S002.e10",
+          "lang": "en",
+          "start": null,
+          "text": "yeah so definitely in the chat um I feel like I'm sounding like a broken record here but I just can'stress how important it this",
+          "norm": "yeah so definitely in the chat um i feel like i m sounding like a broken record here but i just can stress how important it this",
+          "norm_compact": "yeahsodefinitelyinthechatumifeellikeimsoundinglikeabrokenrecordherebutijustcanstresshowimportantitthis",
+          "terms": []
+        },
+        {
+          "id": "S002.t0019.s002",
+          "episode": "S002.e10",
+          "lang": "en",
+          "start": null,
+          "text": "it is to not just speak about your tech speak about the problem you identified the problem you solved the commercial impact those in the",
+          "norm": "it is to not just speak about your tech speak about the problem you identified the problem you solved the commercial impact those in the",
+          "norm_compact": "itistonotjustspeakaboutyourtechspeakabouttheproblemyouidentifiedtheproblemyousolvedthecommercialimpactthoseinthe",
+          "terms": []
+        },
+        {
+          "id": "S002.t0019.s003",
+          "episode": "S002.e10",
+          "lang": "en",
+          "start": null,
+          "text": "first two steps I think are are important in the technical stages don't start coding before you clarify the problem always ask questions around what",
+          "norm": "first two steps i think are are important in the technical stages don t start coding before you clarify the problem always ask questions around what",
+          "norm_compact": "firsttwostepsithinkareareimportantinthetechnicalstagesdontstartcodingbeforeyouclarifytheproblemalwaysaskquestionsaroundwhat",
+          "terms": []
+        },
+        {
+          "id": "S002.t0019.s004",
+          "episode": "S002.e10",
+          "lang": "en",
+          "start": null,
+          "text": "problem you're actually trying to solve here clarify clarify clarify before you write any line of code and look even if you get stuck I",
+          "norm": "problem you re actually trying to solve here clarify clarify clarify before you write any line of code and look even if you get stuck i",
+          "norm_compact": "problemyoureactuallytryingtosolvehereclarifyclarifyclarifybeforeyouwriteanylineofcodeandlookevenifyougetstucki",
+          "terms": []
+        },
+        {
+          "id": "S002.t0019.s005",
+          "episode": "S002.e10",
+          "lang": "en",
+          "start": null,
+          "text": "always tell people think out loud um you know talk through your thought processes with with the hiring manager uh make sure they know exactly",
+          "norm": "always tell people think out loud um you know talk through your thought processes with with the hiring manager uh make sure they know exactly",
+          "norm_compact": "alwaystellpeoplethinkoutloudumyouknowtalkthroughyourthoughtprocesseswithwiththehiringmanageruhmakesuretheyknowexactly",
+          "terms": [
+            {
+              "c": "hiring manager",
+              "v": "hiring manager"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0019.s006",
+          "episode": "S002.e10",
+          "lang": "en",
+          "start": null,
+          "text": "what you'thinking how you're approaching a problem uh because sometimes they're not looking for you to solve the technical they're actually looking for a a",
+          "norm": "what you thinking how you re approaching a problem uh because sometimes they re not looking for you to solve the technical they re actually looking for a a",
+          "norm_compact": "whatyouthinkinghowyoureapproachingaproblemuhbecausesometimestheyrenotlookingforyoutosolvethetechnicaltheyreactuallylookingforaa",
+          "terms": []
+        },
+        {
+          "id": "S002.t0019.s007",
+          "episode": "S002.e10",
+          "lang": "en",
+          "start": null,
+          "text": "like a deep dive into the way you think when you problem solve um so you know and then you know saying we a lot",
+          "norm": "like a deep dive into the way you think when you problem solve um so you know and then you know saying we a lot",
+          "norm_compact": "likeadeepdiveintothewayyouthinkwhenyouproblemsolveumsoyouknowandthenyouknowsayingwealot",
+          "terms": []
+        },
+        {
+          "id": "S002.t0019.s008",
+          "episode": "S002.e10",
+          "lang": "en",
+          "start": null,
+          "text": "as well is uh I would suggest like not saying we especially if you specifically own the part of the problem um say I it's",
+          "norm": "as well is uh i would suggest like not saying we especially if you specifically own the part of the problem um say i it s",
+          "norm_compact": "aswellisuhiwouldsuggestlikenotsayingweespeciallyifyouspecificallyownthepartoftheproblemumsayiits",
+          "terms": []
+        },
+        {
+          "id": "S002.t0019.s009",
+          "episode": "S002.e10",
+          "lang": "en",
+          "start": null,
+          "text": "a little thing but it's just one of these psychological things that can make a difference um ask questions about the product ask questions about",
+          "norm": "a little thing but it s just one of these psychological things that can make a difference um ask questions about the product ask questions about",
+          "norm_compact": "alittlethingbutitsjustoneofthesepsychologicalthingsthatcanmakeadifferenceumaskquestionsabouttheproductaskquestionsabout",
+          "terms": []
+        },
+        {
+          "id": "S002.t0019.s010",
+          "episode": "S002.e10",
+          "lang": "en",
+          "start": null,
+          "text": "the business be genuinely curious um you know do your research maybe even try the product beforehand if if you can uh and then don't",
+          "norm": "the business be genuinely curious um you know do your research maybe even try the product beforehand if if you can uh and then don t",
+          "norm_compact": "thebusinessbegenuinelycuriousumyouknowdoyourresearchmaybeeventrytheproductbeforehandififyoucanuhandthendont",
+          "terms": []
+        },
+        {
+          "id": "S002.t0019.s011",
+          "episode": "S002.e10",
+          "lang": "en",
+          "start": null,
+          "text": "don't don't overthink don't overengineer make sure you can finish the test within the the time limit don't be too ambitious right because that can",
+          "norm": "don t don t overthink don t overengineer make sure you can finish the test within the the time limit don t be too ambitious right because that can",
+          "norm_compact": "dontdontoverthinkdontoverengineermakesureyoucanfinishthetestwithinthethetimelimitdontbetooambitiousrightbecausethatcan",
+          "terms": []
+        },
+        {
+          "id": "S002.t0019.s012",
+          "episode": "S002.e10",
+          "lang": "en",
+          "start": null,
+          "text": "bite you in the foot.",
+          "norm": "bite you in the foot",
+          "norm_compact": "biteyouinthefoot",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0020",
+      "n": 20,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0020.s001",
+          "episode": "S002.e11",
+          "lang": "en",
+          "start": null,
+          "text": "yeah I like the idea that you said don't mention V because normally now in this in company we always try to say V but",
+          "norm": "yeah i like the idea that you said don t mention v because normally now in this in company we always try to say v but",
+          "norm_compact": "yeahiliketheideathatyousaiddontmentionvbecausenormallynowinthisincompanywealwaystrytosayvbut",
+          "terms": []
+        },
+        {
+          "id": "S002.t0020.s002",
+          "episode": "S002.e11",
+          "lang": "en",
+          "start": null,
+          "text": "in the interview they're going to hire you not your team so you should say I did this thing or that thing yeah yeah that's",
+          "norm": "in the interview they re going to hire you not your team so you should say i did this thing or that thing yeah yeah that s",
+          "norm_compact": "intheinterviewtheyregoingtohireyounotyourteamsoyoushouldsayididthisthingorthatthingyeahyeahthats",
+          "terms": []
+        },
+        {
+          "id": "S002.t0020.s003",
+          "episode": "S002.e11",
+          "lang": "en",
+          "start": null,
+          "text": "interesting and and let's go back about the first step of the interview because you know we we apply for lots of jobs and then",
+          "norm": "interesting and and let s go back about the first step of the interview because you know we we apply for lots of jobs and then",
+          "norm_compact": "interestingandandletsgobackaboutthefirststepoftheinterviewbecauseyouknowweweapplyforlotsofjobsandthen",
+          "terms": []
+        },
+        {
+          "id": "S002.t0020.s004",
+          "episode": "S002.e11",
+          "lang": "en",
+          "start": null,
+          "text": "somebody invited us for the first round of the interview so in that first round especially for preparing for that one what's your suggestion for",
+          "norm": "somebody invited us for the first round of the interview so in that first round especially for preparing for that one what s your suggestion for",
+          "norm_compact": "somebodyinvitedusforthefirstroundoftheinterviewsointhatfirstroundespeciallyforpreparingforthatonewhatsyoursuggestionfor",
+          "terms": []
+        },
+        {
+          "id": "S002.t0020.s005",
+          "episode": "S002.e11",
+          "lang": "en",
+          "start": null,
+          "text": "that because this is the first time we speaking with somebody probably a recruiter in that company or some maybe hiring manager depends on the",
+          "norm": "that because this is the first time we speaking with somebody probably a recruiter in that company or some maybe hiring manager depends on the",
+          "norm_compact": "thatbecausethisisthefirsttimewespeakingwithsomebodyprobablyarecruiterinthatcompanyorsomemaybehiringmanagerdependsonthe",
+          "terms": [
+            {
+              "c": "recruiter",
+              "v": "recruiter"
+            },
+            {
+              "c": "hiring manager",
+              "v": "hiring manager"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0020.s006",
+          "episode": "S002.e11",
+          "lang": "en",
+          "start": null,
+          "text": "company so what's your suggestion for that what's a preparation that we should do for that.",
+          "norm": "company so what s your suggestion for that what s a preparation that we should do for that",
+          "norm_compact": "companysowhatsyoursuggestionforthatwhatsapreparationthatweshoulddoforthat",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0021",
+      "n": 21,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0021.s001",
+          "episode": "S002.e11",
+          "lang": "en",
+          "start": null,
+          "text": "um so if you're speaking to the hiring manager have a list I guess of all of I would say the most most most of",
+          "norm": "um so if you re speaking to the hiring manager have a list i guess of all of i would say the most most most of",
+          "norm_compact": "umsoifyourespeakingtothehiringmanagerhavealistiguessofallofiwouldsaythemostmostmostof",
+          "terms": [
+            {
+              "c": "hiring manager",
+              "v": "hiring manager"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0021.s002",
+          "episode": "S002.e11",
+          "lang": "en",
+          "start": null,
+          "text": "the time people want to figure out how are you leveraging AI nowadays so have a have an answer prepared for that people want to",
+          "norm": "the time people want to figure out how are you leveraging ai nowadays so have a have an answer prepared for that people want to",
+          "norm_compact": "thetimepeoplewanttofigureouthowareyouleveragingainowadayssohaveahaveananswerpreparedforthatpeoplewantto",
+          "terms": [
+            {
+              "c": "AI",
+              "v": "AI"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0021.s003",
+          "episode": "S002.e11",
+          "lang": "en",
+          "start": null,
+          "text": "know sort of how what are the hardest technical challenges that you've solved to date um cuz that gives them a a sort of an",
+          "norm": "know sort of how what are the hardest technical challenges that you ve solved to date um cuz that gives them a a sort of an",
+          "norm_compact": "knowsortofhowwhatarethehardesttechnicalchallengesthatyouvesolvedtodateumcuzthatgivesthemaasortofan",
+          "terms": []
+        },
+        {
+          "id": "S002.t0021.s004",
+          "episode": "S002.e11",
+          "lang": "en",
+          "start": null,
+          "text": "insight into you know how good you are technically at this point um I'd have a list of your best accomplishments prepared and I will",
+          "norm": "insight into you know how good you are technically at this point um i d have a list of your best accomplishments prepared and i will",
+          "norm_compact": "insightintoyouknowhowgoodyouaretechnicallyatthispointumidhavealistofyourbestaccomplishmentspreparedandiwill",
+          "terms": []
+        },
+        {
+          "id": "S002.t0021.s005",
+          "episode": "S002.e11",
+          "lang": "en",
+          "start": null,
+          "text": "also do a lot of research into the company but don't if you want to do an extra like cherry on top as well don't",
+          "norm": "also do a lot of research into the company but don t if you want to do an extra like cherry on top as well don t",
+          "norm_compact": "alsodoalotofresearchintothecompanybutdontifyouwanttodoanextralikecherryontopaswelldont",
+          "terms": []
+        },
+        {
+          "id": "S002.t0021.s006",
+          "episode": "S002.e11",
+          "lang": "en",
+          "start": null,
+          "text": "just do research into the company do research into the person that's interviewing you see where he's worked see who he's worked with see the",
+          "norm": "just do research into the company do research into the person that s interviewing you see where he s worked see who he s worked with see the",
+          "norm_compact": "justdoresearchintothecompanydoresearchintothepersonthatsinterviewingyouseewherehesworkedseewhohesworkedwithseethe",
+          "terms": []
+        },
+        {
+          "id": "S002.t0021.s007",
+          "episode": "S002.e11",
+          "lang": "en",
+          "start": null,
+          "text": "problems that he solved th this is always like a nice thing for people to hear you know people love hearing about themselves um so",
+          "norm": "problems that he solved th this is always like a nice thing for people to hear you know people love hearing about themselves um so",
+          "norm_compact": "problemsthathesolvedththisisalwayslikeanicethingforpeopletohearyouknowpeoplelovehearingaboutthemselvesumso",
+          "terms": []
+        },
+        {
+          "id": "S002.t0021.s008",
+          "episode": "S002.e11",
+          "lang": "en",
+          "start": null,
+          "text": "you know if you can sort of build any commonality between sort of where he used to work you know how those projects are similar",
+          "norm": "you know if you can sort of build any commonality between sort of where he used to work you know how those projects are similar",
+          "norm_compact": "youknowifyoucansortofbuildanycommonalitybetweensortofwhereheusedtoworkyouknowhowthoseprojectsaresimilar",
+          "terms": []
+        },
+        {
+          "id": "S002.t0021.s009",
+          "episode": "S002.e11",
+          "lang": "en",
+          "start": null,
+          "text": "to what you've done in the past that's a very very good sign.",
+          "norm": "to what you ve done in the past that s a very very good sign",
+          "norm_compact": "towhatyouvedoneinthepastthatsaveryverygoodsign",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0022",
+      "n": 22,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0022.s001",
+          "episode": "S002.e12",
+          "lang": "en",
+          "start": null,
+          "text": "yeah I really like that part to to just go check their profile because normally most of they're sharing LinkedIn or something so you can",
+          "norm": "yeah i really like that part to to just go check their profile because normally most of they re sharing linkedin or something so you can",
+          "norm_compact": "yeahireallylikethatparttotojustgochecktheirprofilebecausenormallymostoftheyresharinglinkedinorsomethingsoyoucan",
+          "terms": [
+            {
+              "c": "LinkedIn",
+              "v": "LinkedIn"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0022.s002",
+          "episode": "S002.e12",
+          "lang": "en",
+          "start": null,
+          "text": "go check their profile what they work on what's their interest is and then you can find some kind of common things and speak about",
+          "norm": "go check their profile what they work on what s their interest is and then you can find some kind of common things and speak about",
+          "norm_compact": "gochecktheirprofilewhattheyworkonwhatstheirinterestisandthenyoucanfindsomekindofcommonthingsandspeakabout",
+          "terms": []
+        },
+        {
+          "id": "S002.t0022.s003",
+          "episode": "S002.e12",
+          "lang": "en",
+          "start": null,
+          "text": "them yeah that's great actually suggestion here and the next question that I can have is what's the most common mistakes that engineering is having",
+          "norm": "them yeah that s great actually suggestion here and the next question that i can have is what s the most common mistakes that engineering is having",
+          "norm_compact": "themyeahthatsgreatactuallysuggestionhereandthenextquestionthaticanhaveiswhatsthemostcommonmistakesthatengineeringishaving",
+          "terms": []
+        },
+        {
+          "id": "S002.t0022.s004",
+          "episode": "S002.e12",
+          "lang": "en",
+          "start": null,
+          "text": "in interview process.",
+          "norm": "in interview process",
+          "norm_compact": "ininterviewprocess",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0023",
+      "n": 23,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0023.s001",
+          "episode": "S002.e12",
+          "lang": "en",
+          "start": null,
+          "text": "um like I said you know like not clarify the problem not not like coding before clarifying is is bad you know not thinking out",
+          "norm": "um like i said you know like not clarify the problem not not like coding before clarifying is is bad you know not thinking out",
+          "norm_compact": "umlikeisaidyouknowlikenotclarifytheproblemnotnotlikecodingbeforeclarifyingisisbadyouknownotthinkingout",
+          "terms": []
+        },
+        {
+          "id": "S002.t0023.s002",
+          "episode": "S002.e12",
+          "lang": "en",
+          "start": null,
+          "text": "loud um not trying the product not not sort of doing any research um yeah th those are things I generally avoid.",
+          "norm": "loud um not trying the product not not sort of doing any research um yeah th those are things i generally avoid",
+          "norm_compact": "loudumnottryingtheproductnotnotsortofdoinganyresearchumyeahththosearethingsigenerallyavoid",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0024",
+      "n": 24,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0024.s001",
+          "episode": "S002.e13",
+          "lang": "en",
+          "start": null,
+          "text": "i see makes sense yeah yeah and u about job searching that when we do so um it it can finish with the rejection in",
+          "norm": "i see makes sense yeah yeah and u about job searching that when we do so um it it can finish with the rejection in",
+          "norm_compact": "iseemakessenseyeahyeahanduaboutjobsearchingthatwhenwedosoumititcanfinishwiththerejectionin",
+          "terms": [
+            {
+              "c": "reject",
+              "v": "rejection"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0024.s002",
+          "episode": "S002.e13",
+          "lang": "en",
+          "start": null,
+          "text": "the process and um it's going to obviously affecting the confidence of the people so 100% how do you stop that from affecting your confidence",
+          "norm": "the process and um it s going to obviously affecting the confidence of the people so 100 how do you stop that from affecting your confidence",
+          "norm_compact": "theprocessandumitsgoingtoobviouslyaffectingtheconfidenceofthepeopleso100howdoyoustopthatfromaffectingyourconfidence",
+          "terms": []
+        },
+        {
+          "id": "S002.t0024.s003",
+          "episode": "S002.e13",
+          "lang": "en",
+          "start": null,
+          "text": "how you can recover actually from that situation when you're getting probably lots of rejection maybe every single day literally yesterday I read a message",
+          "norm": "how you can recover actually from that situation when you re getting probably lots of rejection maybe every single day literally yesterday i read a message",
+          "norm_compact": "howyoucanrecoveractuallyfromthatsituationwhenyouregettingprobablylotsofrejectionmaybeeverysingledayliterallyyesterdayireadamessage",
+          "terms": [
+            {
+              "c": "reject",
+              "v": "rejection"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0024.s004",
+          "episode": "S002.e13",
+          "lang": "en",
+          "start": null,
+          "text": "somebody said I got 21 uh rejection yesterday this is my record is anybody break this record for example so yeah what's your suggestion here",
+          "norm": "somebody said i got 21 uh rejection yesterday this is my record is anybody break this record for example so yeah what s your suggestion here",
+          "norm_compact": "somebodysaidigot21uhrejectionyesterdaythisismyrecordisanybodybreakthisrecordforexamplesoyeahwhatsyoursuggestionhere",
+          "terms": [
+            {
+              "c": "reject",
+              "v": "rejection"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0024.s005",
+          "episode": "S002.e13",
+          "lang": "en",
+          "start": null,
+          "text": "in this situation because it's always hard to find a new job I think.",
+          "norm": "in this situation because it s always hard to find a new job i think",
+          "norm_compact": "inthissituationbecauseitsalwayshardtofindanewjobithink",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0025",
+      "n": 25,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0025.s001",
+          "episode": "S002.e13",
+          "lang": "en",
+          "start": null,
+          "text": "yeah that's a really good question I think you know how you handle rejection firstly it's a mindset thing right uh you know a lot",
+          "norm": "yeah that s a really good question i think you know how you handle rejection firstly it s a mindset thing right uh you know a lot",
+          "norm_compact": "yeahthatsareallygoodquestionithinkyouknowhowyouhandlerejectionfirstlyitsamindsetthingrightuhyouknowalot",
+          "terms": [
+            {
+              "c": "reject",
+              "v": "rejection"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0025.s002",
+          "episode": "S002.e13",
+          "lang": "en",
+          "start": null,
+          "text": "of the times it's not about you it it's not that you're not right or you can't do the job sometimes it's often about timing",
+          "norm": "of the times it s not about you it it s not that you re not right or you can t do the job sometimes it s often about timing",
+          "norm_compact": "ofthetimesitsnotaboutyouititsnotthatyourenotrightoryoucantdothejobsometimesitsoftenabouttiming",
+          "terms": []
+        },
+        {
+          "id": "S002.t0025.s003",
+          "episode": "S002.e13",
+          "lang": "en",
+          "start": null,
+          "text": "they might have another candidate that they've they that's slightly better from a cultural perspective or just did a slightly better than you on the",
+          "norm": "they might have another candidate that they ve they that s slightly better from a cultural perspective or just did a slightly better than you on the",
+          "norm_compact": "theymighthaveanothercandidatethattheyvetheythatsslightlybetterfromaculturalperspectiveorjustdidaslightlybetterthanyouonthe",
+          "terms": []
+        },
+        {
+          "id": "S002.t0025.s004",
+          "episode": "S002.e13",
+          "lang": "en",
+          "start": null,
+          "text": "day cuz you can't be 100% yourself and do the best every single day we're human after all right um so don't let it get",
+          "norm": "day cuz you can t be 100 yourself and do the best every single day we re human after all right um so don t let it get",
+          "norm_compact": "daycuzyoucantbe100yourselfanddothebesteverysingledaywerehumanafterallrightumsodontletitget",
+          "terms": []
+        },
+        {
+          "id": "S002.t0025.s005",
+          "episode": "S002.e13",
+          "lang": "en",
+          "start": null,
+          "text": "you down right um it it it's usually down to timing or a specific fit not your overall ability so I would always remember that",
+          "norm": "you down right um it it it s usually down to timing or a specific fit not your overall ability so i would always remember that",
+          "norm_compact": "youdownrightumitititsusuallydowntotimingoraspecificfitnotyouroverallabilitysoiwouldalwaysrememberthat",
+          "terms": []
+        },
+        {
+          "id": "S002.t0025.s006",
+          "episode": "S002.e13",
+          "lang": "en",
+          "start": null,
+          "text": "um and then track you know sort of where you've been rejected right so look if you're not getting any CVs to go through the",
+          "norm": "um and then track you know sort of where you ve been rejected right so look if you re not getting any cvs to go through the",
+          "norm_compact": "umandthentrackyouknowsortofwhereyouvebeenrejectedrightsolookifyourenotgettinganycvstogothroughthe",
+          "terms": [
+            {
+              "c": "reject",
+              "v": "rejected"
+            },
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0025.s007",
+          "episode": "S002.e13",
+          "lang": "en",
+          "start": null,
+          "text": "screening rounds you might need to fix your CV if you're failing the technical stages you might need to put you know prepare more on",
+          "norm": "screening rounds you might need to fix your cv if you re failing the technical stages you might need to put you know prepare more on",
+          "norm_compact": "screeningroundsyoumightneedtofixyourcvifyourefailingthetechnicalstagesyoumightneedtoputyouknowpreparemoreon",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0025.s008",
+          "episode": "S002.e13",
+          "lang": "en",
+          "start": null,
+          "text": "sort of you know your paired programming or or your backend sort of scalability or or stuff like that um you know if you're failing",
+          "norm": "sort of you know your paired programming or or your backend sort of scalability or or stuff like that um you know if you re failing",
+          "norm_compact": "sortofyouknowyourpairedprogrammingororyourbackendsortofscalabilityororstufflikethatumyouknowifyourefailing",
+          "terms": []
+        },
+        {
+          "id": "S002.t0025.s009",
+          "episode": "S002.e13",
+          "lang": "en",
+          "start": null,
+          "text": "failing like final rounds you need to work on articulating your story articulating you know sort of where you've been and showing why you're a",
+          "norm": "failing like final rounds you need to work on articulating your story articulating you know sort of where you ve been and showing why you re a",
+          "norm_compact": "failinglikefinalroundsyouneedtoworkonarticulatingyourstoryarticulatingyouknowsortofwhereyouvebeenandshowingwhyyourea",
+          "terms": []
+        },
+        {
+          "id": "S002.t0025.s010",
+          "episode": "S002.e13",
+          "lang": "en",
+          "start": null,
+          "text": "good match for the culture that they're looking for um so keep doing things on the side as well uh you know if you're going",
+          "norm": "good match for the culture that they re looking for um so keep doing things on the side as well uh you know if you re going",
+          "norm_compact": "goodmatchfortheculturethattheyrelookingforumsokeepdoingthingsonthesideaswelluhyouknowifyouregoing",
+          "terms": []
+        },
+        {
+          "id": "S002.t0025.s011",
+          "episode": "S002.e13",
+          "lang": "en",
+          "start": null,
+          "text": "through interviews and you don't have a job right now keep yourself busy those are these are all things that you can use as ammunition",
+          "norm": "through interviews and you don t have a job right now keep yourself busy those are these are all things that you can use as ammunition",
+          "norm_compact": "throughinterviewsandyoudonthaveajobrightnowkeepyourselfbusythosearetheseareallthingsthatyoucanuseasammunition",
+          "terms": []
+        },
+        {
+          "id": "S002.t0025.s012",
+          "episode": "S002.e13",
+          "lang": "en",
+          "start": null,
+          "text": "to bring into the next interview that you have um and just keep going every interview you're going to identify where you've gone wrong and",
+          "norm": "to bring into the next interview that you have um and just keep going every interview you re going to identify where you ve gone wrong and",
+          "norm_compact": "tobringintothenextinterviewthatyouhaveumandjustkeepgoingeveryinterviewyouregoingtoidentifywhereyouvegonewrongand",
+          "terms": []
+        },
+        {
+          "id": "S002.t0025.s013",
+          "episode": "S002.e13",
+          "lang": "en",
+          "start": null,
+          "text": "it's only going to make you you know do better in the next stage.",
+          "norm": "it s only going to make you you know do better in the next stage",
+          "norm_compact": "itsonlygoingtomakeyouyouknowdobetterinthenextstage",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0026",
+      "n": 26,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0026.s001",
+          "episode": "S002.e14",
+          "lang": "en",
+          "start": null,
+          "text": "yeah yeah keep going that's that's the most important part here in the process yeah and let's speak about the LinkedIn and GitHub so how",
+          "norm": "yeah yeah keep going that s that s the most important part here in the process yeah and let s speak about the linkedin and github so how",
+          "norm_compact": "yeahyeahkeepgoingthatsthatsthemostimportantparthereintheprocessyeahandletsspeakaboutthelinkedinandgithubsohow",
+          "terms": [
+            {
+              "c": "LinkedIn",
+              "v": "LinkedIn"
+            },
+            {
+              "c": "GitHub",
+              "v": "GitHub"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0026.s002",
+          "episode": "S002.e14",
+          "lang": "en",
+          "start": null,
+          "text": "important are they uh is that matter to have them in the CV should we include should exclude what do you think.",
+          "norm": "important are they uh is that matter to have them in the cv should we include should exclude what do you think",
+          "norm_compact": "importantaretheyuhisthatmattertohavetheminthecvshouldweincludeshouldexcludewhatdoyouthink",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0027",
+      "n": 27,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0027.s001",
+          "episode": "S002.e14",
+          "lang": "en",
+          "start": null,
+          "text": "yeah I think definitely include your LinkedIn and your GitHub uh especially you know if your GitHub has a lot of commits and you're very",
+          "norm": "yeah i think definitely include your linkedin and your github uh especially you know if your github has a lot of commits and you re very",
+          "norm_compact": "yeahithinkdefinitelyincludeyourlinkedinandyourgithubuhespeciallyyouknowifyourgithubhasalotofcommitsandyourevery",
+          "terms": [
+            {
+              "c": "LinkedIn",
+              "v": "LinkedIn"
+            },
+            {
+              "c": "GitHub",
+              "v": "GitHub"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0027.s002",
+          "episode": "S002.e14",
+          "lang": "en",
+          "start": null,
+          "text": "active on it definitely definitely include it uh LinkedIn I would say is essential like everyone should have a LinkedIn nowadays uh I'm speaking from",
+          "norm": "active on it definitely definitely include it uh linkedin i would say is essential like everyone should have a linkedin nowadays uh i m speaking from",
+          "norm_compact": "activeonitdefinitelydefinitelyincludeituhlinkediniwouldsayisessentiallikeeveryoneshouldhavealinkedinnowadaysuhimspeakingfrom",
+          "terms": [
+            {
+              "c": "LinkedIn",
+              "v": "LinkedIn"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0027.s003",
+          "episode": "S002.e14",
+          "lang": "en",
+          "start": null,
+          "text": "a recruiter's perspective but it is you know where I find people it is where I look at your experience uh and you know without",
+          "norm": "a recruiter s perspective but it is you know where i find people it is where i look at your experience uh and you know without",
+          "norm_compact": "arecruitersperspectivebutitisyouknowwhereifindpeopleitiswhereilookatyourexperienceuhandyouknowwithout",
+          "terms": [
+            {
+              "c": "recruiter",
+              "v": "recruiter"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0027.s004",
+          "episode": "S002.e14",
+          "lang": "en",
+          "start": null,
+          "text": "a LinkedIn it can be harder um to sort of you know go through that sort of screening process um so I would keep your",
+          "norm": "a linkedin it can be harder um to sort of you know go through that sort of screening process um so i would keep your",
+          "norm_compact": "alinkedinitcanbeharderumtosortofyouknowgothroughthatsortofscreeningprocessumsoiwouldkeepyour",
+          "terms": [
+            {
+              "c": "LinkedIn",
+              "v": "LinkedIn"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0027.s005",
+          "episode": "S002.e14",
+          "lang": "en",
+          "start": null,
+          "text": "LinkedIn current i would put like some information as well in your under your LinkedIn of like what you've specifically done for each company um",
+          "norm": "linkedin current i would put like some information as well in your under your linkedin of like what you ve specifically done for each company um",
+          "norm_compact": "linkedincurrentiwouldputlikesomeinformationaswellinyourunderyourlinkedinoflikewhatyouvespecificallydoneforeachcompanyum",
+          "terms": [
+            {
+              "c": "LinkedIn",
+              "v": "LinkedIn"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0027.s006",
+          "episode": "S002.e14",
+          "lang": "en",
+          "start": null,
+          "text": "so yeah so I I think LinkedIn is definitely essential.",
+          "norm": "so yeah so i i think linkedin is definitely essential",
+          "norm_compact": "soyeahsoiithinklinkedinisdefinitelyessential",
+          "terms": [
+            {
+              "c": "LinkedIn",
+              "v": "LinkedIn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0028",
+      "n": 28,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "punctuation",
+      "sentences": [
+        {
+          "id": "S002.t0028.s001",
+          "episode": "S002.e14",
+          "lang": "en",
+          "start": null,
+          "text": "i see makes sense and about the GitHub so if there's no contribution in there is that needed or no.",
+          "norm": "i see makes sense and about the github so if there s no contribution in there is that needed or no",
+          "norm_compact": "iseemakessenseandaboutthegithubsoiftheresnocontributioninthereisthatneededorno",
+          "terms": [
+            {
+              "c": "GitHub",
+              "v": "GitHub"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0029",
+      "n": 29,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0029.s001",
+          "episode": "S002.e14",
+          "lang": "en",
+          "start": null,
+          "text": "if you literally have no contributions it might end up hurting you it's your call i would say it can end up hurting you um",
+          "norm": "if you literally have no contributions it might end up hurting you it s your call i would say it can end up hurting you um",
+          "norm_compact": "ifyouliterallyhavenocontributionsitmightenduphurtingyouitsyourcalliwouldsayitcanenduphurtingyouum",
+          "terms": []
+        },
+        {
+          "id": "S002.t0029.s002",
+          "episode": "S002.e14",
+          "lang": "en",
+          "start": null,
+          "text": "because if you have no contributions and if the engineering manager is looking at that um and they let's say they have two candidates one",
+          "norm": "because if you have no contributions and if the engineering manager is looking at that um and they let s say they have two candidates one",
+          "norm_compact": "becauseifyouhavenocontributionsandiftheengineeringmanagerislookingatthatumandtheyletssaytheyhavetwocandidatesone",
+          "terms": []
+        },
+        {
+          "id": "S002.t0029.s003",
+          "episode": "S002.e14",
+          "lang": "en",
+          "start": null,
+          "text": "has a lot of GitHub contributions one doesn't um you know they might go with the one that does have the contributions just cuz it",
+          "norm": "has a lot of github contributions one doesn t um you know they might go with the one that does have the contributions just cuz it",
+          "norm_compact": "hasalotofgithubcontributionsonedoesntumyouknowtheymightgowiththeonethatdoeshavethecontributionsjustcuzit",
+          "terms": [
+            {
+              "c": "GitHub",
+              "v": "GitHub"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0029.s004",
+          "episode": "S002.e14",
+          "lang": "en",
+          "start": null,
+          "text": "shows that they're more sort of into what they do dayto-day um it's not always the case right but um yeah if you if you",
+          "norm": "shows that they re more sort of into what they do dayto day um it s not always the case right but um yeah if you if you",
+          "norm_compact": "showsthattheyremoresortofintowhattheydodaytodayumitsnotalwaysthecaserightbutumyeahifyouifyou",
+          "terms": []
+        },
+        {
+          "id": "S002.t0029.s005",
+          "episode": "S002.e14",
+          "lang": "en",
+          "start": null,
+          "text": "if you're very unactive I would say just include your LinkedIn it should be fine.",
+          "norm": "if you re very unactive i would say just include your linkedin it should be fine",
+          "norm_compact": "ifyoureveryunactiveiwouldsayjustincludeyourlinkedinitshouldbefine",
+          "terms": [
+            {
+              "c": "LinkedIn",
+              "v": "LinkedIn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0030",
+      "n": 30,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "punctuation",
+      "sentences": [
+        {
+          "id": "S002.t0030.s001",
+          "episode": "S002.e14",
+          "lang": "en",
+          "start": null,
+          "text": "yeah cool and and LinkedIn I assume should be updated right not outdated LinkedIn include a lot of the things that you work and all of the achievements that you have obviously.",
+          "norm": "yeah cool and and linkedin i assume should be updated right not outdated linkedin include a lot of the things that you work and all of the achievements that you have obviously",
+          "norm_compact": "yeahcoolandandlinkediniassumeshouldbeupdatedrightnotoutdatedlinkedinincludealotofthethingsthatyouworkandalloftheachievementsthatyouhaveobviously",
+          "terms": [
+            {
+              "c": "LinkedIn",
+              "v": "LinkedIn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0031",
+      "n": 31,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "punctuation",
+      "sentences": [
+        {
+          "id": "S002.t0031.s001",
+          "episode": "S002.e14",
+          "lang": "en",
+          "start": null,
+          "text": "100% yeah yeah.",
+          "norm": "100 yeah yeah",
+          "norm_compact": "100yeahyeah",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0032",
+      "n": 32,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0032.s001",
+          "episode": "S002.e15",
+          "lang": "en",
+          "start": null,
+          "text": "cool we have some comments i can see it's coming so you can ask questions and we're going to ask the all of the questions",
+          "norm": "cool we have some comments i can see it s coming so you can ask questions and we re going to ask the all of the questions",
+          "norm_compact": "coolwehavesomecommentsicanseeitscomingsoyoucanaskquestionsandweregoingtoasktheallofthequestions",
+          "terms": []
+        },
+        {
+          "id": "S002.t0032.s002",
+          "episode": "S002.e15",
+          "lang": "en",
+          "start": null,
+          "text": "at the end so please comment in YouTube and we're going to ask them um from Sam so uh let's change the topic to JavaScript",
+          "norm": "at the end so please comment in youtube and we re going to ask them um from sam so uh let s change the topic to javascript",
+          "norm_compact": "attheendsopleasecommentinyoutubeandweregoingtoaskthemumfromsamsouhletschangethetopictojavascript",
+          "terms": [
+            {
+              "c": "YouTube",
+              "v": "YouTube"
+            },
+            {
+              "c": "JavaScript",
+              "v": "JavaScript"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0032.s003",
+          "episode": "S002.e15",
+          "lang": "en",
+          "start": null,
+          "text": "structure and and what we doing about that because you are a specialist in the JavaScript recruitment so what are companies looking for a JavaScript",
+          "norm": "structure and and what we doing about that because you are a specialist in the javascript recruitment so what are companies looking for a javascript",
+          "norm_compact": "structureandandwhatwedoingaboutthatbecauseyouareaspecialistinthejavascriptrecruitmentsowhatarecompanieslookingforajavascript",
+          "terms": [
+            {
+              "c": "JavaScript",
+              "v": "JavaScript"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0032.s004",
+          "episode": "S002.e15",
+          "lang": "en",
+          "start": null,
+          "text": "engineer right now.",
+          "norm": "engineer right now",
+          "norm_compact": "engineerrightnow",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0033",
+      "n": 33,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0033.s001",
+          "episode": "S002.e15",
+          "lang": "en",
+          "start": null,
+          "text": "i think uh now companies increasingly especially for my my my sort of clients they're looking for Typescript uh experience um they're looking for you",
+          "norm": "i think uh now companies increasingly especially for my my my sort of clients they re looking for typescript uh experience um they re looking for you",
+          "norm_compact": "ithinkuhnowcompaniesincreasinglyespeciallyformymymysortofclientstheyrelookingfortypescriptuhexperienceumtheyrelookingforyou",
+          "terms": [
+            {
+              "c": "TypeScript",
+              "v": "TypeScript"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0033.s002",
+          "episode": "S002.e15",
+          "lang": "en",
+          "start": null,
+          "text": "know mostly react and next and then you know sort of node and nest on the on the back end um in terms of like",
+          "norm": "know mostly react and next and then you know sort of node and nest on the on the back end um in terms of like",
+          "norm_compact": "knowmostlyreactandnextandthenyouknowsortofnodeandnestontheonthebackendumintermsoflike",
+          "terms": [
+            {
+              "c": "React",
+              "v": "React",
+              "amb": [
+                "react (verb)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S002.t0033.s003",
+          "episode": "S002.e15",
+          "lang": "en",
+          "start": null,
+          "text": "um you know the specific profile I think most companies are looking for full stack backend leaning engineer which just means you probably spend you",
+          "norm": "um you know the specific profile i think most companies are looking for full stack backend leaning engineer which just means you probably spend you",
+          "norm_compact": "umyouknowthespecificprofileithinkmostcompaniesarelookingforfullstackbackendleaningengineerwhichjustmeansyouprobablyspendyou",
+          "terms": []
+        },
+        {
+          "id": "S002.t0033.s004",
+          "episode": "S002.e15",
+          "lang": "en",
+          "start": null,
+          "text": "know 70% of your time you know working the back end and then the other the other 30% sort of working front end with front",
+          "norm": "know 70 of your time you know working the back end and then the other the other 30 sort of working front end with front",
+          "norm_compact": "know70ofyourtimeyouknowworkingthebackendandthentheothertheother30sortofworkingfrontendwithfront",
+          "terms": []
+        },
+        {
+          "id": "S002.t0033.s005",
+          "episode": "S002.e15",
+          "lang": "en",
+          "start": null,
+          "text": "end technologies i think that's the biggest um desire in the market right now from clients um and then obviously this is not just for",
+          "norm": "end technologies i think that s the biggest um desire in the market right now from clients um and then obviously this is not just for",
+          "norm_compact": "endtechnologiesithinkthatsthebiggestumdesireinthemarketrightnowfromclientsumandthenobviouslythisisnotjustfor",
+          "terms": []
+        },
+        {
+          "id": "S002.t0033.s006",
+          "episode": "S002.e15",
+          "lang": "en",
+          "start": null,
+          "text": "JavaScript this is just for engineering in general i think having like very relevant AI native skills uh in your CV now you don't need",
+          "norm": "javascript this is just for engineering in general i think having like very relevant ai native skills uh in your cv now you don t need",
+          "norm_compact": "javascriptthisisjustforengineeringingeneralithinkhavinglikeveryrelevantainativeskillsuhinyourcvnowyoudontneed",
+          "terms": [
+            {
+              "c": "JavaScript",
+              "v": "JavaScript"
+            },
+            {
+              "c": "AI",
+              "v": "AI"
+            },
+            {
+              "c": "skills",
+              "v": "skills"
+            },
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0033.s007",
+          "episode": "S002.e15",
+          "lang": "en",
+          "start": null,
+          "text": "to be an AI engineer you don't need to have experience with rag or you know multi-agent orchestration layers all you need to do is",
+          "norm": "to be an ai engineer you don t need to have experience with rag or you know multi agent orchestration layers all you need to do is",
+          "norm_compact": "tobeanaiengineeryoudontneedtohaveexperiencewithragoryouknowmultiagentorchestrationlayersallyouneedtodois",
+          "terms": [
+            {
+              "c": "AI",
+              "v": "AI"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0033.s008",
+          "episode": "S002.e15",
+          "lang": "en",
+          "start": null,
+          "text": "show people that you can leverage AI like code uh codeex cursor claude um to increase your output in in your developmental workflows um and",
+          "norm": "show people that you can leverage ai like code uh codeex cursor claude um to increase your output in in your developmental workflows um and",
+          "norm_compact": "showpeoplethatyoucanleverageailikecodeuhcodeexcursorclaudeumtoincreaseyouroutputininyourdevelopmentalworkflowsumand",
+          "terms": [
+            {
+              "c": "AI",
+              "v": "AI"
+            },
+            {
+              "c": "Cursor",
+              "v": "Cursor"
+            },
+            {
+              "c": "Claude",
+              "v": "Claude"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0033.s009",
+          "episode": "S002.e15",
+          "lang": "en",
+          "start": null,
+          "text": "that's that's very important right now.",
+          "norm": "that s that s very important right now",
+          "norm_compact": "thatsthatsveryimportantrightnow",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0034",
+      "n": 34,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0034.s001",
+          "episode": "S002.e16",
+          "lang": "en",
+          "start": null,
+          "text": "yeah that's a transition that we can see in the market everybody's searching for somebody who have already passed adoption layer and and they are",
+          "norm": "yeah that s a transition that we can see in the market everybody s searching for somebody who have already passed adoption layer and and they are",
+          "norm_compact": "yeahthatsatransitionthatwecanseeinthemarketeverybodyssearchingforsomebodywhohavealreadypassedadoptionlayerandandtheyare",
+          "terms": []
+        },
+        {
+          "id": "S002.t0034.s002",
+          "episode": "S002.e16",
+          "lang": "en",
+          "start": null,
+          "text": "using AI in daily usage so what on the other side of that what skill are most of the JavaScript engineing are are missing at",
+          "norm": "using ai in daily usage so what on the other side of that what skill are most of the javascript engineing are are missing at",
+          "norm_compact": "usingaiindailyusagesowhatontheothersideofthatwhatskillaremostofthejavascriptengineingarearemissingat",
+          "terms": [
+            {
+              "c": "AI",
+              "v": "AI"
+            },
+            {
+              "c": "JavaScript",
+              "v": "JavaScript"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0034.s003",
+          "episode": "S002.e16",
+          "lang": "en",
+          "start": null,
+          "text": "the moment you see opening the CV ah this I'm going to reject this person just because this is skill missing for example.",
+          "norm": "the moment you see opening the cv ah this i m going to reject this person just because this is skill missing for example",
+          "norm_compact": "themomentyouseeopeningthecvahthisimgoingtorejectthispersonjustbecausethisisskillmissingforexample",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            },
+            {
+              "c": "reject",
+              "v": "reject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0035",
+      "n": 35,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0035.s001",
+          "episode": "S002.e16",
+          "lang": "en",
+          "start": null,
+          "text": "that's a good question I think you know complete um if they don't use AI at all if there's no mention of AI and it",
+          "norm": "that s a good question i think you know complete um if they don t use ai at all if there s no mention of ai and it",
+          "norm_compact": "thatsagoodquestionithinkyouknowcompleteumiftheydontuseaiatalliftheresnomentionofaiandit",
+          "terms": [
+            {
+              "c": "AI",
+              "v": "AI"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0035.s002",
+          "episode": "S002.e16",
+          "lang": "en",
+          "start": null,
+          "text": "also depends on like sort of what type of person I'm looking to hire right if I'm looking for a backend engineer and they don't",
+          "norm": "also depends on like sort of what type of person i m looking to hire right if i m looking for a backend engineer and they don t",
+          "norm_compact": "alsodependsonlikesortofwhattypeofpersonimlookingtohirerightifimlookingforabackendengineerandtheydont",
+          "terms": []
+        },
+        {
+          "id": "S002.t0035.s003",
+          "episode": "S002.e16",
+          "lang": "en",
+          "start": null,
+          "text": "mention mention nojs at all or they mention like PHP or something and I know my client uses TypeScript on the back end that that'll",
+          "norm": "mention mention nojs at all or they mention like php or something and i know my client uses typescript on the back end that that ll",
+          "norm_compact": "mentionmentionnojsatallortheymentionlikephporsomethingandiknowmyclientusestypescriptonthebackendthatthatll",
+          "terms": [
+            {
+              "c": "PHP",
+              "v": "PHP"
+            },
+            {
+              "c": "TypeScript",
+              "v": "TypeScript"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0035.s004",
+          "episode": "S002.e16",
+          "lang": "en",
+          "start": null,
+          "text": "probably make me reject them instantly um you know stuff like you know SQL data modeling um you know people being able to write raw",
+          "norm": "probably make me reject them instantly um you know stuff like you know sql data modeling um you know people being able to write raw",
+          "norm_compact": "probablymakemerejecttheminstantlyumyouknowstufflikeyouknowsqldatamodelingumyouknowpeoplebeingabletowriteraw",
+          "terms": [
+            {
+              "c": "reject",
+              "v": "reject"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0035.s005",
+          "episode": "S002.e16",
+          "lang": "en",
+          "start": null,
+          "text": "SQL is also quite is also an additional bonus to people looking for sort of good backend engineers as well um it it look it",
+          "norm": "sql is also quite is also an additional bonus to people looking for sort of good backend engineers as well um it it look it",
+          "norm_compact": "sqlisalsoquiteisalsoanadditionalbonustopeoplelookingforsortofgoodbackendengineersaswellumititlookit",
+          "terms": []
+        },
+        {
+          "id": "S002.t0035.s006",
+          "episode": "S002.e16",
+          "lang": "en",
+          "start": null,
+          "text": "really depends on sort of the role um so I would always say tailor your CV and your skill sets to to the role that",
+          "norm": "really depends on sort of the role um so i would always say tailor your cv and your skill sets to to the role that",
+          "norm_compact": "reallydependsonsortoftheroleumsoiwouldalwayssaytailoryourcvandyourskillsetstototherolethat",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0035.s007",
+          "episode": "S002.e16",
+          "lang": "en",
+          "start": null,
+          "text": "you're sort of applying for.",
+          "norm": "you re sort of applying for",
+          "norm_compact": "youresortofapplyingfor",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0036",
+      "n": 36,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0036.s001",
+          "episode": "S002.e17",
+          "lang": "en",
+          "start": null,
+          "text": "yeah that that's really interesting and important to to make sure that you don't have a huge gap especially when you're reading the job description",
+          "norm": "yeah that that s really interesting and important to to make sure that you don t have a huge gap especially when you re reading the job description",
+          "norm_compact": "yeahthatthatsreallyinterestingandimportanttotomakesurethatyoudonthaveahugegapespeciallywhenyourereadingthejobdescription",
+          "terms": []
+        },
+        {
+          "id": "S002.t0036.s002",
+          "episode": "S002.e17",
+          "lang": "en",
+          "start": null,
+          "text": "you can see some of them are essential for that company some of them nice to have so there is a differentiation already you can",
+          "norm": "you can see some of them are essential for that company some of them nice to have so there is a differentiation already you can",
+          "norm_compact": "youcanseesomeofthemareessentialforthatcompanysomeofthemnicetohavesothereisadifferentiationalreadyyoucan",
+          "terms": []
+        },
+        {
+          "id": "S002.t0036.s003",
+          "episode": "S002.e17",
+          "lang": "en",
+          "start": null,
+          "text": "see in the job description so read that make sure your CV is matching with that the more match the more chance you have to",
+          "norm": "see in the job description so read that make sure your cv is matching with that the more match the more chance you have to",
+          "norm_compact": "seeinthejobdescriptionsoreadthatmakesureyourcvismatchingwiththatthemorematchthemorechanceyouhaveto",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0036.s004",
+          "episode": "S002.e17",
+          "lang": "en",
+          "start": null,
+          "text": "go for next stage and tell me about the infrastructure actually AWS GCP are they matter actually.",
+          "norm": "go for next stage and tell me about the infrastructure actually aws gcp are they matter actually",
+          "norm_compact": "gofornextstageandtellmeabouttheinfrastructureactuallyawsgcparetheymatteractually",
+          "terms": [
+            {
+              "c": "infrastructure",
+              "v": "infrastructure"
+            },
+            {
+              "c": "AWS",
+              "v": "AWS"
+            },
+            {
+              "c": "GCP",
+              "v": "GCP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0037",
+      "n": 37,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0037.s001",
+          "episode": "S002.e17",
+          "lang": "en",
+          "start": null,
+          "text": "I would say no i would say it does matter it does matter like obviously experience with AWS GCP matters but from my understanding when",
+          "norm": "i would say no i would say it does matter it does matter like obviously experience with aws gcp matters but from my understanding when",
+          "norm_compact": "iwouldsaynoiwouldsayitdoesmatteritdoesmatterlikeobviouslyexperiencewithawsgcpmattersbutfrommyunderstandingwhen",
+          "terms": [
+            {
+              "c": "AWS",
+              "v": "AWS"
+            },
+            {
+              "c": "GCP",
+              "v": "GCP"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0037.s002",
+          "episode": "S002.e17",
+          "lang": "en",
+          "start": null,
+          "text": "speaking to engineers and speaking to uh engineering leaders like yourself John you know if someone can do GCP or someone can do AWS they",
+          "norm": "speaking to engineers and speaking to uh engineering leaders like yourself john you know if someone can do gcp or someone can do aws they",
+          "norm_compact": "speakingtoengineersandspeakingtouhengineeringleaderslikeyourselfjohnyouknowifsomeonecandogcporsomeonecandoawsthey",
+          "terms": [
+            {
+              "c": "GCP",
+              "v": "GCP"
+            },
+            {
+              "c": "AWS",
+              "v": "AWS"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0037.s003",
+          "episode": "S002.e17",
+          "lang": "en",
+          "start": null,
+          "text": "are quite interchangeable um I think what people tend to focus on is the core stack so the language the front-end framework and the backend",
+          "norm": "are quite interchangeable um i think what people tend to focus on is the core stack so the language the front end framework and the backend",
+          "norm_compact": "arequiteinterchangeableumithinkwhatpeopletendtofocusonisthecorestacksothelanguagethefrontendframeworkandthebackend",
+          "terms": []
+        },
+        {
+          "id": "S002.t0037.s004",
+          "episode": "S002.e17",
+          "lang": "en",
+          "start": null,
+          "text": "framework uh this is the most important thing in my sort of um in my world.",
+          "norm": "framework uh this is the most important thing in my sort of um in my world",
+          "norm_compact": "frameworkuhthisisthemostimportantthinginmysortofuminmyworld",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0038",
+      "n": 38,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0038.s001",
+          "episode": "S002.e18",
+          "lang": "en",
+          "start": null,
+          "text": "i see that's interesting answer that you're saying here and we can see the change in the market ai is literally changing everything the way",
+          "norm": "i see that s interesting answer that you re saying here and we can see the change in the market ai is literally changing everything the way",
+          "norm_compact": "iseethatsinterestinganswerthatyouresayinghereandwecanseethechangeinthemarketaiisliterallychangingeverythingtheway",
+          "terms": [
+            {
+              "c": "AI",
+              "v": "AI"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0038.s002",
+          "episode": "S002.e18",
+          "lang": "en",
+          "start": null,
+          "text": "that engineering working so what should engineering focus on over the next few years what what do you think about the future.",
+          "norm": "that engineering working so what should engineering focus on over the next few years what what do you think about the future",
+          "norm_compact": "thatengineeringworkingsowhatshouldengineeringfocusonoverthenextfewyearswhatwhatdoyouthinkaboutthefuture",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0039",
+      "n": 39,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0039.s001",
+          "episode": "S002.e18",
+          "lang": "en",
+          "start": null,
+          "text": "i think you know you need to keep your fundamentals sharp you need to learn sort of how to architect um in the in the",
+          "norm": "i think you know you need to keep your fundamentals sharp you need to learn sort of how to architect um in the in the",
+          "norm_compact": "ithinkyouknowyouneedtokeepyourfundamentalssharpyouneedtolearnsortofhowtoarchitectumintheinthe",
+          "terms": []
+        },
+        {
+          "id": "S002.t0039.s002",
+          "episode": "S002.e18",
+          "lang": "en",
+          "start": null,
+          "text": "right way uh as AI is going to be sort of deploying a lot of the code for you you need to make sure the",
+          "norm": "right way uh as ai is going to be sort of deploying a lot of the code for you you need to make sure the",
+          "norm_compact": "rightwayuhasaiisgoingtobesortofdeployingalotofthecodeforyouyouneedtomakesurethe",
+          "terms": [
+            {
+              "c": "AI",
+              "v": "AI"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0039.s003",
+          "episode": "S002.e18",
+          "lang": "en",
+          "start": null,
+          "text": "feedback loops you're giving it are tight you know learn skills like sort of paralyzation um and sort of use AI to help you write",
+          "norm": "feedback loops you re giving it are tight you know learn skills like sort of paralyzation um and sort of use ai to help you write",
+          "norm_compact": "feedbackloopsyouregivingitaretightyouknowlearnskillslikesortofparalyzationumandsortofuseaitohelpyouwrite",
+          "terms": [
+            {
+              "c": "skills",
+              "v": "skills"
+            },
+            {
+              "c": "AI",
+              "v": "AI"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0039.s004",
+          "episode": "S002.e18",
+          "lang": "en",
+          "start": null,
+          "text": "code but don't use AI to help you generate ideas um I think that's that's very important you know people want sort of good problem",
+          "norm": "code but don t use ai to help you generate ideas um i think that s that s very important you know people want sort of good problem",
+          "norm_compact": "codebutdontuseaitohelpyougenerateideasumithinkthatsthatsveryimportantyouknowpeoplewantsortofgoodproblem",
+          "terms": [
+            {
+              "c": "AI",
+              "v": "AI"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0039.s005",
+          "episode": "S002.e18",
+          "lang": "en",
+          "start": null,
+          "text": "solvers that can generate ideas that are creative rather than just someone who's really good at remembering syntax so lean to those skills lean towards",
+          "norm": "solvers that can generate ideas that are creative rather than just someone who s really good at remembering syntax so lean to those skills lean towards",
+          "norm_compact": "solversthatcangenerateideasthatarecreativeratherthanjustsomeonewhosreallygoodatrememberingsyntaxsoleantothoseskillsleantowards",
+          "terms": [
+            {
+              "c": "skills",
+              "v": "skills"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0039.s006",
+          "episode": "S002.e18",
+          "lang": "en",
+          "start": null,
+          "text": "learn those skills you know.",
+          "norm": "learn those skills you know",
+          "norm_compact": "learnthoseskillsyouknow",
+          "terms": [
+            {
+              "c": "skills",
+              "v": "skills"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0040",
+      "n": 40,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0040.s001",
+          "episode": "S002.e19",
+          "lang": "en",
+          "start": null,
+          "text": "yeah totally makes sense yeah and we have some comments are you happy to check one of those for example I can see it's uh",
+          "norm": "yeah totally makes sense yeah and we have some comments are you happy to check one of those for example i can see it s uh",
+          "norm_compact": "yeahtotallymakessenseyeahandwehavesomecommentsareyouhappytocheckoneofthoseforexampleicanseeitsuh",
+          "terms": []
+        },
+        {
+          "id": "S002.t0040.s002",
+          "episode": "S002.e19",
+          "lang": "en",
+          "start": null,
+          "text": "Resza asking is LinkedIn URL and email enough for contact detail on resume for UK is UK Germany etc resume different um.",
+          "norm": "resza asking is linkedin url and email enough for contact detail on resume for uk is uk germany etc resume different um",
+          "norm_compact": "reszaaskingislinkedinurlandemailenoughforcontactdetailonresumeforukisukgermanyetcresumedifferentum",
+          "terms": [
+            {
+              "c": "LinkedIn",
+              "v": "LinkedIn"
+            },
+            {
+              "c": "CV",
+              "v": "resume"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0041",
+      "n": 41,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0041.s001",
+          "episode": "S002.e19",
+          "lang": "en",
+          "start": null,
+          "text": "yeah I I tend to say you know put your LinkedIn URL your GitHub URL if you're okay your contact number and the best email",
+          "norm": "yeah i i tend to say you know put your linkedin url your github url if you re okay your contact number and the best email",
+          "norm_compact": "yeahiitendtosayyouknowputyourlinkedinurlyourgithuburlifyoureokayyourcontactnumberandthebestemail",
+          "terms": [
+            {
+              "c": "LinkedIn",
+              "v": "LinkedIn"
+            },
+            {
+              "c": "GitHub",
+              "v": "GitHub"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0041.s002",
+          "episode": "S002.e19",
+          "lang": "en",
+          "start": null,
+          "text": "to reach you if your contact number is based in Germany just make sure you have the right you know uh right dial code for Germany.",
+          "norm": "to reach you if your contact number is based in germany just make sure you have the right you know uh right dial code for germany",
+          "norm_compact": "toreachyouifyourcontactnumberisbasedingermanyjustmakesureyouhavetherightyouknowuhrightdialcodeforgermany",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0042",
+      "n": 42,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "punctuation",
+      "sentences": [
+        {
+          "id": "S002.t0042.s001",
+          "episode": "S002.e19",
+          "lang": "en",
+          "start": null,
+          "text": "okay so you think mobile number is also needed in the CV generally.",
+          "norm": "okay so you think mobile number is also needed in the cv generally",
+          "norm_compact": "okaysoyouthinkmobilenumberisalsoneededinthecvgenerally",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0043",
+      "n": 43,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "punctuation",
+      "sentences": [
+        {
+          "id": "S002.t0043.s001",
+          "episode": "S002.e19",
+          "lang": "en",
+          "start": null,
+          "text": "I think so especially if you're applying direct if uh the internal recruiter wants to give you a call um you you know it is important that they know your number.",
+          "norm": "i think so especially if you re applying direct if uh the internal recruiter wants to give you a call um you you know it is important that they know your number",
+          "norm_compact": "ithinksoespeciallyifyoureapplyingdirectifuhtheinternalrecruiterwantstogiveyouacallumyouyouknowitisimportantthattheyknowyournumber",
+          "terms": [
+            {
+              "c": "recruiter",
+              "v": "recruiter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0044",
+      "n": 44,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "punctuation",
+      "sentences": [
+        {
+          "id": "S002.t0044.s001",
+          "episode": "S002.e19",
+          "lang": "en",
+          "start": null,
+          "text": "are you considering which country is from that number are you checking that or does it matter.",
+          "norm": "are you considering which country is from that number are you checking that or does it matter",
+          "norm_compact": "areyouconsideringwhichcountryisfromthatnumberareyoucheckingthatordoesitmatter",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0045",
+      "n": 45,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0045.s001",
+          "episode": "S002.e19",
+          "lang": "en",
+          "start": null,
+          "text": "uh yeah actually I do if I'm only hiring in the UK and I see you know someone from India someone from Germany uh it",
+          "norm": "uh yeah actually i do if i m only hiring in the uk and i see you know someone from india someone from germany uh it",
+          "norm_compact": "uhyeahactuallyidoifimonlyhiringintheukandiseeyouknowsomeonefromindiasomeonefromgermanyuhit",
+          "terms": []
+        },
+        {
+          "id": "S002.t0045.s002",
+          "episode": "S002.e19",
+          "lang": "en",
+          "start": null,
+          "text": "might not it might be a red flag but that's why that's why it's important to sort of have your LinkedIn uh attached right because",
+          "norm": "might not it might be a red flag but that s why that s why it s important to sort of have your linkedin uh attached right because",
+          "norm_compact": "mightnotitmightbearedflagbutthatswhythatswhyitsimportanttosortofhaveyourlinkedinuhattachedrightbecause",
+          "terms": [
+            {
+              "c": "LinkedIn",
+              "v": "LinkedIn"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0045.s003",
+          "episode": "S002.e19",
+          "lang": "en",
+          "start": null,
+          "text": "you could have a German phone and but you actually could have recently just moved to the UK and on your LinkedIn if you write",
+          "norm": "you could have a german phone and but you actually could have recently just moved to the uk and on your linkedin if you write",
+          "norm_compact": "youcouldhaveagermanphoneandbutyouactuallycouldhaverecentlyjustmovedtotheukandonyourlinkedinifyouwrite",
+          "terms": [
+            {
+              "c": "LinkedIn",
+              "v": "LinkedIn"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0045.s004",
+          "episode": "S002.e19",
+          "lang": "en",
+          "start": null,
+          "text": "you know sort of London England or you know wherever you are people might still give you a call uh if that could be through",
+          "norm": "you know sort of london england or you know wherever you are people might still give you a call uh if that could be through",
+          "norm_compact": "youknowsortoflondonenglandoryouknowwhereveryouarepeoplemightstillgiveyouacalluhifthatcouldbethrough",
+          "terms": []
+        },
+        {
+          "id": "S002.t0045.s005",
+          "episode": "S002.e19",
+          "lang": "en",
+          "start": null,
+          "text": "WhatsApp could could be through teams um so so yeah just try and avoid any u sort of um confusion um I guess the best",
+          "norm": "whatsapp could could be through teams um so so yeah just try and avoid any u sort of um confusion um i guess the best",
+          "norm_compact": "whatsappcouldcouldbethroughteamsumsosoyeahjusttryandavoidanyusortofumconfusionumiguessthebest",
+          "terms": []
+        },
+        {
+          "id": "S002.t0045.s006",
+          "episode": "S002.e19",
+          "lang": "en",
+          "start": null,
+          "text": "thing that you can do is just write based in Germany or based in the UK on your CV.",
+          "norm": "thing that you can do is just write based in germany or based in the uk on your cv",
+          "norm_compact": "thingthatyoucandoisjustwritebasedingermanyorbasedintheukonyourcv",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0046",
+      "n": 46,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0046.s001",
+          "episode": "S002.e20",
+          "lang": "en",
+          "start": null,
+          "text": "i see yeah makes sense um one question I have actually here so if somebody living somewhere close to for example London and the company",
+          "norm": "i see yeah makes sense um one question i have actually here so if somebody living somewhere close to for example london and the company",
+          "norm_compact": "iseeyeahmakessenseumonequestionihaveactuallyheresoifsomebodylivingsomewhereclosetoforexamplelondonandthecompany",
+          "terms": []
+        },
+        {
+          "id": "S002.t0046.s002",
+          "episode": "S002.e20",
+          "lang": "en",
+          "start": null,
+          "text": "is located in London should they mention the city for example let's say reading or should they mention London for example um.",
+          "norm": "is located in london should they mention the city for example let s say reading or should they mention london for example um",
+          "norm_compact": "islocatedinlondonshouldtheymentionthecityforexampleletssayreadingorshouldtheymentionlondonforexampleum",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0047",
+      "n": 47,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0047.s001",
+          "episode": "S002.e20",
+          "lang": "en",
+          "start": null,
+          "text": "that's a good question i think most recruiters uh will look at how like close your where you live is is to their office um",
+          "norm": "that s a good question i think most recruiters uh will look at how like close your where you live is is to their office um",
+          "norm_compact": "thatsagoodquestionithinkmostrecruitersuhwilllookathowlikecloseyourwhereyouliveisistotheirofficeum",
+          "terms": [
+            {
+              "c": "recruiter",
+              "v": "recruiter"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0047.s002",
+          "episode": "S002.e20",
+          "lang": "en",
+          "start": null,
+          "text": "so I I would just say just be specific and just be just be truthful um you know if you live in Reading and the",
+          "norm": "so i i would just say just be specific and just be just be truthful um you know if you live in reading and the",
+          "norm_compact": "soiiwouldjustsayjustbespecificandjustbejustbetruthfulumyouknowifyouliveinreadingandthe",
+          "terms": []
+        },
+        {
+          "id": "S002.t0047.s003",
+          "episode": "S002.e20",
+          "lang": "en",
+          "start": null,
+          "text": "job's in London it shouldn't be a problem if especially if you'got a good profile and the recruiter wants to talk to you they they",
+          "norm": "job s in london it shouldn t be a problem if especially if you got a good profile and the recruiter wants to talk to you they they",
+          "norm_compact": "jobsinlondonitshouldntbeaproblemifespeciallyifyougotagoodprofileandtherecruiterwantstotalktoyoutheythey",
+          "terms": [
+            {
+              "c": "recruiter",
+              "v": "recruiter"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0047.s004",
+          "episode": "S002.e20",
+          "lang": "en",
+          "start": null,
+          "text": "will know it's it's close enough where you know you might be happy to travel especially if you've applied so um yeah I would just",
+          "norm": "will know it s it s close enough where you know you might be happy to travel especially if you ve applied so um yeah i would just",
+          "norm_compact": "willknowitsitscloseenoughwhereyouknowyoumightbehappytotravelespeciallyifyouveappliedsoumyeahiwouldjust",
+          "terms": []
+        },
+        {
+          "id": "S002.t0047.s005",
+          "episode": "S002.e20",
+          "lang": "en",
+          "start": null,
+          "text": "say just keep it specific you know maybe just name your city reading London Birmingham you know Manchester whatever it is.",
+          "norm": "say just keep it specific you know maybe just name your city reading london birmingham you know manchester whatever it is",
+          "norm_compact": "sayjustkeepitspecificyouknowmaybejustnameyourcityreadinglondonbirminghamyouknowmanchesterwhateveritis",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0048",
+      "n": 48,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0048.s001",
+          "episode": "S002.e21",
+          "lang": "en",
+          "start": null,
+          "text": "i see makes sense we have few more comments uh if you ask we're going to Yeah cool so the next question that we have",
+          "norm": "i see makes sense we have few more comments uh if you ask we re going to yeah cool so the next question that we have",
+          "norm_compact": "iseemakessensewehavefewmorecommentsuhifyouaskweregoingtoyeahcoolsothenextquestionthatwehave",
+          "terms": []
+        },
+        {
+          "id": "S002.t0048.s002",
+          "episode": "S002.e21",
+          "lang": "en",
+          "start": null,
+          "text": "is is that true although companies can be sponsored must prefer not to hire from Iran what should we do.",
+          "norm": "is is that true although companies can be sponsored must prefer not to hire from iran what should we do",
+          "norm_compact": "isisthattruealthoughcompaniescanbesponsoredmustprefernottohirefromiranwhatshouldwedo",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0049",
+      "n": 49,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0049.s001",
+          "episode": "S002.e21",
+          "lang": "en",
+          "start": null,
+          "text": "i don't know if companies like to hire from Iran or not to be honest i think look if you've got the skills if you've",
+          "norm": "i don t know if companies like to hire from iran or not to be honest i think look if you ve got the skills if you ve",
+          "norm_compact": "idontknowifcompaniesliketohirefromiranornottobehonestithinklookifyouvegottheskillsifyouve",
+          "terms": [
+            {
+              "c": "skills",
+              "v": "skills"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0049.s002",
+          "episode": "S002.e21",
+          "lang": "en",
+          "start": null,
+          "text": "got the commercial impact if you if you'got the right profile that a company is looking for they will hire you um you if you",
+          "norm": "got the commercial impact if you if you got the right profile that a company is looking for they will hire you um you if you",
+          "norm_compact": "gotthecommercialimpactifyouifyougottherightprofilethatacompanyislookingfortheywillhireyouumyouifyou",
+          "terms": []
+        },
+        {
+          "id": "S002.t0049.s003",
+          "episode": "S002.e21",
+          "lang": "en",
+          "start": null,
+          "text": "are in Iran as well maybe and they are offering sponsorship you you might put happy to relocate you know in your CV um so",
+          "norm": "are in iran as well maybe and they are offering sponsorship you you might put happy to relocate you know in your cv um so",
+          "norm_compact": "areiniranaswellmaybeandtheyareofferingsponsorshipyouyoumightputhappytorelocateyouknowinyourcvumso",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0049.s004",
+          "episode": "S002.e21",
+          "lang": "en",
+          "start": null,
+          "text": "you know the recruiter knows you you can definitely move to London um yeah I I would say it's not really about the country it's",
+          "norm": "you know the recruiter knows you you can definitely move to london um yeah i i would say it s not really about the country it s",
+          "norm_compact": "youknowtherecruiterknowsyouyoucandefinitelymovetolondonumyeahiiwouldsayitsnotreallyaboutthecountryits",
+          "terms": [
+            {
+              "c": "recruiter",
+              "v": "recruiter"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0049.s005",
+          "episode": "S002.e21",
+          "lang": "en",
+          "start": null,
+          "text": "it's about the person and the skill set and how they come across when when they speak to you.",
+          "norm": "it s about the person and the skill set and how they come across when when they speak to you",
+          "norm_compact": "itsaboutthepersonandtheskillsetandhowtheycomeacrosswhenwhentheyspeaktoyou",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0050",
+      "n": 50,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "punctuation",
+      "sentences": [
+        {
+          "id": "S002.t0050.s001",
+          "episode": "S002.e22",
+          "lang": "en",
+          "start": null,
+          "text": "yeah cool that's a nice answer and next question that we have on what job board are JavaScript role of UK mostly posted on I think the question is which site we should find job something like that.",
+          "norm": "yeah cool that s a nice answer and next question that we have on what job board are javascript role of uk mostly posted on i think the question is which site we should find job something like that",
+          "norm_compact": "yeahcoolthatsaniceanswerandnextquestionthatwehaveonwhatjobboardarejavascriptroleofukmostlypostedonithinkthequestioniswhichsiteweshouldfindjobsomethinglikethat",
+          "terms": [
+            {
+              "c": "JavaScript",
+              "v": "JavaScript"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0051",
+      "n": 51,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "punctuation",
+      "sentences": [
+        {
+          "id": "S002.t0051.s001",
+          "episode": "S002.e22",
+          "lang": "en",
+          "start": null,
+          "text": "yeah so I typically use three i I I guess there's more out there but I use LinkedIn I use welcome to the jungle and then I use cord as well.",
+          "norm": "yeah so i typically use three i i i guess there s more out there but i use linkedin i use welcome to the jungle and then i use cord as well",
+          "norm_compact": "yeahsoitypicallyusethreeiiiguesstheresmoreouttherebutiuselinkediniusewelcometothejungleandtheniusecordaswell",
+          "terms": [
+            {
+              "c": "LinkedIn",
+              "v": "LinkedIn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0052",
+      "n": 52,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "punctuation",
+      "sentences": [
+        {
+          "id": "S002.t0052.s001",
+          "episode": "S002.e23",
+          "lang": "en",
+          "start": null,
+          "text": "h interesting i didn't use those two i'm going to check them and the next question u does the name of big companies or universities make a difference in in CV.",
+          "norm": "h interesting i didn t use those two i m going to check them and the next question u does the name of big companies or universities make a difference in in cv",
+          "norm_compact": "hinterestingididntusethosetwoimgoingtocheckthemandthenextquestionudoesthenameofbigcompaniesoruniversitiesmakeadifferenceinincv",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0053",
+      "n": 53,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0053.s001",
+          "episode": "S002.e23",
+          "lang": "en",
+          "start": null,
+          "text": "it depends on who's looking to hire right if you work for Amazon then Google would probably want to hire you if you work for",
+          "norm": "it depends on who s looking to hire right if you work for amazon then google would probably want to hire you if you work for",
+          "norm_compact": "itdependsonwhoslookingtohirerightifyouworkforamazonthengooglewouldprobablywanttohireyouifyouworkfor",
+          "terms": []
+        },
+        {
+          "id": "S002.t0053.s002",
+          "episode": "S002.e23",
+          "lang": "en",
+          "start": null,
+          "text": "Amazon or bigger organization and you're looking to um apply for a startup it could actually end up hurting you that's why I think it's",
+          "norm": "amazon or bigger organization and you re looking to um apply for a startup it could actually end up hurting you that s why i think it s",
+          "norm_compact": "amazonorbiggerorganizationandyourelookingtoumapplyforastartupitcouldactuallyenduphurtingyouthatswhyithinkits",
+          "terms": []
+        },
+        {
+          "id": "S002.t0053.s003",
+          "episode": "S002.e23",
+          "lang": "en",
+          "start": null,
+          "text": "so important to put context in your CV because you could have worked for you could have worked for a big company that acted but",
+          "norm": "so important to put context in your cv because you could have worked for you could have worked for a big company that acted but",
+          "norm_compact": "soimportanttoputcontextinyourcvbecauseyoucouldhaveworkedforyoucouldhaveworkedforabigcompanythatactedbut",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0053.s004",
+          "episode": "S002.e23",
+          "lang": "en",
+          "start": null,
+          "text": "your specific team was shipping and deploying and acting like a startup uh and then it would be actually a much better fit to some",
+          "norm": "your specific team was shipping and deploying and acting like a startup uh and then it would be actually a much better fit to some",
+          "norm_compact": "yourspecificteamwasshippinganddeployingandactinglikeastartupuhandthenitwouldbeactuallyamuchbetterfittosome",
+          "terms": []
+        },
+        {
+          "id": "S002.t0053.s005",
+          "episode": "S002.e23",
+          "lang": "en",
+          "start": null,
+          "text": "of my other clients but you know we tend to say if you work for bigger conglomerates um it tends to show you you start",
+          "norm": "of my other clients but you know we tend to say if you work for bigger conglomerates um it tends to show you you start",
+          "norm_compact": "ofmyotherclientsbutyouknowwetendtosayifyouworkforbiggerconglomeratesumittendstoshowyouyoustart",
+          "terms": []
+        },
+        {
+          "id": "S002.t0053.s006",
+          "episode": "S002.e23",
+          "lang": "en",
+          "start": null,
+          "text": "building a sort of candidate profile in your head and you know people that work in bigger companies are you know there's more layers there",
+          "norm": "building a sort of candidate profile in your head and you know people that work in bigger companies are you know there s more layers there",
+          "norm_compact": "buildingasortofcandidateprofileinyourheadandyouknowpeoplethatworkinbiggercompaniesareyouknowtheresmorelayersthere",
+          "terms": []
+        },
+        {
+          "id": "S002.t0053.s007",
+          "episode": "S002.e23",
+          "lang": "en",
+          "start": null,
+          "text": "more bureaucracy it's less fast moving um so it might not always be the best fit for a startup but that's in a case by",
+          "norm": "more bureaucracy it s less fast moving um so it might not always be the best fit for a startup but that s in a case by",
+          "norm_compact": "morebureaucracyitslessfastmovingumsoitmightnotalwaysbethebestfitforastartupbutthatsinacaseby",
+          "terms": []
+        },
+        {
+          "id": "S002.t0053.s008",
+          "episode": "S002.e23",
+          "lang": "en",
+          "start": null,
+          "text": "case scenario if you've worked on Greenfield project if you shipped fast then you know I I would still definitely give you a call.",
+          "norm": "case scenario if you ve worked on greenfield project if you shipped fast then you know i i would still definitely give you a call",
+          "norm_compact": "casescenarioifyouveworkedongreenfieldprojectifyoushippedfastthenyouknowiiwouldstilldefinitelygiveyouacall",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0054",
+      "n": 54,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "punctuation",
+      "sentences": [
+        {
+          "id": "S002.t0054.s001",
+          "episode": "S002.e23",
+          "lang": "en",
+          "start": null,
+          "text": "makes sense and what about university.",
+          "norm": "makes sense and what about university",
+          "norm_compact": "makessenseandwhataboutuniversity",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0055",
+      "n": 55,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0055.s001",
+          "episode": "S002.e23",
+          "lang": "en",
+          "start": null,
+          "text": "yeah universities definitely definitely include um good good universities and you know sort of you know even if your education is not computer science I",
+          "norm": "yeah universities definitely definitely include um good good universities and you know sort of you know even if your education is not computer science i",
+          "norm_compact": "yeahuniversitiesdefinitelydefinitelyincludeumgoodgooduniversitiesandyouknowsortofyouknowevenifyoureducationisnotcomputersciencei",
+          "terms": []
+        },
+        {
+          "id": "S002.t0055.s002",
+          "episode": "S002.e23",
+          "lang": "en",
+          "start": null,
+          "text": "would I would definitely include it as well as sort of you know what score you got um that always helps as well especially if",
+          "norm": "would i would definitely include it as well as sort of you know what score you got um that always helps as well especially if",
+          "norm_compact": "wouldiwoulddefinitelyincludeitaswellassortofyouknowwhatscoreyougotumthatalwayshelpsaswellespeciallyif",
+          "terms": []
+        },
+        {
+          "id": "S002.t0055.s003",
+          "episode": "S002.e23",
+          "lang": "en",
+          "start": null,
+          "text": "you got like a merit or distinction I'd definitely put that in there.",
+          "norm": "you got like a merit or distinction i d definitely put that in there",
+          "norm_compact": "yougotlikeameritordistinctioniddefinitelyputthatinthere",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0056",
+      "n": 56,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0056.s001",
+          "episode": "S002.e24",
+          "lang": "en",
+          "start": null,
+          "text": "i see the next question i'm not sure we can answer this properly but will you hire a full remote position from Iran i can",
+          "norm": "i see the next question i m not sure we can answer this properly but will you hire a full remote position from iran i can",
+          "norm_compact": "iseethenextquestionimnotsurewecananswerthisproperlybutwillyouhireafullremotepositionfromiranican",
+          "terms": []
+        },
+        {
+          "id": "S002.t0056.s002",
+          "episode": "S002.e24",
+          "lang": "en",
+          "start": null,
+          "text": "answer this actually because of the sanction and the breast maybe it's not the best location that companies can hire from there also the payments",
+          "norm": "answer this actually because of the sanction and the breast maybe it s not the best location that companies can hire from there also the payments",
+          "norm_compact": "answerthisactuallybecauseofthesanctionandthebreastmaybeitsnotthebestlocationthatcompaniescanhirefromtherealsothepayments",
+          "terms": []
+        },
+        {
+          "id": "S002.t0056.s003",
+          "episode": "S002.e24",
+          "lang": "en",
+          "start": null,
+          "text": "going to be a problem so uh there are multiple reason that company probably going to prevent but if you want to add something here Sam.",
+          "norm": "going to be a problem so uh there are multiple reason that company probably going to prevent but if you want to add something here sam",
+          "norm_compact": "goingtobeaproblemsouhtherearemultiplereasonthatcompanyprobablygoingtopreventbutifyouwanttoaddsomethingheresam",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0057",
+      "n": 57,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "punctuation",
+      "sentences": [
+        {
+          "id": "S002.t0057.s001",
+          "episode": "S002.e24",
+          "lang": "en",
+          "start": null,
+          "text": "to be honest I am not sure when it comes to this sort of thing um uh so I'd say listen to John.",
+          "norm": "to be honest i am not sure when it comes to this sort of thing um uh so i d say listen to john",
+          "norm_compact": "tobehonestiamnotsurewhenitcomestothissortofthingumuhsoidsaylistentojohn",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0058",
+      "n": 58,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "punctuation",
+      "sentences": [
+        {
+          "id": "S002.t0058.s001",
+          "episode": "S002.e25",
+          "lang": "en",
+          "start": null,
+          "text": "thank you the next question that we have is experience NJS backend dev targeting global roles should I focus on deep nodejs uh internal or expanded to clothe system design.",
+          "norm": "thank you the next question that we have is experience njs backend dev targeting global roles should i focus on deep nodejs uh internal or expanded to clothe system design",
+          "norm_compact": "thankyouthenextquestionthatwehaveisexperiencenjsbackenddevtargetingglobalrolesshouldifocusondeepnodejsuhinternalorexpandedtoclothesystemdesign",
+          "terms": [
+            {
+              "c": "Node.js",
+              "v": "NodeJS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0059",
+      "n": 59,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0059.s001",
+          "episode": "S002.e25",
+          "lang": "en",
+          "start": null,
+          "text": "it just it it really depends on like I said all of this depends on like the um job ad that you're applying to if",
+          "norm": "it just it it really depends on like i said all of this depends on like the um job ad that you re applying to if",
+          "norm_compact": "itjustititreallydependsonlikeisaidallofthisdependsonliketheumjobadthatyoureapplyingtoif",
+          "terms": []
+        },
+        {
+          "id": "S002.t0059.s002",
+          "episode": "S002.e25",
+          "lang": "en",
+          "start": null,
+          "text": "the job ad says we we're looking for you know deep nodes JS internals then you know make that apparent you know if you if",
+          "norm": "the job ad says we we re looking for you know deep nodes js internals then you know make that apparent you know if you if",
+          "norm_compact": "thejobadsayswewerelookingforyouknowdeepnodesjsinternalsthenyouknowmakethatapparentyouknowifyouif",
+          "terms": []
+        },
+        {
+          "id": "S002.t0059.s003",
+          "episode": "S002.e25",
+          "lang": "en",
+          "start": null,
+          "text": "the sort of role is looking for you know more sort of cloud and systems design make that more apparent i would I would tailor",
+          "norm": "the sort of role is looking for you know more sort of cloud and systems design make that more apparent i would i would tailor",
+          "norm_compact": "thesortofroleislookingforyouknowmoresortofcloudandsystemsdesignmakethatmoreapparentiwouldiwouldtailor",
+          "terms": []
+        },
+        {
+          "id": "S002.t0059.s004",
+          "episode": "S002.e25",
+          "lang": "en",
+          "start": null,
+          "text": "it's so easy to tailor your CV nowadays with Claude i would I would definitely tailor your CV um to to the job spec spec",
+          "norm": "it s so easy to tailor your cv nowadays with claude i would i would definitely tailor your cv um to to the job spec spec",
+          "norm_compact": "itssoeasytotailoryourcvnowadayswithclaudeiwouldiwoulddefinitelytailoryourcvumtotothejobspecspec",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            },
+            {
+              "c": "Claude",
+              "v": "Claude"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0059.s005",
+          "episode": "S002.e25",
+          "lang": "en",
+          "start": null,
+          "text": "you are sort of applying to but um I I guess as a rule of thumb just make sure there's no misinformation on there because",
+          "norm": "you are sort of applying to but um i i guess as a rule of thumb just make sure there s no misinformation on there because",
+          "norm_compact": "youaresortofapplyingtobutumiiguessasaruleofthumbjustmakesuretheresnomisinformationontherebecause",
+          "terms": []
+        },
+        {
+          "id": "S002.t0059.s006",
+          "episode": "S002.e25",
+          "lang": "en",
+          "start": null,
+          "text": "some sometimes you know um AI can hallucinate uh if you don't give it clear instructions it can put things that you've not done in",
+          "norm": "some sometimes you know um ai can hallucinate uh if you don t give it clear instructions it can put things that you ve not done in",
+          "norm_compact": "somesometimesyouknowumaicanhallucinateuhifyoudontgiveitclearinstructionsitcanputthingsthatyouvenotdonein",
+          "terms": [
+            {
+              "c": "AI",
+              "v": "AI"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0059.s007",
+          "episode": "S002.e25",
+          "lang": "en",
+          "start": null,
+          "text": "there uh so double check and make sure all the information is accurate and truthful because you know if the recruiter then asks you about",
+          "norm": "there uh so double check and make sure all the information is accurate and truthful because you know if the recruiter then asks you about",
+          "norm_compact": "thereuhsodoublecheckandmakesurealltheinformationisaccurateandtruthfulbecauseyouknowiftherecruiterthenasksyouabout",
+          "terms": [
+            {
+              "c": "recruiter",
+              "v": "recruiter"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0059.s008",
+          "episode": "S002.e25",
+          "lang": "en",
+          "start": null,
+          "text": "a specific line on your CV and you actually haven't done it it it's almost an instant no right because you've broken that trust.",
+          "norm": "a specific line on your cv and you actually haven t done it it it s almost an instant no right because you ve broken that trust",
+          "norm_compact": "aspecificlineonyourcvandyouactuallyhaventdoneitititsalmostaninstantnorightbecauseyouvebrokenthattrust",
+          "terms": [
+            {
+              "c": "CV",
+              "v": "CV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002.t0060",
+      "n": 60,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0060.s001",
+          "episode": "S002.e26",
+          "lang": "en",
+          "start": null,
+          "text": "yeah yeah yeah that's that's really important and I have one more question here um Massud asking I'm based on Netherland and want to work",
+          "norm": "yeah yeah yeah that s that s really important and i have one more question here um massud asking i m based on netherland and want to work",
+          "norm_compact": "yeahyeahyeahthatsthatsreallyimportantandihaveonemorequestionhereummassudaskingimbasedonnetherlandandwanttowork",
+          "terms": []
+        },
+        {
+          "id": "S002.t0060.s002",
+          "episode": "S002.e26",
+          "lang": "en",
+          "start": null,
+          "text": "for UK companies is visa sponsorship realistic right now or are remote arrangements is a better option.",
+          "norm": "for uk companies is visa sponsorship realistic right now or are remote arrangements is a better option",
+          "norm_compact": "forukcompaniesisvisasponsorshiprealisticrightnoworareremotearrangementsisabetteroption",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0061",
+      "n": 61,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0061.s001",
+          "episode": "S002.e26",
+          "lang": "en",
+          "start": null,
+          "text": "i would say you you are probably seeing more EU remote roles out there right now there are we work with companies that do offer",
+          "norm": "i would say you you are probably seeing more eu remote roles out there right now there are we work with companies that do offer",
+          "norm_compact": "iwouldsayyouyouareprobablyseeingmoreeuremoterolesoutthererightnowthereareweworkwithcompaniesthatdooffer",
+          "terms": []
+        },
+        {
+          "id": "S002.t0061.s002",
+          "episode": "S002.e26",
+          "lang": "en",
+          "start": null,
+          "text": "sponsorship um so and they also offer relocation fees uh for exceptional candidates so they are you know the there is a case where you",
+          "norm": "sponsorship um so and they also offer relocation fees uh for exceptional candidates so they are you know the there is a case where you",
+          "norm_compact": "sponsorshipumsoandtheyalsoofferrelocationfeesuhforexceptionalcandidatessotheyareyouknowthethereisacasewhereyou",
+          "terms": []
+        },
+        {
+          "id": "S002.t0061.s003",
+          "episode": "S002.e26",
+          "lang": "en",
+          "start": null,
+          "text": "can get a sponsorship from a company and get relocated but I would say you know nine times out of 10 the remote the EU",
+          "norm": "can get a sponsorship from a company and get relocated but i would say you know nine times out of 10 the remote the eu",
+          "norm_compact": "cangetasponsorshipfromacompanyandgetrelocatedbutiwouldsayyouknowninetimesoutof10theremotetheeu",
+          "terms": []
+        },
+        {
+          "id": "S002.t0061.s004",
+          "episode": "S002.e26",
+          "lang": "en",
+          "start": null,
+          "text": "remote roles are are sort of um you know um more popular in the market right now.",
+          "norm": "remote roles are are sort of um you know um more popular in the market right now",
+          "norm_compact": "remoterolesarearesortofumyouknowummorepopularinthemarketrightnow",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0062",
+      "n": 62,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0062.s001",
+          "episode": "S002.e27",
+          "lang": "en",
+          "start": null,
+          "text": "yeah and I have one more question actually um which I can ask how much difference a referral uh can be so if I apply",
+          "norm": "yeah and i have one more question actually um which i can ask how much difference a referral uh can be so if i apply",
+          "norm_compact": "yeahandihaveonemorequestionactuallyumwhichicanaskhowmuchdifferenceareferraluhcanbesoifiapply",
+          "terms": []
+        },
+        {
+          "id": "S002.t0062.s002",
+          "episode": "S002.e27",
+          "lang": "en",
+          "start": null,
+          "text": "directly just go to the website and apply or just from the LinkedIn or I find somebody in that company and apply internally as a",
+          "norm": "directly just go to the website and apply or just from the linkedin or i find somebody in that company and apply internally as a",
+          "norm_compact": "directlyjustgotothewebsiteandapplyorjustfromthelinkedinorifindsomebodyinthatcompanyandapplyinternallyasa",
+          "terms": [
+            {
+              "c": "LinkedIn",
+              "v": "LinkedIn"
+            }
+          ]
+        },
+        {
+          "id": "S002.t0062.s003",
+          "episode": "S002.e27",
+          "lang": "en",
+          "start": null,
+          "text": "referral what's the difference between these two how much is going to improve my chance.",
+          "norm": "referral what s the difference between these two how much is going to improve my chance",
+          "norm_compact": "referralwhatsthedifferencebetweenthesetwohowmuchisgoingtoimprovemychance",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0063",
+      "n": 63,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "punctuation",
+      "sentences": [
+        {
+          "id": "S002.t0063.s001",
+          "episode": "S002.e27",
+          "lang": "en",
+          "start": null,
+          "text": "do you mean a referral from an engineer that's working in a company you want to apply for.",
+          "norm": "do you mean a referral from an engineer that s working in a company you want to apply for",
+          "norm_compact": "doyoumeanareferralfromanengineerthatsworkinginacompanyyouwanttoapplyfor",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0064",
+      "n": 64,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "punctuation",
+      "sentences": [
+        {
+          "id": "S002.t0064.s001",
+          "episode": "S002.e27",
+          "lang": "en",
+          "start": null,
+          "text": "yeah.",
+          "norm": "yeah",
+          "norm_compact": "yeah",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0065",
+      "n": 65,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0065.s001",
+          "episode": "S002.e27",
+          "lang": "en",
+          "start": null,
+          "text": "that's that's going to make a big difference um you know it is at the end of the day it's it's it's sort of all",
+          "norm": "that s that s going to make a big difference um you know it is at the end of the day it s it s it s sort of all",
+          "norm_compact": "thatsthatsgoingtomakeabigdifferenceumyouknowitisattheendofthedayitsitsitssortofall",
+          "terms": []
+        },
+        {
+          "id": "S002.t0065.s002",
+          "episode": "S002.e27",
+          "lang": "en",
+          "start": null,
+          "text": "based around people and relationships and look if I'm giving my if I say someone's a good engineer and you know your company already rates",
+          "norm": "based around people and relationships and look if i m giving my if i say someone s a good engineer and you know your company already rates",
+          "norm_compact": "basedaroundpeopleandrelationshipsandlookifimgivingmyifisaysomeonesagoodengineerandyouknowyourcompanyalreadyrates",
+          "terms": []
+        },
+        {
+          "id": "S002.t0065.s003",
+          "episode": "S002.e27",
+          "lang": "en",
+          "start": null,
+          "text": "you as an engineer they hired you for a reason they think you're good so if you then give someone else a referral and say",
+          "norm": "you as an engineer they hired you for a reason they think you re good so if you then give someone else a referral and say",
+          "norm_compact": "youasanengineertheyhiredyouforareasontheythinkyouregoodsoifyouthengivesomeoneelseareferralandsay",
+          "terms": []
+        },
+        {
+          "id": "S002.t0065.s004",
+          "episode": "S002.e27",
+          "lang": "en",
+          "start": null,
+          "text": "you know this is a great engineer I think you should speak to them i think it really puts you on the top of the",
+          "norm": "you know this is a great engineer i think you should speak to them i think it really puts you on the top of the",
+          "norm_compact": "youknowthisisagreatengineerithinkyoushouldspeaktothemithinkitreallyputsyouonthetopofthe",
+          "terms": []
+        },
+        {
+          "id": "S002.t0065.s005",
+          "episode": "S002.e27",
+          "lang": "en",
+          "start": null,
+          "text": "pile um so I think that's very important but equally management referrals are very important as well if a client is let's say they have",
+          "norm": "pile um so i think that s very important but equally management referrals are very important as well if a client is let s say they have",
+          "norm_compact": "pileumsoithinkthatsveryimportantbutequallymanagementreferralsareveryimportantaswellifaclientisletssaytheyhave",
+          "terms": []
+        },
+        {
+          "id": "S002.t0065.s006",
+          "episode": "S002.e27",
+          "lang": "en",
+          "start": null,
+          "text": "two candidates at interview stage and they can't decide they like them both equally but one candidate already has their managerial referrals and numbers and",
+          "norm": "two candidates at interview stage and they can t decide they like them both equally but one candidate already has their managerial referrals and numbers and",
+          "norm_compact": "twocandidatesatinterviewstageandtheycantdecidetheylikethembothequallybutonecandidatealreadyhastheirmanagerialreferralsandnumbersand",
+          "terms": []
+        },
+        {
+          "id": "S002.t0065.s007",
+          "episode": "S002.e27",
+          "lang": "en",
+          "start": null,
+          "text": "emails attached and the other candidate you would have to let the internal HR teams or or whoever is managing the process to go out",
+          "norm": "emails attached and the other candidate you would have to let the internal hr teams or or whoever is managing the process to go out",
+          "norm_compact": "emailsattachedandtheothercandidateyouwouldhavetolettheinternalhrteamsororwhoeverismanagingtheprocesstogoout",
+          "terms": []
+        },
+        {
+          "id": "S002.t0065.s008",
+          "episode": "S002.e27",
+          "lang": "en",
+          "start": null,
+          "text": "and find those referrals that might just tip it in your favor so I would say if you can get to manager's referral as well.",
+          "norm": "and find those referrals that might just tip it in your favor so i would say if you can get to manager s referral as well",
+          "norm_compact": "andfindthosereferralsthatmightjusttipitinyourfavorsoiwouldsayifyoucangettomanagersreferralaswell",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0066",
+      "n": 66,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "punctuation",
+      "sentences": [
+        {
+          "id": "S002.t0066.s001",
+          "episode": "S002.e27",
+          "lang": "en",
+          "start": null,
+          "text": "yeah totally makes sense it's going to take a just literally change the chance of.",
+          "norm": "yeah totally makes sense it s going to take a just literally change the chance of",
+          "norm_compact": "yeahtotallymakessenseitsgoingtotakeajustliterallychangethechanceof",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0067",
+      "n": 67,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "punctuation",
+      "sentences": [
+        {
+          "id": "S002.t0067.s001",
+          "episode": "S002.e27",
+          "lang": "en",
+          "start": null,
+          "text": "absolutely they're going to probably the high chance they're going to speak with you and if there are have two options probably that's going to make a huge change also in that pace.",
+          "norm": "absolutely they re going to probably the high chance they re going to speak with you and if there are have two options probably that s going to make a huge change also in that pace",
+          "norm_compact": "absolutelytheyregoingtoprobablythehighchancetheyregoingtospeakwithyouandiftherearehavetwooptionsprobablythatsgoingtomakeahugechangealsointhatpace",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0068",
+      "n": 68,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "punctuation",
+      "sentences": [
+        {
+          "id": "S002.t0068.s001",
+          "episode": "S002.e28",
+          "lang": "en",
+          "start": null,
+          "text": "i have one last question here to ask from you u we have Mohaba looks like asking is there any chance a person who is not fluent in English get hired what level is a must.",
+          "norm": "i have one last question here to ask from you u we have mohaba looks like asking is there any chance a person who is not fluent in english get hired what level is a must",
+          "norm_compact": "ihaveonelastquestionheretoaskfromyouuwehavemohabalookslikeaskingisthereanychanceapersonwhoisnotfluentinenglishgethiredwhatlevelisamust",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0069",
+      "n": 69,
+      "person": "SB",
+      "role": "guest",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0069.s001",
+          "episode": "S002.e28",
+          "lang": "en",
+          "start": null,
+          "text": "that's a good question yeah that is a good question your your English sounds pretty good though judging by that question I think you'd be",
+          "norm": "that s a good question yeah that is a good question your your english sounds pretty good though judging by that question i think you d be",
+          "norm_compact": "thatsagoodquestionyeahthatisagoodquestionyouryourenglishsoundsprettygoodthoughjudgingbythatquestionithinkyoudbe",
+          "terms": []
+        },
+        {
+          "id": "S002.t0069.s002",
+          "episode": "S002.e28",
+          "lang": "en",
+          "start": null,
+          "text": "fine um it's it's it's it's a difficult one to be honest i think if you are applying for a UK startup at least have",
+          "norm": "fine um it s it s it s it s a difficult one to be honest i think if you are applying for a uk startup at least have",
+          "norm_compact": "fineumitsitsitsitsadifficultonetobehonestithinkifyouareapplyingforaukstartupatleasthave",
+          "terms": []
+        },
+        {
+          "id": "S002.t0069.s003",
+          "episode": "S002.e28",
+          "lang": "en",
+          "start": null,
+          "text": "good enough English where you can understand sort of the technical requirements and also you know what sort of direction what the product direction is",
+          "norm": "good enough english where you can understand sort of the technical requirements and also you know what sort of direction what the product direction is",
+          "norm_compact": "goodenoughenglishwhereyoucanunderstandsortofthetechnicalrequirementsandalsoyouknowwhatsortofdirectionwhattheproductdirectionis",
+          "terms": []
+        },
+        {
+          "id": "S002.t0069.s004",
+          "episode": "S002.e28",
+          "lang": "en",
+          "start": null,
+          "text": "going to be um it does depend role to role but especially a VCbacked startup and scale up because you're so close with sort of",
+          "norm": "going to be um it does depend role to role but especially a vcbacked startup and scale up because you re so close with sort of",
+          "norm_compact": "goingtobeumitdoesdependroletorolebutespeciallyavcbackedstartupandscaleupbecauseyouresoclosewithsortof",
+          "terms": []
+        },
+        {
+          "id": "S002.t0069.s005",
+          "episode": "S002.e28",
+          "lang": "en",
+          "start": null,
+          "text": "the customers you you're you're so like I can'explain it but like you're so close to the different stakeholders you know communication is a very",
+          "norm": "the customers you you re you re so like i can explain it but like you re so close to the different stakeholders you know communication is a very",
+          "norm_compact": "thecustomersyouyoureyouresolikeicanexplainitbutlikeyouresoclosetothedifferentstakeholdersyouknowcommunicationisavery",
+          "terms": []
+        },
+        {
+          "id": "S002.t0069.s006",
+          "episode": "S002.e28",
+          "lang": "en",
+          "start": null,
+          "text": "important thing i know it might not be the answer people are hoping for but you know definitely I think within a startup environment having",
+          "norm": "important thing i know it might not be the answer people are hoping for but you know definitely i think within a startup environment having",
+          "norm_compact": "importantthingiknowitmightnotbetheanswerpeoplearehopingforbutyouknowdefinitelyithinkwithinastartupenvironmenthaving",
+          "terms": []
+        },
+        {
+          "id": "S002.t0069.s007",
+          "episode": "S002.e28",
+          "lang": "en",
+          "start": null,
+          "text": "a good standard of English where you can understand everything is quite important I'd say.",
+          "norm": "a good standard of english where you can understand everything is quite important i d say",
+          "norm_compact": "agoodstandardofenglishwhereyoucanunderstandeverythingisquiteimportantidsay",
+          "terms": []
+        }
+      ]
+    },
+    {
+      "id": "S002.t0070",
+      "n": 70,
+      "person": "JA",
+      "role": "host",
+      "start": null,
+      "split": "window",
+      "sentences": [
+        {
+          "id": "S002.t0070.s001",
+          "episode": "S002.e29",
+          "lang": "en",
+          "start": null,
+          "text": "yeah he said thanks because you said his English is good but generally I can suggest everybody this is investment that you can do on",
+          "norm": "yeah he said thanks because you said his english is good but generally i can suggest everybody this is investment that you can do on",
+          "norm_compact": "yeahhesaidthanksbecauseyousaidhisenglishisgoodbutgenerallyicansuggesteverybodythisisinvestmentthatyoucandoon",
+          "terms": []
+        },
+        {
+          "id": "S002.t0070.s002",
+          "episode": "S002.e29",
+          "lang": "en",
+          "start": null,
+          "text": "yourself to improve your English so anyway that's going to help you in future not just this job that you're searching in future also so",
+          "norm": "yourself to improve your english so anyway that s going to help you in future not just this job that you re searching in future also so",
+          "norm_compact": "yourselftoimproveyourenglishsoanywaythatsgoingtohelpyouinfuturenotjustthisjobthatyouresearchinginfuturealsoso",
+          "terms": []
+        },
+        {
+          "id": "S002.t0070.s003",
+          "episode": "S002.e29",
+          "lang": "en",
+          "start": null,
+          "text": "invest on yourself always is going to you can see the value after a couple of years easily so u thank you for your time",
+          "norm": "invest on yourself always is going to you can see the value after a couple of years easily so u thank you for your time",
+          "norm_compact": "investonyourselfalwaysisgoingtoyoucanseethevalueafteracoupleofyearseasilysouthankyouforyourtime",
+          "terms": []
+        },
+        {
+          "id": "S002.t0070.s004",
+          "episode": "S002.e29",
+          "lang": "en",
+          "start": null,
+          "text": "Sam that was great um u we already asking a lot of the questions and everything u thank you for your time that was great",
+          "norm": "sam that was great um u we already asking a lot of the questions and everything u thank you for your time that was great",
+          "norm_compact": "samthatwasgreatumuwealreadyaskingalotofthequestionsandeverythinguthankyouforyourtimethatwasgreat",
+          "terms": []
+        },
+        {
+          "id": "S002.t0070.s005",
+          "episode": "S002.e29",
+          "lang": "en",
+          "start": null,
+          "text": "and I think it's going to help people a lot u have a nice day everybody and see you later on the next live thanks everybody bye-bye.",
+          "norm": "and i think it s going to help people a lot u have a nice day everybody and see you later on the next live thanks everybody bye bye",
+          "norm_compact": "andithinkitsgoingtohelppeoplealotuhaveanicedayeverybodyandseeyoulateronthenextlivethankseverybodybyebye",
+          "terms": []
+        }
+      ]
+    }
+  ]
+}

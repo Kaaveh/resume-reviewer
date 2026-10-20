@@ -1,0 +1,9 @@
+# Target: the job description in synthetic-devops-no-cloud.jd.md (AWS is a must-have).
+verdict: reject
+must_flag:
+  - {rule: RED-2, min_severity: Critical}   # no AWS, a core skill of the job
+  - {rule: REG-8, min_severity: Low}        # IELTS score
+  - {rule: STR-12, min_severity: Low}       # references section
+judgment: [STR-2]                           # one page for 6 years: contested
+must_not_flag: [REG-7]                      # no photo
+must_include: [ten_second_verdict, evidence_labels]

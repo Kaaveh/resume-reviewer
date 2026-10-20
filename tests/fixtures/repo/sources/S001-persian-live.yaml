@@ -1,0 +1,10 @@
+id: S001
+slug: persian-live
+transcript_file: "Persian live.md"
+title: "بررسی رزومه"
+languages: [fa, en]
+format: live-cv-review
+people:
+  - {person: JA, role: guest}
+  - {person: H01, role: host}
+speakers: {Guest: JA, Interviewer: H01}

@@ -1,0 +1,11 @@
+# Target: senior Java engineer, EU/DACH employers, needs sponsorship.
+verdict: borderline
+must_flag:
+  - {rule: REG-7, min_severity: Medium}     # photo
+  - {rule: REG-6, min_severity: Medium}     # "English: Intermediate"; DACH caveat expected (Coverage gaps)
+  - {rule: SKL-17, min_severity: Low}       # star ratings
+  - {rule: REG-2, min_severity: Low}        # "Requires visa sponsorship"
+  - {rule: REG-3, min_severity: Low}        # no phone number
+judgment: [STR-2]                           # 10 years on one page
+must_not_flag: [RED-2]
+must_include: [ten_second_verdict, evidence_labels]

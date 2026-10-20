@@ -1,0 +1,60 @@
+# Tech and CV terms (spec 01 section 3.2). `text` is never rewritten; sentences are annotated.
+# Persian variants match the compact form at token starts (a common suffix may follow);
+# Latin variants match whole norm tokens (an "s" plural may follow).
+# ambiguous_with: other meanings the extractor must rule out from context.
+- {canonical: AWS, kind: tech, variants: [AWS, ایبلیوس, ایبلی اس, ایبلیس, ایبلیو, ادبلی اس, ادبلیو اس]}
+- {canonical: GCP, kind: tech, variants: [GCP, جی سی پی]}
+- {canonical: Azure, kind: tech, variants: [Azure, آژور, آژر, آجر], ambiguous_with: [brick (آجر)]}
+- {canonical: DevOps, kind: tech, variants: [DevOps, دواپس, دوابس, دواب, دبابس, دواس]}
+- {canonical: Terraform, kind: tech, variants: [Terraform, ترافرم, ترافورم]}
+- {canonical: Kubernetes, kind: tech, variants: [Kubernetes, K8s, کوبرنتیس, کوبرنتز]}
+- {canonical: Docker, kind: tech, variants: [Docker, داکر]}
+- {canonical: TypeScript, kind: tech, variants: [TypeScript, تایپ اسکریپت]}
+- {canonical: JavaScript, kind: tech, variants: [JavaScript, جاوا اسکریپت]}
+- {canonical: React Native, kind: tech, variants: [React Native, ریاکت نیتیو]}
+- {canonical: React, kind: tech, variants: [React, ریاکت], ambiguous_with: [react (verb)]}
+- {canonical: Node.js, kind: tech, variants: [Node.js, NodeJS, ناد جی اس, نا جی اس, ناجی اس]}
+- {canonical: PHP, kind: tech, variants: [PHP, پی اچ پی]}
+- {canonical: Laravel, kind: tech, variants: [Laravel, لاراول, لارول]}
+- {canonical: Flutter, kind: tech, variants: [Flutter, فلاتر]}
+- {canonical: Kotlin, kind: tech, variants: [Kotlin, کاتلین]}
+- {canonical: Swift, kind: tech, variants: [Swift, سوئیفت], ambiguous_with: [swift (fast)]}
+- {canonical: GraphQL, kind: tech, variants: [GraphQL, گراف کیول, گرافیکل]}
+- {canonical: CI/CD, kind: tech, variants: [CI/CD, CICD, سیآی سی دی, سی آی سی دی]}
+- {canonical: testing, kind: tech, variants: [testing, تستینگ]}
+- {canonical: Playwright, kind: tech, variants: [Playwright, پلی رایت]}
+- {canonical: Cypress, kind: tech, variants: [Cypress, سایپرس]}
+- {canonical: Jest, kind: tech, variants: [Jest, جست], ambiguous_with: [jumped or searched (جست)]}
+- {canonical: Vitest, kind: tech, variants: [Vitest, وی تست]}
+- {canonical: AI, kind: tech, variants: [AI, ایآی, ای آی]}
+- {canonical: Claude, kind: tech, variants: [Claude, کلود, کلو]}
+- {canonical: Cursor, kind: tech, variants: [Cursor, کرسر]}
+- {canonical: ChatGPT, kind: tech, variants: [ChatGPT, چت جیپیتی, چت چیپیتی, چت جی پی تی]}
+- {canonical: GitHub, kind: channel, variants: [GitHub, گیتهاب, گیتاب, گیت هاب]}
+- {canonical: LinkedIn, kind: channel, variants: [LinkedIn, لینکدین, لینکداین]}
+- {canonical: Stack Overflow, kind: channel, variants: [Stack Overflow, StackOverflow, استکور فلو, استکلو]}
+- {canonical: Medium, kind: channel, variants: [Medium, میدیوم, میلیوم], ambiguous_with: [medium (size)]}
+- {canonical: YouTube, kind: channel, variants: [YouTube, یوتیوب]}
+- {canonical: IELTS, kind: cv, variants: [IELTS, آیلس, آیلتس]}
+- {canonical: TOEFL, kind: cv, variants: [TOEFL, تافل]}
+- {canonical: ATS, kind: cv, variants: [ATS, ایتی اس, ای تی اس]}
+- {canonical: CV, kind: cv, variants: [CV, resume, رزومه, سی وی]}
+- {canonical: cover letter, kind: cv, variants: [cover letter, کاور لتر, کابلت, کاولت]}
+- {canonical: summary, kind: cv, variants: [summary, سامری]}
+- {canonical: bullet point, kind: cv, variants: [bullet point, بلت پوینت, بولت پوینت]}
+- {canonical: tech stack, kind: cv, variants: [tech stack, تکستک, تک استک]}
+- {canonical: reject, kind: cv, variants: [reject, rejected, rejection, ریجکت]}
+- {canonical: hiring manager, kind: cv, variants: [hiring manager, هایرینگ منیجر]}
+- {canonical: recruiter, kind: cv, variants: [recruiter, ریکروتر]}
+- {canonical: ownership, kind: cv, variants: [ownership, اونرشیپ]}
+- {canonical: infrastructure, kind: tech, variants: [infrastructure, اینفراستراکچر, اینفرا]}
+- {canonical: deploy, kind: tech, variants: [deploy, deployment, دیپلوی]}
+- {canonical: senior, kind: cv, variants: [senior, سینیر, سنیور]}
+- {canonical: software engineer, kind: cv, variants: [software engineer, سافتور انجینر, سافر انجینر]}
+- {canonical: product engineer, kind: cv, variants: [product engineer, پروداکت انجینر]}
+- {canonical: skills, kind: cv, variants: [skills, اسکیلز]}
+- canonical: skill
+  kind: cv
+  variants: [اسکیل]
+  ambiguous_with: [scale]
+  notes: 'v0.1: "اسکیلشو بنویسید" meant the company''s scale'

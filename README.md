@@ -32,7 +32,7 @@ removed or credited differently, please open an issue.
 
 | Source | Interview | Guest | Host |
 |---|---|---|---|
-| S001 | "کدوم رزومه انتخاب می‌شه؟ \| بررسی واقعی رزومه‌ها با جان ادیب" (live CV reviews, Persian and English) | John Adib, Engineering Manager | |
+| S001 | "کدوم رزومه انتخاب می‌شه؟ \| بررسی واقعی رزومه‌ها با جان ادیب" (live CV reviews, Persian and English) | John Adib, Engineering Manager | Sahar |
 | S002 | "How to get hired by a UK startup?" | Sam Baldwin, JavaScript and TypeScript recruiter | John Adib |
 | S003 | "How Recruiters Really Screen Your Resume and How to Stand Out?" | Tomasz Wojtyczko, Principal Recruitment Consultant, VirtueTech | John Adib |
 | S004 | "Can you still get hired in tech?" | Joe Bignell, former recruiter, now at Vention | John Adib |

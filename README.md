@@ -40,6 +40,30 @@ removed or credited differently, please open an issue.
 Video links are added to `sources/*.yaml` (`url`) as they are confirmed. CV owners in the live
 reviews (S001) are referred to by episode labels such as CV#05 in the ledger and the skill.
 
+## NotebookLM transcript prompt
+
+This is the prompt given to NotebookLM, together with the YouTube interview as a source, to
+produce each file in `transcripts/`. Reuse it for new sources: replace `[VIDEO TITLE]` and
+`[YOUTUBE URL]`, then save the output as a `.md` file in `transcripts/`.
+
+```text
+Produce a complete VERBATIM transcript of the entire YouTube source "[VIDEO TITLE]", from the first word to the last, and save it as a standalone Markdown (.md) file.
+
+The file must start with:
+# [VIDEO TITLE]
+Source: [YOUTUBE URL]
+---
+After that, only the transcript. No commentary, notes, or summary.
+
+Transcription rules:
+1. Transcribe every word exactly as spoken. Do NOT summarize, paraphrase, condense, reorder, or skip anything.
+2. Keep filler words, false starts, repetitions, and self-corrections as they appear.
+3. Do not fix grammar or word choice. Write what was said, not what was meant.
+4. Separate speakers with generic labels: **Interviewer:** and **Guest:** (use **Guest 2:** etc. if there are more). Start a new paragraph whenever the speaker changes. If unsure, use **Speaker:**.
+5. Add a [mm:ss] timestamp at the start of each speaker turn when possible.
+6. Mark unclear parts as [inaudible] and overlapping speech as [crosstalk].
+```
+
 ## License
 
 Code, skill, specs and synthetic evals: MIT (see `LICENSE`). Transcripts and quoted speech are

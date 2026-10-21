@@ -1,5 +1,19 @@
 # Progress
 
+## 2026-10-21, README: NotebookLM transcript prompt
+
+**Changed**
+- README.md now records the exact NotebookLM prompt used to produce the transcripts (verbatim,
+  speaker labels, [mm:ss] timestamps, [inaudible] and [crosstalk] markers), with
+  `[VIDEO TITLE]` and `[YOUTUBE URL]` placeholders, so it can be reused for new sources.
+- No code, corpus or ledger changes.
+
+**Next**
+- Unchanged from the previous entry.
+
+**Open questions for the owner**
+- None new.
+
 ## 2026-10-20, Session 3 (spec 03): skill built, evals on four of five cases
 
 **Changed**
